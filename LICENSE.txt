@@ -1,5 +1,5 @@
 
-The treebank UD_Swedish_LinES is distributed as a citation corpus under the Creative Commons license Attribution-NonCommercial-ShareAlike 4.0 International.
+The treebank UD_English_LinES is distributed as a citation corpus under the Creative Commons license Attribution-NonCommercial-ShareAlike 4.0 International.
 
 The text included here is taken from the following web page:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
