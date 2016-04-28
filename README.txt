@@ -10,8 +10,10 @@ analysis of translations' funded by the Swedish Research Council
 (Ahrenberg, 2007). It is being developed continuously.
 
 All sub-corpora are English originals with Swedish translations found in
-the treebank Swedish_Lines. Five of the sub-corpora are taken from
-literary works:
+the treebank Swedish_Lines. If you would like to get files with word
+alignments, please contact Lars Ahrenberg.
+
+Five of the sub-corpora are taken from literary works:
 
 Paul Auster: City of Glass. The New York Trilogy, Volume One. First
 published by Faber & Faber in 1985.
@@ -61,12 +63,13 @@ the UD dependency function 'mwe'.
 
 MORPHOLOGY
 
-The morphological annotation in the Swedish LinES treebank is the same
-as in the original LinES.  Nouns are annotated for number, verbs are
-annotated for tense and, adjectives for degree. Pronouns are
-sub-divided in the morphological description into Personal,
-Demonstrative, Interrogative, Indefinite, Relative, Total, and
-Expletive, and are annotated for Number, Person and Case, when relevant.
+The morphological annotation in the English LinES treebank is the same
+as in the original LinES with the exception of nouns that are not
+annotated for case, only number.  Verbs are annotated for tense and,
+adjectives for degree. Pronouns are sub-divided in the morphological
+description into Personal, Demonstrative, Interrogative, Indefinite,
+Relative, Total, and Expletive, and are annotated for Number, Person
+and Case, when relevant.
 
 The mapping from language-specific part-of-speech tags to universal tags
 was done automatically. There are no other tags than universal tags, but
