@@ -37,7 +37,7 @@ DATA SPLITS
 Before splitting all segments were scrambled. From this scrambled
 version, 10% were randomly selected as test set, 10% as development set, and the rest as training set. The files are named
 
- - en-lines-ud-test.conllu 
+ - en-lines-ud-test.conllu
  - en-lines-ud-dev.conllu
  - en-lines-ud-train.conllu
 
@@ -89,7 +89,7 @@ the Englsh UD treebank
 
 The language-specific relations det:predet and nmod:npmod are not used.
 
-The syntactic annotation has been automatically converted from the original 
+The syntactic annotation has been automatically converted from the original
 LinES annotation scheme as described in Ahrenberg (2015).
 
 There may be occasional deviations from the general guidelines.
@@ -119,3 +119,4 @@ Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: fiction nonfiction spoken
 Contributors: Ahrenberg, Lars
+Contact:
