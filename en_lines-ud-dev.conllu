@@ -2713,8 +2713,8 @@
 30	so	_	ADV	_	_	29	fixed	_	_
 31	on	_	ADP	_	_	29	fixed	_	SpaceAfter=No
 32	.	_	PUNCT	Period	_	6	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 2858
 # text = He wondered if the young Auster had been any better at it than he was.
 1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
@@ -5968,8 +5968,8 @@
 19	to	_	ADP	_	_	20	case	_	_
 20	more	_	ADJ	CMP-SG	_	17	advmod	_	SpaceAfter=No
 21	.	_	PUNCT	Period	_	3	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3016
 # text = The Archbishop is really very handsome, with his full cheeks, his long clear dark-green eyes, and the short strong beard.
 1	The	_	DET	DEF	_	2	det	_	_
@@ -8406,8 +8406,8 @@
 8	in	_	ADP	_	_	9	case	_	_
 9	this	_	PRON	DEM-SG	_	3	obl	_	SpaceAfter=No
 10	.	_	PUNCT	Period	_	3	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3136
 # text = People were arriving, and the younger one was walking back and forth introducing them.
 1	People	_	NOUN	PL-NOM	_	3	nsubj	_	_
@@ -11151,8 +11151,8 @@
 13	of	_	ADP	_	_	14	case	_	_
 14	feet	_	NOUN	PL-NOM	_	12	obl	_	SpaceAfter=No
 15	.	_	PUNCT	Period	_	3	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3260
 # text = Fourthly, do not say we were not available!
 1	Fourthly	_	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -13452,8 +13452,8 @@
 18	a	_	DET	IND-SG	_	19	det	_	_
 19	profit	_	NOUN	SG-NOM	_	17	obj	_	SpaceAfter=No
 20	.	_	PUNCT	Period	_	7	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3378
 # text = The stale cool air of the room had heated; yet weariness receded, his head was left high and dry of it.
 1	The	_	DET	DEF	_	4	det	_	_
@@ -17206,8 +17206,8 @@
 16	official	_	ADJ	POS	_	17	amod	_	_
 17	occasion	_	NOUN	SG-NOM	_	13	nmod	_	SpaceAfter=No
 18	.	_	PUNCT	Period	_	10	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3530
 # text = Dobby blinked anxiously up at Harry.
 1	Dobby	_	PROPN	SG-NOM	_	2	nsubj	_	_

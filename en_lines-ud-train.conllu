@@ -7399,8 +7399,8 @@
 6	or	_	CCONJ	_	_	7	cc	_	_
 7	PivotChart	_	NOUN	SG-NOM	_	5	conj	_	_
 8	view	_	NOUN	SG-NOM	_	2	obl	_	_
-# newdoc
 
+# newdoc
 # sent_id = 358
 # text = It was a wrong number that started it, the telephone ringing three times in the dead of night, and the voice on the other end asking for someone he was not.
 1	It	_	PRON	PERS-SG	_	5	expl	_	_
@@ -17021,8 +17021,8 @@
 22	the	_	DET	DEF	_	23	det	_	_
 23	hand	_	NOUN	SG-NOM	_	17	obl	_	SpaceAfter=No
 24	.	_	PUNCT	Period	_	11	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 830
 # text = Security measures are strict on flights to Israel, the bags are searched, the men are frisked, and the women have an electronic hoop passed over them, fore-and-aft.
 1	Security	_	NOUN	SG-NOM	_	2	compound	_	_
@@ -24274,8 +24274,8 @@
 4	been	_	AUX	PERF	_	5	aux	_	_
 5	made	_	VERB	PASS	_	0	root	_	SpaceAfter=No
 6	.	_	PUNCT	Period	_	5	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 1192
 # text = The Nellie, a cruising yawl, swung to her anchor without a flutter of the sails, and was at rest.
 1	The	_	DET	DEF	_	2	det	_	_
@@ -33486,8 +33486,8 @@
 20	a	_	DET	IND-SG	_	21	det	_	_
 21	kick	_	NOUN	SG-NOM	_	13	obl	_	SpaceAfter=No
 22	.	_	PUNCT	Period	_	3	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 1566
 # text = From this standpoint, the evaluation of the implementation of the budget may take on a dimension that overrides matters of detail.
 1	From	_	ADP	_	_	3	case	_	_
@@ -40122,8 +40122,8 @@
 20	to	_	PART	_	_	21	mark	_	_
 21	assume	_	VERB	INF	_	15	acl	_	SpaceAfter=No
 22	.	_	PUNCT	Period	_	5	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 1922
 # text = A bird cried out on the roof, and he woke up.
 1	A	_	DET	IND-SG	_	2	det	_	_
@@ -50831,8 +50831,8 @@
 25	and	_	CCONJ	_	_	26	cc	_	_
 26	rolled	_	VERB	PAST	_	7	conj	_	SpaceAfter=No
 27	.	_	PUNCT	Period	_	24	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 2376
 # text = THE WORST BIRTHDAY
 1	THE	_	DET	DEF	_	3	det	_	_
