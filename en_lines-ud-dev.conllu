@@ -724,7 +724,7 @@
 40	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2768
-# text = In addition, XML defined structures are unambiguous ; that is, they are self-describing and platform-independent.
+# text = In addition, XML defined structures are unambiguous; that is, they are self-describing and platform-independent.
 1	In	_	ADP	_	_	2	case	_	_
 2	addition	_	NOUN	SG-NOM	_	5	nmod	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	1	punct	_	_
@@ -732,7 +732,7 @@
 5	defined	_	ADJ	PASS	_	6	amod	_	_
 6	structures	_	NOUN	PL-NOM	_	8	nsubj	_	_
 7	are	_	AUX	PRES	_	8	cop	_	_
-8	unambiguous	_	ADJ	POS	_	0	root	_	_
+8	unambiguous	_	ADJ	POS	_	0	root	_	SpaceAfter=No
 9	;	_	PUNCT	SemiColon	_	8	punct	_	_
 10	that	_	PRON	DEM-SG	_	11	nsubj	_	_
 11	is	_	VERB	PRES	_	8	conj	_	SpaceAfter=No
@@ -999,7 +999,7 @@
 24	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 2780
-# text = Note that when importing XML data, you can not choose a subset of the XML document ; the entire file has to be imported.
+# text = Note that when importing XML data, you can not choose a subset of the XML document; the entire file has to be imported.
 1	Note	_	VERB	IMP	_	0	root	_	_
 2	that	_	SCONJ	_	_	11	mark	_	_
 3	when	_	SCONJ	_	_	4	mark	_	_
@@ -1016,7 +1016,7 @@
 14	of	_	ADP	_	_	17	case	_	_
 15	the	_	DET	DEF	_	17	det	_	_
 16	XML	_	PROPN	SG-NOM	_	17	compound	_	_
-17	document	_	NOUN	SG-NOM	_	13	nmod	_	_
+17	document	_	NOUN	SG-NOM	_	13	nmod	_	SpaceAfter=No
 18	;	_	PUNCT	SemiColon	_	11	punct	_	_
 19	the	_	DET	DEF	_	21	det	_	_
 20	entire	_	ADJ	POS	_	21	amod	_	_
@@ -1310,7 +1310,7 @@
 3	data	_	NOUN	PL-NOM	_	1	obj	_	_
 
 # sent_id = 2792
-# text = XML syntax (the tags and their placement in a document) defines and describes the data in an XML document but does n't indicate how the data should be displayed.
+# text = XML syntax (the tags and their placement in a document) defines and describes the data in an XML document but doesn't indicate how the data should be displayed.
 1	XML	_	PROPN	SG-NOM	_	2	compound	_	_
 2	syntax	_	NOUN	SG-NOM	_	13	nsubj	_	_
 3	(	_	PUNCT	LeftParenthesis	_	5	punct	_	SpaceAfter=No
@@ -1333,7 +1333,7 @@
 20	XML	_	PROPN	SG-NOM	_	21	compound	_	_
 21	document	_	NOUN	SG-NOM	_	17	nmod	_	_
 22	but	_	CCONJ	_	_	25	cc	_	_
-23	does	_	VERB	PRES	_	25	aux	_	_
+23	does	_	VERB	PRES	_	25	aux	_	SpaceAfter=No
 24	n't	_	PART	NEG	_	25	advmod	_	_
 25	indicate	_	VERB	INF	_	13	conj	_	_
 26	how	_	ADV	WH	_	31	advmod	_	_
@@ -1376,12 +1376,12 @@
 28	.	_	PUNCT	Period	_	17	punct	_	_
 
 # sent_id = 2794
-# text = However, a CSS is n't always a good choice because they are written in a specialized language which means that the developer has to use another language in order to write, modify, or understand the structure of the style sheet.
+# text = However, a CSS isn't always a good choice because they are written in a specialized language which means that the developer has to use another language in order to write, modify, or understand the structure of the style sheet.
 1	However	_	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	32	punct	_	_
 3	a	_	DET	IND-SG	_	4	det	_	_
 4	CSS	_	PROPN	SG-NOM	_	10	nsubj	_	_
-5	is	_	AUX	PRES	_	10	cop	_	_
+5	is	_	AUX	PRES	_	10	cop	_	SpaceAfter=No
 6	n't	_	PART	NEG	_	10	advmod	_	_
 7	always	_	ADV	TOT	_	10	advmod	_	_
 8	a	_	DET	IND-SG	_	10	det	_	_
@@ -1807,10 +1807,10 @@
 24	.	_	PUNCT	Period	_	23	punct	_	_
 
 # sent_id = 2812
-# text = If you do n't want to retain your filter selections, make sure the AutoFilter button is not selected before you start selecting items to filter.
+# text = If you don't want to retain your filter selections, make sure the AutoFilter button is not selected before you start selecting items to filter.
 1	If	_	SCONJ	_	_	5	mark	_	_
 2	you	_	PRON	PERS-P2	_	5	nsubj	_	_
-3	do	_	VERB	PRES	_	5	aux	_	_
+3	do	_	VERB	PRES	_	5	aux	_	SpaceAfter=No
 4	n't	_	PART	NEG	_	5	advmod	_	_
 5	want	_	VERB	INF	_	12	advcl	_	_
 6	to	_	PART	_	_	7	mark	_	_
@@ -2083,12 +2083,12 @@
 23	.	_	PUNCT	Period	_	15	punct	_	_
 
 # sent_id = 2826
-# text = The width of the ruler 's unit of measure is based on the regional settings in Microsoft Windows Control Panel.
+# text = The width of the ruler's unit of measure is based on the regional settings in Microsoft Windows Control Panel.
 1	The	_	DET	DEF	_	2	det	_	_
 2	width	_	NOUN	SG-NOM	_	11	nsubj:pass	_	_
 3	of	_	ADP	_	_	7	case	_	_
 4	the	_	DET	DEF	_	7	det	_	_
-5	ruler	_	NOUN	SG	_	7	amod	_	_
+5	ruler	_	NOUN	SG	_	7	amod	_	SpaceAfter=No
 6	's	_	PART	GEN	_	5	case	_	_
 7	unit	_	NOUN	SG-NOM	_	2	nmod	_	_
 8	of	_	ADP	_	_	9	case	_	_
@@ -2396,13 +2396,13 @@
 25	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 2844
-# text = If all the controls that you 've selected share the same property setting, that setting appears in the property sheet ; otherwise, that property box is blank.
+# text = If all the controls that you've selected share the same property setting, that setting appears in the property sheet; otherwise, that property box is blank.
 1	If	_	SCONJ	_	_	9	mark	_	_
 2	all	_	DET	TOT-PL	_	3	det	_	_
 3	the	_	DET	DEF	_	4	det	_	_
 4	controls	_	NOUN	PL-NOM	_	9	nsubj	_	_
 5	that	_	SCONJ	REL	_	8	obj	_	_
-6	you	_	PRON	PERS-P2	_	8	nsubj	_	_
+6	you	_	PRON	PERS-P2	_	8	nsubj	_	SpaceAfter=No
 7	've	_	AUX	PRES-AUX	_	8	aux	_	_
 8	selected	_	VERB	PERF	_	4	acl:relcl	_	_
 9	share	_	VERB	PRES	_	17	advcl	_	_
@@ -2417,7 +2417,7 @@
 18	in	_	ADP	_	_	21	case	_	_
 19	the	_	DET	DEF	_	21	det	_	_
 20	property	_	NOUN	SG-NOM	_	21	compound	_	_
-21	sheet	_	NOUN	SG-NOM	_	17	obl	_	_
+21	sheet	_	NOUN	SG-NOM	_	17	obl	_	SpaceAfter=No
 22	;	_	PUNCT	SemiColon	_	17	punct	_	_
 23	otherwise	_	ADV	_	_	29	advmod	_	SpaceAfter=No
 24	,	_	PUNCT	Comma	_	17	punct	_	_
@@ -2713,10 +2713,10 @@
 30	so	_	ADV	_	_	29	fixed	_	_
 31	on	_	ADP	_	_	29	fixed	_	SpaceAfter=No
 32	.	_	PUNCT	Period	_	6	punct	_	_
+# newdoc
 
 # sent_id = 2858
 # text = He wondered if the young Auster had been any better at it than he was.
-# newdoc
 1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	wondered	_	VERB	PAST	_	0	root	_	_
 3	if	_	SCONJ	_	_	10	mark	_	_
@@ -2735,7 +2735,7 @@
 16	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2859
-# text = Across the way, occupying the greater part of the station 's east wall, was the Kodak display photograph, with its bright unearthly colors.
+# text = Across the way, occupying the greater part of the station's east wall, was the Kodak display photograph, with its bright unearthly colors.
 1	Across	_	ADP	_	_	3	case	_	_
 2	the	_	DET	DEF	_	3	det	_	_
 3	way	_	NOUN	SG-NOM	_	16	obl	_	SpaceAfter=No
@@ -2746,7 +2746,7 @@
 8	part	_	VERB	INF	_	5	xcomp	_	_
 9	of	_	ADP	_	_	14	case	_	_
 10	the	_	DET	DEF	_	11	det	_	_
-11	station	_	NOUN	SG	_	14	amod	_	_
+11	station	_	NOUN	SG	_	14	amod	_	SpaceAfter=No
 12	's	_	PART	GEN	_	11	case	_	_
 13	east	_	ADJ	POS	_	14	amod	_	_
 14	wall	_	NOUN	SG-NOM	_	8	obl	_	SpaceAfter=No
@@ -2894,12 +2894,12 @@
 24	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2864
-# text = Look at it through Auster 's eyes, he said to himself, and do n't think of anything else.
+# text = Look at it through Auster's eyes, he said to himself, and don't think of anything else.
 1	Look	_	VERB	IMP	_	10	obj	_	_
 2	at	_	ADP	_	_	3	case	_	_
 3	it	_	PRON	PERS-SG	_	1	obl	_	_
 4	through	_	ADP	_	_	7	case	_	_
-5	Auster	_	PROPN	SG	_	7	amod	_	_
+5	Auster	_	PROPN	SG	_	7	amod	_	SpaceAfter=No
 6	's	_	PART	GEN	_	5	case	_	_
 7	eyes	_	NOUN	PL-NOM	_	1	obl	_	SpaceAfter=No
 8	,	_	PUNCT	Comma	_	1	punct	_	_
@@ -2909,7 +2909,7 @@
 12	himself	_	PRON	RFL-P3SG	_	10	obl	_	SpaceAfter=No
 13	,	_	PUNCT	Comma	_	10	punct	_	_
 14	and	_	CCONJ	_	_	17	cc	_	_
-15	do	_	AUX	IMP-AUX	_	17	aux	_	_
+15	do	_	AUX	IMP-AUX	_	17	aux	_	SpaceAfter=No
 16	n't	_	PART	NEG	_	17	advmod	_	_
 17	think	_	VERB	INF	_	10	conj	_	_
 18	of	_	ADP	_	_	19	case	_	_
@@ -2967,7 +2967,7 @@
 46	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2866
-# text = From there his mind drifted off to the accounts he had read of Melville 's last years – the taciturn old man working in the New York customs house, with no readers, forgotten by everyone.
+# text = From there his mind drifted off to the accounts he had read of Melville's last years – the taciturn old man working in the New York customs house, with no readers, forgotten by everyone.
 1	From	_	ADP	_	_	2	case	_	_
 2	there	_	ADV	_	_	5	advmod	_	_
 3	his	_	PRON	P3SG-GEN	_	4	nmod:poss	_	_
@@ -2981,7 +2981,7 @@
 11	had	_	AUX	PAST	_	12	aux	_	_
 12	read	_	VERB	PERF	_	9	acl:relcl	_	_
 13	of	_	ADP	_	_	17	case	_	_
-14	Melville	_	NOUN	SG	_	17	amod	_	_
+14	Melville	_	NOUN	SG	_	17	amod	_	SpaceAfter=No
 15	's	_	PART	GEN	_	14	case	_	_
 16	last	_	ADJ	SPL	_	17	amod	_	_
 17	years	_	NOUN	PL-NOM	_	12	obl	_	_
@@ -3008,7 +3008,7 @@
 38	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2867
-# text = Then, suddenly, with great clarity and precision, he saw Bartleby 's window and the blank brick wall before him.
+# text = Then, suddenly, with great clarity and precision, he saw Bartleby's window and the blank brick wall before him.
 1	Then	_	ADV	_	_	12	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	suddenly	_	ADV	_	_	12	advmod	_	SpaceAfter=No
@@ -3021,7 +3021,7 @@
 10	,	_	PUNCT	Comma	_	5	punct	_	_
 11	he	_	PRON	PERS-P3SG-NOM	_	12	nsubj	_	_
 12	saw	_	VERB	PAST	_	0	root	_	_
-13	Bartleby	_	PROPN	SG	_	15	amod	_	_
+13	Bartleby	_	PROPN	SG	_	15	amod	_	SpaceAfter=No
 14	's	_	PART	GEN	_	13	case	_	_
 15	window	_	NOUN	SG-NOM	_	12	obj	_	_
 16	and	_	CCONJ	_	_	20	cc	_	_
@@ -3321,7 +3321,7 @@
 34	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 2880
-# text = The man was reading the sports section of the Times, and Quinn glanced over to read the account of Met s' loss the night before.
+# text = The man was reading the sports section of the Times, and Quinn glanced over to read the account of Mets' loss the night before.
 1	The	_	DET	DEF	_	2	det	_	_
 2	man	_	NOUN	SG-NOM	_	4	nsubj	_	_
 3	was	_	AUX	PAST	_	4	aux	_	_
@@ -3342,8 +3342,8 @@
 18	the	_	DET	DEF	_	19	det	_	_
 19	account	_	NOUN	SG-NOM	_	17	obj	_	_
 20	of	_	ADP	_	_	23	case	_	_
-21	Met	_	NOUN	PL	_	23	amod	_	_
-22	s'	_	PART	GEN	_	21	case	_	_
+21	Mets	_	NOUN	PL	_	23	amod	_	SpaceAfter=No
+22	'	_	PART	GEN	_	21	case	_	_
 23	loss	_	NOUN	SG-NOM	_	19	nmod	_	_
 24	the	_	DET	DEF	_	25	det	_	_
 25	night	_	NOUN	SG-NOM	_	23	nmod	_	_
@@ -3776,17 +3776,17 @@
 10	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 2897
-# text = The girl shrugged. I 've read better and I 've read worse.
+# text = The girl shrugged. I've read better and I've read worse.
 1	The	_	DET	DEF	_	2	det	_	_
 2	girl	_	NOUN	SG-NOM	_	3	nsubj	_	_
 3	shrugged	_	VERB	PAST	_	0	root	_	SpaceAfter=No
 4	.	_	PUNCT	Period	_	3	punct	_	_
-5	I	_	PRON	PERS-P1SG-NOM	_	7	nsubj	_	_
+5	I	_	PRON	PERS-P1SG-NOM	_	7	nsubj	_	SpaceAfter=No
 6	've	_	AUX	PRES-AUX	_	7	aux	_	_
 7	read	_	VERB	PERF	_	3	advcl	_	_
 8	better	_	ADJ	CMP	_	7	xcomp	_	_
 9	and	_	CCONJ	_	_	12	cc	_	_
-10	I	_	PRON	PERS-P1SG-NOM	_	12	nsubj	_	_
+10	I	_	PRON	PERS-P1SG-NOM	_	12	nsubj	_	SpaceAfter=No
 11	've	_	AUX	PRES-AUX	_	12	aux	_	_
 12	read	_	VERB	PERF	_	7	conj	_	_
 13	worse	_	ADJ	CMP	_	12	xcomp	_	SpaceAfter=No
@@ -3837,7 +3837,7 @@
 23	?	_	PUNCT	QuestionMark	_	20	punct	_	_
 
 # sent_id = 2900
-# text = The girl shrugged again and cracked her gum loudly. Sort of. There 's a part where the detective gets lost that 's kind of scary.
+# text = The girl shrugged again and cracked her gum loudly. Sort of. There's a part where the detective gets lost that's kind of scary.
 1	The	_	DET	DEF	_	2	det	_	_
 2	girl	_	NOUN	SG-NOM	_	3	nsubj	_	_
 3	shrugged	_	VERB	PAST	_	0	root	_	_
@@ -3851,7 +3851,7 @@
 11	Sort	_	NOUN	SG-NOM	_	15	discourse	_	_
 12	of	_	ADP	_	_	11	acl	_	SpaceAfter=No
 13	.	_	PUNCT	Period	_	11	punct	_	_
-14	There	_	PRON	EX	_	15	expl	_	_
+14	There	_	PRON	EX	_	15	expl	_	SpaceAfter=No
 15	's	_	VERB	PRES	_	3	advcl	_	_
 16	a	_	DET	IND-SG	_	17	det	_	_
 17	part	_	NOUN	SG-NOM	_	15	nsubj	_	_
@@ -3860,7 +3860,7 @@
 20	detective	_	NOUN	SG-NOM	_	21	nsubj	_	_
 21	gets	_	VERB	PRES	_	17	acl:relcl	_	_
 22	lost	_	VERB	PASS	_	21	xcomp	_	_
-23	that	_	SCONJ	_	_	25	mark	_	_
+23	that	_	SCONJ	_	_	25	mark	_	SpaceAfter=No
 24	's	_	AUX	PRES	_	25	cop	_	_
 25	kind	_	NOUN	SG-NOM	_	17	acl	_	_
 26	of	_	ADP	_	_	27	case	_	_
@@ -3877,10 +3877,10 @@
 6	?	_	PUNCT	QuestionMark	_	5	punct	_	_
 
 # sent_id = 2902
-# text = Yeah, he 's smart. But he talks too much.
+# text = Yeah, he's smart. But he talks too much.
 1	Yeah	_	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
-3	he	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	_
+3	he	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	SpaceAfter=No
 4	's	_	AUX	PRES	_	5	cop	_	_
 5	smart	_	ADJ	POS	_	0	root	_	SpaceAfter=No
 6	.	_	PUNCT	Period	_	5	punct	_	_
@@ -3892,8 +3892,8 @@
 12	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 2903
-# text = You 'd like more action?
-1	You	_	PRON	PERS-P2	_	3	nsubj	_	_
+# text = You'd like more action?
+1	You	_	PRON	PERS-P2	_	3	nsubj	_	SpaceAfter=No
 2	'd	_	AUX	PAST-AUX	_	3	aux	_	_
 3	like	_	VERB	INF	_	0	root	_	_
 4	more	_	ADJ	CMP	_	5	amod	_	_
@@ -3908,10 +3908,10 @@
 4	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2905
-# text = If you do n't like it, why do you go on reading?
+# text = If you don't like it, why do you go on reading?
 1	If	_	SCONJ	_	_	5	mark	_	_
 2	you	_	PRON	PERS-P2	_	5	nsubj	_	_
-3	do	_	AUX	PRES-AUX	_	5	aux	_	_
+3	do	_	AUX	PRES-AUX	_	5	aux	_	SpaceAfter=No
 4	n't	_	PART	NEG	_	5	advmod	_	_
 5	like	_	VERB	INF	_	11	advcl	_	_
 6	it	_	PRON	PERS-SG	_	5	obj	_	SpaceAfter=No
@@ -3925,9 +3925,9 @@
 14	?	_	PUNCT	QuestionMark	_	11	punct	_	_
 
 # sent_id = 2906
-# text = I do n't know. The girl shrugged once again.
+# text = I don't know. The girl shrugged once again.
 1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
-2	do	_	AUX	PRES-AUX	_	4	aux	_	_
+2	do	_	AUX	PRES-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	know	_	VERB	INF	_	0	root	_	SpaceAfter=No
 5	.	_	PUNCT	Period	_	4	punct	_	_
@@ -3950,16 +3950,16 @@
 8	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2908
-# text = Anyway, it 's no big deal. It 's just a book.
+# text = Anyway, it's no big deal. It's just a book.
 1	Anyway	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
-3	it	_	PRON	PERS-SG	_	7	nsubj	_	_
+3	it	_	PRON	PERS-SG	_	7	nsubj	_	SpaceAfter=No
 4	's	_	AUX	PRES	_	7	cop	_	_
 5	no	_	DET	NEG	_	7	advmod	_	_
 6	big	_	ADJ	POS	_	7	amod	_	_
 7	deal	_	NOUN	SG-NOM	_	0	root	_	SpaceAfter=No
 8	.	_	PUNCT	Period	_	4	punct	_	_
-9	It	_	PRON	PERS-SG	_	13	nsubj	_	_
+9	It	_	PRON	PERS-SG	_	13	nsubj	_	SpaceAfter=No
 10	's	_	AUX	PRES	_	13	cop	_	_
 11	just	_	ADV	_	_	13	advmod	_	_
 12	a	_	DET	IND-SG	_	13	det	_	_
@@ -3999,7 +3999,7 @@
 6	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2911
-# text = For five years he had kept William Wilson 's identity a secret, and he was n't about to give it away now, least of all to an imbecile stranger.
+# text = For five years he had kept William Wilson's identity a secret, and he wasn't about to give it away now, least of all to an imbecile stranger.
 1	For	_	ADP	_	_	3	case	_	_
 2	five	_	NUM	CARD-PL	_	3	nummod	_	_
 3	years	_	NOUN	PL-NOM	_	6	obl	_	_
@@ -4007,7 +4007,7 @@
 5	had	_	AUX	PAST	_	6	aux	_	_
 6	kept	_	VERB	PERF	_	0	root	_	_
 7	William	_	PROPN	SG-NOM	_	10	nmod:poss	_	_
-8	Wilson	_	PROPN	SG	_	7	flat	_	_
+8	Wilson	_	PROPN	SG	_	7	flat	_	SpaceAfter=No
 9	's	_	PART	GEN	_	7	case	_	_
 10	identity	_	NOUN	SG-NOM	_	6	obj	_	_
 11	a	_	DET	IND-SG	_	12	det	_	_
@@ -4015,7 +4015,7 @@
 13	,	_	PUNCT	Comma	_	6	punct	_	_
 14	and	_	CCONJ	_	_	16	cc	_	_
 15	he	_	PRON	PERS-P3SG-NOM	_	16	nsubj	_	_
-16	was	_	VERB	PAST	_	6	conj	_	_
+16	was	_	VERB	PAST	_	6	conj	_	SpaceAfter=No
 17	n't	_	PART	NEG	_	16	advmod	_	_
 18	about	_	ADP	_	_	20	case	_	_
 19	to	_	PART	_	_	20	mark	_	_
@@ -4240,13 +4240,13 @@
 22	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2921
-# text = Once again, however, Stillman 's face told him nothing.
+# text = Once again, however, Stillman's face told him nothing.
 1	Once	_	ADV	_	_	2	advmod	_	_
 2	again	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
 4	however	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 5	,	_	PUNCT	Comma	_	4	punct	_	_
-6	Stillman	_	PROPN	SG	_	8	amod	_	_
+6	Stillman	_	PROPN	SG	_	8	amod	_	SpaceAfter=No
 7	's	_	PART	GEN	_	6	case	_	_
 8	face	_	NOUN	SG-NOM	_	9	nsubj	_	_
 9	told	_	VERB	PAST	_	0	root	_	_
@@ -4297,14 +4297,14 @@
 39	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2923
-# text = His head then filled with Peter Stillman 's voice, as a barrage of nonsense words clattered against the walls of his skull.
+# text = His head then filled with Peter Stillman's voice, as a barrage of nonsense words clattered against the walls of his skull.
 1	His	_	PRON	P3SG-GEN	_	2	nmod:poss	_	_
 2	head	_	NOUN	SG-NOM	_	4	nsubj	_	_
 3	then	_	ADV	_	_	4	advmod	_	_
 4	filled	_	VERB	PAST	_	0	root	_	_
 5	with	_	ADP	_	_	9	case	_	_
 6	Peter	_	PROPN	SG-NOM	_	9	nmod:poss	_	_
-7	Stillman	_	PROPN	SG	_	6	flat	_	_
+7	Stillman	_	PROPN	SG	_	6	flat	_	SpaceAfter=No
 8	's	_	PART	GEN	_	6	case	_	_
 9	voice	_	NOUN	SG-NOM	_	4	obl	_	SpaceAfter=No
 10	,	_	PUNCT	Comma	_	4	punct	_	_
@@ -4754,12 +4754,12 @@
 16	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2940
-# text = I 've a feeling there 's been a terrible mistake.
-1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
+# text = I've a feeling there's been a terrible mistake.
+1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	SpaceAfter=No
 2	've	_	VERB	PRES	_	0	root	_	_
 3	a	_	DET	IND-SG	_	4	det	_	_
 4	feeling	_	NOUN	SG-NOM	_	2	obj	_	_
-5	there	_	PRON	EX	_	7	expl	_	_
+5	there	_	PRON	EX	_	7	expl	_	SpaceAfter=No
 6	's	_	AUX	PRES	_	7	aux	_	_
 7	been	_	AUX	PERF	_	4	acl:relcl	_	_
 8	a	_	DET	IND-SG	_	10	det	_	_
@@ -4848,11 +4848,11 @@
 8	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2946
-# text = I 'm afraid you 've got the wrong Paul Auster.
-1	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
+# text = I'm afraid you've got the wrong Paul Auster.
+1	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	SpaceAfter=No
 2	'm	_	AUX	PRES	_	3	cop	_	_
 3	afraid	_	ADJ	POS	_	0	root	_	_
-4	you	_	PRON	PERS-P2	_	6	nsubj	_	_
+4	you	_	PRON	PERS-P2	_	6	nsubj	_	SpaceAfter=No
 5	've	_	AUX	PRES-AUX	_	6	aux	_	_
 6	got	_	VERB	PERF	_	3	amod	_	_
 7	the	_	DET	DEF	_	9	det	_	_
@@ -4862,8 +4862,8 @@
 11	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2947
-# text = You 're the only one in the book.
-1	You	_	PRON	PERS-P2	_	5	nsubj	_	_
+# text = You're the only one in the book.
+1	You	_	PRON	PERS-P2	_	5	nsubj	_	SpaceAfter=No
 2	're	_	AUX	PRES	_	5	cop	_	_
 3	the	_	DET	DEF	_	5	det	_	_
 4	only	_	ADV	_	_	5	advmod	_	_
@@ -4884,9 +4884,9 @@
 7	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2949
-# text = But I 'm not a detective.
+# text = But I'm not a detective.
 1	But	_	CCONJ	_	_	6	cc	_	_
-2	I	_	PRON	PERS-P1SG-NOM	_	6	nsubj	_	_
+2	I	_	PRON	PERS-P1SG-NOM	_	6	nsubj	_	SpaceAfter=No
 3	'm	_	AUX	PRES	_	6	cop	_	_
 4	not	_	PART	NEG	_	6	advmod	_	_
 5	a	_	DET	IND-SG	_	6	det	_	_
@@ -4910,8 +4910,8 @@
 5	?	_	PUNCT	QuestionMark	_	4	punct	_	_
 
 # sent_id = 2952
-# text = I 'm a writer.
-1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
+# text = I'm a writer.
+1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	SpaceAfter=No
 2	'm	_	AUX	PRES	_	4	cop	_	_
 3	a	_	DET	IND-SG	_	4	det	_	_
 4	writer	_	NOUN	SG-NOM	_	0	root	_	SpaceAfter=No
@@ -4935,8 +4935,8 @@
 14	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2954
-# text = I 'm sorry. Auster said.
-1	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
+# text = I'm sorry. Auster said.
+1	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	SpaceAfter=No
 2	'm	_	AUX	PRES	_	3	cop	_	_
 3	sorry	_	ADJ	POS	_	6	xcomp	_	SpaceAfter=No
 4	.	_	PUNCT	Period	_	2	punct	_	_
@@ -4945,9 +4945,9 @@
 7	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2955
-# text = But that 's what I happen to be.
+# text = But that's what I happen to be.
 1	But	_	CCONJ	_	_	6	cc	_	_
-2	that	_	PRON	DEM-SG	_	6	nsubj	_	_
+2	that	_	PRON	DEM-SG	_	6	nsubj	_	SpaceAfter=No
 3	's	_	AUX	PRES	_	6	cop	_	_
 4	what	_	PRON	WH	_	6	dislocated	_	_
 5	I	_	PRON	PERS-P1SG-NOM	_	6	nsubj	_	_
@@ -4957,14 +4957,14 @@
 9	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2956
-# text = If that 's true, then there 's no hope.
+# text = If that's true, then there's no hope.
 1	If	_	SCONJ	_	_	4	mark	_	_
-2	that	_	PRON	DEM-SG	_	4	nsubj	_	_
+2	that	_	PRON	DEM-SG	_	4	nsubj	_	SpaceAfter=No
 3	's	_	AUX	PRES	_	4	cop	_	_
 4	true	_	ADJ	POS	_	8	advmod	_	SpaceAfter=No
 5	,	_	PUNCT	Comma	_	3	punct	_	_
 6	then	_	ADV	_	_	8	advmod	_	_
-7	there	_	PRON	EX	_	8	expl	_	_
+7	there	_	PRON	EX	_	8	expl	_	SpaceAfter=No
 8	's	_	VERB	PRES	_	0	root	_	_
 9	no	_	DET	NEG	_	10	advmod	_	_
 10	hope	_	NOUN	SG-NOM	_	8	nsubj	_	SpaceAfter=No
@@ -4982,13 +4982,13 @@
 8	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 2958
-# text = I have no idea what you 're talking about.
+# text = I have no idea what you're talking about.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	have	_	VERB	PRES	_	0	root	_	_
 3	no	_	DET	NEG	_	4	advmod	_	_
 4	idea	_	NOUN	SG-NOM	_	2	obj	_	_
 5	what	_	PRON	WH	_	8	dislocated	_	_
-6	you	_	PRON	PERS-P2	_	8	nsubj	_	_
+6	you	_	PRON	PERS-P2	_	8	nsubj	_	SpaceAfter=No
 7	're	_	AUX	PRES-AUX	_	8	aux	_	_
 8	talking	_	VERB	ING	_	4	acl:relcl	_	_
 9	about	_	ADP	_	_	5	case	_	SpaceAfter=No
@@ -5021,7 +5021,7 @@
 16	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2961
-# text = The pressure had been building up in him since Stillman 's disappearance that morning, and it came out of him now as a torrent of words.
+# text = The pressure had been building up in him since Stillman's disappearance that morning, and it came out of him now as a torrent of words.
 1	The	_	DET	DEF	_	2	det	_	_
 2	pressure	_	NOUN	SG-NOM	_	5	nsubj	_	_
 3	had	_	AUX	PAST	_	5	aux	_	_
@@ -5031,7 +5031,7 @@
 7	in	_	ADP	_	_	8	case	_	_
 8	him	_	PRON	PERS-P3SG-ACC	_	5	obl	_	_
 9	since	_	ADP	_	_	12	case	_	_
-10	Stillman	_	PROPN	SG	_	12	amod	_	_
+10	Stillman	_	PROPN	SG	_	12	amod	_	SpaceAfter=No
 11	's	_	PART	GEN	_	10	case	_	_
 12	disappearance	_	NOUN	SG-NOM	_	5	obl	_	_
 13	that	_	DET	DEM-SG	_	14	det	_	_
@@ -5052,7 +5052,7 @@
 28	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2962
-# text = He told of the phone calls for Paul Auster, of his inexplicable acceptance of the case, of his meeting with Peter Stillman, of his conversation with Virginia Stillman, of his reading Stillman 's book, of his following Stillman from Grand Central Station, of Stillman 's daily wanderings, of the carpetbag and the broken objects, of the disquieting maps that formed letters of the alphabet, of his talks with Stillman, of Stillman 's disappearance from the hotel.
+# text = He told of the phone calls for Paul Auster, of his inexplicable acceptance of the case, of his meeting with Peter Stillman, of his conversation with Virginia Stillman, of his reading Stillman's book, of his following Stillman from Grand Central Station, of Stillman's daily wanderings, of the carpetbag and the broken objects, of the disquieting maps that formed letters of the alphabet, of his talks with Stillman, of Stillman's disappearance from the hotel.
 1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	told	_	VERB	PAST	_	0	root	_	_
 3	of	_	ADP	_	_	6	case	_	_
@@ -5088,7 +5088,7 @@
 33	of	_	ADP	_	_	35	case	_	_
 34	his	_	PRON	P3SG-GEN	_	35	nmod:poss	_	_
 35	reading	_	VERB	ING	_	28	conj	_	_
-36	Stillman	_	PROPN	SG	_	38	amod	_	_
+36	Stillman	_	PROPN	SG	_	38	amod	_	SpaceAfter=No
 37	's	_	PART	GEN	_	36	case	_	_
 38	book	_	NOUN	SG-NOM	_	35	obj	_	SpaceAfter=No
 39	,	_	PUNCT	Comma	_	35	punct	_	_
@@ -5102,7 +5102,7 @@
 47	Station	_	NOUN	SG-NOM	_	42	obl	_	SpaceAfter=No
 48	,	_	PUNCT	Comma	_	42	punct	_	_
 49	of	_	ADP	_	_	53	case	_	_
-50	Stillman	_	PROPN	SG	_	53	amod	_	_
+50	Stillman	_	PROPN	SG	_	53	amod	_	SpaceAfter=No
 51	's	_	PART	GEN	_	50	case	_	_
 52	daily	_	ADJ	POS	_	53	amod	_	_
 53	wanderings	_	NOUN	PL-NOM	_	42	conj	_	SpaceAfter=No
@@ -5133,7 +5133,7 @@
 78	Stillman	_	PROPN	SG-NOM	_	76	nmod	_	SpaceAfter=No
 79	,	_	PUNCT	Comma	_	76	punct	_	_
 80	of	_	ADP	_	_	83	case	_	_
-81	Stillman	_	PROPN	SG	_	83	amod	_	_
+81	Stillman	_	PROPN	SG	_	83	amod	_	SpaceAfter=No
 82	's	_	PART	GEN	_	81	case	_	_
 83	disappearance	_	NOUN	SG-NOM	_	76	conj	_	_
 84	from	_	ADP	_	_	86	case	_	_
@@ -5142,7 +5142,7 @@
 87	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2963
-# text = When he had come to the end, he said, Do you think I 'm crazy?
+# text = When he had come to the end, he said, Do you think I'm crazy?
 1	When	_	SCONJ	_	_	4	mark	_	_
 2	he	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
 3	had	_	AUX	PAST	_	4	aux	_	_
@@ -5157,13 +5157,13 @@
 12	Do	_	AUX	PRES-AUX	_	14	aux	_	_
 13	you	_	PRON	PERS-P2	_	14	nsubj	_	_
 14	think	_	VERB	INF	_	10	xcomp	_	_
-15	I	_	PRON	PERS-P1SG-NOM	_	17	nsubj	_	_
+15	I	_	PRON	PERS-P1SG-NOM	_	17	nsubj	_	SpaceAfter=No
 16	'm	_	AUX	PRES	_	17	cop	_	_
 17	crazy	_	ADJ	POS	_	14	obj	_	SpaceAfter=No
 18	?	_	PUNCT	QuestionMark	_	10	punct	_	_
 
 # sent_id = 2964
-# text = No, said Auster, who had listened attentively to Quinn 's monologue
+# text = No, said Auster, who had listened attentively to Quinn's monologue
 1	No	_	INTJ	_	_	3	obj	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	said	_	VERB	PAST	_	0	root	_	_
@@ -5174,7 +5174,7 @@
 8	listened	_	VERB	PERF	_	4	acl:relcl	_	_
 9	attentively	_	ADV	_	_	8	advmod	_	_
 10	to	_	ADP	_	_	13	case	_	_
-11	Quinn	_	PROPN	SG	_	13	amod	_	_
+11	Quinn	_	PROPN	SG	_	13	amod	_	SpaceAfter=No
 12	's	_	PART	GEN	_	11	case	_	_
 13	monologue	_	NOUN	SG-NOM	_	8	obl	_	_
 
@@ -5245,14 +5245,14 @@
 15	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2968
-# text = You see, said Quinn, I 'm not making it up. I even have proof.
+# text = You see, said Quinn, I'm not making it up. I even have proof.
 1	You	_	PRON	PERS-P2	_	2	nsubj	_	_
 2	see	_	VERB	PRES	_	4	ccomp	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
 4	said	_	VERB	PAST	_	0	root	_	_
 5	Quinn	_	PROPN	SG-NOM	_	4	nsubj	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	4	punct	_	_
-7	I	_	PRON	PERS-P1SG-NOM	_	10	nsubj	_	_
+7	I	_	PRON	PERS-P1SG-NOM	_	10	nsubj	_	SpaceAfter=No
 8	'm	_	AUX	PRES-AUX	_	10	aux	_	_
 9	not	_	PART	NEG	_	10	advmod	_	_
 10	making	_	VERB	ING	_	4	dislocated	_	_
@@ -5303,8 +5303,8 @@
 12	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 2971
-# text = It 's even made out to you.
-1	It	_	PRON	PERS-SG	_	4	nsubj:pass	_	_
+# text = It's even made out to you.
+1	It	_	PRON	PERS-SG	_	4	nsubj:pass	_	SpaceAfter=No
 2	's	_	AUX	PRES-AUX	_	4	aux	_	_
 3	even	_	ADV	_	_	4	advmod	_	_
 4	made	_	VERB	PASS	_	0	root	_	_
@@ -5338,10 +5338,10 @@
 9	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2974
-# text = Well, it 's yours, said Quinn.
+# text = Well, it's yours, said Quinn.
 1	Well	_	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
-3	it	_	PRON	PERS-SG	_	5	nsubj	_	_
+3	it	_	PRON	PERS-SG	_	5	nsubj	_	SpaceAfter=No
 4	's	_	AUX	PRES	_	5	cop	_	_
 5	yours	_	PRON	P2-GEN-INDEP	_	7	xcomp	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	4	punct	_	_
@@ -5360,9 +5360,9 @@
 7	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2976
-# text = I could n't possibly accept it.
+# text = I couldn't possibly accept it.
 1	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	_
-2	could	_	AUX	PAST-AUX	_	5	aux	_	_
+2	could	_	AUX	PAST-AUX	_	5	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	5	advmod	_	_
 4	possibly	_	ADV	_	_	5	advmod	_	_
 5	accept	_	VERB	INF	_	0	root	_	_
@@ -5370,8 +5370,8 @@
 7	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2977
-# text = It 's of no use to me. Quinn looked around the apartment and gestured vaguely.
-1	It	_	PRON	PERS-SG	_	2	nsubj	_	_
+# text = It's of no use to me. Quinn looked around the apartment and gestured vaguely.
+1	It	_	PRON	PERS-SG	_	2	nsubj	_	SpaceAfter=No
 2	's	_	VERB	PRES	_	0	root	_	_
 3	of	_	ADP	_	_	5	case	_	_
 4	no	_	DET	NEG	_	5	advmod	_	_
@@ -5407,11 +5407,11 @@
 14	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 2979
-# text = This is money you 've earned.
+# text = This is money you've earned.
 1	This	_	PRON	DEM-SG	_	3	nsubj	_	_
 2	is	_	AUX	PRES	_	3	cop	_	_
 3	money	_	NOUN	PL-NOM	_	0	root	_	_
-4	you	_	PRON	PERS-P2	_	6	nsubj	_	_
+4	you	_	PRON	PERS-P2	_	6	nsubj	_	SpaceAfter=No
 5	've	_	AUX	PRES-AUX	_	6	aux	_	_
 6	earned	_	VERB	PERF	_	3	acl:relcl	_	SpaceAfter=No
 7	.	_	PUNCT	Period	_	3	punct	_	_
@@ -5433,12 +5433,12 @@
 13	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 2981
-# text = There 's one thing I 'll do for you, though.
-1	There	_	PRON	EX	_	2	expl	_	_
+# text = There's one thing I'll do for you, though.
+1	There	_	PRON	EX	_	2	expl	_	SpaceAfter=No
 2	's	_	VERB	PRES	_	0	root	_	_
 3	one	_	NUM	CARD-SG	_	4	nummod	_	_
 4	thing	_	NOUN	SG-NOM	_	2	nsubj	_	_
-5	I	_	PRON	PERS-P1SG-NOM	_	7	nsubj	_	_
+5	I	_	PRON	PERS-P1SG-NOM	_	7	nsubj	_	SpaceAfter=No
 6	'll	_	AUX	PRES-AUX	_	7	aux	_	_
 7	do	_	VERB	INF	_	4	acl:relcl	_	_
 8	for	_	ADP	_	_	9	case	_	_
@@ -5448,7 +5448,7 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2982
-# text = Since the check is in my name, I 'll cash it for you.
+# text = Since the check is in my name, I'll cash it for you.
 1	Since	_	SCONJ	_	_	4	mark	_	_
 2	the	_	DET	DEF	_	3	det	_	_
 3	check	_	NOUN	SG-NOM	_	4	nsubj	_	_
@@ -5457,7 +5457,7 @@
 6	my	_	PRON	P1SG-GEN	_	7	nmod:poss	_	_
 7	name	_	NOUN	SG-NOM	_	4	obl	_	SpaceAfter=No
 8	,	_	PUNCT	Comma	_	4	punct	_	_
-9	I	_	PRON	PERS-P1SG-NOM	_	11	nsubj	_	_
+9	I	_	PRON	PERS-P1SG-NOM	_	11	nsubj	_	SpaceAfter=No
 10	'll	_	AUX	PRES-AUX	_	11	aux	_	_
 11	cash	_	VERB	INF	_	0	root	_	_
 12	it	_	PRON	PERS-SG	_	11	obj	_	_
@@ -5466,8 +5466,8 @@
 15	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 2983
-# text = I 'll take it to my bank tomorrow morning, deposit it in my account, and give you the money when it clears.
-1	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
+# text = I'll take it to my bank tomorrow morning, deposit it in my account, and give you the money when it clears.
+1	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	SpaceAfter=No
 2	'll	_	AUX	PRES-AUX	_	3	aux	_	_
 3	take	_	VERB	INF	_	0	root	_	_
 4	it	_	PRON	PERS-SG	_	3	obj	_	_
@@ -5530,8 +5530,8 @@
 8	.	_	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 2988
-# text = We 'll see what happens.
-1	We	_	PRON	PERS-P1PL-NOM	_	3	nsubj	_	_
+# text = We'll see what happens.
+1	We	_	PRON	PERS-P1PL-NOM	_	3	nsubj	_	SpaceAfter=No
 2	'll	_	AUX	PRES-AUX	_	3	aux	_	_
 3	see	_	VERB	INF	_	0	root	_	_
 4	what	_	PRON	WH	_	5	nsubj	_	_
@@ -5578,8 +5578,8 @@
 14	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2991
-# text = There 's a much more important question than the check, he said.
-1	There	_	PRON	EX	_	2	expl	_	_
+# text = There's a much more important question than the check, he said.
+1	There	_	PRON	EX	_	2	expl	_	SpaceAfter=No
 2	's	_	VERB	PRES	_	0	root	_	_
 3	a	_	DET	IND-SG	_	7	det	_	_
 4	much	_	ADV	POS	_	5	advmod	_	_
@@ -5610,9 +5610,9 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2993
-# text = I do n't understand it at all.
+# text = I don't understand it at all.
 1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
-2	do	_	AUX	PRES-AUX	_	4	aux	_	_
+2	do	_	AUX	PRES-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	understand	_	VERB	INF	_	0	root	_	_
 5	it	_	PRON	PERS-SG	_	4	obj	_	_
@@ -5621,11 +5621,11 @@
 8	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 2994
-# text = I wonder if you 've had any trouble with your phone lately.
+# text = I wonder if you've had any trouble with your phone lately.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	wonder	_	VERB	PRES	_	0	root	_	_
 3	if	_	SCONJ	_	_	6	mark	_	_
-4	you	_	PRON	PERS-P2	_	6	nsubj	_	_
+4	you	_	PRON	PERS-P2	_	6	nsubj	_	SpaceAfter=No
 5	've	_	AUX	PRES-AUX	_	6	aux	_	_
 6	had	_	AUX	PERF	_	2	advcl	_	_
 7	any	_	DET	IND	_	8	det	_	_
@@ -5665,10 +5665,10 @@
 25	.	_	PUNCT	Period	_	22	punct	_	_
 
 # sent_id = 2996
-# text = Yes, that 's happened to me before.
+# text = Yes, that's happened to me before.
 1	Yes	_	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
-3	that	_	PRON	DEM-SG	_	5	nsubj	_	_
+3	that	_	PRON	DEM-SG	_	5	nsubj	_	SpaceAfter=No
 4	's	_	AUX	PRES-AUX	_	5	aux	_	_
 5	happened	_	VERB	PERF	_	0	root	_	_
 6	to	_	ADP	_	_	7	case	_	_
@@ -5677,7 +5677,7 @@
 9	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2997
-# text = But even if my phone was broken, that does n't explain the real problem.
+# text = But even if my phone was broken, that doesn't explain the real problem.
 1	But	_	CCONJ	_	_	12	cc	_	_
 2	even	_	ADV	_	_	3	mark	_	_
 3	if	_	SCONJ	_	_	7	mark	_	_
@@ -5687,7 +5687,7 @@
 7	broken	_	VERB	PASS	_	12	advcl	_	SpaceAfter=No
 8	,	_	PUNCT	Comma	_	7	punct	_	_
 9	that	_	PRON	DEM-SG	_	12	nsubj	_	_
-10	does	_	AUX	PRES-AUX	_	12	aux	_	_
+10	does	_	AUX	PRES-AUX	_	12	aux	_	SpaceAfter=No
 11	n't	_	PART	NEG	_	12	advmod	_	_
 12	explain	_	VERB	INF	_	0	root	_	_
 13	the	_	DET	DEF	_	15	det	_	_
@@ -5737,8 +5737,8 @@
 10	?	_	PUNCT	QuestionMark	_	3	punct	_	_
 
 # sent_id = 3000
-# text = I 've never heard of the Stillmans.
-1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
+# text = I've never heard of the Stillmans.
+1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	SpaceAfter=No
 2	've	_	AUX	PRES-AUX	_	4	aux	_	_
 3	never	_	ADV	NEG	_	4	advmod	_	_
 4	heard	_	VERB	PERF	_	0	root	_	_
@@ -5762,9 +5762,9 @@
 11	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3002
-# text = I do n't hang around with people like that.
+# text = I don't hang around with people like that.
 1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
-2	do	_	AUX	PRES-AUX	_	4	aux	_	_
+2	do	_	AUX	PRES-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	hang	_	VERB	INF	_	0	root	_	_
 5	around	_	ADV	_	_	4	advmod	_	_
@@ -5782,13 +5782,13 @@
 4	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3004
-# text = But the fact is, it 's not a joke.
+# text = But the fact is, it's not a joke.
 1	But	_	CCONJ	_	_	7	cc	_	_
 2	the	_	DET	DEF	_	3	det	_	_
 3	fact	_	NOUN	SG-NOM	_	7	nsubj	_	_
 4	is	_	AUX	PRES	_	7	cop	_	SpaceAfter=No
 5	,	_	PUNCT	Comma	_	4	punct	_	_
-6	it	_	PRON	PERS-SG	_	7	nsubj	_	_
+6	it	_	PRON	PERS-SG	_	7	nsubj	_	SpaceAfter=No
 7	's	_	VERB	PRES	_	0	root	_	_
 8	not	_	PART	NEG	_	7	advmod	_	_
 9	a	_	DET	IND-SG	_	10	det	_	_
@@ -5796,8 +5796,8 @@
 11	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3005
-# text = It 's a real case with real people.
-1	It	_	PRON	PERS-SG	_	5	nsubj	_	_
+# text = It's a real case with real people.
+1	It	_	PRON	PERS-SG	_	5	nsubj	_	SpaceAfter=No
 2	's	_	AUX	PRES	_	5	cop	_	_
 3	a	_	DET	IND-SG	_	5	det	_	_
 4	real	_	ADJ	POS	_	5	amod	_	_
@@ -5820,8 +5820,8 @@
 9	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3007
-# text = I 'm aware of that.
-1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
+# text = I'm aware of that.
+1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	SpaceAfter=No
 2	'm	_	VERB	PRES	_	0	root	_	_
 3	aware	_	ADJ	POS	_	2	advmod	_	_
 4	of	_	ADP	_	_	5	case	_	_
@@ -5946,11 +5946,11 @@
 16	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3015
-# text = He had read Quinn 's old work, he had admired it, he had been looking forward to more.
+# text = He had read Quinn's old work, he had admired it, he had been looking forward to more.
 1	He	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 2	had	_	AUX	PAST	_	3	aux	_	_
 3	read	_	VERB	PERF	_	0	root	_	_
-4	Quinn	_	PROPN	SG	_	7	amod	_	_
+4	Quinn	_	PROPN	SG	_	7	amod	_	SpaceAfter=No
 5	's	_	PART	GEN	_	4	case	_	_
 6	old	_	ADJ	POS	_	7	amod	_	_
 7	work	_	NOUN	SG-NOM	_	3	obj	_	SpaceAfter=No
@@ -5968,10 +5968,10 @@
 19	to	_	ADP	_	_	20	case	_	_
 20	more	_	ADJ	CMP-SG	_	17	advmod	_	SpaceAfter=No
 21	.	_	PUNCT	Period	_	3	punct	_	_
+# newdoc
 
 # sent_id = 3016
 # text = The Archbishop is really very handsome, with his full cheeks, his long clear dark-green eyes, and the short strong beard.
-# newdoc
 1	The	_	DET	DEF	_	2	det	_	_
 2	Archbishop	_	NOUN	SG-NOM	_	6	nsubj	_	_
 3	is	_	AUX	PRES	_	6	cop	_	_
@@ -6048,9 +6048,9 @@
 18	.	_	PUNCT	Period	_	14	punct	_	_
 
 # sent_id = 3020
-# text = The church 's manuscript collection is the largest outside Soviet Armenia.
+# text = The church's manuscript collection is the largest outside Soviet Armenia.
 1	The	_	DET	DEF	_	5	det	_	_
-2	church	_	NOUN	SG	_	4	amod	_	_
+2	church	_	NOUN	SG	_	4	amod	_	SpaceAfter=No
 3	's	_	PART	GEN	_	2	case	_	_
 4	manuscript	_	NOUN	SG-NOM	_	5	compound	_	_
 5	collection	_	NOUN	SG-NOM	_	8	nsubj	_	_
@@ -6199,12 +6199,12 @@
 8	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3027
-# text = A call to the telephone ;
+# text = A call to the telephone;
 1	A	_	DET	IND-SG	_	2	det	_	_
 2	call	_	NOUN	SG-NOM	_	0	root	_	_
 3	to	_	ADP	_	_	5	case	_	_
 4	the	_	DET	DEF	_	5	det	_	_
-5	telephone	_	NOUN	SG-NOM	_	2	nmod	_	_
+5	telephone	_	NOUN	SG-NOM	_	2	nmod	_	SpaceAfter=No
 6	;	_	PUNCT	SemiColon	_	2	punct	_	_
 
 # sent_id = 3028
@@ -6283,13 +6283,13 @@
 17	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3031
-# text = Then someone says that it ca n't be long now before the Russians write Arafat off.
+# text = Then someone says that it can't be long now before the Russians write Arafat off.
 1	Then	_	ADV	_	_	3	advmod	_	_
 2	someone	_	PRON	IND-SG-NOM	_	3	nsubj	_	_
 3	says	_	VERB	PRES	_	0	root	_	_
 4	that	_	SCONJ	_	_	8	mark	_	_
 5	it	_	PRON	PERS-SG	_	8	nsubj	_	_
-6	ca	_	AUX	PRES-AUX	_	8	aux	_	_
+6	ca	_	AUX	PRES-AUX	_	8	aux	_	SpaceAfter=No
 7	n't	_	PART	NEG	_	8	advmod	_	_
 8	be	_	VERB	INF	_	3	xcomp	_	_
 9	long	_	ADV	_	_	10	advmod	_	_
@@ -6328,7 +6328,7 @@
 22	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3033
-# text = Most of the dinner guests agree that Russia 's internal difficulties are so grave it may have to draw away from Syria.
+# text = Most of the dinner guests agree that Russia's internal difficulties are so grave it may have to draw away from Syria.
 1	Most	_	ADJ	POS	_	6	nsubj	_	_
 2	of	_	ADP	_	_	5	case	_	_
 3	the	_	DET	DEF	_	5	det	_	_
@@ -6336,7 +6336,7 @@
 5	guests	_	NOUN	PL-NOM	_	1	nmod	_	_
 6	agree	_	VERB	PRES	_	0	root	_	_
 7	that	_	SCONJ	_	_	14	mark	_	_
-8	Russia	_	PROPN	SG	_	11	amod	_	_
+8	Russia	_	PROPN	SG	_	11	amod	_	SpaceAfter=No
 9	's	_	PART	GEN	_	8	case	_	_
 10	internal	_	ADJ	POS	_	11	amod	_	_
 11	difficulties	_	NOUN	PL-NOM	_	14	nsubj	_	_
@@ -6531,11 +6531,11 @@
 23	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3043
-# text = Such intelligent discussion has n't always been wrong.
+# text = Such intelligent discussion hasn't always been wrong.
 1	Such	_	ADJ	ADJ	_	3	amod	_	_
 2	intelligent	_	ADJ	POS	_	3	amod	_	_
 3	discussion	_	NOUN	SG-NOM	_	8	nsubj	_	_
-4	has	_	AUX	PRES-AUX	_	8	aux	_	_
+4	has	_	AUX	PRES-AUX	_	8	aux	_	SpaceAfter=No
 5	n't	_	PART	NEG	_	8	advmod	_	_
 6	always	_	ADV	_	_	8	advmod	_	_
 7	been	_	AUX	PERF	_	8	cop	_	_
@@ -6672,10 +6672,10 @@
 13	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3049
-# text = In Anna Scherer 's salon, the elegant guests are discussing the scandal of Napoleon and the Duc d'Enghien, and Prince Andrei says that after all there is a great difference between Napoleon the Emperor and Napoleon the private person.
+# text = In Anna Scherer's salon, the elegant guests are discussing the scandal of Napoleon and the Duc d'Enghien, and Prince Andrei says that after all there is a great difference between Napoleon the Emperor and Napoleon the private person.
 1	In	_	ADP	_	_	5	case	_	_
 2	Anna	_	PROPN	SG-NOM	_	5	nmod:poss	_	_
-3	Scherer	_	PROPN	SG	_	2	flat	_	_
+3	Scherer	_	PROPN	SG	_	2	flat	_	SpaceAfter=No
 4	's	_	PART	GEN	_	2	case	_	_
 5	salon	_	NOUN	SG-NOM	_	11	obl	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	1	punct	_	_
@@ -6900,7 +6900,7 @@
 18	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 3061
-# text = And there we are, Kissinger has entirely wrecked Russia 's Middle East policy and the Pope is about to swap the Vatican for the Kremlin.
+# text = And there we are, Kissinger has entirely wrecked Russia's Middle East policy and the Pope is about to swap the Vatican for the Kremlin.
 1	And	_	CCONJ	_	_	4	cc	_	_
 2	there	_	ADV	_	_	4	advmod	_	_
 3	we	_	PRON	PERS-P1PL-NOM	_	4	nsubj	_	_
@@ -6910,7 +6910,7 @@
 7	has	_	AUX	PRES-AUX	_	9	aux	_	_
 8	entirely	_	ADV	_	_	9	advmod	_	_
 9	wrecked	_	VERB	PERF	_	4	conj	_	_
-10	Russia	_	PROPN	SG	_	12	amod	_	_
+10	Russia	_	PROPN	SG	_	12	amod	_	SpaceAfter=No
 11	's	_	PART	GEN	_	10	case	_	_
 12	Middle	_	PROPN	SG-NOM	_	9	obj	_	_
 13	East	_	PROPN	SG-NOM	_	12	flat	_	_
@@ -7017,7 +7017,7 @@
 24	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3066
-# text = The position taken by Foreign Minister Maurice Jobert in the October War of 1973 was that the Palestinian Arabs had a natural and justified desire to " go home. "
+# text = The position taken by Foreign Minister Maurice Jobert in the October War of 1973 was that the Palestinian Arabs had a natural and justified desire to "go home."
 1	The	_	DET	DEF	_	2	det	_	_
 2	position	_	NOUN	SG-NOM	_	20	nsubj	_	_
 3	taken	_	VERB	PASS	_	2	amod	_	_
@@ -7044,10 +7044,10 @@
 24	justified	_	VERB	PASS	_	22	conj	_	_
 25	desire	_	NOUN	SG-NOM	_	20	obj	_	_
 26	to	_	PART	_	_	28	mark	_	_
-27	"	_	PUNCT	Quote	_	28	punct	_	_
+27	"	_	PUNCT	Quote	_	28	punct	_	SpaceAfter=No
 28	go	_	VERB	INF	_	25	acl	_	_
 29	home	_	NOUN	SG-NOM	_	28	obl	_	SpaceAfter=No
-30	.	_	PUNCT	Period	_	20	punct	_	_
+30	.	_	PUNCT	Period	_	20	punct	_	SpaceAfter=No
 31	"	_	PUNCT	Quote	_	28	punct	_	_
 
 # sent_id = 3067
@@ -7088,7 +7088,7 @@
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3069
-# text = Eugene Ionescu gave the editors one copy of it ; another was handed to them by Manes Sperber, the novelist.
+# text = Eugene Ionescu gave the editors one copy of it; another was handed to them by Manes Sperber, the novelist.
 1	Eugene	_	PROPN	SG-NOM	_	3	nsubj	_	_
 2	Ionescu	_	PROPN	SG-NOM	_	1	flat	_	_
 3	gave	_	VERB	PAST	_	0	root	_	_
@@ -7097,7 +7097,7 @@
 6	one	_	NUM	CARD-SG	_	7	nummod	_	_
 7	copy	_	NOUN	SG-NOM	_	3	obj	_	_
 8	of	_	ADP	_	_	9	case	_	_
-9	it	_	PRON	PERS-SG	_	7	nmod	_	_
+9	it	_	PRON	PERS-SG	_	7	nmod	_	SpaceAfter=No
 10	;	_	PUNCT	SemiColon	_	3	punct	_	_
 11	another	_	PRON	ADJ-SG	_	13	nsubj:pass	_	_
 12	was	_	AUX	PAST	_	13	aux	_	_
@@ -7182,7 +7182,7 @@
 16	.	_	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = 3075
-# text = On July 3, 1976, before Israel had freed the hostages at Entebbe, the paper observed with some satisfaction that Amin, " the disquieting Marshal, " maligned by everyone, had now become the support and the hope of his foolish detractors.
+# text = On July 3, 1976, before Israel had freed the hostages at Entebbe, the paper observed with some satisfaction that Amin, "the disquieting Marshal," maligned by everyone, had now become the support and the hope of his foolish detractors.
 1	On	_	ADP	_	_	2	case	_	_
 2	July	_	PROPN	SG-NOM	_	18	obl	_	_
 3	3	_	ADJ	ORD	_	2	amod	_	SpaceAfter=No
@@ -7207,11 +7207,11 @@
 22	that	_	SCONJ	_	_	37	mark	_	_
 23	Amin	_	PROPN	SG-NOM	_	37	nsubj	_	SpaceAfter=No
 24	,	_	PUNCT	Comma	_	23	punct	_	_
-25	"	_	PUNCT	Quote	_	28	punct	_	_
+25	"	_	PUNCT	Quote	_	28	punct	_	SpaceAfter=No
 26	the	_	DET	DEF	_	28	det	_	_
 27	disquieting	_	ADJ	POS	_	28	amod	_	_
 28	Marshal	_	NOUN	SG-NOM	_	23	nmod	_	SpaceAfter=No
-29	,	_	PUNCT	Comma	_	23	punct	_	_
+29	,	_	PUNCT	Comma	_	23	punct	_	SpaceAfter=No
 30	"	_	PUNCT	Quote	_	28	punct	_	_
 31	maligned	_	VERB	PASS	_	28	amod	_	_
 32	by	_	ADP	_	_	33	case	_	_
@@ -7382,7 +7382,7 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3085
-# text = Instead, there are boys stern and joyous, galloping hell-bent on their donkeys toward the Lion s' Gate.
+# text = Instead, there are boys stern and joyous, galloping hell-bent on their donkeys toward the Lions' Gate.
 1	Instead	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	6	punct	_	_
 3	there	_	PRON	EX	_	4	expl	_	_
@@ -7399,20 +7399,20 @@
 14	donkeys	_	NOUN	PL-NOM	_	10	obl	_	_
 15	toward	_	ADP	_	_	19	case	_	_
 16	the	_	DET	DEF	_	19	det	_	_
-17	Lion	_	NOUN	PL	_	19	amod	_	_
-18	s'	_	PART	GEN	_	17	case	_	_
+17	Lions	_	NOUN	PL	_	19	amod	_	SpaceAfter=No
+18	'	_	PART	GEN	_	17	case	_	_
 19	Gate	_	NOUN	SG-NOM	_	10	obl	_	SpaceAfter=No
 20	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3086
-# text = " Rode from Ramlah to Lydda, " Herman Melville wrote in his travel journal of 1857.
-1	"	_	PUNCT	Quote	_	2	punct	_	_
+# text = "Rode from Ramlah to Lydda," Herman Melville wrote in his travel journal of 1857.
+1	"	_	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
 2	Rode	_	VERB	PAST	_	11	obj	_	_
 3	from	_	ADP	_	_	4	case	_	_
 4	Ramlah	_	PROPN	SG-NOM	_	2	obl	_	_
 5	to	_	ADP	_	_	6	case	_	_
 6	Lydda	_	PROPN	SG-NOM	_	2	obl	_	SpaceAfter=No
-7	,	_	PUNCT	Comma	_	2	punct	_	_
+7	,	_	PUNCT	Comma	_	2	punct	_	SpaceAfter=No
 8	"	_	PUNCT	Quote	_	2	punct	_	_
 9	Herman	_	PROPN	SG-NOM	_	11	nsubj	_	_
 10	Melville	_	PROPN	SG-NOM	_	9	flat	_	_
@@ -7466,7 +7466,7 @@
 2	.	_	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3092
-# text = Horsemen riding to one side, scorning the perils. "
+# text = Horsemen riding to one side, scorning the perils."
 1	Horsemen	_	NOUN	PL-NOM	_	0	root	_	_
 2	riding	_	VERB	ING	_	1	amod	_	_
 3	to	_	ADP	_	_	5	case	_	_
@@ -7476,11 +7476,11 @@
 7	scorning	_	VERB	ING	_	2	advcl	_	_
 8	the	_	DET	DEF	_	9	det	_	_
 9	perils	_	NOUN	PL-NOM	_	7	obj	_	SpaceAfter=No
-10	.	_	PUNCT	Period	_	1	punct	_	_
+10	.	_	PUNCT	Period	_	1	punct	_	SpaceAfter=No
 11	"	_	PUNCT	Quote	_	1	punct	_	_
 
 # sent_id = 3093
-# text = And a few days later, on the barrenness of Judea, " whitish mildew pervading whole tracts of landscape.
+# text = And a few days later, on the barrenness of Judea, "whitish mildew pervading whole tracts of landscape.
 1	And	_	CCONJ	_	_	4	cc	_	_
 2	a	_	DET	IND-PL	_	4	det	_	_
 3	few	_	ADJ	IND-PL	_	2	fixed	_	_
@@ -7493,7 +7493,7 @@
 10	of	_	ADP	_	_	11	case	_	_
 11	Judea	_	PROPN	SG-NOM	_	9	nmod	_	SpaceAfter=No
 12	,	_	PUNCT	Comma	_	7	punct	_	_
-13	"	_	PUNCT	Quote	_	5	punct	_	_
+13	"	_	PUNCT	Quote	_	5	punct	_	SpaceAfter=No
 14	whitish	_	ADJ	POS	_	15	amod	_	_
 15	mildew	_	NOUN	SG-NOM	_	16	nsubj	_	_
 16	pervading	_	VERB	ING	_	0	root	_	_
@@ -7544,7 +7544,7 @@
 16	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3097
-# text = Wandering among the tombs till I began to think myself one of the possessed with devils. "
+# text = Wandering among the tombs till I began to think myself one of the possessed with devils."
 1	Wandering	_	VERB	ING	_	0	root	_	_
 2	among	_	ADP	_	_	4	case	_	_
 3	the	_	DET	DEF	_	4	det	_	_
@@ -7561,13 +7561,13 @@
 14	possessed	_	VERB	PASS	_	11	acl	_	_
 15	with	_	ADP	_	_	16	case	_	_
 16	devils	_	NOUN	PL-NOM	_	14	obl	_	SpaceAfter=No
-17	.	_	PUNCT	Period	_	1	punct	_	_
+17	.	_	PUNCT	Period	_	1	punct	_	SpaceAfter=No
 18	"	_	PUNCT	Quote	_	1	punct	_	_
 
 # sent_id = 3098
-# text = Anwar Sadat 's American visit.
+# text = Anwar Sadat's American visit.
 1	Anwar	_	PROPN	SG-NOM	_	5	amod	_	_
-2	Sadat	_	PROPN	SG	_	1	flat	_	_
+2	Sadat	_	PROPN	SG	_	1	flat	_	SpaceAfter=No
 3	's	_	PART	GEN	_	2	case	_	_
 4	American	_	ADJ	POS	_	5	amod	_	_
 5	visit	_	NOUN	SG-NOM	_	0	root	_	SpaceAfter=No
@@ -7594,7 +7594,7 @@
 17	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3100
-# text = An indignant librarian, a middle-aged woman whose face is so hot it is almost fragrant with indignation, demands of me in a superdistinguished all but Oxonian accent, " How do you account for it! "
+# text = An indignant librarian, a middle-aged woman whose face is so hot it is almost fragrant with indignation, demands of me in a superdistinguished all but Oxonian accent, "How do you account for it!"
 1	An	_	DET	IND-SG	_	3	det	_	_
 2	indignant	_	ADJ	POS	_	3	amod	_	_
 3	librarian	_	NOUN	SG-NOM	_	20	nsubj	_	SpaceAfter=No
@@ -7625,14 +7625,14 @@
 28	Oxonian	_	ADJ	POS	_	29	amod	_	_
 29	accent	_	NOUN	SG-NOM	_	20	obl	_	SpaceAfter=No
 30	,	_	PUNCT	Comma	_	20	punct	_	_
-31	"	_	PUNCT	Quote	_	35	punct	_	_
+31	"	_	PUNCT	Quote	_	35	punct	_	SpaceAfter=No
 32	How	_	ADV	WH	_	35	advmod	_	_
 33	do	_	VERB	PRES	_	35	aux	_	_
 34	you	_	PRON	PERS-P2	_	35	nsubj	_	_
 35	account	_	VERB	INF	_	20	xcomp	_	_
 36	for	_	ADP	_	_	37	case	_	_
 37	it	_	PRON	PERS-SG	_	35	obl	_	SpaceAfter=No
-38	!	_	PUNCT	ExclMark	_	20	punct	_	_
+38	!	_	PUNCT	ExclMark	_	20	punct	_	SpaceAfter=No
 39	"	_	PUNCT	Quote	_	35	punct	_	_
 
 # sent_id = 3101
@@ -7670,7 +7670,7 @@
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3104
-# text = These visitors are sometimes treated as if they were the heroes of an Arabian Night s' tale.
+# text = These visitors are sometimes treated as if they were the heroes of an Arabian Nights' tale.
 1	These	_	DET	DEM-PL	_	2	det	_	_
 2	visitors	_	NOUN	PL-NOM	_	5	nsubj:pass	_	_
 3	are	_	AUX	PRES-AUX	_	5	aux	_	_
@@ -7685,14 +7685,14 @@
 12	of	_	ADP	_	_	17	case	_	_
 13	an	_	DET	IND-SG	_	17	det	_	_
 14	Arabian	_	ADJ	POS	_	15	amod	_	_
-15	Night	_	NOUN	PL	_	17	amod	_	_
-16	s'	_	PART	GEN	_	15	case	_	_
+15	Nights	_	NOUN	PL	_	17	amod	_	SpaceAfter=No
+16	'	_	PART	GEN	_	15	case	_	_
 17	tale	_	NOUN	SG-NOM	_	11	nmod	_	SpaceAfter=No
 18	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3105
-# text = We 'll show them how good we all are and well-meaning and generous and open-minded and evenhanded.
-1	We	_	PRON	PERS-P1PL-NOM	_	3	nsubj	_	_
+# text = We'll show them how good we all are and well-meaning and generous and open-minded and evenhanded.
+1	We	_	PRON	PERS-P1PL-NOM	_	3	nsubj	_	SpaceAfter=No
 2	'll	_	AUX	PRES-AUX	_	3	aux	_	_
 3	show	_	VERB	INF	_	0	root	_	_
 4	them	_	PRON	PERS-P3PL-ACC	_	3	obj	_	_
@@ -7818,7 +7818,7 @@
 9	.	_	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 3109
-# text = An old Mormon missionary in Nauvoo once gripped my knee hard as we sat side by side, and he put his arm about me and called me " Brother. "
+# text = An old Mormon missionary in Nauvoo once gripped my knee hard as we sat side by side, and he put his arm about me and called me "Brother."
 1	An	_	DET	IND-SG	_	4	det	_	_
 2	old	_	ADJ	POS	_	4	amod	_	_
 3	Mormon	_	NOUN	SG-NOM	_	4	compound	_	_
@@ -7847,14 +7847,14 @@
 26	and	_	CCONJ	_	_	27	cc	_	_
 27	called	_	VERB	PAST	_	8	conj	_	_
 28	me	_	PRON	PERS-P1SG-ACC	_	27	obj	_	_
-29	"	_	PUNCT	Quote	_	30	punct	_	_
+29	"	_	PUNCT	Quote	_	30	punct	_	SpaceAfter=No
 30	Brother	_	NOUN	SG-NOM	_	27	xcomp	_	SpaceAfter=No
-31	.	_	PUNCT	Period	_	8	punct	_	_
+31	.	_	PUNCT	Period	_	8	punct	_	SpaceAfter=No
 32	"	_	PUNCT	Quote	_	30	punct	_	_
 
 # sent_id = 3110
-# text = We 'd only met ten minutes before.
-1	We	_	PRON	PERS-P1PL-NOM	_	4	nsubj	_	_
+# text = We'd only met ten minutes before.
+1	We	_	PRON	PERS-P1PL-NOM	_	4	nsubj	_	SpaceAfter=No
 2	'd	_	AUX	PAST-AUX	_	4	aux	_	_
 3	only	_	ADV	_	_	4	advmod	_	_
 4	met	_	VERB	PERF	_	0	root	_	_
@@ -7936,10 +7936,10 @@
 11	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3117
-# text = " But do n't Americans know that Sadat was a Nazi? " the librarian says.
-1	"	_	PUNCT	Quote	_	6	punct	_	_
+# text = "But don't Americans know that Sadat was a Nazi?" the librarian says.
+1	"	_	PUNCT	Quote	_	6	punct	_	SpaceAfter=No
 2	But	_	CCONJ	_	_	6	cc	_	_
-3	do	_	VERB	PRES	_	6	aux	_	_
+3	do	_	VERB	PRES	_	6	aux	_	SpaceAfter=No
 4	n't	_	PART	NEG	_	6	advmod	_	_
 5	Americans	_	NOUN	PL-NOM	_	6	nsubj	_	_
 6	know	_	VERB	INF	_	0	root	_	_
@@ -7948,7 +7948,7 @@
 9	was	_	AUX	PAST	_	11	cop	_	_
 10	a	_	DET	IND-SG	_	11	det	_	_
 11	Nazi	_	NOUN	SG-NOM	_	6	obj	_	SpaceAfter=No
-12	?	_	PUNCT	QuestionMark	_	9	punct	_	_
+12	?	_	PUNCT	QuestionMark	_	9	punct	_	SpaceAfter=No
 13	"	_	PUNCT	Quote	_	6	punct	_	_
 14	the	_	DET	DEF	_	15	det	_	_
 15	librarian	_	NOUN	SG-NOM	_	16	nsubj	_	_
@@ -7973,7 +7973,7 @@
 14	.	_	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 3119
-# text = The New York Times is sure to have it, but the Times as I see it is a government within a government It has a state department of its own, and its high councils have probably decided that it would be impolitic at this moment to call attention to Sadat 's admiration for Hitler.
+# text = The New York Times is sure to have it, but the Times as I see it is a government within a government It has a state department of its own, and its high councils have probably decided that it would be impolitic at this moment to call attention to Sadat's admiration for Hitler.
 1	The	_	DET	DEF	_	2	det	_	_
 2	New	_	PROPN	SG-NOM	_	6	nsubj	_	_
 3	York	_	PROPN	SG-NOM	_	2	flat	_	_
@@ -8025,7 +8025,7 @@
 49	call	_	VERB	INF	_	44	csubj	_	_
 50	attention	_	NOUN	SG-NOM	_	49	obj	_	_
 51	to	_	ADP	_	_	54	case	_	_
-52	Sadat	_	PROPN	SG	_	54	amod	_	_
+52	Sadat	_	PROPN	SG	_	54	amod	_	SpaceAfter=No
 53	's	_	PART	GEN	_	52	case	_	_
 54	admiration	_	NOUN	SG-NOM	_	49	obl	_	_
 55	for	_	ADP	_	_	56	case	_	_
@@ -8072,25 +8072,25 @@
 36	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3121
-# text = " Will they print it? " she asked.
-1	"	_	PUNCT	Quote	_	4	punct	_	_
+# text = "Will they print it?" she asked.
+1	"	_	PUNCT	Quote	_	4	punct	_	SpaceAfter=No
 2	Will	_	AUX	PRES-AUX	_	4	aux	_	_
 3	they	_	PRON	PERS-PL-NOM	_	4	nsubj	_	_
 4	print	_	VERB	INF	_	0	root	_	_
 5	it	_	PRON	PERS-SG	_	4	obj	_	SpaceAfter=No
-6	?	_	PUNCT	QuestionMark	_	2	punct	_	_
+6	?	_	PUNCT	QuestionMark	_	2	punct	_	SpaceAfter=No
 7	"	_	PUNCT	Quote	_	4	punct	_	_
 8	she	_	PRON	PERS-SG-NOM	_	9	nsubj	_	_
 9	asked	_	VERB	PAST	_	4	parataxis	_	SpaceAfter=No
 10	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3122
-# text = " Difficult to guess, " I tell her.
-1	"	_	PUNCT	Quote	_	2	punct	_	_
+# text = "Difficult to guess," I tell her.
+1	"	_	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
 2	Difficult	_	ADJ	POS	_	8	xcomp	_	_
 3	to	_	PART	_	_	4	mark	_	_
 4	guess	_	VERB	INF	_	2	acl	_	SpaceAfter=No
-5	,	_	PUNCT	Comma	_	2	punct	_	_
+5	,	_	PUNCT	Comma	_	2	punct	_	SpaceAfter=No
 6	"	_	PUNCT	Quote	_	2	punct	_	_
 7	I	_	PRON	PERS-P1SG-NOM	_	8	nsubj	_	_
 8	tell	_	VERB	PRES	_	0	root	_	_
@@ -8098,8 +8098,8 @@
 10	.	_	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 3123
-# text = " The Times ought to be stronger in politics than it is in literature, but who knows.
-1	"	_	PUNCT	Quote	_	3	punct	_	_
+# text = "The Times ought to be stronger in politics than it is in literature, but who knows.
+1	"	_	PUNCT	Quote	_	3	punct	_	SpaceAfter=No
 2	The	_	DET	DEF	_	3	det	_	_
 3	Times	_	PROPN	SG-NOM	_	7	nsubj	_	_
 4	ought	_	AUX	PRES-AUX	_	7	aux	_	_
@@ -8159,11 +8159,11 @@
 21	.	_	PUNCT	Period	_	16	punct	_	_
 
 # sent_id = 3126
-# text = Book readers evidently have n't got the passionate intensity of sports fans. "
+# text = Book readers evidently haven't got the passionate intensity of sports fans."
 1	Book	_	NOUN	SG-NOM	_	2	compound	_	_
 2	readers	_	NOUN	PL-NOM	_	6	nsubj	_	_
 3	evidently	_	ADV	_	_	6	advmod	_	_
-4	have	_	AUX	PRES-AUX	_	6	aux	_	_
+4	have	_	AUX	PRES-AUX	_	6	aux	_	SpaceAfter=No
 5	n't	_	PART	NEG	_	6	advmod	_	_
 6	got	_	VERB	PERF	_	0	root	_	_
 7	the	_	DET	DEF	_	9	det	_	_
@@ -8172,7 +8172,7 @@
 10	of	_	ADP	_	_	12	case	_	_
 11	sports	_	NOUN	PL-NOM	_	12	compound	_	_
 12	fans	_	NOUN	PL-NOM	_	9	nmod	_	SpaceAfter=No
-13	.	_	PUNCT	Period	_	6	punct	_	_
+13	.	_	PUNCT	Period	_	6	punct	_	SpaceAfter=No
 14	"	_	PUNCT	Quote	_	6	punct	_	_
 
 # sent_id = 3127
@@ -8228,11 +8228,11 @@
 19	.	_	PUNCT	Period	_	15	punct	_	_
 
 # sent_id = 3129
-# text = He quotes from Dostoevski 's The House of the Dead a conversation between the writer and a brutal murderer, one of those criminals who fascinated him.
+# text = He quotes from Dostoevski's The House of the Dead a conversation between the writer and a brutal murderer, one of those criminals who fascinated him.
 1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	quotes	_	VERB	PRES	_	0	root	_	_
 3	from	_	ADP	_	_	7	case	_	_
-4	Dostoevski	_	PROPN	SG	_	7	amod	_	_
+4	Dostoevski	_	PROPN	SG	_	7	amod	_	SpaceAfter=No
 5	's	_	PART	GEN	_	4	case	_	_
 6	The	_	DET	DEF	_	7	det	_	_
 7	House	_	NOUN	SG-NOM	_	2	obl	_	_
@@ -8259,9 +8259,9 @@
 28	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3130
-# text = I have n't the book handy, so I paraphrase.
+# text = I haven't the book handy, so I paraphrase.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
-2	have	_	VERB	PRES	_	0	root	_	_
+2	have	_	VERB	PRES	_	0	root	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	2	advmod	_	_
 4	the	_	DET	DEF	_	5	det	_	_
 5	book	_	NOUN	SG-NOM	_	2	obj	_	_
@@ -8273,8 +8273,8 @@
 11	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3131
-# text = " Why are you so kind to me? " Dostoevski asks.
-1	"	_	PUNCT	Quote	_	6	punct	_	_
+# text = "Why are you so kind to me?" Dostoevski asks.
+1	"	_	PUNCT	Quote	_	6	punct	_	SpaceAfter=No
 2	Why	_	ADV	WH	_	6	advmod	_	_
 3	are	_	AUX	PRES	_	6	cop	_	_
 4	you	_	PRON	PERS-P2	_	6	nsubj	_	_
@@ -8282,14 +8282,14 @@
 6	kind	_	ADJ	POS	_	12	xcomp	_	_
 7	to	_	ADP	_	_	8	case	_	_
 8	me	_	PRON	PERS-P1SG-ACC	_	6	nmod	_	SpaceAfter=No
-9	?	_	PUNCT	QuestionMark	_	3	punct	_	_
+9	?	_	PUNCT	QuestionMark	_	3	punct	_	SpaceAfter=No
 10	"	_	PUNCT	Quote	_	6	punct	_	_
 11	Dostoevski	_	PROPN	SG-NOM	_	12	nsubj	_	_
 12	asks	_	VERB	PRES	_	0	root	_	SpaceAfter=No
 13	.	_	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 3132
-# text = And the murderer, speaking to one of the geniuses of the nineteenth century, answers, " Because you are so simple that one can not help feeling sorry for you. "
+# text = And the murderer, speaking to one of the geniuses of the nineteenth century, answers, "Because you are so simple that one can not help feeling sorry for you."
 1	And	_	CCONJ	_	_	16	cc	_	_
 2	the	_	DET	DEF	_	3	det	_	_
 3	murderer	_	NOUN	SG-NOM	_	16	nsubj	_	SpaceAfter=No
@@ -8307,7 +8307,7 @@
 15	,	_	PUNCT	Comma	_	3	punct	_	_
 16	answers	_	VERB	PRES	_	0	root	_	SpaceAfter=No
 17	,	_	PUNCT	Comma	_	16	punct	_	_
-18	"	_	PUNCT	Quote	_	23	punct	_	_
+18	"	_	PUNCT	Quote	_	23	punct	_	SpaceAfter=No
 19	Because	_	SCONJ	_	_	23	mark	_	_
 20	you	_	PRON	PERS-P2	_	23	nsubj	_	_
 21	are	_	AUX	PRES	_	23	cop	_	_
@@ -8322,11 +8322,11 @@
 30	sorry	_	ADJ	POS	_	29	xcomp	_	_
 31	for	_	ADP	_	_	32	case	_	_
 32	you	_	PRON	PERS-P2	_	29	obl	_	SpaceAfter=No
-33	.	_	PUNCT	Period	_	16	punct	_	_
+33	.	_	PUNCT	Period	_	16	punct	_	SpaceAfter=No
 34	"	_	PUNCT	Quote	_	23	punct	_	_
 
 # sent_id = 3133
-# text = Even when he robbed Dostoevski, he pitied him as one might " a little cherub-like child. "
+# text = Even when he robbed Dostoevski, he pitied him as one might "a little cherub-like child."
 1	Even	_	ADV	_	_	4	advmod	_	_
 2	when	_	SCONJ	_	_	4	mark	_	_
 3	he	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
@@ -8339,12 +8339,12 @@
 10	as	_	SCONJ	_	_	12	mark	_	_
 11	one	_	PRON	IND-P3SG	_	12	nsubj	_	_
 12	might	_	AUX	PAST-AUX	_	8	advcl	_	_
-13	"	_	PUNCT	Quote	_	17	punct	_	_
+13	"	_	PUNCT	Quote	_	17	punct	_	SpaceAfter=No
 14	a	_	DET	IND-SG	_	17	det	_	_
 15	little	_	ADJ	POS	_	17	amod	_	_
 16	cherub-like	_	ADJ	POS	_	17	amod	_	_
 17	child	_	NOUN	SG-NOM	_	12	obj	_	SpaceAfter=No
-18	.	_	PUNCT	Period	_	8	punct	_	_
+18	.	_	PUNCT	Period	_	8	punct	_	SpaceAfter=No
 19	"	_	PUNCT	Quote	_	17	punct	_	_
 
 # sent_id = 3134
@@ -8406,10 +8406,10 @@
 8	in	_	ADP	_	_	9	case	_	_
 9	this	_	PRON	DEM-SG	_	3	obl	_	SpaceAfter=No
 10	.	_	PUNCT	Period	_	3	punct	_	_
+# newdoc
 
 # sent_id = 3136
 # text = People were arriving, and the younger one was walking back and forth introducing them.
-# newdoc
 1	People	_	NOUN	PL-NOM	_	3	nsubj	_	_
 2	were	_	AUX	PAST-AUX	_	3	aux	_	_
 3	arriving	_	VERB	ING	_	0	root	_	SpaceAfter=No
@@ -8798,7 +8798,7 @@
 35	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3153
-# text = It was a little too early for the doctor, so I proposed a drink, and thereupon he developed a vein of joviality. As we sat over our vermouths he glorified the Company 's business, and by-and-by I expressed casually my surprise at him not going out there.
+# text = It was a little too early for the doctor, so I proposed a drink, and thereupon he developed a vein of joviality. As we sat over our vermouths he glorified the Company's business, and by-and-by I expressed casually my surprise at him not going out there.
 1	It	_	PRON	PERS-SG	_	6	nsubj	_	_
 2	was	_	AUX	PAST	_	6	cop	_	_
 3	a	_	DET	IND-SG	_	4	det	_	_
@@ -8833,7 +8833,7 @@
 32	he	_	PRON	PERS-P3SG-NOM	_	33	nsubj	_	_
 33	glorified	_	VERB	PAST	_	6	conj	_	_
 34	the	_	DET	DEF	_	37	det	_	_
-35	Company	_	NOUN	SG	_	37	amod	_	_
+35	Company	_	NOUN	SG	_	37	amod	_	SpaceAfter=No
 36	's	_	PART	GEN	_	35	case	_	_
 37	business	_	NOUN	SG-NOM	_	33	obj	_	SpaceAfter=No
 38	,	_	PUNCT	_	_	6	punct	_	_
@@ -9051,7 +9051,7 @@
 11	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3162
-# text = Oh, I never see them, he remarked ; ' and, moreover, the changes take place inside, you know.
+# text = Oh, I never see them, he remarked; 'and, moreover, the changes take place inside, you know.
 1	Oh	_	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	I	_	PRON	PERS-P1SG-NOM	_	5	mark	_	_
@@ -9060,9 +9060,9 @@
 6	them	_	PRON	PERS-P3PL-ACC	_	5	obj	_	SpaceAfter=No
 7	,	_	PUNCT	_	_	6	punct	_	_
 8	he	_	PRON	PERS-P3SG-NOM	_	9	nsubj	_	_
-9	remarked	_	VERB	PAST	_	0	root	_	_
+9	remarked	_	VERB	PAST	_	0	root	_	SpaceAfter=No
 10	;	_	PUNCT	SemiColon	_	9	punct	_	_
-11	'	_	PUNCT	Quote	_	12	punct	_	_
+11	'	_	PUNCT	Quote	_	12	punct	_	SpaceAfter=No
 12	and	_	CCONJ	_	_	18	cc	_	SpaceAfter=No
 13	,	_	PUNCT	_	_	9	punct	_	_
 14	moreover	_	ADV	_	_	18	advmod	_	SpaceAfter=No
@@ -9124,14 +9124,14 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3167
-# text = Ever any madness in your family? ' he asked, in a matter-of-fact tone.
+# text = Ever any madness in your family?' he asked, in a matter-of-fact tone.
 1	Ever	_	ADV	_	_	3	advmod	_	_
 2	any	_	DET	IND	_	3	det	_	_
 3	madness	_	NOUN	SG-NOM	_	10	nsubj	_	_
 4	in	_	ADP	_	_	6	case	_	_
 5	your	_	PRON	GEN	_	6	nmod:poss	_	_
 6	family	_	NOUN	SG-NOM	_	3	nmod	_	SpaceAfter=No
-7	?	_	PUNCT	QuestionMark	_	10	punct	_	_
+7	?	_	PUNCT	QuestionMark	_	10	punct	_	SpaceAfter=No
 8	'	_	PUNCT	Quote	_	3	punct	_	_
 9	he	_	PRON	PERS-P3SG-NOM	_	10	nsubj	_	_
 10	asked	_	VERB	PAST	_	0	root	_	SpaceAfter=No
@@ -9164,7 +9164,7 @@
 10	?	_	PUNCT	QuestionMark	_	1	punct	_	_
 
 # sent_id = 3170
-# text = It would be, he said, without taking notice of my irritation, ' interesting for science to watch the mental changes of individuals, on the spot, but...
+# text = It would be, he said, without taking notice of my irritation, 'interesting for science to watch the mental changes of individuals, on the spot, but...
 1	It	_	PRON	PERS-SG	_	3	nsubj	_	_
 2	would	_	AUX	PAST-AUX	_	3	aux	_	_
 3	be	_	AUX	INF-AUX	_	5	xcomp	_	SpaceAfter=No
@@ -9179,7 +9179,7 @@
 12	my	_	PRON	P1SG-GEN	_	13	nmod:poss	_	_
 13	irritation	_	NOUN	SG-NOM	_	9	obl	_	SpaceAfter=No
 14	,	_	PUNCT	_	_	6	punct	_	_
-15	'	_	PUNCT	Quote	_	6	punct	_	_
+15	'	_	PUNCT	Quote	_	6	punct	_	SpaceAfter=No
 16	interesting	_	ADJ	POS	_	6	dislocated	_	_
 17	for	_	SCONJ	_	_	20	mark	_	_
 18	science	_	NOUN	SG-NOM	_	20	nsubj	_	_
@@ -9227,8 +9227,8 @@
 14	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 3173
-# text = ' I have a little theory which you Messieurs who go out there must help me to prove.
-1	'	_	PUNCT	Quote	_	3	punct	_	_
+# text = 'I have a little theory which you Messieurs who go out there must help me to prove.
+1	'	_	PUNCT	Quote	_	3	punct	_	SpaceAfter=No
 2	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	have	_	VERB	PRES	_	0	root	_	_
 4	a	_	DET	IND-SG	_	6	det	_	_
@@ -9302,8 +9302,8 @@
 16	.	_	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3177
-# text = ' I hastened to assure him I was not in the least typical.
-1	'	_	PUNCT	Quote	_	3	punct	_	_
+# text = 'I hastened to assure him I was not in the least typical.
+1	'	_	PUNCT	Quote	_	3	punct	_	SpaceAfter=No
 2	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	hastened	_	VERB	PAST	_	0	root	_	_
 4	to	_	PART	_	_	5	mark	_	_
@@ -9319,7 +9319,7 @@
 14	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3178
-# text = If I were, said I, I would n't be talking like this with you.
+# text = If I were, said I, I wouldn't be talking like this with you.
 1	If	_	SCONJ	_	_	3	mark	_	_
 2	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	were	_	VERB	PAST	_	5	ccomp	_	SpaceAfter=No
@@ -9328,7 +9328,7 @@
 6	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	SpaceAfter=No
 7	,	_	PUNCT	_	_	6	punct	_	_
 8	I	_	PRON	PERS-P1SG-NOM	_	12	nsubj	_	_
-9	would	_	AUX	PAST-AUX	_	12	aux	_	_
+9	would	_	AUX	PAST-AUX	_	12	aux	_	SpaceAfter=No
 10	n't	_	ADV	_	_	12	advmod	_	_
 11	be	_	AUX	INF-AUX	_	12	aux	_	_
 12	talking	_	VERB	ING	_	5	dislocated	_	_
@@ -9427,8 +9427,8 @@
 9	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3187
-# text = ' Du calme, du calme.
-1	'	_	PUNCT	Quote	_	3	punct	_	_
+# text = 'Du calme, du calme.
+1	'	_	PUNCT	Quote	_	3	punct	_	SpaceAfter=No
 2	Du	_	DET	FGN	_	3	det	_	_
 3	calme	_	NOUN	FGN	_	0	root	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	3	punct	_	_
@@ -9467,7 +9467,7 @@
 5	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3191
-# text = I had a cup of tea – the last decent cup of tea for many days – and in a room that most soothingly looked just as you would expect a lady 's drawing-room to look, we had a long quiet chat by the fireside.
+# text = I had a cup of tea – the last decent cup of tea for many days – and in a room that most soothingly looked just as you would expect a lady's drawing-room to look, we had a long quiet chat by the fireside.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	had	_	VERB	PAST	_	0	root	_	_
 3	a	_	DET	IND-SG	_	4	det	_	_
@@ -9499,7 +9499,7 @@
 29	would	_	AUX	PAST-AUX	_	30	aux	_	_
 30	expect	_	VERB	INF	_	25	advcl	_	_
 31	a	_	DET	IND-SG	_	32	det	_	_
-32	lady	_	NOUN	SG	_	34	amod	_	_
+32	lady	_	NOUN	SG	_	34	amod	_	SpaceAfter=No
 33	's	_	PART	GEN	_	32	case	_	_
 34	drawing-room	_	NOUN	SG-NOM	_	30	obj	_	_
 35	to	_	PART	_	_	36	mark	_	_
@@ -9517,7 +9517,7 @@
 47	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3192
-# text = In the course of these confidences it became quite plain to me I had been represented to the wife of the high dignitary, and goodness knows to how many more people besides, as an exceptional and gifted creature – a piece of good fortune for the Company – a man you do n't get hold of every day.
+# text = In the course of these confidences it became quite plain to me I had been represented to the wife of the high dignitary, and goodness knows to how many more people besides, as an exceptional and gifted creature – a piece of good fortune for the Company – a man you don't get hold of every day.
 1	In	_	ADP	_	_	3	case	_	_
 2	the	_	DET	DEF	_	3	det	_	_
 3	course	_	NOUN	SG-NOM	_	8	obl	_	_
@@ -9571,7 +9571,7 @@
 51	a	_	DET	IND-SG	_	52	det	_	_
 52	man	_	NOUN	SG-NOM	_	40	conj	_	_
 53	you	_	PRON	PERS-P2	_	56	nsubj	_	_
-54	do	_	VERB	PRES	_	56	aux	_	_
+54	do	_	VERB	PRES	_	56	aux	_	SpaceAfter=No
 55	n't	_	ADV	_	_	56	advmod	_	_
 56	get	_	VERB	INF	_	52	acl:relcl	_	_
 57	hold	_	NOUN	SG-NOM	_	56	obj	_	_
@@ -9688,11 +9688,11 @@
 40	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 3197
-# text = She talked about ' weaning those ignorant millions from their horrid ways ', till, upon my word, she made me quite uncomfortable.
+# text = She talked about 'weaning those ignorant millions from their horrid ways', till, upon my word, she made me quite uncomfortable.
 1	She	_	PRON	PERS-SG-NOM	_	2	nsubj	_	_
 2	talked	_	VERB	PAST	_	0	root	_	_
 3	about	_	ADV	_	_	2	obl	_	_
-4	'	_	PUNCT	Quote	_	5	punct	_	_
+4	'	_	PUNCT	Quote	_	5	punct	_	SpaceAfter=No
 5	weaning	_	VERB	ING	_	2	advcl	_	_
 6	those	_	DET	DEM-PL	_	8	det	_	_
 7	ignorant	_	ADJ	POS	_	8	amod	_	_
@@ -9700,7 +9700,7 @@
 9	from	_	ADP	_	_	12	case	_	_
 10	their	_	PRON	P3PL-GEN	_	12	nmod:poss	_	_
 11	horrid	_	ADJ	POS	_	12	amod	_	_
-12	ways	_	NOUN	PL-NOM	_	5	obl	_	_
+12	ways	_	NOUN	PL-NOM	_	5	obl	_	SpaceAfter=No
 13	'	_	PUNCT	Quote	_	5	punct	_	SpaceAfter=No
 14	,	_	PUNCT	_	_	22	punct	_	_
 15	till	_	SCONJ	_	_	22	mark	_	SpaceAfter=No
@@ -9968,7 +9968,7 @@
 51	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3209
-# text = The man seemed young – almost a boy – but you know with them it 's hard to tell.
+# text = The man seemed young – almost a boy – but you know with them it's hard to tell.
 1	The	_	DET	DEF	_	2	det	_	_
 2	man	_	NOUN	SG-NOM	_	3	nsubj	_	_
 3	seemed	_	VERB	PAST	_	0	root	_	_
@@ -9983,7 +9983,7 @@
 12	know	_	VERB	PRES	_	3	conj	_	_
 13	with	_	ADP	_	_	14	case	_	_
 14	them	_	PRON	PERS-P3PL-ACC	_	17	nmod	_	_
-15	it	_	PRON	PERS-SG	_	17	expl	_	_
+15	it	_	PRON	PERS-SG	_	17	expl	_	SpaceAfter=No
 16	's	_	AUX	PRES	_	17	cop	_	_
 17	hard	_	ADJ	POS	_	12	xcomp	_	_
 18	to	_	PART	_	_	19	mark	_	_
@@ -9991,7 +9991,7 @@
 20	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3210
-# text = I found nothing else to do but to offer him one of my good Swede 's ship 's biscuits I had in my pocket.
+# text = I found nothing else to do but to offer him one of my good Swede's ship's biscuits I had in my pocket.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	found	_	VERB	PAST	_	0	root	_	_
 3	nothing	_	PRON	NEG-SG	_	2	obj	_	_
@@ -10006,9 +10006,9 @@
 12	of	_	ADP	_	_	19	case	_	_
 13	my	_	PRON	P1SG-GEN	_	15	nmod:poss	_	_
 14	good	_	ADJ	POS	_	15	amod	_	_
-15	Swede	_	NOUN	SG	_	19	amod	_	_
+15	Swede	_	NOUN	SG	_	19	amod	_	SpaceAfter=No
 16	's	_	PART	GEN	_	15	case	_	_
-17	ship	_	NOUN	SG	_	19	amod	_	_
+17	ship	_	NOUN	SG	_	19	amod	_	SpaceAfter=No
 18	's	_	PART	GEN	_	17	case	_	_
 19	biscuits	_	NOUN	PL-NOM	_	11	nmod	_	_
 20	I	_	PRON	PERS-P1SG-NOM	_	21	nsubj	_	_
@@ -10139,7 +10139,7 @@
 17	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 3218
-# text = One, with his chin propped on his knees, stared at nothing, in an intolerable and appalling manner: his brother phantom rested its forehead, as if overcome with a great weariness ; and all about others were scattered in every pose of contorted collapse, as in some picture of a massacre or a pestilence.
+# text = One, with his chin propped on his knees, stared at nothing, in an intolerable and appalling manner: his brother phantom rested its forehead, as if overcome with a great weariness; and all about others were scattered in every pose of contorted collapse, as in some picture of a massacre or a pestilence.
 1	One	_	PRON	IND-SG	_	11	nsubj:pass	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	with	_	ADP	_	_	5	case	_	_
@@ -10174,7 +10174,7 @@
 32	with	_	ADP	_	_	35	case	_	_
 33	a	_	DET	IND-SG	_	35	det	_	_
 34	great	_	ADJ	POS	_	35	amod	_	_
-35	weariness	_	NOUN	SG-NOM	_	31	obl	_	_
+35	weariness	_	NOUN	SG-NOM	_	31	obl	_	SpaceAfter=No
 36	;	_	PUNCT	SemiColon	_	31	punct	_	_
 37	and	_	CCONJ	_	_	42	cc	_	_
 38	all	_	ADV	_	_	39	advmod	_	_
@@ -10270,9 +10270,9 @@
 35	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3221
-# text = I did n't want any more loitering in the shade, and I made haste towards the station.
+# text = I didn't want any more loitering in the shade, and I made haste towards the station.
 1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
-2	did	_	AUX	PAST-AUX	_	4	aux	_	_
+2	did	_	AUX	PAST-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	ADV	_	_	4	advmod	_	_
 4	want	_	VERB	INF	_	0	root	_	_
 5	any	_	DET	IND	_	7	det	_	_
@@ -10394,7 +10394,7 @@
 12	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3226
-# text = I shook hands with this miracle, and I learned he was the Company 's chief accountant, and that all the bookkeeping was done at this station.
+# text = I shook hands with this miracle, and I learned he was the Company's chief accountant, and that all the bookkeeping was done at this station.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	shook	_	VERB	PAST	_	0	root	_	_
 3	hands	_	NOUN	PL-NOM	_	2	obj	_	_
@@ -10408,7 +10408,7 @@
 11	he	_	PRON	PERS-P3SG-NOM	_	17	nsubj	_	_
 12	was	_	AUX	PAST	_	17	cop	_	_
 13	the	_	DET	DEF	_	16	det	_	_
-14	Company	_	NOUN	SG	_	17	amod	_	_
+14	Company	_	NOUN	SG	_	17	amod	_	SpaceAfter=No
 15	's	_	PART	GEN	_	14	case	_	_
 16	chief	_	ADJ	POS	_	17	amod	_	_
 17	accountant	_	NOUN	SG-NOM	_	10	xcomp	_	SpaceAfter=No
@@ -10426,7 +10426,7 @@
 29	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3227
-# text = He had come out for a moment, he said, ' to get a breath of fresh air. '
+# text = He had come out for a moment, he said, 'to get a breath of fresh air.'
 1	He	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 2	had	_	AUX	PAST-AUX	_	3	aux	_	_
 3	come	_	VERB	PERF	_	10	ccomp	_	_
@@ -10438,7 +10438,7 @@
 9	he	_	PRON	PERS-P3SG-NOM	_	10	nsubj	_	_
 10	said	_	VERB	PAST	_	0	root	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	10	punct	_	_
-12	'	_	PUNCT	Quote	_	14	punct	_	_
+12	'	_	PUNCT	Quote	_	14	punct	_	SpaceAfter=No
 13	to	_	PART	_	_	14	mark	_	_
 14	get	_	VERB	INF	_	10	dislocated	_	_
 15	a	_	DET	IND-SG	_	16	det	_	_
@@ -10446,7 +10446,7 @@
 17	of	_	ADP	_	_	19	case	_	_
 18	fresh	_	ADJ	POS	_	19	amod	_	_
 19	air	_	NOUN	SG-NOM	_	16	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	Period	_	10	punct	_	_
+20	.	_	PUNCT	Period	_	10	punct	_	SpaceAfter=No
 21	'	_	PUNCT	Quote	_	14	punct	_	_
 
 # sent_id = 3228
@@ -10466,9 +10466,9 @@
 13	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3229
-# text = I would n't have mentioned the fellow to you at all, only it was from his lips that I first heard the name of the man who is so indissolubly connected with the memories of that time.
+# text = I wouldn't have mentioned the fellow to you at all, only it was from his lips that I first heard the name of the man who is so indissolubly connected with the memories of that time.
 1	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	_
-2	would	_	AUX	PAST-AUX	_	5	aux	_	_
+2	would	_	AUX	PAST-AUX	_	5	aux	_	SpaceAfter=No
 3	n't	_	ADV	_	_	5	advmod	_	_
 4	have	_	AUX	INF-AUX	_	5	aux	_	_
 5	mentioned	_	VERB	PERF	_	0	root	_	_
@@ -10518,8 +10518,8 @@
 7	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3231
-# text = Yes ; I respected his collars, his vast cuffs, his brushed hair.
-1	Yes	_	INTJ	_	_	4	discourse	_	_
+# text = Yes; I respected his collars, his vast cuffs, his brushed hair.
+1	Yes	_	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	;	_	PUNCT	SemiColon	_	4	punct	_	_
 3	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
 4	respected	_	VERB	PAST	_	0	root	_	_
@@ -10536,7 +10536,7 @@
 15	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3232
-# text = His appearance was certainly that of a hairdresser 's dummy ; but in the great demoralization of the land he kept up his appearance.
+# text = His appearance was certainly that of a hairdresser's dummy; but in the great demoralization of the land he kept up his appearance.
 1	His	_	PRON	P3SG-GEN	_	2	nmod:poss	_	_
 2	appearance	_	NOUN	SG-NOM	_	5	nsubj	_	_
 3	was	_	AUX	PAST	_	5	cop	_	_
@@ -10544,9 +10544,9 @@
 5	that	_	PRON	DEM-SG	_	0	root	_	_
 6	of	_	ADP	_	_	10	case	_	_
 7	a	_	DET	IND-SG	_	8	det	_	_
-8	hairdresser	_	NOUN	SG	_	10	amod	_	_
+8	hairdresser	_	NOUN	SG	_	10	amod	_	SpaceAfter=No
 9	's	_	PART	GEN	_	8	case	_	_
-10	dummy	_	NOUN	SG-NOM	_	5	nmod	_	_
+10	dummy	_	NOUN	SG-NOM	_	5	nmod	_	SpaceAfter=No
 11	;	_	PUNCT	SemiColon	_	3	punct	_	_
 12	but	_	CCONJ	_	_	21	cc	_	_
 13	in	_	ADP	_	_	16	case	_	_
@@ -10564,8 +10564,8 @@
 25	.	_	PUNCT	Period	_	21	punct	_	_
 
 # sent_id = 3233
-# text = That 's backbone.
-1	That	_	PRON	SG-DEM	_	3	nsubj	_	_
+# text = That's backbone.
+1	That	_	PRON	SG-DEM	_	3	nsubj	_	SpaceAfter=No
 2	's	_	AUX	PRES	_	3	cop	_	_
 3	backbone	_	NOUN	SG-NOM	_	0	root	_	SpaceAfter=No
 4	.	_	PUNCT	Period	_	3	punct	_	_
@@ -10585,14 +10585,14 @@
 11	.	_	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 3235
-# text = He had been out nearly three years ; and, later on, I could not help asking him how he managed to sport such linen.
+# text = He had been out nearly three years; and, later on, I could not help asking him how he managed to sport such linen.
 1	He	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 2	had	_	AUX	PAST-AUX	_	3	aux	_	_
 3	been	_	AUX	PERF	_	0	root	_	_
 4	out	_	ADV	_	_	3	advmod	_	_
 5	nearly	_	ADV	_	_	6	advmod	_	_
 6	three	_	NUM	CARD-PL	_	7	nummod	_	_
-7	years	_	NOUN	PL-NOM	_	3	obl	_	_
+7	years	_	NOUN	PL-NOM	_	3	obl	_	SpaceAfter=No
 8	;	_	PUNCT	SemiColon	_	2	punct	_	_
 9	and	_	CCONJ	_	_	17	cc	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	3	punct	_	_
@@ -10615,7 +10615,7 @@
 27	.	_	PUNCT	Period	_	22	punct	_	_
 
 # sent_id = 3236
-# text = He had just the faintest blush, and said modestly, I 've been teaching one of the native women about the station.
+# text = He had just the faintest blush, and said modestly, I've been teaching one of the native women about the station.
 1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	had	_	VERB	PAST	_	0	root	_	_
 3	just	_	ADV	_	_	5	advmod	_	_
@@ -10627,7 +10627,7 @@
 9	said	_	VERB	PAST	_	2	conj	_	_
 10	modestly	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	2	punct	_	_
-12	I	_	PRON	SG-NOM	_	15	nsubj	_	_
+12	I	_	PRON	SG-NOM	_	15	nsubj	_	SpaceAfter=No
 13	've	_	AUX	PRES-AUX	_	15	aux	_	_
 14	been	_	AUX	PERF	_	15	aux	_	_
 15	teaching	_	VERB	ING	_	9	xcomp	_	_
@@ -10704,7 +10704,7 @@
 17	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3241
-# text = Strings of dusty niggers with splay feet arrived and departed ; a stream of manufactured goods, rubbishy cottons, beads, and brass-wire set into the depths of darkness, and in return came a precious trickle of ivory.
+# text = Strings of dusty niggers with splay feet arrived and departed; a stream of manufactured goods, rubbishy cottons, beads, and brass-wire set into the depths of darkness, and in return came a precious trickle of ivory.
 1	Strings	_	NOUN	PL-NOM	_	8	nsubj	_	_
 2	of	_	ADP	_	_	4	case	_	_
 3	dusty	_	ADJ	POS	_	4	amod	_	_
@@ -10714,7 +10714,7 @@
 7	feet	_	NOUN	PL-NOM	_	4	nmod	_	_
 8	arrived	_	VERB	PAST	_	0	root	_	_
 9	and	_	CCONJ	_	_	10	cc	_	_
-10	departed	_	VERB	PAST	_	8	conj	_	_
+10	departed	_	VERB	PAST	_	8	conj	_	SpaceAfter=No
 11	;	_	PUNCT	SemiColon	_	8	punct	_	_
 12	a	_	DET	IND-SG	_	13	det	_	_
 13	stream	_	NOUN	SG-NOM	_	8	appos	_	_
@@ -10765,7 +10765,7 @@
 14	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3243
-# text = I lived in a hut in the yard, but to be out of the chaos I would sometimes get into the accountant 's office.
+# text = I lived in a hut in the yard, but to be out of the chaos I would sometimes get into the accountant's office.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	lived	_	VERB	PAST	_	0	root	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -10788,7 +10788,7 @@
 20	get	_	VERB	INF	_	2	conj	_	_
 21	into	_	ADP	_	_	25	case	_	_
 22	the	_	DET	DEF	_	25	det	_	_
-23	accountant	_	NOUN	SG	_	25	amod	_	_
+23	accountant	_	NOUN	SG	_	25	amod	_	SpaceAfter=No
 24	's	_	PART	GEN	_	23	case	_	_
 25	office	_	NOUN	SG-NOM	_	20	obl	_	SpaceAfter=No
 26	.	_	PUNCT	Period	_	2	punct	_	_
@@ -10847,12 +10847,12 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3246
-# text = It was hot there too ; big flies buzzed fiendishly, and did not sting, but stabbed.
+# text = It was hot there too; big flies buzzed fiendishly, and did not sting, but stabbed.
 1	It	_	PRON	PERS-SG	_	3	nsubj	_	_
 2	was	_	AUX	PAST	_	3	cop	_	_
 3	hot	_	ADJ	POS	_	0	root	_	_
 4	there	_	ADV	_	_	3	advmod	_	_
-5	too	_	ADV	_	_	3	advmod	_	_
+5	too	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	;	_	PUNCT	SemiColon	_	3	punct	_	_
 7	big	_	ADJ	POS	_	8	amod	_	_
 8	flies	_	NOUN	PL-NOM	_	9	nsubj	_	_
@@ -10977,7 +10977,7 @@
 16	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3252
-# text = One day he remarked, without lifting his head, ' In the interior you will no doubt meet Mr. Kurtz. '
+# text = One day he remarked, without lifting his head, 'In the interior you will no doubt meet Mr. Kurtz.'
 1	One	_	NUM	CARD-SG	_	2	nummod	_	_
 2	day	_	NOUN	SG-NOM	_	4	obl	_	_
 3	he	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
@@ -10988,7 +10988,7 @@
 8	his	_	PRON	P3SG-GEN	_	9	nmod:poss	_	_
 9	head	_	NOUN	SG-NOM	_	7	obj	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	4	punct	_	_
-11	'	_	PUNCT	Quote	_	19	punct	_	_
+11	'	_	PUNCT	Quote	_	19	punct	_	SpaceAfter=No
 12	In	_	ADP	_	_	14	case	_	_
 13	the	_	DET	DEF	_	14	det	_	_
 14	interior	_	NOUN	SG-NOM	_	19	obl	_	_
@@ -10999,11 +10999,11 @@
 19	meet	_	VERB	INF	_	4	xcomp	_	_
 20	Mr.	_	NOUN	SG-NOM	_	21	compound	_	_
 21	Kurtz	_	PROPN	SG-NOM	_	19	obj	_	SpaceAfter=No
-22	.	_	PUNCT	Period	_	4	punct	_	_
+22	.	_	PUNCT	Period	_	4	punct	_	SpaceAfter=No
 23	'	_	PUNCT	Quote	_	19	punct	_	_
 
 # sent_id = 3253
-# text = On my asking who Mr. Kurtz was, he said he was a first-class agent ; and seeing my disappointment at this information, he added slowly, laying down his pen, ' He is a very remarkable person. '
+# text = On my asking who Mr. Kurtz was, he said he was a first-class agent; and seeing my disappointment at this information, he added slowly, laying down his pen, 'He is a very remarkable person.'
 1	On	_	ADP	_	_	3	case	_	_
 2	my	_	PRON	P1SG-GEN	_	3	nmod:poss	_	_
 3	asking	_	VERB	ING	_	10	advcl	_	_
@@ -11018,7 +11018,7 @@
 12	was	_	AUX	PAST	_	15	cop	_	_
 13	a	_	DET	IND-SG	_	15	det	_	_
 14	first-class	_	ADJ	POS	_	15	amod	_	_
-15	agent	_	NOUN	SG-NOM	_	10	xcomp	_	_
+15	agent	_	NOUN	SG-NOM	_	10	xcomp	_	SpaceAfter=No
 16	;	_	PUNCT	SemiColon	_	12	punct	_	_
 17	and	_	CCONJ	_	_	26	cc	_	_
 18	seeing	_	VERB	ING	_	26	advcl	_	_
@@ -11037,18 +11037,18 @@
 31	his	_	PRON	P3SG-GEN	_	32	nmod:poss	_	_
 32	pen	_	NOUN	SG-NOM	_	29	obj	_	SpaceAfter=No
 33	,	_	PUNCT	_	_	10	punct	_	_
-34	'	_	PUNCT	Quote	_	40	punct	_	_
+34	'	_	PUNCT	Quote	_	40	punct	_	SpaceAfter=No
 35	He	_	PRON	PERS-P3SG-NOM	_	40	nsubj	_	_
 36	is	_	AUX	PRES	_	40	cop	_	_
 37	a	_	DET	IND-SG	_	40	det	_	_
 38	very	_	ADV	_	_	39	advmod	_	_
 39	remarkable	_	ADJ	POS	_	40	amod	_	_
 40	person	_	NOUN	SG-NOM	_	26	xcomp	_	SpaceAfter=No
-41	.	_	PUNCT	Period	_	40	punct	_	_
+41	.	_	PUNCT	Period	_	40	punct	_	SpaceAfter=No
 42	'	_	PUNCT	Quote	_	40	punct	_	_
 
 # sent_id = 3254
-# text = Further questions elicited from him that Mr. Kurtz was at present in charge of a trading post, a very important one, in the true ivory-country, at ' the very bottom of there.
+# text = Further questions elicited from him that Mr. Kurtz was at present in charge of a trading post, a very important one, in the true ivory-country, at 'the very bottom of there.
 1	Further	_	ADJ	CMP	_	2	amod	_	_
 2	questions	_	NOUN	PL-NOM	_	3	nsubj	_	_
 3	elicited	_	VERB	PAST	_	0	root	_	_
@@ -11078,7 +11078,7 @@
 27	ivory-country	_	NOUN	SG-NOM	_	17	nmod	_	SpaceAfter=No
 28	,	_	PUNCT	_	_	3	punct	_	_
 29	at	_	ADP	_	_	33	case	_	_
-30	'	_	PUNCT	Quote	_	3	punct	_	_
+30	'	_	PUNCT	Quote	_	3	punct	_	SpaceAfter=No
 31	the	_	DET	DEF	_	33	det	_	_
 32	very	_	ADV	_	_	33	advmod	_	_
 33	bottom	_	NOUN	SG-NOM	_	27	nmod	_	_
@@ -11151,10 +11151,10 @@
 13	of	_	ADP	_	_	14	case	_	_
 14	feet	_	NOUN	PL-NOM	_	12	obl	_	SpaceAfter=No
 15	.	_	PUNCT	Period	_	3	punct	_	_
+# newdoc
 
 # sent_id = 3260
 # text = Fourthly, do not say we were not available!
-# newdoc
 1	Fourthly	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	do	_	AUX	IMP-AUX	_	5	aux	_	_
@@ -11412,7 +11412,7 @@
 20	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3272
-# text = The 2.6 -% margin of fluctuation is nothing new ; it already exists within the present system and is already being applied.
+# text = The 2.6 -% margin of fluctuation is nothing new; it already exists within the present system and is already being applied.
 1	The	_	DET	DEF	_	3	det	_	_
 2	2.6	_	NUM	ID	_	3	nummod	_	_
 3	-%	_	SYM	_	_	4	amod	_	_
@@ -11421,7 +11421,7 @@
 6	fluctuation	_	NOUN	SG-NOM	_	4	nmod	_	_
 7	is	_	AUX	PRES	_	8	cop	_	_
 8	nothing	_	PRON	NEG-SG	_	0	root	_	_
-9	new	_	ADJ	POS	_	8	amod	_	_
+9	new	_	ADJ	POS	_	8	amod	_	SpaceAfter=No
 10	;	_	PUNCT	SemiColon	_	7	punct	_	_
 11	it	_	PRON	PERS-SG	_	13	nsubj	_	_
 12	already	_	ADV	_	_	13	advmod	_	_
@@ -11928,10 +11928,10 @@
 6	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3298
-# text = That concludes Parliament 's agenda.
+# text = That concludes Parliament's agenda.
 1	That	_	PRON	DEM-SG	_	2	nsubj	_	_
 2	concludes	_	VERB	PRES	_	0	root	_	_
-3	Parliament	_	NOUN	SG	_	5	amod	_	_
+3	Parliament	_	NOUN	SG	_	5	amod	_	SpaceAfter=No
 4	's	_	PART	GEN	_	3	case	_	_
 5	agenda	_	NOUN	SG-NOM	_	2	obj	_	SpaceAfter=No
 6	.	_	PUNCT	Period	_	2	punct	_	_
@@ -11944,7 +11944,7 @@
 4	session	_	NOUN	SG-NOM	_	1	nmod	_	_
 
 # sent_id = 3300
-# text = Yesterday it was my privilege and pleasure to be permitted two minute s' speaking time in this House.
+# text = Yesterday it was my privilege and pleasure to be permitted two minutes' speaking time in this House.
 1	Yesterday	_	NOUN	SG-NOM	_	5	nmod	_	_
 2	it	_	PRON	PERS-SG	_	5	nsubj	_	_
 3	was	_	AUX	PAST	_	5	cop	_	_
@@ -11956,8 +11956,8 @@
 9	be	_	AUX	INF	_	10	aux	_	_
 10	permitted	_	VERB	PASS	_	7	amod	_	_
 11	two	_	NUM	CARD-PL	_	12	nummod	_	_
-12	minute	_	NOUN	PL	_	14	amod	_	_
-13	s'	_	PART	GEN	_	12	case	_	_
+12	minutes	_	NOUN	PL	_	14	amod	_	SpaceAfter=No
+13	'	_	PART	GEN	_	12	case	_	_
 14	speaking	_	ADJ	ING	_	15	amod	_	_
 15	time	_	NOUN	SG-NOM	_	10	obj	_	_
 16	in	_	ADP	_	_	18	case	_	_
@@ -11987,7 +11987,7 @@
 18	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3302
-# text = Ladies and gentlemen, it is a good thing that the details of Member s' attendance are corrected.
+# text = Ladies and gentlemen, it is a good thing that the details of Members' attendance are corrected.
 1	Ladies	_	NOUN	PL-NOM	_	9	vocative	_	_
 2	and	_	CCONJ	_	_	3	cc	_	_
 3	gentlemen	_	NOUN	PL-NOM	_	1	conj	_	SpaceAfter=No
@@ -12001,8 +12001,8 @@
 11	the	_	DET	DEF	_	12	det	_	_
 12	details	_	NOUN	PL-NOM	_	18	nsubj:pass	_	_
 13	of	_	ADP	_	_	16	case	_	_
-14	Member	_	NOUN	PL	_	16	amod	_	_
-15	s'	_	PART	GEN	_	14	case	_	_
+14	Members	_	NOUN	PL	_	16	amod	_	SpaceAfter=No
+15	'	_	PART	GEN	_	14	case	_	_
 16	attendance	_	NOUN	SG-NOM	_	12	nmod	_	_
 17	are	_	AUX	PRES-AUX	_	18	aux	_	_
 18	corrected	_	VERB	PASS	_	5	acl:relcl	_	SpaceAfter=No
@@ -12086,12 +12086,12 @@
 18	.	_	PUNCT	Period	_	17	punct	_	_
 
 # sent_id = 3307
-# text = I believe that the Commission 's initial approach was wise, because the problem calls for countless exceptions to the general rule.
+# text = I believe that the Commission's initial approach was wise, because the problem calls for countless exceptions to the general rule.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	believe	_	VERB	PRES	_	0	root	_	_
 3	that	_	SCONJ	_	_	10	mark	_	_
 4	the	_	DET	DEF	_	8	det	_	_
-5	Commission	_	NOUN	SG	_	8	amod	_	_
+5	Commission	_	NOUN	SG	_	8	amod	_	SpaceAfter=No
 6	's	_	PART	GEN	_	5	case	_	_
 7	initial	_	ADJ	POS	_	8	amod	_	_
 8	approach	_	NOUN	SG-NOM	_	10	nsubj	_	_
@@ -12112,7 +12112,7 @@
 23	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3308
-# text = Madam President, our colleague, Mr Cox, has done some excellent work on the Commission 's proposal.
+# text = Madam President, our colleague, Mr Cox, has done some excellent work on the Commission's proposal.
 1	Madam	_	NOUN	SG-NOM	_	2	compound	_	_
 2	President	_	NOUN	SG-NOM	_	11	vocative	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -12129,7 +12129,7 @@
 14	work	_	NOUN	SG-NOM	_	11	obj	_	_
 15	on	_	ADP	_	_	19	case	_	_
 16	the	_	DET	DEF	_	19	det	_	_
-17	Commission	_	NOUN	SG	_	19	amod	_	_
+17	Commission	_	NOUN	SG	_	19	amod	_	SpaceAfter=No
 18	's	_	PART	GEN	_	17	case	_	_
 19	proposal	_	NOUN	SG-NOM	_	11	obl	_	SpaceAfter=No
 20	.	_	PUNCT	Period	_	11	punct	_	_
@@ -12175,7 +12175,7 @@
 15	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3311
-# text = Nonetheless, I should like to take up two points which are mentioned in the Environment Committee 's report.
+# text = Nonetheless, I should like to take up two points which are mentioned in the Environment Committee's report.
 1	Nonetheless	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	_
@@ -12192,7 +12192,7 @@
 14	in	_	ADP	_	_	19	case	_	_
 15	the	_	DET	DEF	_	19	det	_	_
 16	Environment	_	NOUN	SG-NOM	_	17	compound	_	_
-17	Committee	_	NOUN	SG	_	19	amod	_	_
+17	Committee	_	NOUN	SG	_	19	amod	_	SpaceAfter=No
 18	's	_	PART	GEN	_	17	case	_	_
 19	report	_	NOUN	SG-NOM	_	13	obl	_	SpaceAfter=No
 20	.	_	PUNCT	Period	_	5	punct	_	_
@@ -12248,7 +12248,7 @@
 10	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3315
-# text = In other words, there is a conflict between the parafiscal and fiscal aims ; you can not have your cake and eat it.
+# text = In other words, there is a conflict between the parafiscal and fiscal aims; you can not have your cake and eat it.
 1	In	_	ADP	_	_	3	case	_	_
 2	other	_	ADJ	POS	_	3	amod	_	_
 3	words	_	NOUN	PL-NOM	_	6	obl	_	SpaceAfter=No
@@ -12262,7 +12262,7 @@
 11	parafiscal	_	ADJ	POS	_	14	amod	_	_
 12	and	_	CCONJ	_	_	13	cc	_	_
 13	fiscal	_	ADJ	POS	_	11	conj	_	_
-14	aims	_	NOUN	PL-NOM	_	6	obl	_	_
+14	aims	_	NOUN	PL-NOM	_	6	obl	_	SpaceAfter=No
 15	;	_	PUNCT	SemiColon	_	6	punct	_	_
 16	you	_	PRON	PERS-P2	_	19	nsubj	_	_
 17	can	_	AUX	PRES-AUX	_	19	aux	_	_
@@ -13257,11 +13257,11 @@
 12	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3368
-# text = We support Professor Cabrol 's attempt to get things moving and put the uncertainties behind us.
+# text = We support Professor Cabrol's attempt to get things moving and put the uncertainties behind us.
 1	We	_	PRON	PERS-P1PL-NOM	_	2	nsubj	_	_
 2	support	_	VERB	PRES	_	0	root	_	_
 3	Professor	_	NOUN	SG-NOM	_	4	compound	_	_
-4	Cabrol	_	PROPN	SG	_	6	amod	_	_
+4	Cabrol	_	PROPN	SG	_	6	amod	_	SpaceAfter=No
 5	's	_	PART	GEN	_	4	case	_	_
 6	attempt	_	NOUN	SG-NOM	_	2	obj	_	_
 7	to	_	PART	_	_	8	mark	_	_
@@ -13452,10 +13452,10 @@
 18	a	_	DET	IND-SG	_	19	det	_	_
 19	profit	_	NOUN	SG-NOM	_	17	obj	_	SpaceAfter=No
 20	.	_	PUNCT	Period	_	7	punct	_	_
+# newdoc
 
 # sent_id = 3378
-# text = The stale cool air of the room had heated ; yet weariness receded, his head was left high and dry of it.
-# newdoc
+# text = The stale cool air of the room had heated; yet weariness receded, his head was left high and dry of it.
 1	The	_	DET	DEF	_	4	det	_	_
 2	stale	_	ADJ	POS	_	4	amod	_	_
 3	cool	_	ADJ	POS	_	4	amod	_	_
@@ -13464,7 +13464,7 @@
 6	the	_	DET	DEF	_	7	det	_	_
 7	room	_	NOUN	SG-NOM	_	4	nmod	_	_
 8	had	_	AUX	PAST-AUX	_	9	aux	_	_
-9	heated	_	VERB	PERF	_	0	root	_	_
+9	heated	_	VERB	PERF	_	0	root	_	SpaceAfter=No
 10	;	_	PUNCT	Semicolon	_	9	punct	_	_
 11	yet	_	ADV	_	_	13	advmod	_	_
 12	weariness	_	NOUN	SG-NOM	_	13	nsubj	_	_
@@ -13690,7 +13690,7 @@
 37	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3387
-# text = The cistern of the lavatory drizzled into the pan constantly and could n't be flushed properly, and the towels were stiff as a dress-shirt (Olivia had taken years to get people to learn to rinse the soap out of the washing), but an old fellow in a cook 's hat put tea under the trees for him and carried off his crumpled suit to be pressed without being asked.
+# text = The cistern of the lavatory drizzled into the pan constantly and couldn't be flushed properly, and the towels were stiff as a dress-shirt (Olivia had taken years to get people to learn to rinse the soap out of the washing), but an old fellow in a cook's hat put tea under the trees for him and carried off his crumpled suit to be pressed without being asked.
 1	The	_	DET	DEF	_	2	det	_	_
 2	cistern	_	NOUN	SG-NOM	_	6	nsubj	_	_
 3	of	_	ADP	_	_	5	case	_	_
@@ -13702,7 +13702,7 @@
 9	pan	_	NOUN	SG-NOM	_	6	obl	_	_
 10	constantly	_	ADV	_	_	6	advmod	_	_
 11	and	_	CCONJ	_	_	15	cc	_	_
-12	could	_	AUX	PAST-AUX	_	15	aux	_	_
+12	could	_	AUX	PAST-AUX	_	15	aux	_	SpaceAfter=No
 13	n't	_	PART	NEG	_	15	advmod	_	_
 14	be	_	AUX	INF	_	15	aux	_	_
 15	flushed	_	VERB	PASS	_	6	conj	_	_
@@ -13742,7 +13742,7 @@
 49	fellow	_	NOUN	SG-NOM	_	55	nsubj	_	_
 50	in	_	ADP	_	_	49	acl	_	_
 51	a	_	DET	IND-SG	_	54	det	_	_
-52	cook	_	NOUN	SG	_	54	amod	_	_
+52	cook	_	NOUN	SG	_	54	amod	_	SpaceAfter=No
 53	's	_	PART	GEN	_	52	case	_	_
 54	hat	_	NOUN	SG-NOM	_	55	nsubj	_	_
 55	put	_	VERB	PAST	_	37	conj	_	_
@@ -13913,14 +13913,14 @@
 57	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3391
-# text = Whatever it was could never be found ; it was the smell of growth, they had long ago decided, at Gala, the process of decay and regeneration so accelerated, brought so close together that it produced the reek of death-and-life, all at once.
+# text = Whatever it was could never be found; it was the smell of growth, they had long ago decided, at Gala, the process of decay and regeneration so accelerated, brought so close together that it produced the reek of death-and-life, all at once.
 1	Whatever	_	PRON	WH-IND	_	4	nsubj	_	_
 2	it	_	PRON	PERS-SG	_	1	nsubj	_	_
 3	was	_	AUX	PAST	_	1	cop	_	_
 4	could	_	AUX	PAST-AUX	_	7	aux	_	_
 5	never	_	ADV	NEG	_	7	advmod	_	_
 6	be	_	AUX	INF	_	7	aux	_	_
-7	found	_	VERB	PASS	_	0	root	_	_
+7	found	_	VERB	PASS	_	0	root	_	SpaceAfter=No
 8	;	_	PUNCT	Semicolon	_	4	punct	_	_
 9	it	_	PRON	PERS-SG	_	12	nsubj	_	_
 10	was	_	AUX	PAST	_	12	cop	_	_
@@ -13965,7 +13965,7 @@
 49	.	_	PUNCT	Period	_	40	punct	_	_
 
 # sent_id = 3392
-# text = He strolled to the limits of the garden and climbed through the barbed-wire fence, but the grasses and thornbush on the other side (Dando 's place was eight miles out of town) were too entangled for walking where there was no path.
+# text = He strolled to the limits of the garden and climbed through the barbed-wire fence, but the grasses and thornbush on the other side (Dando's place was eight miles out of town) were too entangled for walking where there was no path.
 1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	strolled	_	VERB	PAST	_	0	root	_	_
 3	to	_	ADP	_	_	5	case	_	_
@@ -13991,7 +13991,7 @@
 23	other	_	ADJ	POS	_	24	amod	_	_
 24	side	_	NOUN	SG-NOM	_	20	nmod	_	_
 25	(	_	PUNCT	LeftParenthesis	_	31	punct	_	SpaceAfter=No
-26	Dando	_	PROPN	SG	_	28	amod	_	_
+26	Dando	_	PROPN	SG	_	28	amod	_	SpaceAfter=No
 27	's	_	PART	GEN	_	26	case	_	_
 28	place	_	NOUN	SG-NOM	_	31	nsubj	_	_
 29	was	_	AUX	PAST	_	31	cop	_	_
@@ -14037,7 +14037,7 @@
 20	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3394
-# text = There were – or used to be – leopards on the outskirts of the town ; Dando had once had his dog taken.
+# text = There were – or used to be – leopards on the outskirts of the town; Dando had once had his dog taken.
 1	There	_	PRON	EX	_	2	expl	_	_
 2	were	_	VERB	PAST	_	0	root	_	_
 3	–	_	PUNCT	Dash	_	4	punct	_	_
@@ -14052,7 +14052,7 @@
 12	outskirts	_	NOUN	PL-NOM	_	2	obl	_	_
 13	of	_	ADP	_	_	15	case	_	_
 14	the	_	DET	DEF	_	15	det	_	_
-15	town	_	NOUN	SG-NOM	_	12	nmod	_	_
+15	town	_	NOUN	SG-NOM	_	12	nmod	_	SpaceAfter=No
 16	;	_	PUNCT	Semicolon	_	2	punct	_	_
 17	Dando	_	PROPN	SG-NOM	_	20	nsubj	_	_
 18	had	_	AUX	PAST-AUX	_	20	aux	_	_
@@ -14162,7 +14162,7 @@
 44	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3398
-# text = He was indiscreet, like many people who live alone, and brought back with him from the town – a child bulging with favours from a party – all the anecdotes and gossip of the Independence celebrations, producing, in a clinging fluff of supposition and rumour, bits and pieces of real information and opinion about Mweta 's position and the sort of team he had gathered around him.
+# text = He was indiscreet, like many people who live alone, and brought back with him from the town – a child bulging with favours from a party – all the anecdotes and gossip of the Independence celebrations, producing, in a clinging fluff of supposition and rumour, bits and pieces of real information and opinion about Mweta's position and the sort of team he had gathered around him.
 1	He	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 2	was	_	AUX	PAST	_	3	cop	_	_
 3	indiscreet	_	ADJ	POS	_	0	root	_	SpaceAfter=No
@@ -14222,7 +14222,7 @@
 57	and	_	CCONJ	_	_	58	cc	_	_
 58	opinion	_	NOUN	SG-NOM	_	56	conj	_	_
 59	about	_	ADP	_	_	62	case	_	_
-60	Mweta	_	PROPN	SG	_	62	amod	_	_
+60	Mweta	_	PROPN	SG	_	62	amod	_	SpaceAfter=No
 61	's	_	PART	GEN	_	60	case	_	_
 62	position	_	NOUN	SG-NOM	_	58	nmod	_	_
 63	and	_	CCONJ	_	_	65	cc	_	_
@@ -14279,9 +14279,9 @@
 20	.	_	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = 3401
-# text = Jason would n't bring home any golden fleece, believe you me (Jason Malenga was the new Minister of Finance) ; no, it was n't a bad thing that the British Chief of Police was n't being kept on, people always judged by the Congo, the idiots, but the African deputy, Aaron Onabu, was perfectly capable of taking over from that dodderer anyway ; Talisman Gwenzi was first class, and a real Mweta man, David Sambata was an unknown quantity for Agriculture
+# text = Jason wouldn't bring home any golden fleece, believe you me (Jason Malenga was the new Minister of Finance); no, it wasn't a bad thing that the British Chief of Police wasn't being kept on, people always judged by the Congo, the idiots, but the African deputy, Aaron Onabu, was perfectly capable of taking over from that dodderer anyway; Talisman Gwenzi was first class, and a real Mweta man, David Sambata was an unknown quantity for Agriculture
 1	Jason	_	PROPN	SG-NOM	_	4	nsubj	_	_
-2	would	_	AUX	PAST-AUX	_	4	aux	_	_
+2	would	_	AUX	PAST-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	bring	_	VERB	INF	_	0	root	_	_
 5	home	_	NOUN	SG-NOM	_	4	obl	_	_
@@ -14301,12 +14301,12 @@
 19	Minister	_	NOUN	SG-NOM	_	4	appos	_	_
 20	of	_	ADP	_	_	21	case	_	_
 21	Finance	_	NOUN	SG-NOM	_	19	nmod	_	SpaceAfter=No
-22	)	_	PUNCT	RightParenthesis	_	19	punct	_	_
+22	)	_	PUNCT	RightParenthesis	_	19	punct	_	SpaceAfter=No
 23	;	_	PUNCT	Semicolon	_	16	punct	_	_
 24	no	_	INTJ	_	_	31	discourse	_	SpaceAfter=No
 25	,	_	PUNCT	Comma	_	4	punct	_	_
 26	it	_	PRON	PERS-SG	_	31	expl	_	_
-27	was	_	AUX	PAST	_	31	cop	_	_
+27	was	_	AUX	PAST	_	31	cop	_	SpaceAfter=No
 28	n't	_	PART	NEG	_	31	advmod	_	_
 29	a	_	DET	IND-SG	_	31	det	_	_
 30	bad	_	ADJ	POS	_	31	amod	_	_
@@ -14317,7 +14317,7 @@
 35	Chief	_	NOUN	SG-NOM	_	41	nsubj	_	_
 36	of	_	ADP	_	_	37	case	_	_
 37	Police	_	NOUN	SG-NOM	_	35	nmod	_	_
-38	was	_	AUX	PAST	_	41	aux	_	_
+38	was	_	AUX	PAST	_	41	aux	_	SpaceAfter=No
 39	n't	_	PART	NEG	_	41	advmod	_	_
 40	being	_	AUX	ING	_	41	aux	_	_
 41	kept	_	VERB	PAST	_	31	csubj	_	_
@@ -14350,7 +14350,7 @@
 68	from	_	ADP	_	_	70	case	_	_
 69	that	_	DET	DEM-SG	_	70	det	_	_
 70	dodderer	_	NOUN	SG-NOM	_	66	obl	_	_
-71	anyway	_	ADV	_	_	66	advmod	_	_
+71	anyway	_	ADV	_	_	66	advmod	_	SpaceAfter=No
 72	;	_	PUNCT	Semicolon	_	4	punct	_	_
 73	Talisman	_	PROPN	SG-NOM	_	77	nsubj	_	_
 74	Gwenzi	_	PROPN	SG-NOM	_	73	flat	_	_
@@ -14374,13 +14374,13 @@
 92	Agriculture	_	NOUN	SG-NOM	_	90	nmod	_	_
 
 # sent_id = 3402
-# text = Dando pulled ticks off the dog 's neck and burst them under his shoe while he drank and dealt out judgements.
+# text = Dando pulled ticks off the dog's neck and burst them under his shoe while he drank and dealt out judgements.
 1	Dando	_	PROPN	SG-NOM	_	2	nsubj	_	_
 2	pulled	_	VERB	PAST	_	0	root	_	_
 3	ticks	_	NOUN	PL-NOM	_	2	obj	_	_
 4	off	_	ADP	_	_	8	case	_	_
 5	the	_	DET	DEF	_	6	det	_	_
-6	dog	_	NOUN	SG	_	8	amod	_	_
+6	dog	_	NOUN	SG	_	8	amod	_	SpaceAfter=No
 7	's	_	PART	GEN	_	6	case	_	_
 8	neck	_	NOUN	SG-NOM	_	2	obl	_	_
 9	and	_	CCONJ	_	_	10	cc	_	_
@@ -14469,10 +14469,10 @@
 8	:	_	PUNCT	Colon	_	4	punct	_	_
 
 # sent_id = 3405
-# text = Roly Dando had n't discovered the blacks as his fellows only yesterday.
+# text = Roly Dando hadn't discovered the blacks as his fellows only yesterday.
 1	Roly	_	PROPN	SG-NOM	_	5	nsubj	_	_
 2	Dando	_	PROPN	SG-NOM	_	1	flat	_	_
-3	had	_	AUX	PAST-AUX	_	5	aux	_	_
+3	had	_	AUX	PAST-AUX	_	5	aux	_	SpaceAfter=No
 4	n't	_	PART	NEG	_	5	advmod	_	_
 5	discovered	_	VERB	PERF	_	0	root	_	_
 6	the	_	DET	DEF	_	7	det	_	_
@@ -14525,8 +14525,8 @@
 21	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3408
-# text = They 're all heroes, you know, heroes of the struggle.
-1	They	_	PRON	PERS-PL-NOM	_	4	nsubj	_	_
+# text = They're all heroes, you know, heroes of the struggle.
+1	They	_	PRON	PERS-PL-NOM	_	4	nsubj	_	SpaceAfter=No
 2	're	_	AUX	PRES	_	4	cop	_	_
 3	all	_	PRON	TOT-PL	_	4	nmod	_	_
 4	heroes	_	NOUN	PL-NOM	_	0	root	_	SpaceAfter=No
@@ -14548,9 +14548,9 @@
 4	.	_	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3410
-# text = Edward Shinza 's one of the few who did his stretch and got his head split open that time by Her Majesty 's brave boys, and where 's he... back in the Bashi Flats among his old wives, for all I know, no one even mentions his name.
+# text = Edward Shinza's one of the few who did his stretch and got his head split open that time by Her Majesty's brave boys, and where's he... back in the Bashi Flats among his old wives, for all I know, no one even mentions his name.
 1	Edward	_	PROPN	SG-NOM	_	4	nsubj	_	_
-2	Shinza	_	PROPN	SG-NOM	_	1	flat	_	_
+2	Shinza	_	PROPN	SG-NOM	_	1	flat	_	SpaceAfter=No
 3	's	_	AUX	PRES	_	4	cop	_	_
 4	one	_	PRON	IND-P3SG	_	0	root	_	_
 5	of	_	ADP	_	_	7	case	_	_
@@ -14570,13 +14570,13 @@
 19	time	_	NOUN	SG-NOM	_	13	obl	_	_
 20	by	_	ADP	_	_	25	case	_	_
 21	Her	_	PRON	P3SG-GEN	_	22	nmod:poss	_	_
-22	Majesty	_	NOUN	SG	_	25	amod	_	_
+22	Majesty	_	NOUN	SG	_	25	amod	_	SpaceAfter=No
 23	's	_	PART	GEN	_	22	case	_	_
 24	brave	_	ADJ	POS	_	25	amod	_	_
 25	boys	_	NOUN	PL-NOM	_	13	obl:agent	_	SpaceAfter=No
 26	,	_	PUNCT	Comma	_	4	punct	_	_
 27	and	_	CCONJ	_	_	29	cc	_	_
-28	where	_	ADV	WH	_	29	advmod	_	_
+28	where	_	ADV	WH	_	29	advmod	_	SpaceAfter=No
 29	's	_	VERB	PRES	_	4	conj	_	_
 30	he	_	PRON	PERS-P3SG-NOM	_	29	nsubj	_	SpaceAfter=No
 31	...	_	PUNCT	Dots	_	4	punct	_	_
@@ -14604,9 +14604,9 @@
 53	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3411
-# text = But Shinza 's here for the Independence ceremony?
+# text = But Shinza's here for the Independence ceremony?
 1	But	_	CCONJ	_	_	3	cc	_	_
-2	Shinza	_	PROPN	SG-NOM	_	3	nsubj	_	_
+2	Shinza	_	PROPN	SG-NOM	_	3	nsubj	_	SpaceAfter=No
 3	's	_	VERB	PRES	_	0	root	_	_
 4	here	_	ADV	_	_	3	advmod	_	_
 5	for	_	ADP	_	_	8	case	_	_
@@ -14644,9 +14644,9 @@
 8	?	_	PUNCT	Questionmark	_	3	punct	_	_
 
 # sent_id = 3415
-# text = I do n't know where the hell he may be.
+# text = I don't know where the hell he may be.
 1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
-2	do	_	AUX	PRES-AUX	_	4	aux	_	_
+2	do	_	AUX	PRES-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	know	_	VERB	INF	_	0	root	_	_
 5	where	_	ADV	WH	_	10	advmod	_	_
@@ -14658,10 +14658,10 @@
 11	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3416
-# text = You mean Edward 's not going to take part in the celebrations?
+# text = You mean Edward's not going to take part in the celebrations?
 1	You	_	PRON	PERS-P2	_	2	nsubj	_	_
 2	mean	_	VERB	PRES	_	0	root	_	_
-3	Edward	_	PROPN	SG-NOM	_	8	nsubj	_	_
+3	Edward	_	PROPN	SG-NOM	_	8	nsubj	_	SpaceAfter=No
 4	's	_	AUX	PRES-AUX	_	8	aux	_	_
 5	not	_	PART	NEG	_	8	advmod	_	_
 6	going	_	VERB	ING	_	8	aux	_	_
@@ -14674,16 +14674,16 @@
 13	?	_	PUNCT	Questionmark	_	2	punct	_	_
 
 # sent_id = 3417
-# text = That 's not possible.
-1	That	_	PRON	DEM-SG	_	4	nsubj	_	_
+# text = That's not possible.
+1	That	_	PRON	DEM-SG	_	4	nsubj	_	SpaceAfter=No
 2	's	_	AUX	PRES	_	4	cop	_	_
 3	not	_	PART	NEG	_	4	advmod	_	_
 4	possible	_	ADJ	POS	_	0	root	_	SpaceAfter=No
 5	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3418
-# text = He 's not come up to town?
-1	He	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
+# text = He's not come up to town?
+1	He	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	SpaceAfter=No
 2	's	_	AUX	PRES-AUX	_	4	aux	_	_
 3	not	_	PART	NEG	_	4	advmod	_	_
 4	come	_	VERB	PERF	_	0	root	_	_
@@ -14693,12 +14693,12 @@
 8	?	_	PUNCT	Questionmark	_	4	punct	_	_
 
 # sent_id = 3419
-# text = You can see he has n't been given a cabinet post.
+# text = You can see he hasn't been given a cabinet post.
 1	You	_	PRON	PERS-P2	_	3	nsubj	_	_
 2	can	_	AUX	PRES-AUX	_	3	aux	_	_
 3	see	_	VERB	INF	_	0	root	_	_
 4	he	_	PRON	PERS-P3SG-NOM	_	8	nsubj:pass	_	_
-5	has	_	AUX	PRES-AUX	_	8	aux	_	_
+5	has	_	AUX	PRES-AUX	_	8	aux	_	SpaceAfter=No
 6	n't	_	PART	NEG	_	8	advmod	_	_
 7	been	_	AUX	PERF	_	8	aux	_	_
 8	given	_	VERB	PASS	_	3	ccomp	_	_
@@ -14708,12 +14708,12 @@
 12	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3420
-# text = I do n't suppose he 's going to turn up for the honour of standing in the crowd and waving a flag, eh?
+# text = I don't suppose he's going to turn up for the honour of standing in the crowd and waving a flag, eh?
 1	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
-2	do	_	AUX	PRES-AUX	_	4	aux	_	_
+2	do	_	AUX	PRES-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	suppose	_	VERB	INF	_	0	root	_	_
-5	he	_	PRON	PERS-P3SG-NOM	_	9	nsubj	_	_
+5	he	_	PRON	PERS-P3SG-NOM	_	9	nsubj	_	SpaceAfter=No
 6	's	_	AUX	PRES-AUX	_	9	aux	_	_
 7	going	_	VERB	ING	_	9	aux	_	_
 8	to	_	PART	_	_	9	mark	_	_
@@ -14736,9 +14736,9 @@
 25	?	_	PUNCT	Questionmark	_	4	punct	_	_
 
 # sent_id = 3421
-# text = But that 's ridiculous, Roly.
+# text = But that's ridiculous, Roly.
 1	But	_	CCONJ	_	_	4	cc	_	_
-2	that	_	PRON	DEM-SG	_	4	nsubj	_	_
+2	that	_	PRON	DEM-SG	_	4	nsubj	_	SpaceAfter=No
 3	's	_	AUX	PRES	_	4	cop	_	_
 4	ridiculous	_	ADJ	POS	_	0	root	_	SpaceAfter=No
 5	,	_	PUNCT	Comma	_	3	punct	_	_
@@ -14762,12 +14762,12 @@
 6	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3424
-# text = I had the impression he 'll be ambassador to U.N.
+# text = I had the impression he'll be ambassador to U.N.
 1	I	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	had	_	VERB	PAST	_	0	root	_	_
 3	the	_	DET	DEF	_	4	det	_	_
 4	impression	_	NOUN	SG-NOM	_	2	obj	_	_
-5	he	_	PRON	PERS-P3SG-NOM	_	8	nsubj	_	_
+5	he	_	PRON	PERS-P3SG-NOM	_	8	nsubj	_	SpaceAfter=No
 6	'll	_	AUX	PRES-AUX	_	8	aux	_	_
 7	be	_	AUX	INF	_	8	cop	_	_
 8	ambassador	_	NOUN	SG-NOM	_	4	nmod	_	_
@@ -14812,9 +14812,9 @@
 9	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3427
-# text = But that 's between the two of them.
+# text = But that's between the two of them.
 1	But	_	CCONJ	_	_	3	cc	_	_
-2	that	_	PRON	DEM-SG	_	3	nsubj	_	_
+2	that	_	PRON	DEM-SG	_	3	nsubj	_	SpaceAfter=No
 3	's	_	VERB	PRES	_	0	root	_	_
 4	between	_	ADP	_	_	6	case	_	_
 5	the	_	DET	DEF	_	6	det	_	_
@@ -14824,7 +14824,7 @@
 9	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3428
-# text = You might ask Mweta, if you get a chance to talk to him, ask him if he is n't going to find a piddling little job somewhere, something with a decent label to it, for poor old Shinza, he was banging on the Colonial Secretary 's door with a panga while Mweta was a snotty picannin singing hymns up at the mission school.
+# text = You might ask Mweta, if you get a chance to talk to him, ask him if he isn't going to find a piddling little job somewhere, something with a decent label to it, for poor old Shinza, he was banging on the Colonial Secretary's door with a panga while Mweta was a snotty picannin singing hymns up at the mission school.
 1	You	_	PRON	PERS-P2	_	3	nsubj	_	_
 2	might	_	AUX	PAST-AUX	_	3	aux	_	_
 3	ask	_	VERB	INF	_	0	root	_	_
@@ -14844,7 +14844,7 @@
 17	him	_	PRON	PERS-P3SG-ACC	_	16	obj	_	_
 18	if	_	SCONJ	_	_	24	mark	_	_
 19	he	_	PRON	PERS-P3SG-NOM	_	24	nsubj	_	_
-20	is	_	AUX	PRES-AUX	_	24	aux	_	_
+20	is	_	AUX	PRES-AUX	_	24	aux	_	SpaceAfter=No
 21	n't	_	PART	NEG	_	24	advmod	_	_
 22	going	_	VERB	ING	_	24	aux	_	_
 23	to	_	PART	_	_	24	mark	_	_
@@ -14874,7 +14874,7 @@
 47	on	_	ADP	_	_	52	case	_	_
 48	the	_	DET	DEF	_	50	det	_	_
 49	Colonial	_	ADJ	POS	_	50	amod	_	_
-50	Secretary	_	NOUN	SG	_	52	amod	_	_
+50	Secretary	_	NOUN	SG	_	52	amod	_	SpaceAfter=No
 51	's	_	PART	GEN	_	50	case	_	_
 52	door	_	NOUN	SG-NOM	_	46	obl	_	_
 53	with	_	ADP	_	_	55	case	_	_
@@ -14961,9 +14961,9 @@
 33	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3432
-# text = Oh Mweta 's not like that.
+# text = Oh Mweta's not like that.
 1	Oh	_	INTJ	_	_	3	discourse	_	_
-2	Mweta	_	PROPN	SG-NOM	_	3	nsubj	_	_
+2	Mweta	_	PROPN	SG-NOM	_	3	nsubj	_	SpaceAfter=No
 3	's	_	VERB	PRES	_	0	root	_	_
 4	not	_	PART	NEG	_	3	advmod	_	_
 5	like	_	ADP	_	_	6	case	_	_
@@ -14985,9 +14985,9 @@
 4	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3435
-# text = But there 's the President, now.
+# text = But there's the President, now.
 1	But	_	CCONJ	_	_	3	cc	_	_
-2	there	_	PRON	EX	_	3	expl	_	_
+2	there	_	PRON	EX	_	3	expl	_	SpaceAfter=No
 3	's	_	VERB	PRES	_	0	root	_	_
 4	the	_	DET	DEF	_	5	det	_	_
 5	President	_	NOUN	SG-NOM	_	3	nsubj	_	SpaceAfter=No
@@ -14996,9 +14996,9 @@
 8	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3436
-# text = If there 's a father of the state, it 's got to be him or no one.
+# text = If there's a father of the state, it's got to be him or no one.
 1	If	_	SCONJ	_	_	3	mark	_	_
-2	there	_	PRON	EX	_	3	expl	_	_
+2	there	_	PRON	EX	_	3	expl	_	SpaceAfter=No
 3	's	_	VERB	PRES	_	15	advcl	_	_
 4	a	_	DET	IND-SG	_	5	det	_	_
 5	father	_	NOUN	SG-NOM	_	3	nsubj	_	_
@@ -15006,7 +15006,7 @@
 7	the	_	DET	DEF	_	8	det	_	_
 8	state	_	NOUN	SG-NOM	_	5	nmod	_	SpaceAfter=No
 9	,	_	PUNCT	Comma	_	3	punct	_	_
-10	it	_	PRON	PERS-SG	_	15	nsubj	_	_
+10	it	_	PRON	PERS-SG	_	15	nsubj	_	SpaceAfter=No
 11	's	_	AUX	PRES-AUX	_	15	aux	_	_
 12	got	_	VERB	PERF	_	15	aux	_	_
 13	to	_	PART	_	_	15	mark	_	_
@@ -15042,14 +15042,14 @@
 21	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3438
-# text = Yes, poor old Shinza, that 's what everyone says.
+# text = Yes, poor old Shinza, that's what everyone says.
 1	Yes	_	INTJ	_	_	11	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	poor	_	ADJ	POS	_	5	amod	_	_
 4	old	_	ADJ	POS	_	5	amod	_	_
 5	Shinza	_	PROPN	SG-NOM	_	11	discourse	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	5	punct	_	_
-7	that	_	PRON	DEM-SG	_	11	nsubj	_	_
+7	that	_	PRON	DEM-SG	_	11	nsubj	_	SpaceAfter=No
 8	's	_	AUX	PRES	_	11	cop	_	_
 9	what	_	PRON	WH	_	11	obj	_	_
 10	everyone	_	PRON	TOT-SG-NOM	_	11	nsubj	_	_
@@ -15076,7 +15076,7 @@
 9	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3441
-# text = Perhaps he simply remarked upon his own getting older ;
+# text = Perhaps he simply remarked upon his own getting older;
 1	Perhaps	_	ADV	_	_	4	advmod	_	_
 2	he	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
 3	simply	_	ADV	_	_	4	advmod	_	_
@@ -15085,7 +15085,7 @@
 6	his	_	PRON	P3SG-GEN	_	8	nmod:poss	_	_
 7	own	_	ADJ	POS	_	8	amod	_	_
 8	getting	_	VERB	ING	_	4	advcl	_	_
-9	older	_	ADJ	CMP	_	8	xcomp	_	_
+9	older	_	ADJ	CMP	_	8	xcomp	_	SpaceAfter=No
 10	;	_	PUNCT	Semicolon	_	4	punct	_	_
 
 # sent_id = 3442
@@ -15138,17 +15138,17 @@
 19	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3445
-# text = Some of the answers were extraordinary ;
+# text = Some of the answers were extraordinary;
 1	Some	_	PRON	IND	_	6	nsubj	_	_
 2	of	_	ADP	_	_	4	case	_	_
 3	the	_	DET	DEF	_	4	det	_	_
 4	answers	_	NOUN	PL-NOM	_	1	nmod	_	_
 5	were	_	AUX	PAST	_	6	cop	_	_
-6	extraordinary	_	ADJ	POS	_	0	root	_	_
+6	extraordinary	_	ADJ	POS	_	0	root	_	SpaceAfter=No
 7	;	_	PUNCT	Semicolon	_	6	punct	_	_
 
 # sent_id = 3446
-# text = the two men quickened to the exchange of astonishment, ironic amusement, and (on Dando 's part) scornful indignation with which he told and Bray learned of the swift about-face by which some white people turned a smile on the new regime, while others had already packed up and left the country.
+# text = the two men quickened to the exchange of astonishment, ironic amusement, and (on Dando's part) scornful indignation with which he told and Bray learned of the swift about-face by which some white people turned a smile on the new regime, while others had already packed up and left the country.
 1	the	_	DET	DEF	_	3	det	_	_
 2	two	_	NUM	CARD-PL	_	3	nummod	_	_
 3	men	_	NOUN	PL-NOM	_	4	nsubj	_	_
@@ -15165,7 +15165,7 @@
 14	and	_	CCONJ	_	_	22	cc	_	_
 15	(	_	PUNCT	LeftParenthesis	_	19	punct	_	SpaceAfter=No
 16	on	_	ADP	_	_	19	case	_	_
-17	Dando	_	PROPN	SG	_	19	amod	_	_
+17	Dando	_	PROPN	SG	_	19	amod	_	SpaceAfter=No
 18	's	_	PART	GEN	_	17	case	_	_
 19	part	_	NOUN	SG-NOM	_	22	compound	_	SpaceAfter=No
 20	)	_	PUNCT	RightParenthesis	_	19	punct	_	_
@@ -15208,7 +15208,7 @@
 57	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3447
-# text = Sir Reginald himself will present Mweta with a buta-wood lectern and silver inkstand, it 's down for Tuesday afternoon.
+# text = Sir Reginald himself will present Mweta with a buta-wood lectern and silver inkstand, it's down for Tuesday afternoon.
 1	Sir	_	NOUN	SG-NOM	_	2	compound	_	_
 2	Reginald	_	PROPN	SG-NOM	_	5	nsubj	_	_
 3	himself	_	PRON	RFL-P3SG	_	2	nmod	_	_
@@ -15223,7 +15223,7 @@
 12	silver	_	NOUN	SG-NOM	_	13	compound	_	_
 13	inkstand	_	NOUN	SG-NOM	_	10	conj	_	SpaceAfter=No
 14	,	_	PUNCT	Comma	_	5	punct	_	_
-15	it	_	PRON	PERS-SG	_	16	nsubj	_	_
+15	it	_	PRON	PERS-SG	_	16	nsubj	_	SpaceAfter=No
 16	's	_	VERB	PRES	_	5	conj	_	_
 17	down	_	ADV	_	_	16	advmod	_	_
 18	for	_	ADP	_	_	20	case	_	_
@@ -15239,7 +15239,7 @@
 4	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3449
-# text = Sir Reginald Harvey was president of the consortium of the three mining concessionaire companies, and it was common knowledge that, as a personal friend of Redvers Ledley, the most unpopular governor the territory had ever had, he had influenced the governor to outlaw the miner s' union at a time when Mweta and Shinza were using it to promote the independence movement.
+# text = Sir Reginald Harvey was president of the consortium of the three mining concessionaire companies, and it was common knowledge that, as a personal friend of Redvers Ledley, the most unpopular governor the territory had ever had, he had influenced the governor to outlaw the miners' union at a time when Mweta and Shinza were using it to promote the independence movement.
 1	Sir	_	NOUN	SG-NOM	_	3	compound	_	_
 2	Reginald	_	PROPN	SG-NOM	_	5	nsubj	_	_
 3	Harvey	_	PROPN	SG-NOM	_	2	flat	_	_
@@ -15288,8 +15288,8 @@
 46	to	_	PART	_	_	47	mark	_	_
 47	outlaw	_	VERB	INF	_	43	advcl	_	_
 48	the	_	DET	DEF	_	49	det	_	_
-49	miner	_	NOUN	PL	_	51	amod	_	_
-50	s'	_	PART	GEN	_	49	case	_	_
+49	miners	_	NOUN	PL	_	51	amod	_	SpaceAfter=No
+50	'	_	PART	GEN	_	49	case	_	_
 51	union	_	NOUN	SG-NOM	_	47	obj	_	_
 52	at	_	ADP	_	_	54	case	_	_
 53	a	_	DET	IND-SG	_	54	det	_	_
@@ -15345,8 +15345,8 @@
 33	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3451
-# text = It 's enough to make your hair stand on end, said Dando ; and enjoyed the effect.
-1	It	_	PRON	PERS-SG	_	2	nsubj	_	_
+# text = It's enough to make your hair stand on end, said Dando; and enjoyed the effect.
+1	It	_	PRON	PERS-SG	_	2	nsubj	_	SpaceAfter=No
 2	's	_	VERB	PRES	_	12	ccomp	_	_
 3	enough	_	ADV	_	_	2	advmod	_	_
 4	to	_	PART	_	_	5	mark	_	_
@@ -15358,7 +15358,7 @@
 10	end	_	NOUN	SG-NOM	_	8	obl	_	SpaceAfter=No
 11	,	_	PUNCT	Comma	_	2	punct	_	_
 12	said	_	VERB	PAST	_	0	root	_	_
-13	Dando	_	PROPN	SG-NOM	_	12	nsubj	_	_
+13	Dando	_	PROPN	SG-NOM	_	12	nsubj	_	SpaceAfter=No
 14	;	_	PUNCT	Semicolon	_	12	punct	_	_
 15	and	_	CCONJ	_	_	16	cc	_	_
 16	enjoyed	_	VERB	PAST	_	12	conj	_	_
@@ -15367,9 +15367,9 @@
 19	.	_	PUNCT	Period	_	15	punct	_	_
 
 # sent_id = 3452
-# text = The People 's Independence Party, at the time, had taken Harvey 's remark as an insulting reference to Mweta 's hair ; he still had it all, and it certainly would be in evidence on Tuesday.
+# text = The People's Independence Party, at the time, had taken Harvey's remark as an insulting reference to Mweta's hair; he still had it all, and it certainly would be in evidence on Tuesday.
 1	The	_	DET	DEF	_	5	det	_	_
-2	People	_	NOUN	PL	_	4	amod	_	_
+2	People	_	NOUN	PL	_	4	amod	_	SpaceAfter=No
 3	's	_	PART	GEN	_	2	case	_	_
 4	Independence	_	NOUN	SG-NOM	_	5	compound	_	_
 5	Party	_	NOUN	SG-NOM	_	12	nsubj	_	SpaceAfter=No
@@ -15380,7 +15380,7 @@
 10	,	_	PUNCT	Comma	_	5	punct	_	_
 11	had	_	AUX	PAST-AUX	_	12	aux	_	_
 12	taken	_	VERB	PERF	_	0	root	_	_
-13	Harvey	_	PROPN	SG	_	15	amod	_	_
+13	Harvey	_	PROPN	SG	_	15	amod	_	SpaceAfter=No
 14	's	_	PART	GEN	_	13	case	_	_
 15	remark	_	NOUN	SG-NOM	_	12	obj	_	_
 16	as	_	ADP	_	_	19	case	_	_
@@ -15388,9 +15388,9 @@
 18	insulting	_	ADJ	ING	_	19	amod	_	_
 19	reference	_	NOUN	SG-NOM	_	12	obl	_	_
 20	to	_	ADP	_	_	23	case	_	_
-21	Mweta	_	PROPN	SG	_	23	amod	_	_
+21	Mweta	_	PROPN	SG	_	23	amod	_	SpaceAfter=No
 22	's	_	PART	GEN	_	21	case	_	_
-23	hair	_	NOUN	SG-NOM	_	19	nmod	_	_
+23	hair	_	NOUN	SG-NOM	_	19	nmod	_	SpaceAfter=No
 24	;	_	PUNCT	Semicolon	_	11	punct	_	_
 25	he	_	PRON	PERS-P3SG-NOM	_	27	nsubj	_	_
 26	still	_	ADV	_	_	27	advmod	_	_
@@ -15461,7 +15461,7 @@
 6	–	_	PUNCT	Dash	_	3	punct	_	_
 
 # sent_id = 3455
-# text = all know that after the end of the year they 'll be on contract, and that means they 'll be replaced in three years.
+# text = all know that after the end of the year they'll be on contract, and that means they'll be replaced in three years.
 1	all	_	PRON	TOT-PL	_	2	nsubj	_	_
 2	know	_	VERB	PRES	_	0	root	_	_
 3	that	_	SCONJ	_	_	12	mark	_	_
@@ -15471,7 +15471,7 @@
 7	of	_	ADP	_	_	9	case	_	_
 8	the	_	DET	DEF	_	9	det	_	_
 9	year	_	NOUN	SG-NOM	_	6	nmod	_	_
-10	they	_	PRON	PERS-PL-NOM	_	12	nsubj	_	_
+10	they	_	PRON	PERS-PL-NOM	_	12	nsubj	_	SpaceAfter=No
 11	'll	_	AUX	PRES-AUX	_	12	aux	_	_
 12	be	_	VERB	INF	_	2	xcomp	_	_
 13	on	_	ADP	_	_	14	case	_	_
@@ -15480,7 +15480,7 @@
 16	and	_	CCONJ	_	_	18	cc	_	_
 17	that	_	PRON	DEM-SG	_	18	nsubj	_	_
 18	means	_	VERB	PRES	_	12	conj	_	_
-19	they	_	PRON	PERS-PL-NOM	_	22	nsubj:pass	_	_
+19	they	_	PRON	PERS-PL-NOM	_	22	nsubj:pass	_	SpaceAfter=No
 20	'll	_	AUX	PRES-AUX	_	22	aux	_	_
 21	be	_	AUX	INF	_	22	aux	_	_
 22	replaced	_	VERB	PASS	_	18	ccomp	_	_
@@ -15515,15 +15515,15 @@
 11	?	_	PUNCT	Questionmark	_	10	punct	_	_
 
 # sent_id = 3458
-# text = You do n't need ideas, you do n't need to move out of your chair, you simply go on producing a noise out of the magic box to keep the natives quiet – and now, boom, it 's all gone, including the only incentive they ever had, their pension.
+# text = You don't need ideas, you don't need to move out of your chair, you simply go on producing a noise out of the magic box to keep the natives quiet – and now, boom, it's all gone, including the only incentive they ever had, their pension.
 1	You	_	PRON	PERS-P2	_	4	nsubj	_	_
-2	do	_	AUX	PRES-AUX	_	4	aux	_	_
+2	do	_	AUX	PRES-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	need	_	VERB	INF	_	0	root	_	_
 5	ideas	_	NOUN	PL-NOM	_	4	obj	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	4	punct	_	_
 7	you	_	PRON	PERS-P2	_	10	nsubj	_	_
-8	do	_	AUX	PRES-AUX	_	10	aux	_	_
+8	do	_	AUX	PRES-AUX	_	10	aux	_	SpaceAfter=No
 9	n't	_	PART	NEG	_	10	advmod	_	_
 10	need	_	VERB	INF	_	4	conj	_	_
 11	to	_	PART	_	_	12	mark	_	_
@@ -15556,7 +15556,7 @@
 38	,	_	PUNCT	Comma	_	37	punct	_	_
 39	boom	_	INTJ	_	_	42	discourse	_	SpaceAfter=No
 40	,	_	PUNCT	Comma	_	4	punct	_	_
-41	it	_	PRON	PERS-SG	_	44	nsubj:pass	_	_
+41	it	_	PRON	PERS-SG	_	44	nsubj:pass	_	SpaceAfter=No
 42	's	_	AUX	PRES-AUX	_	44	aux	_	_
 43	all	_	PRON	TOT-SG	_	44	nsubj:pass	_	_
 44	gone	_	VERB	PASS	_	4	conj	_	SpaceAfter=No
@@ -15574,19 +15574,19 @@
 56	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3459
-# text = They 're pathetic, man ;
-1	They	_	PRON	PERS-PL-NOM	_	3	nsubj	_	_
+# text = They're pathetic, man;
+1	They	_	PRON	PERS-PL-NOM	_	3	nsubj	_	SpaceAfter=No
 2	're	_	AUX	PRES	_	3	cop	_	_
 3	pathetic	_	ADJ	POS	_	0	root	_	SpaceAfter=No
 4	,	_	PUNCT	Comma	_	2	punct	_	_
-5	man	_	NOUN	SG-NOM	_	3	vocative	_	_
+5	man	_	NOUN	SG-NOM	_	3	vocative	_	SpaceAfter=No
 6	;	_	PUNCT	Semicolon	_	3	punct	_	_
 
 # sent_id = 3460
-# text = certainly they have n't much to offer when they look for jobs with the BBC.
+# text = certainly they haven't much to offer when they look for jobs with the BBC.
 1	certainly	_	ADV	_	_	3	advmod	_	_
 2	they	_	PRON	PERS-PL-NOM	_	3	nsubj	_	_
-3	have	_	VERB	PRES	_	0	root	_	_
+3	have	_	VERB	PRES	_	0	root	_	SpaceAfter=No
 4	n't	_	PART	NEG	_	3	advmod	_	_
 5	much	_	ADJ	POS	_	3	xcomp	_	_
 6	to	_	PART	_	_	7	mark	_	_
@@ -15602,8 +15602,8 @@
 16	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3461
-# text = They 're just not going to find any.
-1	They	_	PRON	PERS-PL-NOM	_	7	nsubj	_	_
+# text = They're just not going to find any.
+1	They	_	PRON	PERS-PL-NOM	_	7	nsubj	_	SpaceAfter=No
 2	're	_	AUX	PRES-AUX	_	7	aux	_	_
 3	just	_	ADV	_	_	7	advmod	_	_
 4	not	_	PART	NEG	_	7	advmod	_	_
@@ -15614,13 +15614,13 @@
 9	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3462
-# text = They want to go, they 're longing to, you can see they ca n't stand the sight of your face when you 're working together... which makes things very pleasant, you can imagine...
+# text = They want to go, they're longing to, you can see they can't stand the sight of your face when you're working together... which makes things very pleasant, you can imagine...
 1	They	_	PRON	PERS-PL-NOM	_	2	nsubj	_	_
 2	want	_	VERB	PRES	_	0	root	_	_
 3	to	_	PART	_	_	4	mark	_	_
 4	go	_	VERB	INF	_	2	xcomp	_	SpaceAfter=No
 5	,	_	PUNCT	Comma	_	2	punct	_	_
-6	they	_	PRON	PERS-PL-NOM	_	8	nsubj	_	_
+6	they	_	PRON	PERS-PL-NOM	_	8	nsubj	_	SpaceAfter=No
 7	're	_	AUX	PRES-AUX	_	8	aux	_	_
 8	longing	_	VERB	ING	_	2	conj	_	_
 9	to	_	PART	_	_	8	obj	_	SpaceAfter=No
@@ -15629,7 +15629,7 @@
 12	can	_	AUX	PRES-AUX	_	13	aux	_	_
 13	see	_	VERB	INF	_	2	conj	_	_
 14	they	_	PRON	PERS-PL-NOM	_	17	nsubj	_	_
-15	ca	_	AUX	PRES-AUX	_	17	aux	_	_
+15	ca	_	AUX	PRES-AUX	_	17	aux	_	SpaceAfter=No
 16	n't	_	PART	NEG	_	17	advmod	_	_
 17	stand	_	VERB	INF	_	13	xcomp	_	_
 18	the	_	DET	DEF	_	19	det	_	_
@@ -15638,7 +15638,7 @@
 21	your	_	PRON	P2-GEN	_	22	nmod:poss	_	_
 22	face	_	NOUN	SG-NOM	_	19	nmod	_	_
 23	when	_	SCONJ	_	_	25	mark	_	_
-24	you	_	PRON	PERS-P2	_	26	nsubj	_	_
+24	you	_	PRON	PERS-P2	_	26	nsubj	_	SpaceAfter=No
 25	're	_	AUX	PRES-AUX	_	26	aux	_	_
 26	working	_	VERB	ING	_	17	advcl	_	_
 27	together	_	ADV	_	_	26	advmod	_	SpaceAfter=No
@@ -15655,7 +15655,7 @@
 38	...	_	PUNCT	Dots	_	30	punct	_	_
 
 # sent_id = 3463
-# text = A slim little white girl slipped between them and took up Ras Asahe 's hand with the gold-metal watch-bracelet as if it were some possession she had put down...
+# text = A slim little white girl slipped between them and took up Ras Asahe's hand with the gold-metal watch-bracelet as if it were some possession she had put down...
 1	A	_	DET	IND-SG	_	5	det	_	_
 2	slim	_	ADJ	POS	_	5	amod	_	_
 3	little	_	ADJ	POS	_	5	amod	_	_
@@ -15668,7 +15668,7 @@
 10	took	_	VERB	PAST	_	6	conj	_	_
 11	up	_	ADV	_	_	10	compound:prt	_	_
 12	Ras	_	PROPN	SG-NOM	_	15	amod	_	_
-13	Asahe	_	PROPN	SG	_	12	flat	_	_
+13	Asahe	_	PROPN	SG	_	12	flat	_	SpaceAfter=No
 14	's	_	PART	GEN	_	13	case	_	_
 15	hand	_	NOUN	SG-NOM	_	10	obj	_	_
 16	with	_	ADP	_	_	19	case	_	_
@@ -15769,7 +15769,7 @@
 19	.	_	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3467
-# text = The girl was there in their conversation like a photograph come upon lying between the pages of a book ; Bray was not sure whether she was child or woman: thin collar-bones, a long neck with a face hardly wider, pale and sallow, a big, thin, unpainted mouth, black hair and glittering, sorrowful black eyes.
+# text = The girl was there in their conversation like a photograph come upon lying between the pages of a book; Bray was not sure whether she was child or woman: thin collar-bones, a long neck with a face hardly wider, pale and sallow, a big, thin, unpainted mouth, black hair and glittering, sorrowful black eyes.
 1	The	_	DET	DEF	_	2	det	_	_
 2	girl	_	NOUN	SG-NOM	_	3	nsubj	_	_
 3	was	_	VERB	PAST	_	0	root	_	_
@@ -15788,7 +15788,7 @@
 16	pages	_	NOUN	PL-NOM	_	13	obl	_	_
 17	of	_	ADP	_	_	19	case	_	_
 18	a	_	DET	IND-SG	_	19	det	_	_
-19	book	_	NOUN	SG-NOM	_	16	nmod	_	_
+19	book	_	NOUN	SG-NOM	_	16	nmod	_	SpaceAfter=No
 20	;	_	PUNCT	Semicolon	_	3	punct	_	_
 21	Bray	_	PROPN	SG-NOM	_	24	nsubj	_	_
 22	was	_	AUX	PAST	_	24	cop	_	_
@@ -15865,14 +15865,14 @@
 14	?	_	PUNCT	Questionmark	_	1	punct	_	_
 
 # sent_id = 3470
-# text = What about the golden handshake – would n't it be cheaper, in the end?
+# text = What about the golden handshake – wouldn't it be cheaper, in the end?
 1	What	_	PRON	WH	_	11	dislocated	_	_
 2	about	_	ADP	_	_	5	case	_	_
 3	the	_	DET	DEF	_	5	det	_	_
 4	golden	_	ADJ	POS	_	5	amod	_	_
 5	handshake	_	NOUN	SG-NOM	_	1	nmod	_	_
 6	–	_	PUNCT	Dash	_	1	punct	_	_
-7	would	_	AUX	PAST-AUX	_	11	aux	_	_
+7	would	_	AUX	PAST-AUX	_	11	aux	_	SpaceAfter=No
 8	n't	_	PART	NEG	_	11	advmod	_	_
 9	it	_	PRON	PERS-SG	_	11	nsubj	_	_
 10	be	_	AUX	INF	_	11	cop	_	_
@@ -15884,10 +15884,10 @@
 16	?	_	PUNCT	Questionmark	_	11	punct	_	_
 
 # sent_id = 3471
-# text = not if there 's no preparation of replacements being done in the meantime.
+# text = not if there's no preparation of replacements being done in the meantime.
 1	not	_	PART	NEG	_	0	root	_	_
 2	if	_	SCONJ	_	_	4	mark	_	_
-3	there	_	PRON	EX	_	10	expl	_	_
+3	there	_	PRON	EX	_	10	expl	_	SpaceAfter=No
 4	's	_	AUX	PRES-AUX	_	10	aux	_	_
 5	no	_	DET	NEG	_	6	advmod	_	_
 6	preparation	_	NOUN	SG-NOM	_	10	nsubj:pass	_	_
@@ -15925,7 +15925,7 @@
 21	–	_	PUNCT	Dash	_	2	punct	_	_
 
 # sent_id = 3473
-# text = If I had to take over the English-language services tomorrow, you know what I 'd have to do it with a bunch of Lambala and speakers from the vernacular sections and some refugee school-teachers from South Africa.
+# text = If I had to take over the English-language services tomorrow, you know what I'd have to do it with a bunch of Lambala and speakers from the vernacular sections and some refugee school-teachers from South Africa.
 1	If	_	SCONJ	_	_	5	mark	_	_
 2	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	_
 3	had	_	AUX	PAST-AUX	_	5	aux	_	_
@@ -15940,7 +15940,7 @@
 12	you	_	PRON	PERS-P2	_	13	nsubj	_	_
 13	know	_	VERB	PRES	_	0	root	_	_
 14	what	_	PRON	WH	_	13	obj	_	_
-15	I	_	PRON	PERS-P1SG-NOM	_	19	nsubj	_	_
+15	I	_	PRON	PERS-P1SG-NOM	_	19	nsubj	_	SpaceAfter=No
 16	'd	_	AUX	PAST-AUX	_	19	aux	_	_
 17	have	_	AUX	INF-AUX	_	19	aux	_	_
 18	to	_	PART	_	_	19	mark	_	_
@@ -16094,7 +16094,7 @@
 57	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3477
-# text = Pettigrew was hailed by someone, and Bray and the woman were left facing each other like the dancers ;
+# text = Pettigrew was hailed by someone, and Bray and the woman were left facing each other like the dancers;
 1	Pettigrew	_	PROPN	SG-NOM	_	3	nsubj:pass	_	_
 2	was	_	AUX	PAST	_	3	aux	_	_
 3	hailed	_	VERB	PASS	_	0	root	_	_
@@ -16113,7 +16113,7 @@
 16	other	_	PRON	RCP-SG-ACC	_	15	fixed	_	_
 17	like	_	ADP	_	_	19	case	_	_
 18	the	_	DET	DEF	_	19	det	_	_
-19	dancers	_	NOUN	PL-NOM	_	14	obl	_	_
+19	dancers	_	NOUN	PL-NOM	_	14	obl	_	SpaceAfter=No
 20	;	_	PUNCT	Semicolon	_	3	punct	_	_
 
 # sent_id = 3478
@@ -16174,10 +16174,10 @@
 7	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3483
-# text = Well, I 've picked someone my own size at last tonight.
+# text = Well, I've picked someone my own size at last tonight.
 1	Well	_	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
-3	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	_
+3	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	SpaceAfter=No
 4	've	_	AUX	PRES-AUX	_	5	aux	_	_
 5	picked	_	VERB	PERF	_	0	root	_	_
 6	someone	_	PRON	IND-SG-NOM	_	5	obj	_	_
@@ -16256,12 +16256,12 @@
 10	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3487
-# text = not tonight, Dandy-Roly I 'm on my best behaviour.
+# text = not tonight, Dandy-Roly I'm on my best behaviour.
 1	not	_	PART	NEG	_	2	advmod	_	_
 2	tonight	_	NOUN	SG-NOM	_	0	root	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	6	punct	_	_
 4	Dandy-Roly	_	PROPN	SG-NOM	_	2	vocative	_	_
-5	I	_	PRON	PERS-P1SG-NOM	_	6	nsubj	_	_
+5	I	_	PRON	PERS-P1SG-NOM	_	6	nsubj	_	SpaceAfter=No
 6	'm	_	VERB	PRES	_	2	advcl	_	_
 7	on	_	ADP	_	_	10	case	_	_
 8	my	_	PRON	P1SG-GEN	_	10	nmod:poss	_	_
@@ -16301,24 +16301,24 @@
 5	?	_	PUNCT	Questionmark	_	2	punct	_	_
 
 # sent_id = 3491
-# text = Well, what 'd you think?
+# text = Well, what'd you think?
 1	Well	_	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
-3	what	_	PRON	WH	_	4	obj	_	_
+3	what	_	PRON	WH	_	4	obj	_	SpaceAfter=No
 4	'd	_	AUX	PAST-AUX	_	6	aux	_	_
 5	you	_	PRON	PERS-P2	_	6	nsubj	_	_
 6	think	_	VERB	INF	_	0	root	_	SpaceAfter=No
 7	?	_	PUNCT	Questionmark	_	6	punct	_	_
 
 # sent_id = 3492
-# text = What do I look as if I 'd sing?
+# text = What do I look as if I'd sing?
 1	What	_	PRON	WH	_	4	dislocated	_	_
 2	do	_	AUX	PRES-AUX	_	4	aux	_	_
 3	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
 4	look	_	VERB	INF	_	0	root	_	_
 5	as	_	SCONJ	_	_	6	mark	_	_
 6	if	_	SCONJ	_	_	9	mark	_	_
-7	I	_	PRON	PERS-P1SG-NOM	_	9	nsubj	_	_
+7	I	_	PRON	PERS-P1SG-NOM	_	9	nsubj	_	SpaceAfter=No
 8	'd	_	AUX	PAST-AUX	_	9	aux	_	_
 9	sing	_	VERB	INF	_	4	advcl	_	SpaceAfter=No
 10	?	_	PUNCT	Questionmark	_	4	punct	_	_
@@ -16352,8 +16352,8 @@
 3	!	_	PUNCT	ExclMark	_	1	punct	_	_
 
 # sent_id = 3496
-# text = I 've got a voice like a bullfrog.
-1	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
+# text = I've got a voice like a bullfrog.
+1	I	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	SpaceAfter=No
 2	've	_	AUX	PRES-AUX	_	3	aux	_	_
 3	got	_	VERB	PERF	_	0	root	_	_
 4	a	_	DET	IND-SG	_	5	det	_	_
@@ -16364,8 +16364,8 @@
 9	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3497
-# text = It 's terrible when I sing the old chants from home but it 's not so bad in English – English is such a rough-sounding language anyway.
-1	It	_	PRON	PERS-SG	_	3	nsubj	_	_
+# text = It's terrible when I sing the old chants from home but it's not so bad in English – English is such a rough-sounding language anyway.
+1	It	_	PRON	PERS-SG	_	3	nsubj	_	SpaceAfter=No
 2	's	_	AUX	PRES	_	3	cop	_	_
 3	terrible	_	ADJ	POS	_	0	root	_	_
 4	when	_	SCONJ	_	_	6	mark	_	_
@@ -16377,7 +16377,7 @@
 10	from	_	ADP	_	_	11	case	_	_
 11	home	_	NOUN	SG-NOM	_	9	nmod	_	_
 12	but	_	CCONJ	_	_	17	cc	_	_
-13	it	_	PRON	PERS-SG	_	17	nsubj	_	_
+13	it	_	PRON	PERS-SG	_	17	nsubj	_	SpaceAfter=No
 14	's	_	AUX	PRES	_	17	cop	_	_
 15	not	_	PART	NEG	_	17	advmod	_	_
 16	so	_	ADV	_	_	17	advmod	_	_
@@ -16395,9 +16395,9 @@
 28	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3498
-# text = Vivien Bayley 's urgent face took up conversation in passing,... that 's Hjalmar Wentz 's daughter... you were sitting with.
+# text = Vivien Bayley's urgent face took up conversation in passing,... that's Hjalmar Wentz's daughter... you were sitting with.
 1	Vivien	_	PROPN	SG-NOM	_	5	amod	_	_
-2	Bayley	_	PROPN	SG	_	1	flat	_	_
+2	Bayley	_	PROPN	SG	_	1	flat	_	SpaceAfter=No
 3	's	_	PART	GEN	_	2	case	_	_
 4	urgent	_	ADJ	POS	_	5	amod	_	_
 5	face	_	NOUN	SG-NOM	_	6	nsubj	_	_
@@ -16408,10 +16408,10 @@
 10	passing	_	VERB	ING	_	6	advcl	_	SpaceAfter=No
 11	,	_	PUNCT	Comma	_	18	punct	_	SpaceAfter=No
 12	...	_	PUNCT	Dots	_	18	punct	_	_
-13	that	_	PRON	DEM-SG	_	18	nsubj	_	_
+13	that	_	PRON	DEM-SG	_	18	nsubj	_	SpaceAfter=No
 14	's	_	AUX	PRES	_	18	cop	_	_
 15	Hjalmar	_	PROPN	SG-NOM	_	18	amod	_	_
-16	Wentz	_	PROPN	SG	_	15	flat	_	_
+16	Wentz	_	PROPN	SG	_	15	flat	_	SpaceAfter=No
 17	's	_	PART	GEN	_	16	case	_	_
 18	daughter	_	NOUN	SG-NOM	_	6	appos	_	SpaceAfter=No
 19	...	_	PUNCT	Dots	_	18	punct	_	_
@@ -16432,13 +16432,13 @@
 7	?	_	PUNCT	Questionmark	_	4	punct	_	_
 
 # sent_id = 3500
-# text = Yes, lovely creature, is n't she?
+# text = Yes, lovely creature, isn't she?
 1	Yes	_	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	lovely	_	ADJ	POS	_	4	amod	_	_
 4	creature	_	NOUN	SG-NOM	_	0	root	_	SpaceAfter=No
 5	,	_	PUNCT	Comma	_	4	punct	_	_
-6	is	_	VERB	PRES	_	4	parataxis	_	_
+6	is	_	VERB	PRES	_	4	parataxis	_	SpaceAfter=No
 7	n't	_	PART	NEG	_	6	advmod	_	_
 8	she	_	PRON	PERS-SG-NOM	_	6	nsubj	_	SpaceAfter=No
 9	?	_	PUNCT	Questionmark	_	4	punct	_	_
@@ -16462,9 +16462,9 @@
 15	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3502
-# text = You did n't leave her with Ras?
+# text = You didn't leave her with Ras?
 1	You	_	PRON	PERS-P2	_	4	nsubj	_	_
-2	did	_	AUX	PAST-AUX	_	4	aux	_	_
+2	did	_	AUX	PAST-AUX	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	leave	_	VERB	INF	_	0	root	_	_
 5	her	_	PRON	PERS-P3SG-ACC	_	4	obj	_	_
@@ -16510,7 +16510,7 @@
 25	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3505
-# text = The Congolese band had no idea what music would do, and produced a stomping crescendo ; then one of the Poles played the piano, and Neil Bayley moved in on the drums.
+# text = The Congolese band had no idea what music would do, and produced a stomping crescendo; then one of the Poles played the piano, and Neil Bayley moved in on the drums.
 1	The	_	DET	DEF	_	3	det	_	_
 2	Congolese	_	ADJ	POS	_	3	amod	_	_
 3	band	_	NOUN	SG-NOM	_	4	nsubj	_	_
@@ -16526,7 +16526,7 @@
 13	produced	_	VERB	PAST	_	4	conj	_	_
 14	a	_	DET	IND-SG	_	16	det	_	_
 15	stomping	_	ADJ	ING	_	16	amod	_	_
-16	crescendo	_	NOUN	SG-NOM	_	13	obj	_	_
+16	crescendo	_	NOUN	SG-NOM	_	13	obj	_	SpaceAfter=No
 17	;	_	PUNCT	Semicolon	_	4	punct	_	_
 18	then	_	ADV	_	_	23	advmod	_	_
 19	one	_	PRON	IND-P3SG	_	23	nsubj	_	_
@@ -16637,7 +16637,7 @@
 22	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3510
-# text = The young bachelors romped and the tousled girls, passing close by, or smiling suddenly at people they were n't aware of, gave up the scent of cosmetics and perfume heated on their bodies.
+# text = The young bachelors romped and the tousled girls, passing close by, or smiling suddenly at people they weren't aware of, gave up the scent of cosmetics and perfume heated on their bodies.
 1	The	_	DET	DEF	_	3	det	_	_
 2	young	_	ADJ	POS	_	3	amod	_	_
 3	bachelors	_	NOUN	PL-NOM	_	4	nsubj	_	_
@@ -16657,7 +16657,7 @@
 17	at	_	ADP	_	_	18	case	_	_
 18	people	_	NOUN	PL-NOM	_	15	obl	_	_
 19	they	_	PRON	PERS-PL-NOM	_	22	nsubj	_	_
-20	were	_	AUX	PAST	_	22	cop	_	_
+20	were	_	AUX	PAST	_	22	cop	_	SpaceAfter=No
 21	n't	_	PART	NEG	_	22	advmod	_	_
 22	aware	_	ADJ	POS	_	18	amod	_	_
 23	of	_	ADP	_	_	22	acl	_	SpaceAfter=No
@@ -16677,35 +16677,34 @@
 37	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3511
-# text = Then there was breakfast at the Bayley s' ; a thinning of faces, but some had kept reappearing all through the night in the changing light.
-1	Then	_	ADV	_	_	3	advmod	_	_
-2	there	_	PRON	EX	_	3	expl	_	_
-3	was	_	VERB	PAST	_	0	root	_	_
-4	breakfast	_	NOUN	SG-NOM	_	3	nsubj	_	_
+# text = Then there was breakfast at the Bayleys'; a thinning of faces, but some had kept reappearing all through the night in the changing light.
+1	Then	_	ADV	_	_	4	advmod	_	_
+2	there	_	PRON	EX	_	4	expl	_	_
+3	was	_	AUX	PAST	_	4	cop	_	_
+4	breakfast	_	NOUN	SG-NOM	_	0	root	_	_
 5	at	_	ADP	_	_	7	case	_	_
 6	the	_	DET	DEF	_	7	det	_	_
-7	Bayley	_	PROPN	PL	_	3	obl	_	_
-8	s'	_	PART	GEN	_	7	case	_	_
-9	;	_	PUNCT	Semicolon	_	3	punct	_	_
-10	a	_	DET	IND-SG	_	11	det	_	_
-11	thinning	_	VERB	ING	_	3	appos	_	_
-12	of	_	ADP	_	_	13	case	_	_
-13	faces	_	NOUN	PL-NOM	_	11	obl	_	SpaceAfter=No
-14	,	_	PUNCT	Comma	_	11	punct	_	_
-15	but	_	CCONJ	_	_	18	cc	_	_
-16	some	_	PRON	IND	_	18	nsubj	_	_
-17	had	_	AUX	PAST-AUX	_	18	aux	_	_
-18	kept	_	VERB	PERF	_	11	conj	_	_
-19	reappearing	_	VERB	ING	_	18	xcomp	_	_
-20	all	_	ADV	TOT	_	23	advmod	_	_
-21	through	_	ADP	_	_	23	case	_	_
-22	the	_	DET	DEF	_	23	det	_	_
-23	night	_	NOUN	SG-NOM	_	19	obl	_	_
-24	in	_	ADP	_	_	27	case	_	_
-25	the	_	DET	DEF	_	27	det	_	_
-26	changing	_	ADJ	ING	_	27	amod	_	_
-27	light	_	NOUN	SG-NOM	_	19	obl	_	SpaceAfter=No
-28	.	_	PUNCT	Period	_	17	punct	_	_
+7	Bayleys'	_	PROPN	PL	_	4	nmod	_	SpaceAfter=No
+8	;	_	PUNCT	Semicolon	_	4	punct	_	_
+9	a	_	DET	IND-SG	_	10	det	_	_
+10	thinning	_	VERB	ING	_	4	appos	_	_
+11	of	_	ADP	_	_	12	case	_	_
+12	faces	_	NOUN	PL-NOM	_	10	obl	_	SpaceAfter=No
+13	,	_	PUNCT	Comma	_	10	punct	_	_
+14	but	_	CCONJ	_	_	17	cc	_	_
+15	some	_	PRON	IND	_	17	nsubj	_	_
+16	had	_	AUX	PAST-AUX	_	17	aux	_	_
+17	kept	_	VERB	PERF	_	10	conj	_	_
+18	reappearing	_	VERB	ING	_	17	xcomp	_	_
+19	all	_	ADV	TOT	_	22	advmod	_	_
+20	through	_	ADP	_	_	22	case	_	_
+21	the	_	DET	DEF	_	22	det	_	_
+22	night	_	NOUN	SG-NOM	_	18	obl	_	_
+23	in	_	ADP	_	_	26	case	_	_
+24	the	_	DET	DEF	_	26	det	_	_
+25	changing	_	ADJ	ING	_	26	amod	_	_
+26	light	_	NOUN	SG-NOM	_	18	obl	_	SpaceAfter=No
+27	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3512
 # text = They said good night to each other in the bright slanting sun and the Bayley children were already out on the grass in their pyjamas, riding bicycles.
@@ -16778,7 +16777,7 @@
 35	.	_	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 3514
-# text = A young woman was in and out the Bayley s' house, sometimes adding to, sometimes carrying off with her the many children who played there.
+# text = A young woman was in and out the Bayleys' house, sometimes adding to, sometimes carrying off with her the many children who played there.
 1	A	_	DET	IND-SG	_	3	det	_	_
 2	young	_	ADJ	POS	_	3	amod	_	_
 3	woman	_	NOUN	SG-NOM	_	4	nsubj	_	_
@@ -16787,8 +16786,8 @@
 6	and	_	CCONJ	_	_	11	cc	_	_
 7	out	_	ADP	_	_	11	case	_	_
 8	the	_	DET	DEF	_	11	det	_	_
-9	Bayley	_	PROPN	PL	_	11	amod	_	_
-10	s'	_	PART	GEN	_	9	case	_	_
+9	Bayleys	_	PROPN	PL	_	11	amod	_	SpaceAfter=No
+10	'	_	PART	GEN	_	9	case	_	_
 11	house	_	NOUN	SG-NOM	_	4	conj	_	SpaceAfter=No
 12	,	_	PUNCT	Comma	_	14	punct	_	_
 13	sometimes	_	ADV	_	_	14	advmod	_	_
@@ -16841,7 +16840,7 @@
 29	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3516
-# text = She was always being sent to pick up people when arrangements went wrong ;
+# text = She was always being sent to pick up people when arrangements went wrong;
 1	She	_	PRON	PERS-SG-NOM	_	5	nsubj:pass	_	_
 2	was	_	AUX	PAST	_	5	aux	_	_
 3	always	_	ADV	_	_	5	advmod	_	_
@@ -16854,7 +16853,7 @@
 10	when	_	SCONJ	_	_	12	mark	_	_
 11	arrangements	_	NOUN	PL-NOM	_	12	nsubj	_	_
 12	went	_	VERB	PAST	_	5	advcl	_	_
-13	wrong	_	ADJ	POS	_	12	advmod	_	_
+13	wrong	_	ADJ	POS	_	12	advmod	_	SpaceAfter=No
 14	;	_	PUNCT	Semicolon	_	5	punct	_	_
 
 # sent_id = 3517
@@ -16883,7 +16882,7 @@
 22	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3518
-# text = It was she who had given her glass to him that night at the Independence party ;
+# text = It was she who had given her glass to him that night at the Independence party;
 1	It	_	PRON	PERS-SG	_	3	expl	_	_
 2	was	_	AUX	PAST	_	3	cop	_	_
 3	she	_	PRON	PERS-SG-NOM	_	0	root	_	_
@@ -16899,7 +16898,7 @@
 13	at	_	ADP	_	_	16	case	_	_
 14	the	_	DET	DEF	_	16	det	_	_
 15	Independence	_	NOUN	SG-NOM	_	16	compound	_	_
-16	party	_	NOUN	SG-NOM	_	6	obl	_	_
+16	party	_	NOUN	SG-NOM	_	6	obl	_	SpaceAfter=No
 17	;	_	PUNCT	Semicolon	_	3	punct	_	_
 
 # sent_id = 3519
@@ -17044,7 +17043,7 @@
 27	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3526
-# text = It was, in a curious way, an extension of what he was at the official receptions where many people had little idea who the white stranger was, sitting in a modest place of honour ;
+# text = It was, in a curious way, an extension of what he was at the official receptions where many people had little idea who the white stranger was, sitting in a modest place of honour;
 1	It	_	PRON	PERS-SG	_	10	nsubj	_	_
 2	was	_	AUX	PAST	_	10	cop	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -17081,11 +17080,11 @@
 34	modest	_	ADJ	POS	_	35	amod	_	_
 35	place	_	NOUN	SG-NOM	_	31	obl	_	_
 36	of	_	ADP	_	_	37	case	_	_
-37	honour	_	NOUN	SG-NOM	_	35	nmod	_	_
+37	honour	_	NOUN	SG-NOM	_	35	nmod	_	SpaceAfter=No
 38	;	_	PUNCT	Semicolon	_	10	punct	_	_
 
 # sent_id = 3527
-# text = and once, at a press dinner Mweta 's reference to the presence of one of the fairy godmother s' who had been present at the christening and had returned for the coming-of-age of the State went, thank God, unnoticed as a reference to himself.
+# text = and once, at a press dinner Mweta's reference to the presence of one of the fairy godmothers' who had been present at the christening and had returned for the coming-of-age of the State went, thank God, unnoticed as a reference to himself.
 1	and	_	CCONJ	_	_	37	cc	_	_
 2	once	_	ADV	_	_	37	advmod	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -17093,7 +17092,7 @@
 5	a	_	DET	IND-SG	_	6	det	_	_
 6	press	_	NOUN	SG-NOM	_	7	compound	_	_
 7	dinner	_	NOUN	SG-NOM	_	37	obl	_	_
-8	Mweta	_	PROPN	SG	_	10	amod	_	_
+8	Mweta	_	PROPN	SG	_	10	amod	_	SpaceAfter=No
 9	's	_	PART	GEN	_	8	case	_	_
 10	reference	_	NOUN	SG-NOM	_	37	nsubj	_	_
 11	to	_	ADP	_	_	13	case	_	_
@@ -17104,8 +17103,8 @@
 16	of	_	ADP	_	_	19	case	_	_
 17	the	_	DET	DEF	_	19	det	_	_
 18	fairy	_	ADJ	POS	_	19	amod	_	_
-19	godmother	_	NOUN	PL	_	15	nmod	_	_
-20	s'	_	PART	GEN	_	19	case	_	_
+19	godmothers	_	NOUN	PL	_	15	nmod	_	SpaceAfter=No
+20	'	_	PART	GEN	_	19	case	_	_
 21	who	_	PRON	WH-REL	_	24	nsubj	_	_
 22	had	_	AUX	PAST-AUX	_	24	aux	_	_
 23	been	_	AUX	PERF	_	24	cop	_	_
@@ -17136,12 +17135,12 @@
 48	.	_	PUNCT	Period	_	37	punct	_	_
 
 # sent_id = 3528
-# text = It became his Independence story ; as the story of the cigarette company 's helicopter was Neil Bayley 's, related again and again while the private drama between husband and wife that had made it pass unremarked at the time was quite dropped out of the context.
+# text = It became his Independence story; as the story of the cigarette company's helicopter was Neil Bayley's, related again and again while the private drama between husband and wife that had made it pass unremarked at the time was quite dropped out of the context.
 1	It	_	PRON	PERS-SG	_	2	nsubj	_	_
 2	became	_	VERB	PAST	_	0	root	_	_
 3	his	_	PRON	P3SG-GEN	_	4	nmod:poss	_	_
 4	Independence	_	NOUN	SG-NOM	_	5	compound	_	_
-5	story	_	NOUN	SG-NOM	_	2	xcomp	_	_
+5	story	_	NOUN	SG-NOM	_	2	xcomp	_	SpaceAfter=No
 6	;	_	PUNCT	Semicolon	_	2	punct	_	_
 7	as	_	SCONJ	_	_	18	mark	_	_
 8	the	_	DET	DEF	_	9	det	_	_
@@ -17149,12 +17148,12 @@
 10	of	_	ADP	_	_	15	case	_	_
 11	the	_	DET	DEF	_	12	det	_	_
 12	cigarette	_	NOUN	SG-NOM	_	13	compound	_	_
-13	company	_	NOUN	SG	_	15	amod	_	_
+13	company	_	NOUN	SG	_	15	amod	_	SpaceAfter=No
 14	's	_	PART	GEN	_	13	case	_	_
 15	helicopter	_	NOUN	SG-NOM	_	9	nmod	_	_
 16	was	_	AUX	PAST	_	18	cop	_	_
 17	Neil	_	PROPN	SG-NOM	_	2	obl	_	_
-18	Bayley	_	PROPN	SG	_	17	flat	_	_
+18	Bayley	_	PROPN	SG	_	17	flat	_	SpaceAfter=No
 19	's	_	PART	GEN	_	18	case	_	SpaceAfter=No
 20	,	_	PUNCT	Comma	_	22	punct	_	_
 21	related	_	VERB	PASS	_	18	advcl	_	_
@@ -17188,13 +17187,13 @@
 49	.	_	PUNCT	Period	_	42	punct	_	_
 
 # sent_id = 3529
-# text = Bray asked everywhere about Edward Shinza ; certainly he was not in evidence at any official occasion.
+# text = Bray asked everywhere about Edward Shinza; certainly he was not in evidence at any official occasion.
 1	Bray	_	PROPN	SG-NOM	_	2	nsubj	_	_
 2	asked	_	VERB	PAST	_	0	root	_	_
 3	everywhere	_	ADV	TOT-WH	_	2	advmod	_	_
 4	about	_	ADP	_	_	6	case	_	_
 5	Edward	_	PROPN	SG-NOM	_	2	obl	_	_
-6	Shinza	_	PROPN	SG-NOM	_	5	flat	_	_
+6	Shinza	_	PROPN	SG-NOM	_	5	flat	_	SpaceAfter=No
 7	;	_	PUNCT	Semicolon	_	2	punct	_	_
 8	certainly	_	ADV	_	_	10	advmod	_	_
 9	he	_	PRON	PERS-P3SG-NOM	_	10	nsubj	_	_
@@ -17207,10 +17206,10 @@
 16	official	_	ADJ	POS	_	17	amod	_	_
 17	occasion	_	NOUN	SG-NOM	_	13	nmod	_	SpaceAfter=No
 18	.	_	PUNCT	Period	_	10	punct	_	_
+# newdoc
 
 # sent_id = 3530
 # text = Dobby blinked anxiously up at Harry.
-# newdoc
 1	Dobby	_	PROPN	SG-NOM	_	2	nsubj	_	_
 2	blinked	_	VERB	PAST	_	0	root	_	_
 3	anxiously	_	ADV	_	_	2	advmod	_	_
@@ -17220,9 +17219,9 @@
 7	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3531
-# text = Harry was n't listening.
+# text = Harry wasn't listening.
 1	Harry	_	PROPN	SG-NOM	_	4	nsubj	_	_
-2	was	_	AUX	PAST	_	4	aux	_	_
+2	was	_	AUX	PAST	_	4	aux	_	SpaceAfter=No
 3	n't	_	PART	NEG	_	4	advmod	_	_
 4	listening	_	VERB	ING	_	0	root	_	SpaceAfter=No
 5	.	_	PUNCT	Period	_	4	punct	_	_
@@ -17262,12 +17261,12 @@
 13	!	_	PUNCT	ExclMark	_	8	punct	_	_
 
 # sent_id = 3534
-# text = Give me my friend s' letters!
+# text = Give me my friends' letters!
 1	Give	_	VERB	IMP	_	0	root	_	_
 2	me	_	PRON	PERS-P1SG-ACC	_	1	iobj	_	_
 3	my	_	PRON	P1SG-GEN	_	4	nmod:poss	_	_
-4	friend	_	NOUN	PL	_	6	amod	_	_
-5	s'	_	PART	GEN	_	4	case	_	_
+4	friends	_	NOUN	PL	_	6	amod	_	SpaceAfter=No
+5	'	_	PART	GEN	_	4	case	_	_
 6	letters	_	NOUN	PL-NOM	_	1	obj	_	SpaceAfter=No
 7	!	_	PUNCT	ExclMark	_	1	punct	_	_
 
@@ -17358,9 +17357,9 @@
 14	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3539
-# text = Aunt Petunia 's masterpiece of a pudding, the mountain of cream and sugared violets, was floating up near the ceiling.
+# text = Aunt Petunia's masterpiece of a pudding, the mountain of cream and sugared violets, was floating up near the ceiling.
 1	Aunt	_	NOUN	SG-NOM	_	2	compound	_	_
-2	Petunia	_	PROPN	SG	_	4	amod	_	_
+2	Petunia	_	PROPN	SG	_	4	amod	_	SpaceAfter=No
 3	's	_	PART	GEN	_	2	case	_	_
 4	masterpiece	_	NOUN	SG-NOM	_	18	nsubj	_	_
 5	of	_	ADP	_	_	7	case	_	_
@@ -17398,12 +17397,12 @@
 11	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 3541
-# text = Harry Potter must say he 's not going back to school –
+# text = Harry Potter must say he's not going back to school –
 1	Harry	_	PROPN	SG-NOM	_	4	nsubj	_	_
 2	Potter	_	PROPN	SG-NOM	_	1	flat	_	_
 3	must	_	AUX	PRES-AUX	_	4	aux	_	_
 4	say	_	VERB	INF	_	0	root	_	_
-5	he	_	PRON	PERS-P3SG-NOM	_	8	nsubj	_	_
+5	he	_	PRON	PERS-P3SG-NOM	_	8	nsubj	_	SpaceAfter=No
 6	's	_	AUX	PRES-AUX	_	8	aux	_	_
 7	not	_	PART	NEG	_	8	advmod	_	_
 8	going	_	VERB	ING	_	4	xcomp	_	_
@@ -17464,7 +17463,7 @@
 10	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 3546
-# text = There were screams from the dining room and Uncle Vernon burst into the kitchen to find Harry, rigid with shock, covered from head to foot in Aunt Petunia 's pudding.
+# text = There were screams from the dining room and Uncle Vernon burst into the kitchen to find Harry, rigid with shock, covered from head to foot in Aunt Petunia's pudding.
 1	There	_	PRON	EX	_	2	expl	_	_
 2	were	_	VERB	PAST	_	0	root	_	_
 3	screams	_	NOUN	PL-NOM	_	2	nsubj	_	_
@@ -17494,7 +17493,7 @@
 27	foot	_	NOUN	SG-NOM	_	23	obl	_	_
 28	in	_	ADP	_	_	32	case	_	_
 29	Aunt	_	NOUN	SG-NOM	_	30	compound	_	_
-30	Petunia	_	PROPN	SG	_	32	amod	_	_
+30	Petunia	_	PROPN	SG	_	32	amod	_	SpaceAfter=No
 31	's	_	PART	GEN	_	30	case	_	_
 32	pudding	_	NOUN	SG-NOM	_	23	obl	_	SpaceAfter=No
 33	.	_	PUNCT	Period	_	2	punct	_	_
@@ -17601,7 +17600,7 @@
 21	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3550
-# text = Uncle Vernon might still have been able to make his deal – if it had n't been for the owl.
+# text = Uncle Vernon might still have been able to make his deal – if it hadn't been for the owl.
 1	Uncle	_	NOUN	SG-NOM	_	2	compound	_	_
 2	Vernon	_	PROPN	SG-NOM	_	7	nsubj	_	_
 3	might	_	AUX	PAST-AUX	_	7	aux	_	_
@@ -17616,7 +17615,7 @@
 12	–	_	PUNCT	Dash	_	7	punct	_	_
 13	if	_	SCONJ	_	_	17	mark	_	_
 14	it	_	PRON	PERS-SG	_	17	nsubj	_	_
-15	had	_	AUX	PAST-AUX	_	17	aux	_	_
+15	had	_	AUX	PAST-AUX	_	17	aux	_	SpaceAfter=No
 16	n't	_	PART	NEG	_	17	advmod	_	_
 17	been	_	AUX	PERF	_	9	advcl	_	_
 18	for	_	ADP	_	_	20	case	_	_
@@ -17625,7 +17624,7 @@
 21	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3551
-# text = Aunt Petunia was just handing round a box of after-dinner mints when a huge barn owl swooped through the dining room window, dropped a letter on Mrs Mason 's head and swooped out again.
+# text = Aunt Petunia was just handing round a box of after-dinner mints when a huge barn owl swooped through the dining room window, dropped a letter on Mrs Mason's head and swooped out again.
 1	Aunt	_	NOUN	SG-NOM	_	2	compound	_	_
 2	Petunia	_	PROPN	SG-NOM	_	5	nsubj	_	_
 3	was	_	AUX	PAST	_	5	aux	_	_
@@ -17654,7 +17653,7 @@
 26	letter	_	NOUN	SG-NOM	_	24	obj	_	_
 27	on	_	ADP	_	_	31	case	_	_
 28	Mrs	_	NOUN	SG-NOM	_	29	compound	_	_
-29	Mason	_	PROPN	SG	_	31	amod	_	_
+29	Mason	_	PROPN	SG	_	31	amod	_	SpaceAfter=No
 30	's	_	PART	GEN	_	29	case	_	_
 31	head	_	NOUN	SG-NOM	_	24	obl	_	_
 32	and	_	CCONJ	_	_	33	cc	_	_
@@ -17848,7 +17847,7 @@
 44	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 3560
-# text = We would also ask you to remember that any magical activity that risks notice by members of the non-magical community (Muggles) is a serious offence, under section 13 of the International Confederation of Warlock s' Statute of Secrecy.
+# text = We would also ask you to remember that any magical activity that risks notice by members of the non-magical community (Muggles) is a serious offence, under section 13 of the International Confederation of Warlocks' Statute of Secrecy.
 1	We	_	PRON	PERS-P1PL-NOM	_	4	nsubj	_	_
 2	would	_	AUX	PAST-AUX	_	4	aux	_	_
 3	also	_	ADV	_	_	4	advmod	_	_
@@ -17885,8 +17884,8 @@
 34	International	_	ADJ	POS	_	35	amod	_	_
 35	Confederation	_	NOUN	SG-NOM	_	31	nmod	_	_
 36	of	_	ADP	_	_	39	case	_	_
-37	Warlock	_	NOUN	PL	_	39	amod	_	_
-38	s'	_	PART	GEN	_	37	case	_	_
+37	Warlocks	_	NOUN	PL	_	39	amod	_	SpaceAfter=No
+38	'	_	PART	GEN	_	37	case	_	_
 39	Statute	_	NOUN	SG-NOM	_	35	nmod	_	_
 40	of	_	ADP	_	_	41	case	_	_
 41	Secrecy	_	NOUN	SG-NOM	_	39	nmod	_	SpaceAfter=No
@@ -17947,10 +17946,10 @@
 16	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3566
-# text = Well, I 've got news for you, boy. I 'm locking you up you 're never going back to that school. never. and if you try and magic yourself out – they 'll expel you!
+# text = Well, I've got news for you, boy. I'm locking you up you're never going back to that school. never. and if you try and magic yourself out – they'll expel you!
 1	Well	_	ADV	_	_	5	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	14	punct	_	_
-3	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	_
+3	I	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	SpaceAfter=No
 4	've	_	AUX	PRES-AUX	_	5	aux	_	_
 5	got	_	VERB	PERF	_	0	root	_	_
 6	news	_	NOUN	PL-NOM	_	5	obj	_	_
@@ -17959,12 +17958,12 @@
 9	,	_	PUNCT	Comma	_	14	punct	_	_
 10	boy	_	NOUN	SG-NOM	_	5	vocative	_	SpaceAfter=No
 11	.	_	PUNCT	Period	_	4	punct	_	_
-12	I	_	PRON	PERS-P1SG-NOM	_	14	nsubj	_	_
+12	I	_	PRON	PERS-P1SG-NOM	_	14	nsubj	_	SpaceAfter=No
 13	'm	_	AUX	PRES-AUX	_	14	aux	_	_
 14	locking	_	VERB	ING	_	6	appos	_	_
 15	you	_	PRON	PERS-P2	_	14	obj	_	_
 16	up	_	ADV	_	_	14	compound:prt	_	_
-17	you	_	PRON	PERS-P2	_	20	nsubj	_	_
+17	you	_	PRON	PERS-P2	_	20	nsubj	_	SpaceAfter=No
 18	're	_	AUX	PRES-AUX	_	20	aux	_	_
 19	never	_	ADV	NEG	_	20	advmod	_	_
 20	going	_	VERB	ING	_	14	conj	_	_
@@ -17984,7 +17983,7 @@
 34	yourself	_	PRON	RFL-P2SG	_	33	obj	_	_
 35	out	_	ADV	_	_	33	advmod	_	_
 36	–	_	PUNCT	Dash	_	28	punct	_	_
-37	they	_	PRON	PERS-PL-NOM	_	39	nsubj	_	_
+37	they	_	PRON	PERS-PL-NOM	_	39	nsubj	_	SpaceAfter=No
 38	'll	_	AUX	PRES-AUX	_	39	aux	_	_
 39	expel	_	VERB	INF	_	14	conj	_	_
 40	you	_	PRON	PERS-P2	_	39	obj	_	SpaceAfter=No
@@ -18018,7 +18017,7 @@
 9	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3569
-# text = The following morning, he paid a man to fit bars on Harry 's window.
+# text = The following morning, he paid a man to fit bars on Harry's window.
 1	The	_	DET	DEF	_	3	det	_	_
 2	following	_	ADJ	ING	_	3	amod	_	_
 3	morning	_	NOUN	SG-NOM	_	6	obl	_	SpaceAfter=No
@@ -18031,7 +18030,7 @@
 10	fit	_	VERB	INF	_	6	advcl	_	_
 11	bars	_	NOUN	PL-NOM	_	10	obj	_	_
 12	on	_	ADP	_	_	15	case	_	_
-13	Harry	_	PROPN	SG	_	15	amod	_	_
+13	Harry	_	PROPN	SG	_	15	amod	_	SpaceAfter=No
 14	's	_	PART	GEN	_	13	case	_	_
 15	window	_	NOUN	SG-NOM	_	10	obl	_	SpaceAfter=No
 16	.	_	PUNCT	Period	_	6	punct	_	_
@@ -18095,7 +18094,7 @@
 12	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3573
-# text = Three days later, the Dursleys were showing no sign of relenting and Harry could n't see any way out of his situation.
+# text = Three days later, the Dursleys were showing no sign of relenting and Harry couldn't see any way out of his situation.
 1	Three	_	NUM	CARD-PL	_	2	nummod	_	_
 2	days	_	NOUN	PL-NOM	_	3	nmod	_	_
 3	later	_	ADV	CMP	_	8	advmod	_	SpaceAfter=No
@@ -18110,7 +18109,7 @@
 12	relenting	_	ADJ	POS	_	10	amod	_	_
 13	and	_	CCONJ	_	_	17	cc	_	_
 14	Harry	_	PROPN	SG-NOM	_	17	nsubj	_	_
-15	could	_	AUX	PAST-AUX	_	17	aux	_	_
+15	could	_	AUX	PAST-AUX	_	17	aux	_	SpaceAfter=No
 16	n't	_	PART	NEG	_	17	advmod	_	_
 17	see	_	VERB	INF	_	8	conj	_	_
 18	any	_	DET	IND	_	19	det	_	_
@@ -18188,14 +18187,14 @@
 11	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3577
-# text = Now that the Dursleys knew they were n't going to wake up as fruitbats, he had lost his only weapon.
+# text = Now that the Dursleys knew they weren't going to wake up as fruitbats, he had lost his only weapon.
 1	Now	_	ADV	_	_	18	advmod	_	_
 2	that	_	SCONJ	_	_	5	mark	_	_
 3	the	_	DET	DEF	_	4	det	_	_
 4	Dursleys	_	PROPN	PL-NOM	_	5	nsubj	_	_
 5	knew	_	VERB	PAST	_	1	acl	_	_
 6	they	_	PRON	PERS-PL-NOM	_	11	nsubj	_	_
-7	were	_	AUX	PAST	_	11	aux	_	_
+7	were	_	AUX	PAST	_	11	aux	_	SpaceAfter=No
 8	n't	_	PART	NEG	_	11	advmod	_	_
 9	going	_	VERB	ING	_	11	aux	_	_
 10	to	_	PART	_	_	11	mark	_	_
@@ -18213,7 +18212,7 @@
 22	.	_	PUNCT	Period	_	18	punct	_	_
 
 # sent_id = 3578
-# text = Dobby might have saved Harry from horrible happenings at Hogwarts, but the way things were going, he 'd probably starve to death anyway.
+# text = Dobby might have saved Harry from horrible happenings at Hogwarts, but the way things were going, he'd probably starve to death anyway.
 1	Dobby	_	PROPN	SG-NOM	_	4	nsubj	_	_
 2	might	_	AUX	PAST-AUX	_	4	aux	_	_
 3	have	_	AUX	INF-AUX	_	4	aux	_	_
@@ -18232,7 +18231,7 @@
 16	were	_	AUX	PAST	_	17	aux	_	_
 17	going	_	VERB	ING	_	14	acl:relcl	_	SpaceAfter=No
 18	,	_	PUNCT	Comma	_	4	punct	_	_
-19	he	_	PRON	PERS-P3SG-NOM	_	22	nsubj	_	_
+19	he	_	PRON	PERS-P3SG-NOM	_	22	nsubj	_	SpaceAfter=No
 20	'd	_	AUX	PAST-AUX	_	22	aux	_	_
 21	probably	_	ADV	_	_	22	advmod	_	_
 22	starve	_	VERB	INF	_	4	conj	_	_
@@ -18242,13 +18241,13 @@
 26	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3579
-# text = The cat-flap rattled and Aunt Petunia 's hand appeared, pushing a bowl of tinned soup into the room.
+# text = The cat-flap rattled and Aunt Petunia's hand appeared, pushing a bowl of tinned soup into the room.
 1	The	_	DET	DEF	_	2	det	_	_
 2	cat-flap	_	NOUN	SG-NOM	_	9	nsubj	_	_
 3	rattled	_	VERB	PAST	_	0	root	_	_
 4	and	_	CCONJ	_	_	9	cc	_	_
 5	Aunt	_	NOUN	SG-NOM	_	6	compound	_	_
-6	Petunia	_	PROPN	SG	_	8	amod	_	_
+6	Petunia	_	PROPN	SG	_	8	amod	_	SpaceAfter=No
 7	's	_	PART	GEN	_	6	case	_	_
 8	hand	_	NOUN	SG-NOM	_	9	nsubj	_	_
 9	appeared	_	VERB	PAST	_	3	conj	_	SpaceAfter=No
@@ -18304,14 +18303,14 @@
 16	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3582
-# text = Then he crossed the room to Hedwig 's cage and tipped the soggy vegetables at the bottom of the bowl into her empty food tray.
+# text = Then he crossed the room to Hedwig's cage and tipped the soggy vegetables at the bottom of the bowl into her empty food tray.
 1	Then	_	ADV	_	_	3	advmod	_	_
 2	he	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 3	crossed	_	VERB	PAST	_	0	root	_	_
 4	the	_	DET	DEF	_	5	det	_	_
 5	room	_	NOUN	SG-NOM	_	3	obj	_	_
 6	to	_	ADP	_	_	9	case	_	_
-7	Hedwig	_	PROPN	SG	_	9	amod	_	_
+7	Hedwig	_	PROPN	SG	_	9	amod	_	SpaceAfter=No
 8	's	_	PART	GEN	_	7	case	_	_
 9	cage	_	NOUN	SG-NOM	_	3	obl	_	_
 10	and	_	CCONJ	_	_	11	cc	_	_
@@ -18384,7 +18383,7 @@
 32	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3585
-# text = Supposing he was still alive in another four weeks, what would happen if he did n't turn up at Hogwarts?
+# text = Supposing he was still alive in another four weeks, what would happen if he didn't turn up at Hogwarts?
 1	Supposing	_	VERB	ING	_	13	advcl	_	_
 2	he	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	_
 3	was	_	AUX	PAST	_	5	cop	_	_
@@ -18400,7 +18399,7 @@
 13	happen	_	VERB	INF	_	0	root	_	_
 14	if	_	SCONJ	_	_	18	mark	_	_
 15	he	_	PRON	PERS-P3SG-NOM	_	18	nsubj	_	_
-16	did	_	AUX	PAST-AUX	_	18	aux	_	_
+16	did	_	AUX	PAST-AUX	_	18	aux	_	SpaceAfter=No
 17	n't	_	PART	NEG	_	18	advmod	_	_
 18	turn	_	VERB	INF	_	13	advcl	_	_
 19	up	_	ADV	_	_	18	compound:prt	_	_
@@ -18409,7 +18408,7 @@
 22	?	_	PUNCT	QuestionMark	_	13	punct	_	_
 
 # sent_id = 3586
-# text = Would someone be sent to see why he had n't come back?
+# text = Would someone be sent to see why he hadn't come back?
 1	Would	_	AUX	PAST-AUX	_	4	aux	_	_
 2	someone	_	PRON	IND-SG-NOM	_	4	nsubj:pass	_	_
 3	be	_	AUX	INF	_	4	aux	_	_
@@ -18418,7 +18417,7 @@
 6	see	_	VERB	INF	_	4	advcl	_	_
 7	why	_	ADV	WH	_	11	advmod	_	_
 8	he	_	PRON	PERS-P3SG-NOM	_	11	nsubj	_	_
-9	had	_	AUX	PAST-AUX	_	11	aux	_	_
+9	had	_	AUX	PAST-AUX	_	11	aux	_	SpaceAfter=No
 10	n't	_	PART	NEG	_	11	advmod	_	_
 11	come	_	VERB	PERF	_	6	ccomp	_	_
 12	back	_	ADV	_	_	11	advmod	_	SpaceAfter=No
@@ -18497,7 +18496,7 @@
 22	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3591
-# text = As always in the wizarding world, the photograph was moving ; the wizard, who Harry supposed was Gilderoy Lockhart, kept winking cheekily up at them all.
+# text = As always in the wizarding world, the photograph was moving; the wizard, who Harry supposed was Gilderoy Lockhart, kept winking cheekily up at them all.
 1	As	_	ADP	_	_	2	advmod	_	_
 2	always	_	ADV	_	_	6	advmod	_	_
 3	in	_	ADP	_	_	6	case	_	_
@@ -18508,7 +18507,7 @@
 8	the	_	DET	DEF	_	9	det	_	_
 9	photograph	_	NOUN	SG-NOM	_	11	nsubj	_	_
 10	was	_	AUX	PAST	_	11	aux	_	_
-11	moving	_	VERB	ING	_	0	root	_	_
+11	moving	_	VERB	ING	_	0	root	_	SpaceAfter=No
 12	;	_	PUNCT	SemiColon	_	10	punct	_	_
 13	the	_	DET	DEF	_	14	det	_	_
 14	wizard	_	NOUN	SG-NOM	_	23	nsubj	_	SpaceAfter=No
@@ -18540,8 +18539,8 @@
 7	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3593
-# text = Do n't be so ridiculous, Fred, said Mrs Weasley, her cheeks rather pink.
-1	Do	_	VERB	IMP	_	5	aux	_	_
+# text = Don't be so ridiculous, Fred, said Mrs Weasley, her cheeks rather pink.
+1	Do	_	VERB	IMP	_	5	aux	_	SpaceAfter=No
 2	n't	_	PART	NEG	_	5	advmod	_	_
 3	be	_	AUX	INF	_	5	cop	_	_
 4	so	_	ADV	_	_	5	advmod	_	_
@@ -18576,7 +18575,7 @@
 13	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3595
-# text = The garden was large, and in Harry 's eyes, exactly what a garden should be.
+# text = The garden was large, and in Harry's eyes, exactly what a garden should be.
 1	The	_	DET	DEF	_	2	det	_	_
 2	garden	_	NOUN	SG-NOM	_	4	nsubj	_	_
 3	was	_	AUX	PAST	_	4	cop	_	_
@@ -18584,7 +18583,7 @@
 5	,	_	PUNCT	Comma	_	3	punct	_	_
 6	and	_	CCONJ	_	_	13	cc	_	_
 7	in	_	ADP	_	_	10	case	_	_
-8	Harry	_	PROPN	SG	_	10	amod	_	_
+8	Harry	_	PROPN	SG	_	10	amod	_	SpaceAfter=No
 9	's	_	PART	GEN	_	8	case	_	_
 10	eyes	_	NOUN	PL-NOM	_	13	nmod	_	SpaceAfter=No
 11	,	_	PUNCT	Comma	_	4	punct	_	_
@@ -18597,10 +18596,10 @@
 18	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3596
-# text = The Dursleys would n't have liked it – there were plenty of weeds, and the grass needed cutting – but there were gnarled trees all around the walls, plants Harry had never seen spilling from every flowerbed and a big green pond full of frogs.
+# text = The Dursleys wouldn't have liked it – there were plenty of weeds, and the grass needed cutting – but there were gnarled trees all around the walls, plants Harry had never seen spilling from every flowerbed and a big green pond full of frogs.
 1	The	_	DET	DEF	_	2	det	_	_
 2	Dursleys	_	PROPN	PL-NOM	_	6	nsubj	_	_
-3	would	_	AUX	PAST-AUX	_	6	aux	_	_
+3	would	_	AUX	PAST-AUX	_	6	aux	_	SpaceAfter=No
 4	n't	_	PART	NEG	_	6	advmod	_	_
 5	have	_	AUX	INF-AUX	_	6	aux	_	_
 6	liked	_	VERB	PERF	_	0	root	_	_
@@ -18712,12 +18711,12 @@
 19	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3601
-# text = Ron held it at arm 's length as it kicked out at him with its horny little feet ; he grasped it around the ankles and turned it upside-down.
+# text = Ron held it at arm's length as it kicked out at him with its horny little feet; he grasped it around the ankles and turned it upside-down.
 1	Ron	_	PROPN	SG-NOM	_	2	nsubj	_	_
 2	held	_	VERB	PAST	_	0	root	_	_
 3	it	_	PRON	PERS-SG	_	2	obj	_	_
 4	at	_	ADP	_	_	7	case	_	_
-5	arm	_	NOUN	SG	_	7	amod	_	_
+5	arm	_	NOUN	SG	_	7	amod	_	SpaceAfter=No
 6	's	_	PART	GEN	_	5	case	_	_
 7	length	_	NOUN	SG-NOM	_	2	obl	_	_
 8	as	_	SCONJ	_	_	10	mark	_	_
@@ -18730,7 +18729,7 @@
 15	its	_	PRON	SG-GEN	_	18	nmod:poss	_	_
 16	horny	_	ADJ	POS	_	18	amod	_	_
 17	little	_	ADJ	POS	_	18	amod	_	_
-18	feet	_	NOUN	PL-NOM	_	10	obl	_	_
+18	feet	_	NOUN	PL-NOM	_	10	obl	_	SpaceAfter=No
 19	;	_	PUNCT	SemiColon	_	2	punct	_	_
 20	he	_	PRON	PERS-P3SG-NOM	_	21	nsubj	_	_
 21	grasped	_	VERB	PAST	_	2	conj	_	_
@@ -18745,13 +18744,13 @@
 30	.	_	PUNCT	Period	_	21	punct	_	_
 
 # sent_id = 3602
-# text = Seeing the shocked look on Harry 's face, Ron added, It does n't hurt them – you 've just got to make them really dizzy so they ca n't find their way back to the gnomeholes.
+# text = Seeing the shocked look on Harry's face, Ron added, It doesn't hurt them – you've just got to make them really dizzy so they can't find their way back to the gnomeholes.
 1	Seeing	_	VERB	ING	_	11	advcl	_	_
 2	the	_	DET	DEF	_	4	det	_	_
 3	shocked	_	ADJ	PASS	_	4	amod	_	_
 4	look	_	NOUN	SG-NOM	_	1	obj	_	_
 5	on	_	ADP	_	_	8	case	_	_
-6	Harry	_	PROPN	SG	_	8	amod	_	_
+6	Harry	_	PROPN	SG	_	8	amod	_	SpaceAfter=No
 7	's	_	PART	GEN	_	6	case	_	_
 8	face	_	NOUN	SG-NOM	_	1	obl	_	SpaceAfter=No
 9	,	_	PUNCT	Comma	_	1	punct	_	_
@@ -18759,12 +18758,12 @@
 11	added	_	VERB	PAST	_	0	root	_	SpaceAfter=No
 12	,	_	PUNCT	Comma	_	11	punct	_	_
 13	It	_	PRON	PERS-SG	_	16	nsubj	_	_
-14	does	_	VERB	PRES	_	16	aux	_	_
+14	does	_	VERB	PRES	_	16	aux	_	SpaceAfter=No
 15	n't	_	PART	NEG	_	16	advmod	_	_
 16	hurt	_	VERB	INF	_	11	xcomp	_	_
 17	them	_	PRON	PERS-P3PL-ACC	_	16	obj	_	_
 18	–	_	PUNCT	Dash	_	11	punct	_	_
-19	you	_	PRON	PERS-P2	_	24	nsubj	_	_
+19	you	_	PRON	PERS-P2	_	24	nsubj	_	SpaceAfter=No
 20	've	_	AUX	PRES-AUX	_	24	aux	_	_
 21	just	_	ADV	_	_	24	advmod	_	_
 22	got	_	VERB	PERF	_	24	aux	_	_
@@ -18775,7 +18774,7 @@
 27	dizzy	_	ADJ	POS	_	24	xcomp	_	_
 28	so	_	ADV	_	_	32	mark	_	_
 29	they	_	PRON	PERS-PL-NOM	_	32	nsubj	_	_
-30	ca	_	AUX	PRES-AUX	_	32	aux	_	_
+30	ca	_	AUX	PRES-AUX	_	32	aux	_	SpaceAfter=No
 31	n't	_	PART	NEG	_	32	advmod	_	_
 32	find	_	VERB	INF	_	24	advcl	_	_
 33	their	_	PRON	P3PL-GEN	_	34	nmod:poss	_	_
@@ -18787,13 +18786,13 @@
 39	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 3603
-# text = He let go of the gnome 's ankles: it flew twenty feet into the air and landed with a thud in the field over the hedge.
+# text = He let go of the gnome's ankles: it flew twenty feet into the air and landed with a thud in the field over the hedge.
 1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	let	_	VERB	PAST	_	0	root	_	_
 3	go	_	VERB	INF	_	2	xcomp	_	_
 4	of	_	ADP	_	_	8	case	_	_
 5	the	_	DET	DEF	_	8	det	_	_
-6	gnome	_	NOUN	SG	_	8	amod	_	_
+6	gnome	_	NOUN	SG	_	8	amod	_	SpaceAfter=No
 7	's	_	PART	GEN	_	6	case	_	_
 8	ankles	_	NOUN	PL-NOM	_	3	obl	_	SpaceAfter=No
 9	:	_	PUNCT	Colon	_	2	punct	_	_
@@ -18833,7 +18832,7 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3605
-# text = He decided just to drop the first one he caught over the hedge, but the gnome, sensing weakness, sank its razor-sharp teeth into Harry 's finger and he had a hard job shaking it off until –
+# text = He decided just to drop the first one he caught over the hedge, but the gnome, sensing weakness, sank its razor-sharp teeth into Harry's finger and he had a hard job shaking it off until –
 1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	decided	_	VERB	PAST	_	0	root	_	_
 3	just	_	ADV	_	_	2	advmod	_	_
@@ -18860,7 +18859,7 @@
 24	razor-sharp	_	ADJ	POS	_	25	amod	_	_
 25	teeth	_	NOUN	PL-NOM	_	22	obj	_	_
 26	into	_	ADP	_	_	29	case	_	_
-27	Harry	_	PROPN	SG	_	29	amod	_	_
+27	Harry	_	PROPN	SG	_	29	amod	_	SpaceAfter=No
 28	's	_	PART	GEN	_	27	case	_	_
 29	finger	_	NOUN	SG-NOM	_	22	obl	_	_
 30	and	_	CCONJ	_	_	32	cc	_	_
@@ -18888,13 +18887,13 @@
 9	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3607
-# text = The moment they know the de-gnoming 's going on they storm up to have a look.
+# text = The moment they know the de-gnoming's going on they storm up to have a look.
 1	The	_	DET	DEF	_	3	det	_	_
 2	moment	_	NOUN	SG-NOM	_	10	nmod	_	_
 3	they	_	PRON	PERS-PL-NOM	_	5	nsubj	_	_
 4	know	_	VERB	PRES	_	2	amod	_	_
 5	the	_	DET	DEF	_	6	det	_	_
-6	de-gnoming	_	VERB	ING	_	8	csubj	_	_
+6	de-gnoming	_	VERB	ING	_	8	csubj	_	SpaceAfter=No
 7	's	_	AUX	PRES-AUX	_	8	aux	_	_
 8	going	_	VERB	ING	_	4	xcomp	_	_
 9	on	_	ADV	_	_	8	compound:prt	_	_
@@ -18944,8 +18943,8 @@
 8	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3610
-# text = He 's back! said George.
-1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
+# text = He's back! said George.
+1	He	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	SpaceAfter=No
 2	's	_	VERB	PRES	_	0	root	_	_
 3	back	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	!	_	PUNCT	ExclMark	_	2	punct	_	_
@@ -18988,7 +18987,7 @@
 17	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3613
-# text = He was a thin man, going bald, but the little hair he had was as red as any of his children 's.
+# text = He was a thin man, going bald, but the little hair he had was as red as any of his children's.
 1	He	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	_
 2	was	_	AUX	PAST	_	5	cop	_	_
 3	a	_	DET	IND-SG	_	5	det	_	_
@@ -19011,7 +19010,7 @@
 20	any	_	PRON	IND	_	17	nmod	_	_
 21	of	_	ADP	_	_	23	case	_	_
 22	his	_	PRON	P3SG-GEN	_	23	nmod:poss	_	_
-23	children	_	NOUN	PL	_	20	nmod	_	_
+23	children	_	NOUN	PL	_	20	nmod	_	SpaceAfter=No
 24	's	_	PART	GEN	_	23	case	_	SpaceAfter=No
 25	.	_	PUNCT	Period	_	5	punct	_	_
 
@@ -19067,11 +19066,11 @@
 7	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3618
-# text = of course, it 's very hard to convict anyone because no Muggle would admit their key keeps shrinking – they 'll insist they just keep losing it.
+# text = of course, it's very hard to convict anyone because no Muggle would admit their key keeps shrinking – they'll insist they just keep losing it.
 1	of	_	ADV	_	_	7	advmod	_	_
 2	course	_	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	1	punct	_	_
-4	it	_	PRON	PERS-SG	_	7	nsubj	_	_
+4	it	_	PRON	PERS-SG	_	7	nsubj	_	SpaceAfter=No
 5	's	_	AUX	PRES	_	7	cop	_	_
 6	very	_	ADV	_	_	7	advmod	_	_
 7	hard	_	ADJ	POS	_	0	root	_	_
@@ -19088,7 +19087,7 @@
 18	keeps	_	VERB	PRES	_	15	ccomp	_	_
 19	shrinking	_	VERB	ING	_	18	xcomp	_	_
 20	–	_	PUNCT	Dash	_	7	punct	_	_
-21	they	_	PRON	PERS-PL-NOM	_	23	nsubj	_	_
+21	they	_	PRON	PERS-PL-NOM	_	23	nsubj	_	SpaceAfter=No
 22	'll	_	AUX	PRES-AUX	_	23	aux	_	_
 23	insist	_	VERB	INF	_	15	conj	_	_
 24	they	_	PRON	PERS-PL-NOM	_	26	nsubj	_	_
@@ -19115,9 +19114,9 @@
 13	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3620
-# text = Mr Weasley 's eyes jerked open.
+# text = Mr Weasley's eyes jerked open.
 1	Mr	_	NOUN	SG-NOM	_	2	compound	_	_
-2	Weasley	_	PROPN	SG	_	4	amod	_	_
+2	Weasley	_	PROPN	SG	_	4	amod	_	SpaceAfter=No
 3	's	_	PART	GEN	_	2	case	_	_
 4	eyes	_	NOUN	PL-NOM	_	5	nsubj	_	_
 5	jerked	_	VERB	PAST	_	0	root	_	_
@@ -19191,14 +19190,14 @@
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3626
-# text = Very pleased to meet you, Ron 's told us so much about –
+# text = Very pleased to meet you, Ron's told us so much about –
 1	Very	_	ADV	_	_	2	advmod	_	_
 2	pleased	_	VERB	PASS	_	0	root	_	_
 3	to	_	PART	_	_	4	mark	_	_
 4	meet	_	VERB	INF	_	2	xcomp	_	_
 5	you	_	PRON	PERS-P2	_	4	obj	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	2	punct	_	_
-7	Ron	_	PROPN	SG-GEN	_	9	nsubj	_	_
+7	Ron	_	PROPN	SG-GEN	_	9	nsubj	_	SpaceAfter=No
 8	's	_	AUX	PRES-AUX	_	9	aux	_	_
 9	told	_	VERB	PERF	_	2	conj	_	_
 10	us	_	PRON	PERS-P1PL-ACC	_	9	obj	_	_
@@ -19208,7 +19207,7 @@
 14	–	_	PUNCT	Dash	_	2	punct	_	_
 
 # sent_id = 3627
-# text = I – I mean, he faltered as sparks flew from Mrs Weasley 's eyes, that – that was very wrong, boys – very wrong indeed
+# text = I – I mean, he faltered as sparks flew from Mrs Weasley's eyes, that – that was very wrong, boys – very wrong indeed
 1	I	_	PRON	PERS-P1SG-NOM	_	4	discourse	_	_
 2	–	_	PUNCT	Dash	_	4	punct	_	_
 3	I	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
@@ -19221,7 +19220,7 @@
 10	flew	_	VERB	PAST	_	7	advcl	_	_
 11	from	_	ADP	_	_	15	case	_	_
 12	Mrs	_	NOUN	SG-NOM	_	13	compound	_	_
-13	Weasley	_	PROPN	SG	_	15	amod	_	_
+13	Weasley	_	PROPN	SG	_	15	amod	_	SpaceAfter=No
 14	's	_	PART	GEN	_	13	case	_	_
 15	eyes	_	NOUN	PL-NOM	_	10	obl	_	SpaceAfter=No
 16	,	_	PUNCT	Comma	_	4	punct	_	_
@@ -19304,7 +19303,7 @@
 21	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3631
-# text = They climbed two more flights until they reached a door with peeling paint and a small plaque on it, saying Ronald 's Room.
+# text = They climbed two more flights until they reached a door with peeling paint and a small plaque on it, saying Ronald's Room.
 1	They	_	PRON	PERS-PL-NOM	_	2	nsubj	_	_
 2	climbed	_	VERB	PAST	_	0	root	_	_
 3	two	_	NUM	CARD-PL	_	4	nummod	_	_
@@ -19326,7 +19325,7 @@
 19	it	_	PRON	PERS-SG	_	17	nmod	_	SpaceAfter=No
 20	,	_	PUNCT	Comma	_	2	punct	_	_
 21	saying	_	VERB	ING	_	17	amod	_	_
-22	Ronald	_	PROPN	SG	_	25	amod	_	_
+22	Ronald	_	PROPN	SG	_	25	amod	_	SpaceAfter=No
 23	's	_	PART	GEN	_	22	case	_	_
 24	Room	_	NOUN	SG-NOM	_	21	obj	_	SpaceAfter=No
 25	.	_	PUNCT	Period	_	2	punct	_	_
@@ -19350,7 +19349,7 @@
 15	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3633
-# text = It was like walking into a furnace: nearly everything in Ron 's room seemed to be a violent shade of orange: the bedspread, the walls, even the ceiling.
+# text = It was like walking into a furnace: nearly everything in Ron's room seemed to be a violent shade of orange: the bedspread, the walls, even the ceiling.
 1	It	_	PRON	PERS-SG	_	2	nsubj	_	_
 2	was	_	VERB	PAST	_	0	root	_	_
 3	like	_	ADP	_	_	4	case	_	_
@@ -19362,7 +19361,7 @@
 9	nearly	_	ADV	_	_	10	advmod	_	_
 10	everything	_	PRON	TOT-SG	_	15	nsubj	_	_
 11	in	_	ADP	_	_	14	case	_	_
-12	Ron	_	PROPN	SG	_	14	amod	_	_
+12	Ron	_	PROPN	SG	_	14	amod	_	SpaceAfter=No
 13	's	_	PART	GEN	_	12	case	_	_
 14	room	_	NOUN	SG-NOM	_	10	nmod	_	_
 15	seemed	_	VERB	PAST	_	2	advcl	_	_
@@ -19426,8 +19425,8 @@
 37	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3635
-# text = Ron 's school spellbooks were stacked untidily in a corner, next to a pile of comics that all seemed to feature The Adventures of Martin Miggs, the Mad Muggle.
-1	Ron	_	PROPN	SG	_	3	amod	_	_
+# text = Ron's school spellbooks were stacked untidily in a corner, next to a pile of comics that all seemed to feature The Adventures of Martin Miggs, the Mad Muggle.
+1	Ron	_	PROPN	SG	_	3	amod	_	SpaceAfter=No
 2	's	_	PART	GEN	_	1	case	_	_
 3	school	_	NOUN	SG-NOM	_	4	compound	_	_
 4	spellbooks	_	NOUN	PL-NOM	_	6	nsubj:pass	_	_
@@ -19461,8 +19460,8 @@
 32	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3636
-# text = Ron 's magic wand was lying on top of a fish tank full of frog spawn on the window-sill, next to his fat grey rat, Scabbers, who was snoozing in a patch of sun.
-1	Ron	_	PROPN	SG	_	4	amod	_	_
+# text = Ron's magic wand was lying on top of a fish tank full of frog spawn on the window-sill, next to his fat grey rat, Scabbers, who was snoozing in a patch of sun.
+1	Ron	_	PROPN	SG	_	4	amod	_	SpaceAfter=No
 2	's	_	PART	GEN	_	1	case	_	_
 3	magic	_	ADJ	POS	_	4	amod	_	_
 4	wand	_	NOUN	SG-NOM	_	6	nsubj	_	_
@@ -19590,8 +19589,8 @@
 10	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3641
-# text = Ron 's ears went pink.
-1	Ron	_	PROPN	SG	_	3	amod	_	_
+# text = Ron's ears went pink.
+1	Ron	_	PROPN	SG	_	3	amod	_	SpaceAfter=No
 2	's	_	PART	GEN	_	1	case	_	_
 3	ears	_	NOUN	PL-NOM	_	4	nsubj	_	_
 4	went	_	VERB	PAST	_	0	root	_	_
@@ -19617,14 +19616,14 @@
 15	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3643
-# text = The Dursleys liked everything neat and ordered ; the Weasleys house burst with the strange and unexpected.
+# text = The Dursleys liked everything neat and ordered; the Weasleys house burst with the strange and unexpected.
 1	The	_	DET	DEF	_	2	det	_	_
 2	Dursleys	_	PROPN	PL-NOM	_	3	nsubj	_	_
 3	liked	_	VERB	PAST	_	0	root	_	_
 4	everything	_	PRON	TOT-SG	_	3	obj	_	_
 5	neat	_	ADJ	POS	_	3	xcomp	_	_
 6	and	_	CCONJ	_	_	7	cc	_	_
-7	ordered	_	VERB	PASS	_	5	conj	_	_
+7	ordered	_	VERB	PASS	_	5	conj	_	SpaceAfter=No
 8	;	_	PUNCT	SemiColon	_	3	punct	_	_
 9	the	_	DET	DEF	_	10	det	_	_
 10	Weasleys	_	PROPN	PL-GEN	_	11	nmod:poss	_	_
@@ -19638,7 +19637,7 @@
 18	.	_	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 3644
-# text = The ghoul in the attic howled and dropped pipes whenever he felt things were getting too quiet, and small explosions from Fred and George 's bedroom were considered perfectly normal.
+# text = The ghoul in the attic howled and dropped pipes whenever he felt things were getting too quiet, and small explosions from Fred and George's bedroom were considered perfectly normal.
 1	The	_	DET	DEF	_	2	det	_	_
 2	ghoul	_	NOUN	SG-NOM	_	6	nsubj	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -19663,7 +19662,7 @@
 22	from	_	ADP	_	_	23	case	_	_
 23	Fred	_	PROPN	SG-NOM	_	21	nmod:poss	_	_
 24	and	_	CCONJ	_	_	25	cc	_	_
-25	George	_	PROPN	SG	_	23	conj	_	_
+25	George	_	PROPN	SG	_	23	conj	_	SpaceAfter=No
 26	's	_	PART	GEN	_	23	case	_	_
 27	bedroom	_	NOUN	SG-NOM	_	21	nmod	_	_
 28	were	_	AUX	PAST	_	29	aux	_	_
@@ -19673,7 +19672,7 @@
 32	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3645
-# text = What Harry found most unusual about life at Ron 's, however, was n't the talking mirror or the clanking ghoul: it was the fact that everybody there seemed to like him.
+# text = What Harry found most unusual about life at Ron's, however, wasn't the talking mirror or the clanking ghoul: it was the fact that everybody there seemed to like him.
 1	What	_	PRON	WH	_	3	obj	_	_
 2	Harry	_	PROPN	SG-NOM	_	3	nsubj	_	_
 3	found	_	VERB	PAST	_	18	csubj	_	_
@@ -19682,12 +19681,12 @@
 6	about	_	ADP	_	_	7	case	_	_
 7	life	_	NOUN	SG-NOM	_	3	obl	_	_
 8	at	_	ADP	_	_	9	case	_	_
-9	Ron	_	PROPN	SG	_	7	nmod	_	_
+9	Ron	_	PROPN	SG	_	7	nmod	_	SpaceAfter=No
 10	's	_	PART	GEN	_	9	case	_	SpaceAfter=No
 11	,	_	PUNCT	Comma	_	3	punct	_	_
 12	however	_	ADV	_	_	18	advmod	_	SpaceAfter=No
 13	,	_	PUNCT	Comma	_	12	punct	_	_
-14	was	_	AUX	PAST	_	18	cop	_	_
+14	was	_	AUX	PAST	_	18	cop	_	SpaceAfter=No
 15	n't	_	PART	NEG	_	18	advmod	_	_
 16	the	_	DET	DEF	_	18	det	_	_
 17	talking	_	ADJ	ING	_	18	amod	_	_
