@@ -4354,7 +4354,7 @@
 19	products	_	NOUN	PL-NOM	_	15	conj	_	_
 20	that	_	SCONJ	REL	_	23	mark	_	_
 21	are	_	AUX	PRES	_	23	cop	_	_
-22	least	_	ADV	SPL	_	23	det	_	_
+22	least	_	ADV	SPL	_	23	advmod	_	_
 23	profitable	_	ADJ	POS	_	19	acl:relcl	_	SpaceAfter=No
 24	.	_	PUNCT	Period	_	6	punct	_	_
 
@@ -56398,15 +56398,15 @@
 # sent_id = 2637
 # text = The sooner he got out of here, the better.
 1	The	_	ADV	_	_	2	advmod	_	_
-2	sooner	_	ADV	CMP	_	10	expl	_	_
+2	sooner	_	ADV	CMP	_	4	advmod	_	_
 3	he	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
-4	got	_	VERB	PAST	_	2	amod	_	_
+4	got	_	VERB	PAST	_	0	root	_	_
 5	out	_	ADP	_	_	7	case	_	_
 6	of	_	ADP	_	_	5	fixed	_	_
 7	here	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 8	,	_	PUNCT	Comma	_	7	punct	_	_
 9	the	_	ADV	_	_	10	advmod	_	_
-10	better	_	ADJ	CMP	_	0	root	_	SpaceAfter=No
+10	better	_	ADJ	CMP	_	4	advmod	_	SpaceAfter=No
 11	.	_	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = 2638
