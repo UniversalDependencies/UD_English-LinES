@@ -34,12 +34,11 @@ Online Help and the Englsh part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-Before splitting all segments were scrambled. From this scrambled
-version, 10% were randomly selected as test set, 10% as development set, and the rest as training set. The files are named
+The data has been split so that about 20% is used for the dev-file, 20% for the test file and the rest for training. In each file, segments from the same sub-corpus are held together. The files are named
 
- - en-lines-ud-test.conllu
- - en-lines-ud-dev.conllu
- - en-lines-ud-train.conllu
+ - en_lines-ud-test.conllu
+ - en_lines-ud-dev.conllu
+ - en_lines-ud-train.conllu
 
 English_LinES and Swedish_LinES have been split the same way.
 
@@ -49,7 +48,7 @@ BASIC STATISTICS
 Tree count: 4564
 Word count: 82821
 Token count: 82821
-Dep. relations: 37 of which 4 language specific
+Dep. relations: 40 of which 7 language specific
 POS tags: 17
 Category=value feature pairs: 0
 
@@ -80,17 +79,19 @@ There is no feature annotation in this version.
 SYNTAX
 
 The syntactic annotation in the English UD treebank follows the
-general guidelines but adds three language-specific relations, as in
-the Englsh UD treebank
+general guidelines but adds seven language-specific relations
 
 - acl:relcl for relative clauses
 - compound:prt for verb particles
 - nmod:poss for possessive/genitive modifiers
+- nsubj:pass for subjects of passive participles
+- csubj:pass for clausal subjects to passives
+- aux:pass for auxiliries of passive participles
+- obl:agent for oblique np:s in passive clauses marked by the preposition 'by'
 
-The language-specific relations det:predet and nmod:npmod are not used.
 
-The syntactic annotation has been automatically converted from the original
-LinES annotation scheme as described in Ahrenberg (2015).
+The syntactic annotation was first automatically converted from the original
+LinES annotation scheme as described in Ahrenberg (2015). Then converted again, mostly automatically to UD version 2.0.
 
 There may be occasional deviations from the general guidelines.
 
@@ -113,7 +114,10 @@ Dissertation No. 607.
 
 Changelog
 
-  * No changes since UD release 1.3.
+-- From UD version 1.3 to UD version 2.0
+ * changes of part-of-speech labels and dependency labels in accordance with 2.0 guidelines
+ * addition of comments for sent_id, text, and document boundaries
+ * addition of SpaceAfter=No features in the MISC column
 
 
 --- Machine readable metadata ---
