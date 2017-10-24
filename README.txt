@@ -114,10 +114,15 @@ Dissertation No. 607.
 
 Changelog
 
--- From UD version 1.3 to UD version 2.0
+From UD version 1.3 to UD version 2.0
  * changes of part-of-speech labels and dependency labels in accordance with 2.0 guidelines
  * addition of comments for sent_id, text, and document boundaries
  * addition of SpaceAfter=No features in the MISC column
+ 
+ From UD version 2.0 to UD version 2.1
+  * all tokens have received a lemma
+  * the test data have been manually reviewed to correct errors and make data agree better with the version 2 guidelines.
+    Changes affect about 14% of all tokens and some 36% of all punctuation tokens.
 
 
 --- Machine readable metadata ---
