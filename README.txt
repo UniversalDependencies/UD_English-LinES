@@ -79,11 +79,12 @@ The tokenization is largely based on whitespace, but punctuation marks
 except word-internal hyphens are treated as separate tokens. The
 original file also has several multi-word tokens, but these are
 separated in the UD version with all parts except the first assigned
-the UD dependency function 'mwe'.
+the UD dependency function 'fixed'.
 
 MORPHOLOGY
 
-The morphological annotation in the English LinES treebank is the same
+The UFEATS column is empty, but the morphological annotation in the English LinES treebank 
+is found in the XPOS column. It is the same
 as in the original LinES with the exception of nouns that are not
 annotated for case, only number.  Verbs are annotated for tense and,
 adjectives for degree. Pronouns are sub-divided in the morphological
@@ -92,10 +93,9 @@ Relative, Total, and Expletive, and are annotated for Number, Person
 and Case, when relevant.
 
 The mapping from language-specific part-of-speech tags to universal tags
-was done automatically. There are no other tags than universal tags, but
-there may be errors.
+was done automatically. Errors have been corrected when found but
+there may still be some errors remaining.
 
-There is no feature annotation in this version.
 
 SYNTAX
 
@@ -112,7 +112,9 @@ general guidelines but adds seven language-specific relations
 
 
 The syntactic annotation was first automatically converted from the original
-LinES annotation scheme as described in Ahrenberg (2015). Then converted again, mostly automatically to UD version 2.0.
+LinES annotation scheme as described in Ahrenberg (2015). Then converted again, mostly 
+automatically to UD version 2.0. The test sample has been thoroughly reviewed before
+the release of version 2.1.
 
 There may be occasional deviations from the general guidelines.
 
