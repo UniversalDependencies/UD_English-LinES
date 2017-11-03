@@ -1,17 +1,34 @@
-English_LinES
+# Summary
 
-This treebank is the English half of the LinES Parallel Treebank 1.0
+UD English_LinES is the English half of the LinES Parallel Treebank 
 with the original dependency annotation first automatically converted
-into Universal Dependencies and then partially reviewed. LinES
-contains segments from seven different sources, three of which are
+into Universal Dependencies and then partially reviewed. Its contents cover
+literature, an online manual and Europarl data.
+
+# Introduction
+
+UD English_LinES is the English half of the LinES Parallel Treebank with UD annotations.
+The majority of segments are from literature but there is also a section with online manual
+data and one section with Europarl data. All segments have an associated translation in the
+UD Swedish_LinES treebank (with the same segment index). The original dependency annotation 
+was first automatically converted to Universal Dependencies and 
+then partially reviewed (Ahrenberg, 2015). In January-February 2017 it was converted to UD version 2 
+and again reviewed for errors. With version 2.1 lemma information has been added.
+
+The treebank is being developed continuously.
+
+# Acknowledgements
+
+Three of the source texts were collected as part of the Linköping Translation Corpus Corpus
+(Merkel, 1999). The treebank was first developed in the project 'Micro- and macro-level
+analysis of translations' funded by the Swedish Research Council (Ahrenberg, 2007).
+
+# Details on the source texts
+
+UD English_LinES contains segments from seven different sources, three of which are
 part of the Linköping Translation Corpus Corpus (Merkel, 1999). The
 treebank was first developed in the project 'Micro- and macro-level
-analysis of translations' funded by the Swedish Research Council
-(Ahrenberg, 2007). It is being developed continuously.
-
-All sub-corpora are English originals with Swedish translations found in
-the treebank Swedish_Lines. If you would like to get files with word
-alignments, please contact Lars Ahrenberg.
+analysis of translations' funded by the Swedish Research Council (Ahrenberg, 2007).
 
 Five of the sub-corpora are taken from literary works:
 
@@ -31,6 +48,10 @@ in 1998.
 
 In addition the corpus includes segments from Microsoft Access 2002
 Online Help and the Englsh part of the Europarl corpus (v.7).
+
+The segments have been word-aligned to the corresponding segments in the
+UD Swedish_LinES treebank. Contact Lars Ahrenberg if you are interested in
+obtaining the word alignments.
 
 DATA SPLITS
 
