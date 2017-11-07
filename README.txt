@@ -84,9 +84,8 @@ the UD dependency function 'fixed'.
 MORPHOLOGY
 
 The UFEATS column is empty, but the morphological annotation in the English LinES treebank 
-is found in the XPOS column. It is the same
-as in the original LinES with the exception of nouns that are not
-annotated for case, only number.  Verbs are annotated for tense and,
+is found in the XPOS column. It is the same as in the original LinES with the exception of 
+nouns that are not annotated for case, only number.  Verbs are annotated for tense and,
 adjectives for degree. Pronouns are sub-divided in the morphological
 description into Personal, Demonstrative, Interrogative, Indefinite,
 Relative, Total, and Expletive, and are annotated for Number, Person
@@ -155,5 +154,11 @@ Data source: semi-automatic
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: fiction nonfiction spoken
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual
+Features: not available
+Relations: converted from manual and corrected
 Contributors: Ahrenberg, Lars
+Contributing: elsewhere
 Contact: lars.ahrenberg@liu.se
