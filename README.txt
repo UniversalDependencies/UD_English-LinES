@@ -83,9 +83,8 @@ the UD dependency function 'fixed'.
 
 MORPHOLOGY
 
-The UFEATS column is empty, but the morphological annotation in the English LinES treebank 
-is found in the XPOS column. It is the same as in the original LinES with the exception of 
-nouns that are not annotated for case, only number.  Verbs are annotated for tense and,
+From version 2.2 the UFEATS column is now filled. The XPOS column has features from the original LinES 
+with the exception of nouns that are not annotated for case, only number.  Verbs are annotated for tense and,
 adjectives for degree. Pronouns are sub-divided in the morphological
 description into Personal, Demonstrative, Interrogative, Indefinite,
 Relative, Total, and Expletive, and are annotated for Number, Person
@@ -97,18 +96,6 @@ there may still be some errors remaining.
 
 
 SYNTAX
-
-The syntactic annotation in the English UD treebank follows the
-general guidelines but adds seven language-specific relations
-
-- acl:relcl for relative clauses
-- compound:prt for verb particles
-- nmod:poss for possessive/genitive modifiers
-- nsubj:pass for subjects of passive participles
-- csubj:pass for clausal subjects to passives
-- aux:pass for auxiliries of passive participles
-- obl:agent for oblique np:s in passive clauses marked by the preposition 'by'
-
 
 The syntactic annotation was first automatically converted from the original
 LinES annotation scheme as described in Ahrenberg (2015). Then converted again, mostly 
@@ -145,6 +132,12 @@ From UD version 1.3 to UD version 2.0
   * all tokens have received a lemma
   * the test data have been manually reviewed to correct errors and make data agree better with the version 2 guidelines.
     Changes affect about 14% of all tokens and some 36% of all punctuation tokens.
+    
+ From UD version 2.1 to UD version 2.2
+  * features have been added to the UFEATS column. They have been mapped from UD_English v2.1 and then manually reviewed.
+  * the train and dev data have been partially reviewed to correct errors and make data agree better with the 
+    version 2 guidelines.
+  
 
 
 --- Machine readable metadata ---
