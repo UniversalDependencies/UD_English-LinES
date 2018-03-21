@@ -202,7 +202,7 @@
 
 # sent_id = 2746
 # text = By setting properties from the View menu, you can enable mixed mode security.
-1	B	yb	yADP	_	_	2	mark	_	_
+1	By	by	ADP	_	_	2	mark	_	_
 2	setting	set	VERB	ING	Tense=Pres|VerbForm=Part	11	advcl	_	_
 3	properties	property	NOUN	PL-NOM	Number=Plur	2	obj	_	_
 4	from	from	ADP	_	_	7	case	_	_
@@ -674,7 +674,7 @@
 11	World	world	NOUN	SG-NOM	Number=Sing	12	compound	_	_
 12	Wide	wide	ADJ	POS	Degree=Pos	13	amod	_	_
 13	Web	web	NOUN	SG-NOM	Number=Sing	14	compound	_	_
-14	Consortium	consortium	NOUN	SG-NOM	Number=Sing	8	obl:agent	_	_
+14	Consortium	consortium	NOUN	SG-NOM	Number=Sing	8	obl	_	_
 15	(	(	PUNCT	LeftParenthesis	_	16	punct	_	SpaceAfter=No
 16	W3C	w3c	X	NOM	_	14	appos	_	SpaceAfter=No
 17	)	)	PUNCT	RightParenthesis	_	16	punct	_	SpaceAfter=No
@@ -718,7 +718,7 @@
 34	read	read	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	29	conj	_	_
 35	by	by	ADP	_	_	37	case	_	_
 36	different	different	ADJ	POS	Degree=Pos	37	amod	_	_
-37	computers	computer	NOUN	PL-NOM	Number=Plur	34	obl:agent	_	_
+37	computers	computer	NOUN	PL-NOM	Number=Plur	34	obl	_	_
 38	and	and	CCONJ	_	_	39	cc	_	_
 39	applications	application	NOUN	PL-NOM	Number=Plur	37	conj	_	SpaceAfter=No
 40	.	.	PUNCT	Period	_	6	punct	_	_
@@ -1224,7 +1224,7 @@
 
 # sent_id = 2789
 # text = By using a schema, you can ensure that any XML document that is used to import data into Access or export from Access to another format contains specific data and conforms to a defined structure.
-1	B	yb	yADP	_	_	2	mark	_	_
+1	By	by	ADP	_	_	2	mark	_	_
 2	using	use	VERB	ING	Tense=Pres|VerbForm=Part	8	advcl	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	4	det	_	_
 4	schema	schema	NOUN	SG-NOM	Number=Sing	2	obj	_	SpaceAfter=No
@@ -1694,7 +1694,7 @@
 20	followed	follow	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
 21	by	by	ADP	_	_	23	case	_	_
 22	an	an	DET	IND-SG	Definite=Ind|PronType=Art	23	det	_	_
-23	autofilter	autofilter	NOUN	SG-NOM	Number=Sing	20	obl:agent	_	_
+23	autofilter	autofilter	NOUN	SG-NOM	Number=Sing	20	obl	_	_
 24	on	on	ADP	_	_	27	case	_	_
 25	the	the	DET	DEF	Definite=Def|PronType=Art	27	det	_	_
 26	ShippedCity	shippedcity	NOUN	SG-NOM	Number=Sing	27	compound	_	_
@@ -1882,7 +1882,7 @@
 6	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	hidden	hide	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	25	advcl	_	_
 8	by	by	ADP	_	_	9	case	_	_
-9	autofiltering	autofiltering	NOUN	SG-NOM	Number=Sing	7	obl:agent	_	_
+9	autofiltering	autofiltering	NOUN	SG-NOM	Number=Sing	7	obl	_	_
 10	or	or	CCONJ	_	_	11	cc	_	_
 11	filter	filter	VERB	INF	Case=Nom	9	conj	_	_
 12	by	by	ADP	_	_	13	case	_	_
@@ -1928,7 +1928,7 @@
 7	hidden	hide	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
 8	by	by	ADP	_	_	10	mark	_	_
 9	conditional	conditional	ADJ	POS	Degree=Pos	10	amod	_	_
-10	filtering	filter	VERB	ING	Tense=Pres|VerbForm=Part	7	obl:agent	_	SpaceAfter=No
+10	filtering	filter	VERB	ING	Tense=Pres|VerbForm=Part	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	7	punct	_	_
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
 13	funnel	funnel	NOUN	SG-NOM	Number=Sing	14	nsubj	_	_
@@ -2388,7 +2388,7 @@
 17	shared	share	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
 18	by	by	ADP	_	_	20	case	_	_
 19	the	the	DET	DEF	Definite=Def|PronType=Art	20	det	_	_
-20	group	group	NOUN	SG-NOM	Number=Sing	17	obl:agent	_	_
+20	group	group	NOUN	SG-NOM	Number=Sing	17	obl	_	_
 21	in	in	ADP	_	_	24	case	_	_
 22	the	the	DET	DEF	Definite=Def|PronType=Art	24	det	_	_
 23	property	property	NOUN	SG-NOM	Number=Sing	24	compound	_	_
@@ -2713,8 +2713,8 @@
 30	so	so	ADV	_	_	29	fixed	_	_
 31	on	on	ADP	_	_	29	fixed	_	SpaceAfter=No
 32	.	.	PUNCT	Period	_	6	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 2858
 # text = He wondered if the young Auster had been any better at it than he was.
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -3004,7 +3004,7 @@
 34	,	,	PUNCT	Comma	_	35	punct	_	_
 35	forgotten	forget	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	23	advcl	_	_
 36	by	by	ADP	_	_	37	case	_	_
-37	everyone	everyone	PRON	TOT-SG-NOM	Number=Sing	35	obl:agent	_	SpaceAfter=No
+37	everyone	everyone	PRON	TOT-SG-NOM	Number=Sing	35	obl	_	SpaceAfter=No
 38	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2867
@@ -3261,7 +3261,7 @@
 32	taken	take	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
 33	over	over	ADV	_	_	32	compound:prt	_	_
 34	by	by	ADP	_	_	35	case	_	_
-35	men	man	NOUN	PL-NOM	Number=Plur	32	obl:agent	_	_
+35	men	man	NOUN	PL-NOM	Number=Plur	32	obl	_	_
 36	and	and	CCONJ	_	_	37	cc	_	_
 37	women	woman	NOUN	PL-NOM	Number=Plur	35	conj	_	_
 38	with	with	ADP	_	_	39	case	_	_
@@ -5968,8 +5968,8 @@
 19	to	to	ADP	_	_	20	case	_	_
 20	more	much	ADJ	CMP-SG	Degree=Cmp	17	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	3	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3016
 # text = The Archbishop is really very handsome, with his full cheeks, his long clear dark-green eyes, and the short strong beard.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
@@ -6652,7 +6652,7 @@
 13	intelligent	intelligent	ADJ	POS	Degree=Pos	16	amod	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	13	punct	_	_
 15	informed	informed	ADJ	POS	Case=Nom	16	amod	_	_
-16	people	people	NOUN	PL-NOM	Number=Plur	11	obl:agent	_	SpaceAfter=No
+16	people	people	NOUN	PL-NOM	Number=Plur	11	obl	_	SpaceAfter=No
 17	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3048
@@ -7024,7 +7024,7 @@
 4	by	by	ADP	_	_	8	case	_	_
 5	Foreign	foreign	ADJ	POS	Degree=Pos	6	amod	_	_
 6	Minister	minister	NOUN	SG-NOM	Number=Sing	8	compound	_	_
-7	Maurice	maurice	PROPN	SG-NOM	Number=Sing	3	obl:agent	_	_
+7	Maurice	maurice	PROPN	SG-NOM	Number=Sing	3	obl	_	_
 8	Jobert	jobert	PROPN	SG-NOM	Number=Sing	7	flat	_	_
 9	in	in	ADP	_	_	12	case	_	_
 10	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
@@ -7105,7 +7105,7 @@
 14	to	to	ADP	_	_	15	case	_	_
 15	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
 16	by	by	ADP	_	_	18	case	_	_
-17	Manes	mane	PROPN	PL-NOM	Number=Plur	13	obl:agent	_	_
+17	Manes	mane	PROPN	PL-NOM	Number=Plur	13	obl	_	_
 18	Sperber	sperber	PROPN	SG-NOM	Number=Sing	17	flat	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	3	punct	_	_
 20	the	the	DET	DEF	Definite=Def|PronType=Art	21	det	_	_
@@ -7215,7 +7215,7 @@
 30	"	&quot;	PUNCT	Quote	_	28	punct	_	_
 31	maligned	malign	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
 32	by	by	ADP	_	_	33	case	_	_
-33	everyone	everyone	PRON	TOT-SG-NOM	Number=Sing	31	obl:agent	_	SpaceAfter=No
+33	everyone	everyone	PRON	TOT-SG-NOM	Number=Sing	31	obl	_	SpaceAfter=No
 34	,	,	PUNCT	Comma	_	23	punct	_	_
 35	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	37	aux	_	_
 36	now	now	ADV	_	_	37	advmod	_	_
@@ -8051,7 +8051,7 @@
 15	Hitler	hitler	PROPN	SG-NOM	Number=Sing	13	nmod	_	_
 16	written	write	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
 17	by	by	ADP	_	_	18	case	_	_
-18	Sadat	sadat	PROPN	SG-NOM	Number=Sing	16	obl:agent	_	_
+18	Sadat	sadat	PROPN	SG-NOM	Number=Sing	16	obl	_	_
 19	in	in	ADP	_	_	20	case	_	_
 20	1953	1953	NUM	ID	_	16	obl	_	_
 21	to	to	ADP	_	_	23	case	_	_
@@ -8406,8 +8406,8 @@
 8	in	in	ADP	_	_	9	case	_	_
 9	this	this	PRON	DEM-SG	Number=Sing|PronType=Dem	3	obl	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	3	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3136
 # text = People were arriving, and the younger one was walking back and forth introducing them.
 1	People	people	NOUN	PL-NOM	Number=Plur	3	nsubj	_	_
@@ -9167,7 +9167,7 @@
 # text = It would be, he said, without taking notice of my irritation, 'interesting for science to watch the mental changes of individuals, on the spot, but...
 1	It	it	PRON	PERS-SG	_	3	nsubj	_	_
 2	would	would	AUX	PAST-AUX	VerbForm=Fin	3	aux	_	_
-3	be	be	AUX	INF-AUX		VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+3	be	be	AUX	INF-AUX	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -9730,7 +9730,7 @@
 10	by	by	ADP	_	_	13	case	_	_
 11	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
 12	slight	slight	ADJ	POS	Degree=Pos	13	amod	_	_
-13	shudder	shudder	NOUN	SG-NOM	Number=Sing	9	obl:agent	_	_
+13	shudder	shudder	NOUN	SG-NOM	Number=Sing	9	obl	_	_
 14	of	of	ADP	_	_	16	case	_	_
 15	the	the	DET	DEF	Definite=Def|PronType=Art	16	det	_	_
 16	soil	soil	NOUN	SG-NOM	Number=Sing	13	nmod	_	_
@@ -11151,8 +11151,8 @@
 13	of	of	ADP	_	_	14	case	_	_
 14	feet	foot	NOUN	PL-NOM	Number=Plur	12	obl	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	3	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3260
 # text = Fourthly, do not say we were not available!
 1	Fourthly	fourthy	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -11328,7 +11328,7 @@
 17	by	by	ADP	_	_	20	case	_	_
 18	our	we	PRON	PL-GEN	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
 19	colleague	colleague	NOUN	SG-NOM	Number=Sing	20	nmod	_	_
-20	Edouard	edouard	PROPN	SG-NOM	Number=Sing	15	obl:agent	_	_
+20	Edouard	edouard	PROPN	SG-NOM	Number=Sing	15	obl	_	_
 21	des	de	PROPN	NMPT	_	20	flat	_	_
 22	Places	Places	PROPN	PL-NOM	Case=Nom	20	flat	_	SpaceAfter=No
 23	.	.	PUNCT	Period	_	5	punct	_	_
@@ -12634,7 +12634,7 @@
 12	tabled	table	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
 13	by	by	ADP	_	_	15	case	_	_
 14	my	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
-15	group	group	NOUN	SG-NOM	Number=Sing	12	obl:agent	_	SpaceAfter=No
+15	group	group	NOUN	SG-NOM	Number=Sing	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3334
@@ -12823,7 +12823,7 @@
 15	rejected	reject	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
 16	by	by	ADP	_	_	18	case	_	_
 17	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
-18	Council	council	NOUN	SG-NOM	Number=Sing	15	obl:agent	_	SpaceAfter=No
+18	Council	council	NOUN	SG-NOM	Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3344
@@ -13085,7 +13085,7 @@
 14	given	give	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
 15	by	by	ADP	_	_	17	case	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
-17	Conference	conference	NOUN	SG-NOM	Number=Sing	14	obl:agent	_	_
+17	Conference	conference	NOUN	SG-NOM	Number=Sing	14	obl	_	_
 18	of	of	ADP	_	_	19	case	_	_
 19	Presidents	president	NOUN	PL-NOM	Number=Plur	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	5	punct	_	_
@@ -13189,7 +13189,7 @@
 12	by	by	ADP	_	_	15	case	_	_
 13	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
 14	Socialist	socialist	ADJ	POS	Degree=Pos	15	amod	_	_
-15	Group	group	NOUN	SG-NOM	Number=Sing	10	obl:agent	_	SpaceAfter=No
+15	Group	group	NOUN	SG-NOM	Number=Sing	10	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3364
@@ -13452,8 +13452,8 @@
 18	a	a	DET	IND-SG	Definite=Ind|PronType=Art	19	det	_	_
 19	profit	profit	NOUN	SG-NOM	Number=Sing	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	7	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3378
 # text = The stale cool air of the room had heated; yet weariness receded, his head was left high and dry of it.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
@@ -13832,7 +13832,7 @@
 42	slimy	slimy	ADJ	POS	Degree=Pos	41	xcomp	_	_
 43	by	by	ADP	_	_	45	case	_	_
 44	the	the	DET	DEF	Definite=Def|PronType=Art	45	det	_	_
-45	rains	rain	NOUN	PL-NOM	Number=Plur	41	obl:agent	_	_
+45	rains	rain	NOUN	PL-NOM	Number=Plur	41	obl	_	_
 46	under	under	ADP	_	_	48	case	_	_
 47	the	the	DET	DEF	Definite=Def|PronType=Art	48	det	_	_
 48	trees	tree	NOUN	PL-NOM	Number=Plur	41	obl	_	SpaceAfter=No
@@ -14573,7 +14573,7 @@
 22	Majesty	majesty	NOUN	SG	Number=Sing	25	amod	_	SpaceAfter=No
 23	's	's	PART	GEN	_	22	case	_	_
 24	brave	brave	ADJ	POS	Degree=Pos	25	amod	_	_
-25	boys	boy	NOUN	PL-NOM	Number=Plur	13	obl:agent	_	SpaceAfter=No
+25	boys	boy	NOUN	PL-NOM	Number=Plur	13	obl	_	SpaceAfter=No
 26	,	,	PUNCT	Comma	_	4	punct	_	_
 27	and	and	CCONJ	_	_	29	cc	_	_
 28	where	where	ADV	WH	PronType=Int	29	advmod	_	SpaceAfter=No
@@ -16099,7 +16099,7 @@
 2	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
 3	hailed	hail	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 4	by	by	ADP	_	_	5	case	_	_
-5	someone	someone	PRON	IND-SG-NOM	Number=Sing	3	obl:agent	_	SpaceAfter=No
+5	someone	someone	PRON	IND-SG-NOM	Number=Sing	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
 7	and	and	CCONJ	_	_	11	cc	_	_
 8	Bray	Bray	PROPN	SG-NOM	Number=Sing	13	nsubj:pass	_	_
@@ -16992,7 +16992,7 @@
 3	cooked	cook	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 4	by	by	ADP	_	_	6	case	_	_
 5	many	many	ADJ	POS	Degree=Pos	6	amod	_	_
-6	hands	hand	NOUN	PL-NOM	Number=Plur	3	obl:agent	_	SpaceAfter=No
+6	hands	hand	NOUN	PL-NOM	Number=Plur	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3524
@@ -17206,8 +17206,8 @@
 16	official	official	ADJ	POS	Degree=Pos	17	amod	_	_
 17	occasion	occasion	NOUN	SG-NOM	Number=Sing	13	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	Period	_	10	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3530
 # text = Dobby blinked anxiously up at Harry.
 1	Dobby	dobby	PROPN	SG-NOM	Number=Sing	2	nsubj	_	_
@@ -19633,7 +19633,7 @@
 14	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
 15	strange	strange	ADJ	POS	Degree=Pos	12	obl	_	_
 16	and	and	CCONJ	_	_	17	cc	_	_
-17	unexpected	expect	ADJ	Degree=Pos	15	conj	_	SpaceAfter=No
+17	unexpected	unexpected	ADJ	POS	Degree=Pos	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 3644

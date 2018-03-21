@@ -739,7 +739,7 @@
 21	of	of	ADP	_	_	23	case	_	_
 22	the	the	DET	DEF	Definite=Def|PronType=Art	23	det	_	_
 23	chart	chart	NOUN	SG-NOM	Number=Sing	20	nmod	_	_
-24	b	yb	yADP	_	_	25	mark	_	_
+24	by	by	ADP	_	_	25	mark	_	_
 25	preventing	prevent	VERB	ING	Tense=Pres|VerbForm=Part	12	advcl	_	_
 26	fields	field	NOUN	PL-NOM	Number=Plur	25	obj	_	_
 27	from	from	SCONJ	_	_	29	mark	_	_
@@ -1785,7 +1785,7 @@
 19	can	can	AUX	PRES-AUX	VerbForm=Fin	20	aux	_	_
 20	filter	filter	VERB	INF	Case=Nom	7	advcl	_	_
 21	data	data	NOUN	PL-NOM	Number=Sing	20	obj	_	_
-22	b	yb	yADP	_	_	23	mark	_	_
+22	by	by	ADP	_	_	23	mark	_	_
 23	selecting	select	VERB	ING	Tense=Pres|VerbForm=Part	20	advcl	_	_
 24	custom	custom	NOUN	SG-NOM	Number=Sing	25	compound	_	_
 25	groups	group	NOUN	PL-NOM	Number=Plur	23	obj	_	_
@@ -2209,8 +2209,8 @@
 37	line	line	NOUN	SG-NOM	Number=Sing	33	nmod	_	_
 38	contracts	contract	VERB	PRES	Case=Nom	24	conj	_	SpaceAfter=No
 39	.	.	PUNCT	Period	_	24	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3770
 # text = At the back table sat two old men in shabby clothes, one very fat and the other very thin, intently studying the racing forms.
 1	At	at	ADP	_	_	4	case	_	_
@@ -3219,7 +3219,7 @@
 2	embarrassed	embarrass	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	_
 3	by	by	ADP	_	_	5	case	_	_
 4	the	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
-5	intensity	intensity	NOUN	SG-NOM	Number=Sing	2	obl:agent	_	_
+5	intensity	intensity	NOUN	SG-NOM	Number=Sing	2	obl	_	_
 6	of	of	ADP	_	_	8	case	_	_
 7	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 8	feelings	feeling	NOUN	PL-NOM	Number=Plur	5	nmod	_	SpaceAfter=No
@@ -4572,7 +4572,7 @@
 9	in	in	ADP	_	_	10	case	_	_
 10	Arabic	Arabic	ADJ	POS	Case=Nom	8	obl	_	_
 11	by	by	ADP	_	_	14	case	_	_
-12	Cid	Cid	PROPN	SG-NOM	Number=Sing	8	obl:agent	_	_
+12	Cid	Cid	PROPN	SG-NOM	Number=Sing	8	obl	_	_
 13	Hamete	Hamete	PROPN	SG-NOM	Number=Sing	12	flat	_	_
 14	Benengali	Benengali	PROPN	SG-NOM	Number=Sing	12	flat	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	8	punct	_	_
@@ -4689,7 +4689,7 @@
 7	,	,	PUNCT	Comma	_	8	punct	_	_
 8	written	write	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
 9	by	by	ADP	_	_	10	case	_	_
-10	impostors	impostor	NOUN	PL-NOM	Number=Plur	8	obl:agent	_	SpaceAfter=No
+10	impostors	impostor	NOUN	PL-NOM	Number=Plur	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3896
@@ -4880,7 +4880,7 @@
 22	written	write	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	15	csubj	_	_
 23	by	by	ADP	_	_	25	case	_	_
 24	an	an	DET	IND-SG	Definite=Ind|PronType=Art	25	det	_	_
-25	eyewitness	eyewitness	NOUN	SG-NOM	Number=Sing	22	obl:agent	_	_
+25	eyewitness	eyewitness	NOUN	SG-NOM	Number=Sing	22	obl	_	_
 26	to	to	ADP	_	_	28	case	_	_
 27	the	the	DET	DEF	Definite=Def|PronType=Art	28	det	_	_
 28	events	event	NOUN	PL-NOM	Number=Plur	25	nmod	_	_
@@ -5286,15 +5286,15 @@
 40	–	–	PUNCT	Dash	_	35	punct	_	_
 41	in	in	ADP	_	_	44	mark	_	_
 42	order	order	NOUN	SG-NOM	Number=Sing	41	fixed	_	_
-43	to	to	PART	_	_	43	mark	_	_
+43	to	to	PART	_	_	44	mark	_	_
 44	lure	lure	VERB	INF	VerbForm=Inf	11	advcl	_	_
 45	Don	Don	PROPN	SG-NOM	Number=Sing	44	obj	_	_
 46	Quixote	Quixote	PROPN	SG-NOM	Number=Sing	45	flat	_	_
 47	back	back	ADV	_	_	44	advmod	_	_
 48	home	home	ADV	_	_	44	advmod	_	SpaceAfter=No
 49	.	.	PUNCT	Period	_	11	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 3928
 # text = Do you know what a physicist is?
 1	Do	do	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -6125,7 +6125,7 @@
 25	being	be	AUX	ING	Tense=Pres|VerbForm=Part	26	aux	_	_
 26	taken	take	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	24	acl:relcl	_	_
 27	by	by	ADP	_	_	28	case	_	_
-28	France	France	PROPN	SG-NOM	Number=Sing	26	obl:agent	_	SpaceAfter=No
+28	France	France	PROPN	SG-NOM	Number=Sing	26	obl	_	SpaceAfter=No
 29	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3978
@@ -7202,7 +7202,7 @@
 25	,	,	PUNCT	Comma	_	22	punct	_	_
 26	edited	edit	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
 27	by	by	ADP	_	_	30	case	_	_
-28	Ehud	Ehud	PROPN	SG-NOM	Number=Sing	26	obl:agent	_	_
+28	Ehud	Ehud	PROPN	SG-NOM	Number=Sing	26	obl	_	_
 29	ben	ben	PROPN	SG-NOM	Number=Sing	28	flat	_	_
 30	Ezer	Ezer	PROPN	SG-NOM	Number=Sing	28	flat	_	SpaceAfter=No
 31	.	.	PUNCT	Period	_	12	punct	_	_
@@ -7434,7 +7434,7 @@
 25	wave	wave	NOUN	SG-NOM	Number=Sing	11	conj	_	_
 26	and	and	CCONJ	_	_	31	cc	_	_
 27	at	at	ADP	_	_	28	case	_	_
-28	one	one	PRON	IND-P3SG	_	31	conj	_	_
+28	one	one	PRON	IND-P3SG	_	11	conj	_	_
 29	with	with	ADP	_	_	31	case	_	_
 30	its	it	PRON	SG-GEN	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
 31	flow	flow	NOUN	SG-NOM	Number=Sing	25	conj	_	SpaceAfter=No
@@ -7814,8 +7814,8 @@
 33	to	to	ADP	_	_	34	case	_	_
 34	D-Day	D-Day	PROPN	SG-NOM	Number=Sing	32	obl	_	SpaceAfter=No
 35	.	.	PUNCT	Period	_	8	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 4050
 # text = I am sorry to own I began to worry them.
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -10287,7 +10287,7 @@
 8	what	what	PRON	WH	PronType=Int	10	obj	_	_
 9	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	meant	mean	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
-11	b	yb	yADP	_	_	12	mark	_	_
+11	by	by	ADP	_	_	12	mark	_	_
 12	coming	come	VERB	ING	Tense=Pres|VerbForm=Part	10	advcl	_	_
 13	there	there	ADV	_	PronType=Dem	12	advmod	_	_
 14	at	at	ADV	_	_	12	advmod	_	_
@@ -10795,8 +10795,8 @@
 19	at	at	ADV	_	_	15	advmod	_	_
 20	once	once	ADV	_	NumType=Mult	19	fixed	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	13	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 4174
 # text = The proposal put forward by the Commission is to be welcomed from the consumers' point of view.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
@@ -10805,7 +10805,7 @@
 4	forward	forward	ADV	_	_	3	advmod	_	_
 5	by	by	ADP	_	_	7	case	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
-7	Commission	commission	NOUN	SG-NOM	Number=Sing	3	obl:agent	_	_
+7	Commission	commission	NOUN	SG-NOM	Number=Sing	3	obl	_	_
 8	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	to	to	PART	_	_	11	mark	_	_
 10	be	be	AUX	INF	VerbForm=Inf	11	aux:pass	_	_
@@ -10874,7 +10874,7 @@
 14	again	again	ADV	_	_	13	fixed	_	_
 15	by	by	ADP	_	_	17	case	_	_
 16	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	17	nmod	_	_
-17	Bonino	Bonino	PROPN	SG-NOM	Number=Sing	12	obl:agent	_	SpaceAfter=No
+17	Bonino	Bonino	PROPN	SG-NOM	Number=Sing	12	obl	_	SpaceAfter=No
 18	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 4178
@@ -11503,7 +11503,7 @@
 5	by	by	ADP	_	_	8	case	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
 7	European	european	ADJ	POS	Degree=Pos	8	amod	_	_
-8	Union	union	NOUN	SG-NOM	Number=Sing	4	obl:agent	_	_
+8	Union	union	NOUN	SG-NOM	Number=Sing	4	obl	_	_
 9	for	for	ADP	_	_	12	case	_	_
 10	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
 11	specific	specific	ADJ	POS	Degree=Pos	12	amod	_	_
@@ -12132,7 +12132,7 @@
 11	small	small	ADJ	POS	Degree=Pos	14	amod	_	_
 12	and	and	CCONJ	_	_	13	cc	_	_
 13	medium-sized	medium-sized	ADJ	POS	Degree=Pos	11	conj	_	_
-14	enterprises	enterprise	NOUN	PL-NOM	Number=Plur	9	obl:agent	_	SpaceAfter=No
+14	enterprises	enterprise	NOUN	PL-NOM	Number=Plur	9	obl	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 4245
@@ -12241,7 +12241,7 @@
 18	by	by	ADP	_	_	21	case	_	_
 19	the	the	DET	DEF	Definite=Def|PronType=Art	21	det	_	_
 20	European	european	ADJ	POS	Degree=Pos	21	amod	_	_
-21	Union	union	NOUN	SG-NOM	Number=Sing	12	obl:agent	_	SpaceAfter=No
+21	Union	union	NOUN	SG-NOM	Number=Sing	12	obl	_	SpaceAfter=No
 22	.	.	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 4251
@@ -12486,7 +12486,7 @@
 5	proposed	propose	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
 6	by	by	ADP	_	_	8	case	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
-8	Commissioner	commissioner	NOUN	SG-NOM	Number=Sing	5	obl:agent	_	_
+8	Commissioner	commissioner	NOUN	SG-NOM	Number=Sing	5	obl	_	_
 9	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	based	base	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 11	on	on	ADP	_	_	12	case	_	_
@@ -12496,7 +12496,7 @@
 15	by	by	ADP	_	_	18	case	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
 17	International	international	ADJ	POS	Degree=Pos	18	amod	_	_
-18	Convention	convention	NOUN	SG-NOM	Number=Sing	14	obl:agent	_	_
+18	Convention	convention	NOUN	SG-NOM	Number=Sing	14	obl	_	_
 19	on	on	ADP	_	_	22	case	_	_
 20	Non-Ionising	non-ionising	ADJ	POS	Degree=Pos	21	amod	_	_
 21	Radiation	radiation	NOUN	SG-NOM	Number=Sing	22	compound	_	_
@@ -13062,8 +13062,8 @@
 22	banana	banana	NOUN	SG-NOM	Number=Sing	23	compound	_	_
 23	skin	skin	NOUN	SG-NOM	Number=Sing	19	obl	_	SpaceAfter=No
 24	.	.	PUNCT	Period	_	15	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 4294
 # text = He made a resigned grimace assuming understanding... My wife and I decided we couldn't stick it any longer.
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -16137,7 +16137,7 @@
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	showed	show	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	off	off	ADV	_	_	2	compound:prt	_	_
-4	b	yb	yADP	_	_	5	mark	_	_
+4	by	by	ADP	_	_	5	mark	_	_
 5	making	make	VERB	ING	Tense=Pres|VerbForm=Part	2	advcl	_	_
 6	a	a	DET	IND-SG	Definite=Ind|PronType=Art	7	det	_	_
 7	point	point	NOUN	SG-NOM	Number=Sing	5	obj	_	_
@@ -16196,8 +16196,8 @@
 13	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 14	did	do	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	2	punct	_	_
-# newdoc
 
+# newdoc
 # sent_id = 4444
 # text = To his horror, the elf burst into tears – very noisy tears.
 1	To	to	ADP	_	_	3	case	_	_
@@ -17927,7 +17927,7 @@
 26	outstripped	outstrip	VERB	PERF	VerbForm=Part|Voice=Pass	17	parataxis	_	_
 27	by	by	ADP	_	_	29	case	_	_
 28	passing	pass	ADJ	ING	Case=Nom	29	amod	_	_
-29	butterflies	butterfly	NOUN	PL-NOM	Number=Plur	26	obl:agent	_	SpaceAfter=No
+29	butterflies	butterfly	NOUN	PL-NOM	Number=Plur	26	obl	_	SpaceAfter=No
 30	.	.	PUNCT	Period	_	24	punct	_	_
 
 # sent_id = 4542
