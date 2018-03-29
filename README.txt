@@ -79,11 +79,11 @@ The tokenization is largely based on whitespace, but punctuation marks
 except word-internal hyphens are treated as separate tokens. The
 original file also has several multi-word tokens, but these are
 separated in the UD version with all parts except the first assigned
-the UD dependency function 'fixed'.
+the UD dependency function 'fixed'. There are no blanks inside tokens.
 
 MORPHOLOGY
 
-From version 2.2 the UFEATS column is now filled. The XPOS column has features from the original LinES 
+From version 2.2 the UFEATS column is filled. The XPOS column has features from the original LinES 
 with the exception of nouns that are not annotated for case, only number.  Verbs are annotated for tense and,
 adjectives for degree. Pronouns are sub-divided in the morphological
 description into Personal, Demonstrative, Interrogative, Indefinite,
@@ -102,7 +102,13 @@ LinES annotation scheme as described in Ahrenberg (2015). Then converted again, 
 automatically to UD version 2.0. The test sample has been thoroughly reviewed before
 the release of version 2.1.
 
-There may be occasional deviations from the general guidelines.
+For version 2.2 the relative word 'that' is analysed as PRON and assigned dependency
+relations from the clausal relations nsubj, obj, obl, xcomp.  Adposition introducing
+clauses are assigned the relation 'mark' consistently. Unlike previous versions,
+the relation 'obl:agent' is not used, instead 'obl' is used as in other English
+treebanks.
+
+There may still be occasional deviations from the general guidelines.
 
 
 REFERENCES
@@ -135,6 +141,7 @@ From UD version 1.3 to UD version 2.0
     
  From UD version 2.1 to UD version 2.2
   * features have been added to the UFEATS column. They have been mapped from UD_English v2.1 and then manually reviewed.
+  * the word 'that' when introducing a relative clause is tagged PRON and assigned a clausal relation.
   * the train and dev data have been partially reviewed to correct errors and make data agree better with the 
     version 2 guidelines.
   
