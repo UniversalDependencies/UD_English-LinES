@@ -122,7 +122,7 @@
 19	categories	category	NOUN	PL-NOM	Number=Plur	17	obl	_	SpaceAfter=No
 20	,	,	PUNCT	Comma	_	23	punct	_	_
 21	or	or	CCONJ	_	_	23	cc	_	_
-22	related	relate	VERB	PASS	Tense=Past|VerbForm=Part	23	amod	_	_
+22	related	relate	ADJ	POS	Degree=Pos	23	amod	_	_
 23	groups	group	NOUN	PL-NOM	Number=Plur	19	conj	_	_
 24	of	of	ADP	_	_	25	case	_	_
 25	data	data	NOUN	PL-NOM	Number=Sing	23	nmod	_	SpaceAfter=No
@@ -1421,9 +1421,9 @@
 16	new	new	ADJ	POS	Degree=Pos	18	amod	_	_
 17	custom	custom	NOUN	SG-NOM	Number=Sing	18	compound	_	_
 18	group	group	NOUN	SG-NOM	Number=Sing	14	obj	_	_
-19	that	that	SCONJ	REL	_	20	mark	_	_
+19	that	that	PRON	REL	PronType=Rel	22	nsubj:pass	_	_
 20	will	will	AUX	PRES-AUX	VerbForm=Fin	22	aux	_	_
-21	be	be	AUX	INF	VerbForm=Inf	22	aux	_	_
+21	be	be	AUX	INF	VerbForm=Inf	22	aux:pass	_	_
 22	captioned	caption	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
 23	Popular	Popular	PROPN	SG-NOM	Case=Nom	22	xcomp	_	SpaceAfter=No
 24	.	.	PUNCT	Period	_	4	punct	_	_
@@ -3022,7 +3022,7 @@
 # sent_id = 3813
 # text = Now that he had embarked on the Stillman case, he felt that a new notebook was in order.
 1	Now	now	ADV	_	_	12	advmod	_	_
-2	that	that	SCONJ	REL	_	5	mark	_	_
+2	that	that	SCONJ	_	_	5	mark	_	_
 3	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	had	have	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	embarked	embark	VERB	PERF	Tense=Past|VerbForm=Part	1	advcl	_	_
@@ -3919,8 +3919,8 @@
 
 # sent_id = 3851
 # text = At last, Auster gave a little shrug, which seemed to acknowledge that they had come to an impasse.
-1	At	at	ADP	_	_	5	advmod	_	_
-2	last	last	ADV	_	Case=Nom	1	fixed	_	SpaceAfter=No
+1	At	at	ADV	_	_	5	advmod	_	_
+2	last	last	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	1	punct	_	_
 4	Auster	Auster	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
 5	gave	give	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -5842,7 +5842,7 @@
 5	shirts	shirt	NOUN	PL-NOM	Number=Plur	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	7	punct	_	_
 7	blue-green	blue-green	ADJ	POS	Degree=Pos	5	amod	_	_
-8	sprigged	sprig	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	sprigged	sprig	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
 9	with	with	ADP	_	_	11	case	_	_
 10	red	red	ADJ	POS	Degree=Pos	11	amod	_	_
 11	berries	berry	NOUN	PL-NOM	Number=Plur	8	obl	_	SpaceAfter=No
@@ -8168,7 +8168,7 @@
 20	the	the	DET	DEF	Definite=Def|PronType=Art	21	det	_	_
 21	body	body	NOUN	SG-NOM	Number=Sing	18	obl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	11	punct	_	_
-23	that	that	SCONJ	REL	_	25	mark	_	_
+23	that	that	SCONJ	_	_	25	mark	_	_
 24	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
 25	heard	hear	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl	_	_
 26	the	the	DET	DEF	Definite=Def|PronType=Art	28	det	_	_
@@ -8246,7 +8246,7 @@
 10	least	least	ADJ	SPL	Degree=Sup	6	obl	_	_
 11	to	to	PART	_	_	12	mark	_	_
 12	hear	hear	VERB	INF	VerbForm=Inf	6	csubj	_	_
-13	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	12	obj	_	SpaceAfter=No
+13	this	this	PRON	DEM-SG	Number=Sing|PronType=Dem	12	obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	22	punct	_	_
 15	and	and	CCONJ	_	_	22	cc	_	_
 16	at	at	ADP	_	_	19	case	_	_
@@ -9571,7 +9571,7 @@
 13	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 14	from	from	ADP	_	_	15	case	_	_
 15	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
-16	that	that	SCONJ	REL	_	21	mark	_	_
+16	that	that	SCONJ	_	_	21	mark	_	_
 17	everything	everything	PRON	TOT-SG	Number=Sing	28	nsubj	_	_
 18	here	here	ADV	_	PronType=Dem	17	advmod	_	_
 19	–	–	PUNCT	_	_	21	punct	_	_
@@ -9583,7 +9583,7 @@
 25	–	–	PUNCT	_	_	21	punct	_	_
 26	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
 27	very	very	ADV	_	_	28	advmod	_	_
-28	satisfactory	satisfactory	ADJ	POS	Degree=Pos	12	obj	_	SpaceAfter=No
+28	satisfactory	satisfactory	ADJ	POS	Degree=Pos	12	ccomp	_	SpaceAfter=No
 29	.	.	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 4123
@@ -10072,7 +10072,7 @@
 9	far-off	far-off	ADJ	POS	Degree=Pos	10	amod	_	_
 10	drums	drum	NOUN	PL-NOM	Number=Plur	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	sinking	sink	VERB	ING	Tense=Pres|VerbForm=Part	7	amod	_	SpaceAfter=No
+12	sinking	sink	VERB	ING	Tense=Pres|VerbForm=Part	7	acl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	swelling	swell	VERB	ING	Tense=Pres|VerbForm=Part	12	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -10122,7 +10122,7 @@
 7	unbuttoned	unbutton	ADJ	PASS	Degree=Pos	8	amod	_	_
 8	uniform	uniform	NOUN	SG-NOM	Number=Sing	4	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	camping	camp	VERB	ING	Tense=Pres|VerbForm=Part	4	amod	_	_
+10	camping	camp	VERB	ING	Tense=Pres|VerbForm=Part	4	acl	_	_
 11	on	on	ADP	_	_	13	case	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	13	det	_	_
 13	path	path	NOUN	SG-NOM	Number=Sing	10	obl	_	_
@@ -11864,7 +11864,7 @@
 6	,	,	PUNCT	Comma	_	3	punct	_	_
 7	those	that	DET	DEM-PL	Number=Plur|PronType=Dem	8	det	_	_
 8	governments	government	NOUN	PL-NOM	Number=Plur	17	nsubj	_	_
-9	that	that	SCONJ	REL	_	10	mark	_	_
+9	that	that	PRON	REL	PronType=Rel	12	nsubj	_	_
 10	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	still	still	ADV	_	_	12	advmod	_	_
 12	recommending	recommend	VERB	ING	Tense=Pres|VerbForm=Part	8	acl:relcl	_	_
@@ -16276,8 +16276,8 @@
 
 # sent_id = 4448
 # text = At last he managed to control himself, and sat with his great eyes fixed on Harry in an expression of watery adoration.
-1	At	at	ADP	_	_	2	case	_	_
-2	last	last	ADV	_	Case=Nom	4	advmod	_	_
+1	At	at	ADV	_	_	4	advmod	_	_
+2	last	last	ADV	_	Case=Nom	1	fixed	_	_
 3	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	managed	manage	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	to	to	PART	_	_	6	mark	_	_
@@ -16732,7 +16732,7 @@
 1	It	it	PRON	PERS-SG	_	3	nsubj	_	SpaceAfter=No
 2	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	all	all	PRON	TOT-SG	Case=Nom	0	root	_	_
-4	that	that	SCONJ	REL	_	5	mark	_	SpaceAfter=No
+4	that	that	PRON	REL	PronType=Rel	6	nsubj	_	SpaceAfter=No
 5	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	keeping	keep	VERB	ING	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
 7	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
