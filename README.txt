@@ -79,13 +79,12 @@ The tokenization is largely based on whitespace, but punctuation marks
 except word-internal hyphens are treated as separate tokens. The
 original file also has several multi-word tokens, but these are
 separated in the UD version with all parts except the first assigned
-the UD dependency function 'fixed'.
+the UD dependency function 'fixed'. There are no blanks inside tokens.
 
 MORPHOLOGY
 
-The UFEATS column is empty, but the morphological annotation in the English LinES treebank 
-is found in the XPOS column. It is the same as in the original LinES with the exception of 
-nouns that are not annotated for case, only number.  Verbs are annotated for tense and,
+From version 2.2 the UFEATS column is filled. The XPOS column has features from the original LinES 
+with the exception of nouns that are not annotated for case, only number.  Verbs are annotated for tense and,
 adjectives for degree. Pronouns are sub-divided in the morphological
 description into Personal, Demonstrative, Interrogative, Indefinite,
 Relative, Total, and Expletive, and are annotated for Number, Person
@@ -98,24 +97,18 @@ there may still be some errors remaining.
 
 SYNTAX
 
-The syntactic annotation in the English UD treebank follows the
-general guidelines but adds seven language-specific relations
-
-- acl:relcl for relative clauses
-- compound:prt for verb particles
-- nmod:poss for possessive/genitive modifiers
-- nsubj:pass for subjects of passive participles
-- csubj:pass for clausal subjects to passives
-- aux:pass for auxiliries of passive participles
-- obl:agent for oblique np:s in passive clauses marked by the preposition 'by'
-
-
 The syntactic annotation was first automatically converted from the original
 LinES annotation scheme as described in Ahrenberg (2015). Then converted again, mostly 
 automatically to UD version 2.0. The test sample has been thoroughly reviewed before
 the release of version 2.1.
 
-There may be occasional deviations from the general guidelines.
+For version 2.2 the relative word 'that' is analysed as PRON and assigned dependency
+relations from the clausal relations nsubj, obj, obl, xcomp.  Adposition introducing
+clauses are assigned the relation 'mark' consistently. Unlike previous versions,
+the relation 'obl:agent' is not used, instead 'obl' is used as in other English
+treebanks.
+
+There may still be occasional deviations from the general guidelines.
 
 
 REFERENCES
@@ -145,6 +138,13 @@ From UD version 1.3 to UD version 2.0
   * all tokens have received a lemma
   * the test data have been manually reviewed to correct errors and make data agree better with the version 2 guidelines.
     Changes affect about 14% of all tokens and some 36% of all punctuation tokens.
+    
+ From UD version 2.1 to UD version 2.2
+  * features have been added to the UFEATS column. They have been mapped from UD_English v2.1 and then manually reviewed.
+  * the word 'that' when introducing a relative clause is tagged PRON and assigned a clausal relation.
+  * the train and dev data have been partially reviewed to correct errors and make data agree better with the 
+    version 2 guidelines.
+  
 
 
 --- Machine readable metadata ---
