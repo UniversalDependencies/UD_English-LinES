@@ -1,6 +1,6 @@
 # Summary
 
-UD English_LinES is the English half of the LinES Parallel Treebank 
+UD English_LinES is the English half of the LinES Parallel Treebank
 with the original dependency annotation first automatically converted
 into Universal Dependencies and then partially reviewed. Its contents cover
 literature, an online manual and Europarl data.
@@ -10,9 +10,9 @@ literature, an online manual and Europarl data.
 UD English_LinES is the English half of the LinES Parallel Treebank with UD annotations.
 The majority of segments are from literature but there is also a section with online manual
 data and one section with Europarl data. All segments have an associated translation in the
-UD Swedish_LinES treebank (with the same segment index). The original dependency annotation 
-was first automatically converted to Universal Dependencies and 
-then partially reviewed (Ahrenberg, 2015). In January-February 2017 it was converted to UD version 2 
+UD Swedish_LinES treebank (with the same segment index). The original dependency annotation
+was first automatically converted to Universal Dependencies and
+then partially reviewed (Ahrenberg, 2015). In January-February 2017 it was converted to UD version 2
 and again reviewed for errors. With version 2.1 lemma information has been added.
 
 The treebank is being developed continuously.
@@ -83,7 +83,7 @@ the UD dependency function 'fixed'. There are no blanks inside tokens.
 
 MORPHOLOGY
 
-From version 2.2 the UFEATS column is filled. The XPOS column has features from the original LinES 
+From version 2.2 the UFEATS column is filled. The XPOS column has features from the original LinES
 with the exception of nouns that are not annotated for case, only number.  Verbs are annotated for tense and,
 adjectives for degree. Pronouns are sub-divided in the morphological
 description into Personal, Demonstrative, Interrogative, Indefinite,
@@ -98,7 +98,7 @@ there may still be some errors remaining.
 SYNTAX
 
 The syntactic annotation was first automatically converted from the original
-LinES annotation scheme as described in Ahrenberg (2015). Then converted again, mostly 
+LinES annotation scheme as described in Ahrenberg (2015). Then converted again, mostly
 automatically to UD version 2.0. The test sample has been thoroughly reviewed before
 the release of version 2.1.
 
@@ -133,18 +133,18 @@ From UD version 1.3 to UD version 2.0
  * changes of part-of-speech labels and dependency labels in accordance with 2.0 guidelines
  * addition of comments for sent_id, text, and document boundaries
  * addition of SpaceAfter=No features in the MISC column
- 
+
  From UD version 2.0 to UD version 2.1
   * all tokens have received a lemma
   * the test data have been manually reviewed to correct errors and make data agree better with the version 2 guidelines.
     Changes affect about 14% of all tokens and some 36% of all punctuation tokens.
-    
+
  From UD version 2.1 to UD version 2.2
   * features have been added to the UFEATS column. They have been mapped from UD_English v2.1 and then manually reviewed.
   * the word 'that' when introducing a relative clause is tagged PRON and assigned a clausal relation.
-  * the train and dev data have been partially reviewed to correct errors and make data agree better with the 
+  * the train and dev data have been partially reviewed to correct errors and make data agree better with the
     version 2 guidelines.
-  
+
 
 
 --- Machine readable metadata ---
@@ -153,12 +153,13 @@ Documentation status: partial
 Data source: semi-automatic
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
+Includes text: yes
 Genre: fiction nonfiction spoken
 Lemmas: converted from manual
 UPOS: converted from manual
-XPOS: manual
+XPOS: manual native
 Features: not available
-Relations: converted from manual and corrected
+Relations: converted with corrections
 Contributors: Ahrenberg, Lars
 Contributing: elsewhere
 Contact: lars.ahrenberg@liu.se
