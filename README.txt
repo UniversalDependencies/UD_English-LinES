@@ -144,6 +144,12 @@ From UD version 1.3 to UD version 2.0
   * the word 'that' when introducing a relative clause is tagged PRON and assigned a clausal relation.
   * the train and dev data have been partially reviewed to correct errors and make data agree better with the
     version 2 guidelines.
+    
+ From UD version 2.2 to UD version 2.3
+  * nouns with clitic 's has consistently been assigned the deprel 'nmod'
+  * occurrences of deprel 'aux:pass' has been checked and applied consistently
+  * compounds in the first doc of each (train, dev, test) file have been check and re-analysed to increase consistency
+  * conjunctions 'either' and 'neither' which were wrongly analysed in 2.2 have been corrected
 
 
 
