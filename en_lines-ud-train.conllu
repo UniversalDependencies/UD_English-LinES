@@ -9,7 +9,7 @@
 1	About	about	ADP	_	_	5	case	_	_
 2	ANSI	ansi	PROPN	SG-NOM	Number=Sing	5	compound	_	_
 3	SQL	sql	PROPN	SG-NOM	Number=Sing	2	flat	_	_
-4	query	query	NOUN	SG-NOM	Number=Sing	2	flat	_	_
+4	query	query	NOUN	SG-NOM	Number=Sing	5	compound	_	_
 5	mode	mode	NOUN	_	Number=Sing	0	root	_	_
 
 # sent_id = 3
@@ -67,16 +67,16 @@
 5	to	to	ADP	_	_	10	case	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	10	det	_	_
 7	ANSI-89	ansi-89	PROPN	SG-NOM	Number=Sing	10	compound	_	_
-8	Level	level	NOUN	SG-NOM	Number=Sing	7	flat	_	_
-9	1	1	NUM	ID	NumType=Card	7	flat	_	_
+8	Level	level	NOUN	SG-NOM	Number=Sing	10	compound	_	_
+9	1	1	NUM	ID	NumType=Card	8	nummod	_	_
 10	specification	specification	NOUN	SG-NOM	Number=Sing	3	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	3	punct	_	_
 12	but	but	CCONJ	_	_	18	cc	_	_
 13	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 14	not	not	PART	NEG	_	18	advmod	_	_
 15	ANSI-89	ansi-89	PROPN	SG-NOM	Number=Sing	18	nmod	_	_
-16	Level	level	NOUN	SG-NOM	Number=Sing	15	flat	_	_
-17	1	1	NUM	ID	NumType=Card	15	flat	_	_
+16	Level	level	NOUN	SG-NOM	Number=Sing	18	nmod	_	_
+17	1	1	NUM	ID	NumType=Card	16	nummod	_	_
 18	compliant	compliant	ADJ	POS	Degree=Pos	3	conj	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	3	punct	_	_
 
@@ -147,16 +147,16 @@
 5	to	to	ADP	_	_	10	case	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	10	det	_	_
 7	ANSI-92	ansi-92	PROPN	SG-NOM	Number=Sing	10	compound	_	_
-8	Level	level	NOUN	SG-NOM	Number=Sing	7	flat	_	_
-9	1	1	NUM	ID	NumType=Card	7	flat	_	_
+8	Level	level	NOUN	SG-NOM	Number=Sing	10	compound	_	_
+9	1	1	NUM	ID	NumType=Card	8	nummod	_	_
 10	specification	specification	NOUN	SG-NOM	Number=Sing	3	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	3	punct	_	_
 12	but	but	CCONJ	_	_	18	cc	_	_
 13	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 14	not	not	PART	NEG	_	18	advmod	_	_
 15	ANSI-92	ansi-92	PROPN	SG-NOM	Number=Sing	18	nmod	_	_
-16	Level	level	NOUN	SG-NOM	Number=Sing	15	flat	_	_
-17	1	1	NUM	ID	NumType=Card	15	flat	_	_
+16	Level	level	NOUN	SG-NOM	Number=Sing	18	nmod	_	_
+17	1	1	NUM	ID	NumType=Card	16	nummod	_	_
 18	compliant	compliant	ADJ	POS	Degree=Pos	3	conj	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	3	punct	_	_
 
@@ -188,7 +188,7 @@
 1	In	in	ADP	_	_	3	case	_	_
 2	Microsoft	microsoft	PROPN	SG-NOM	Number=Sing	11	obl	_	_
 3	Access	Access	PROPN	SG-NOM	Case=Nom	2	flat	_	_
-4	2000	2000	NUM	ID	NumType=Card	3	nummod	_	_
+4	2000	2000	NUM	ID	NumType=Card	2	nummod	_	_
 5	using	use	VERB	ING	Tense=Pres|VerbForm=Part	11	advcl	_	_
 6	ADOX	adox	PROPN	SG-NOM	Number=Sing	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	5	punct	_	_
@@ -2493,7 +2493,7 @@
 38	,	,	PUNCT	Comma	_	5	punct	_	_
 39	such	such	PRON	ADJ	Case=Nom	43	advmod	_	_
 40	as	as	ADP	_	_	43	case	_	_
-41	Service	service	NOUN	SG-NOM	Number=Sing	43	compound	_	_
+41	Service	service	NOUN	SG-NOM	Number=Sing	42	compound	_	_
 42	Advertising	advertise	ADJ	ING	Case=Nom	43	amod	_	_
 43	Protocol	protocol	NOUN	SG-NOM	Number=Sing	37	nmod	_	_
 44	(	(	PUNCT	LeftParenthesis	_	45	punct	_	SpaceAfter=No
@@ -3671,7 +3671,7 @@
 5	be	be	AUX	INF	VerbForm=Inf	6	aux:pass	_	_
 6	displayed	display	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 7	as	as	ADP	_	_	12	case	_	_
-8	Mom	mom	NOUN	SG	Number=Sing	10	nmod	_	SpaceAfter=No
+8	Mom	mom	NOUN	SG	Number=Sing	12	nmod	_	SpaceAfter=No
 9	's	's	PART	GEN	_	8	case	_	_
 10	Boston	boston	PROPN	SG-NOM	Number=Sing	12	compound	_	_
 11	Crab	crab	NOUN	SG-NOM	Number=Sing	12	compound	_	_
@@ -5946,11 +5946,11 @@
 2	asterisk	asterisk	NOUN	SG-NOM	Number=Sing	1	obj	_	_
 3	FROM	from	ADP	_	_	4	case	_	_
 4	Customers	customer	NOUN	PL-NOM	Number=Plur	1	obl	_	_
-5	WHERE	where	ADV	_	PronType=Int	9	mark	_	_
+5	WHERE	where	ADV	_	PronType=Int	9	advmod	_	_
 6	Country	country	NOUN	SG-NOM	Number=Sing	7	nsubj	_	_
-7	Like	like	ADP	_	_	9	case	_	_
+7	Like	like	SYM	_	_	4	acl	_	_
 8	U	u	NUM	CARD	Case=Nom	9	nummod	_	_
-9	%	%	SYM	_	Number=Sing	1	advmod	_	_
+9	%	%	SYM	_	Number=Sing	7	obj	_	_
 
 # sent_id = 290
 # text = It returns all customers from a (country|region) named "U % ", not all (countries|regions) beginning with the letter "U ", because the percent sign (%) is not a wildcard character in ANSI-89 SQL.
