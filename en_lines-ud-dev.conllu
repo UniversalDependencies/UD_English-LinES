@@ -129,7 +129,7 @@
 1	There	there	PRON	EX	_	2	expl	_	_
 2	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	currently	currently	ADV	_	_	2	advmod	_	_
-4	no	no	DET	NEG	_	6	advmod	_	_
+4	no	no	DET	NEG	_	6	det	_	_
 5	simple	simple	ADJ	POS	Degree=Pos	6	amod	_	_
 6	way	way	NOUN	SG-NOM	Number=Sing	2	nsubj	_	_
 7	for	for	ADP	_	_	10	case	_	_
@@ -148,9 +148,9 @@
 20	SQL	sql	PROPN	SG-NOM	Number=Sing	22	compound	_	_
 21	Server	server	NOUN	SG-NOM	Number=Sing	20	flat	_	_
 22	database	database	NOUN	SG-NOM	Number=Sing	12	obl	_	_
-23	except	except	ADP	_	_	24	case	_	_
-24	by	by	ADP	_	_	2	obl	_	_
-25	using	use	VERB	ING	Tense=Pres|VerbForm=Part	23	advcl	_	_
+23	except	except	ADP	_	_	25	mark	_	_
+24	by	by	ADP	_	_	25	mark	_	_
+25	using	use	VERB	ING	Tense=Pres|VerbForm=Part	6	acl	_	_
 26	SQL	sql	PROPN	SG-NOM	Number=Sing	33	compound	_	_
 27	Tools	tool	NOUN	PL-NOM	Number=Plur	26	flat	_	_
 28	or	or	CCONJ	_	_	29	cc	_	_
@@ -398,7 +398,7 @@
 4	security	security	NOUN	SG-NOM	Number=Sing	5	compound	_	_
 5	mode	mode	NOUN	SG-NOM	Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	2	punct	_	_
-7	it	it	PRON	PERS-SG	_	10	nsubj:pass	_	_
+7	it	it	PRON	PERS-SG	_	10	expl	_	_
 8	is	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 9	strongly	strongly	ADV	_	_	10	advmod	_	_
 10	recommended	recommend	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -415,13 +415,13 @@
 21	Login	login	NOUN	SG-NOM	Number=Sing	22	compound	_	_
 22	Password	password	NOUN	SG-NOM	Number=Sing	20	obj	_	_
 23	command	command	NOUN	SG-NOM	Number=Sing	18	obj	_	_
-24	(	(	PUNCT	LeftParenthesis	_	30	punct	_	SpaceAfter=No
+24	(	(	PUNCT	LeftParenthesis	_	28	punct	_	SpaceAfter=No
 25	on	on	ADP	_	_	28	case	_	_
 26	the	the	DET	DEF	Definite=Def|PronType=Art	28	det	_	_
 27	Tools	tool	NOUN	PL-NOM	Number=Plur	28	compound	_	_
 28	menu	menu	NOUN	SG-NOM	Number=Sing	23	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	Comma	_	30	punct	_	_
-30	point	point	VERB	IMP	Mood=Imp|VerbForm=Fin	28	parataxis	_	_
+30	point	point	VERB	IMP	Mood=Imp|VerbForm=Fin	28	acl	_	_
 31	to	to	ADP	_	_	32	case	_	_
 32	Security	security	NOUN	SG-NOM	Number=Sing	30	obl	_	SpaceAfter=No
 33	)	)	PUNCT	RightParenthesis	_	30	punct	_	SpaceAfter=No
@@ -702,7 +702,7 @@
 17	formats	format	NOUN	PL-NOM	Number=Plur	15	obj	_	_
 18	and	and	CCONJ	_	_	19	cc	_	_
 19	structures	structure	NOUN	PL-NOM	Number=Plur	17	conj	_	SpaceAfter=No
-20	,	,	PUNCT	Comma	_	4	punct	_	_
+20	,	,	PUNCT	Comma	_	23	punct	_	_
 21	in	in	ADP	_	_	23	case	_	_
 22	a	a	DET	IND-SG	Definite=Ind|PronType=Art	23	det	_	_
 23	way	way	NOUN	SG-NOM	Number=Sing	15	obl	_	_
@@ -801,7 +801,7 @@
 52	of	of	ADP	_	_	54	case	_	_
 53	the	the	DET	DEF	Definite=Def|PronType=Art	54	det	_	_
 54	data	data	NOUN	PL-NOM	Number=Sing	51	nmod	_	_
-55	completely	completely	ADV	_	_	56	advmod	_	_
+55	completely	completely	ADV	_	_	49	advmod	_	_
 56	to	to	ADP	_	_	58	case	_	_
 57	the	the	DET	DEF	Definite=Def|PronType=Art	58	det	_	_
 58	application	application	NOUN	SG-NOM	Number=Sing	49	obl	_	_
@@ -1011,7 +1011,7 @@
 8	you	you	PRON	PERS-P2	_	11	nsubj	_	_
 9	can	can	AUX	PRES-AUX	VerbForm=Fin	11	aux	_	_
 10	not	not	PART	NEG	_	11	advmod	_	_
-11	choose	choose	VERB	INF	VerbForm=Inf	1	xcomp	_	_
+11	choose	choose	VERB	INF	VerbForm=Inf	1	ccomp	_	_
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
 13	subset	subset	NOUN	SG-NOM	Number=Sing	11	obj	_	_
 14	of	of	ADP	_	_	17	case	_	_
@@ -1026,7 +1026,7 @@
 23	to	to	PART	_	_	25	mark	_	_
 24	be	be	AUX	INF	VerbForm=Inf	25	aux:pass	_	_
 25	imported	import	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	11	parataxis	_	SpaceAfter=No
-26	.	.	PUNCT	Period	_	11	punct	_	_
+26	.	.	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 2781
 # text = You can transform the native XML data into a specific Access format by choosing from the options in the Import XML dialog box.
@@ -1128,7 +1128,7 @@
 9	XML	xml	PROPN	SG-NOM	Number=Sing	10	compound	_	_
 10	data	data	NOUN	PL-NOM	Number=Sing	11	compound	_	_
 11	document	document	NOUN	SG-NOM	Number=Sing	6	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	Comma	_	15	punct	_	_
+12	,	,	PUNCT	Comma	_	13	punct	_	_
 13	including	include	VERB	ING	Tense=Pres|VerbForm=Part	4	advcl	_	_
 14	element	element	NOUN	SG-NOM	Number=Sing	15	compound	_	_
 15	names	name	VERB	PRES	Case=Nom	13	obj	_	_
@@ -1237,7 +1237,7 @@
 10	any	any	DET	IND	_	12	det	_	_
 11	XML	xml	PROPN	SG-NOM	Number=Sing	12	compound	_	_
 12	document	document	NOUN	SG-NOM	Number=Sing	28	nsubj	_	_
-13	that	that	PRON	REL	PronType=Rel	14	nsubj:pass	_	_
+13	that	that	PRON	REL	PronType=Rel	15	nsubj:pass	_	_
 14	is	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
 15	used	use	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
 16	to	to	PART	_	_	17	mark	_	_
@@ -1294,7 +1294,7 @@
 27	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	SpaceAfter=No
 28	,	,	PUNCT	Comma	_	30	punct	_	_
 29	in	in	ADP	_	_	30	case	_	_
-30	turn	turn	NOUN	SG-NOM	Number=Sing	32	obl	_	SpaceAfter=No
+30	turn	turn	NOUN	SG-NOM	Number=Sing	33	obl	_	SpaceAfter=No
 31	,	,	PUNCT	Comma	_	30	punct	_	_
 32	can	can	AUX	PRES-AUX	VerbForm=Fin	33	aux	_	_
 33	provide	provide	VERB	INF	VerbForm=Inf	25	conj	_	_
@@ -1334,7 +1334,7 @@
 20	XML	xml	PROPN	SG-NOM	Number=Sing	21	compound	_	_
 21	document	document	NOUN	SG-NOM	Number=Sing	17	nmod	_	_
 22	but	but	CCONJ	_	_	25	cc	_	_
-23	does	do	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+23	does	do	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
 24	n't	not	PART	NEG	_	25	advmod	_	_
 25	indicate	indicate	VERB	INF	VerbForm=Inf	13	conj	_	_
 26	how	how	ADV	WH	PronType=Int	31	advmod	_	_
@@ -1379,7 +1379,7 @@
 # sent_id = 2794
 # text = However, a CSS isn't always a good choice because they are written in a specialized language which means that the developer has to use another language in order to write, modify, or understand the structure of the style sheet.
 1	However	however	ADV	_	_	10	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	Comma	_	32	punct	_	_
+2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	4	det	_	_
 4	CSS	css	PROPN	SG-NOM	Number=Sing	10	nsubj	_	_
 5	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
@@ -1451,8 +1451,8 @@
 1	On	on	ADP	_	_	4	case	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
 3	other	other	ADJ	POS	Degree=Pos	4	amod	_	_
-4	hand	hand	NOUN	SG-NOM	Number=Sing	18	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	1	punct	_	_
+4	hand	hand	NOUN	SG-NOM	Number=Sing	18	obl	_	SpaceAfter=No
+5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	an	an	DET	IND-SG	Definite=Ind|PronType=Art	14	det	_	_
 7	Extensible	extensible	ADJ	POS	Degree=Pos	9	amod	_	_
 8	Stylesheet	stylesheet	NOUN	SG-NOM	Number=Sing	9	compound	_	_
@@ -1639,7 +1639,7 @@
 4	one	one	NUM	CARD-SG	NumType=Card	6	nummod	_	_
 5	conditional	conditional	ADJ	POS	Degree=Pos	6	amod	_	_
 6	filter	filter	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
-7	does	do	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	does	do	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	not	not	PART	NEG	_	9	advmod	_	_
 9	affect	affect	VERB	INF	VerbForm=Inf	0	root	_	_
 10	the	the	DET	DEF	Definite=Def|PronType=Art	11	det	_	_
@@ -1811,7 +1811,7 @@
 # text = If you don't want to retain your filter selections, make sure the AutoFilter button is not selected before you start selecting items to filter.
 1	If	if	SCONJ	_	_	5	mark	_	_
 2	you	you	PRON	PERS-P2	_	5	nsubj	_	_
-3	do	do	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	do	do	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
 4	n't	not	PART	NEG	_	5	advmod	_	_
 5	want	want	VERB	INF	VerbForm=Inf	12	advcl	_	_
 6	to	to	PART	_	_	7	mark	_	_
@@ -1868,7 +1868,7 @@
 1	Identifying	identify	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
 2	filters	filter	NOUN	PL-NOM	Number=Plur	1	obj	_	_
 3	that	that	PRON	REL	PronType=Rel	7	nsubj	_	_
-4	are	be	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	currently	currently	ADV	_	_	7	advmod	_	_
 6	in	in	ADP	_	_	7	case	_	_
 7	effect	effect	NOUN	SG-NOM	Number=Sing	2	acl:relcl	_	_
@@ -1913,7 +1913,7 @@
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
 8	filter	filter	NOUN	SG-NOM	Number=Sing	6	obj	_	_
 9	that	that	PRON	REL	PronType=Rel	12	nsubj	_	_
-10	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	in	in	ADP	_	_	12	case	_	_
 12	effect	effect	NOUN	SG-NOM	Number=Sing	8	acl:relcl	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	1	punct	_	_
@@ -2572,7 +2572,7 @@
 23	to	to	PART	_	_	24	mark	_	_
 24	create	create	VERB	INF	VerbForm=Inf	17	advcl	_	_
 25	groups	group	NOUN	PL-NOM	Number=Plur	24	obj	_	_
-26	such	such	PRON	ADJ	Case=Nom	28	advmod	_	_
+26	such	such	ADJ	ADJ	Case=Nom	28	amod	_	_
 27	as	as	ADP	_	_	28	case	_	_
 28	Jan-Feb	jan-feb	NOUN	SG-NOM	Number=Sing	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	Comma	_	30	punct	_	_
@@ -2620,8 +2620,8 @@
 6	of	of	ADP	_	_	8	case	_	_
 7	any	any	DET	IND	_	8	det	_	_
 8	integer	integer	NOUN	SG-NOM	Number=Sing	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	Comma	_	3	punct	_	_
-10	such	such	PRON	ADJ	Case=Nom	12	advmod	_	_
+9	,	,	PUNCT	Comma	_	12	punct	_	_
+10	such	such	ADJ	ADJ	Case=Nom	12	amod	_	_
 11	as	as	ADP	_	_	12	case	_	_
 12	1	1	NUM	CARD-SG	NumType=Card	8	appos	_	SpaceAfter=No
 13	,	,	PUNCT	Comma	_	14	punct	_	_
@@ -2670,7 +2670,7 @@
 3	group	group	VERB	INF	Case=Nom	0	root	_	_
 4	in	in	ADP	_	_	5	case	_	_
 5	intervals	interval	NOUN	PL-NOM	Number=Plur	3	obl	_	_
-6	such	such	PRON	ADJ	Case=Nom	8	advmod	_	_
+6	such	such	ADJ	ADJ	Case=Nom	8	amod	_	_
 7	as	as	ADP	_	_	8	case	_	_
 8	days	day	NOUN	PL-NOM	Number=Plur	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
@@ -2740,7 +2740,7 @@
 1	Across	across	ADP	_	_	3	case	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
 3	way	way	NOUN	SG-NOM	Number=Sing	16	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	1	punct	_	_
+4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	occupying	occupy	VERB	ING	Tense=Pres|VerbForm=Part	16	advcl	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
 7	greater	great	ADJ	CMP	Degree=Cmp	8	amod	_	_
@@ -2808,7 +2808,7 @@
 19	the	the	DET	DEF	Definite=Def|PronType=Art	21	det	_	_
 20	house	house	NOUN	SG-NOM	Number=Sing	21	compound	_	_
 21	fronts	front	NOUN	PL-NOM	Number=Plur	14	obl	_	SpaceAfter=No
-22	,	,	PUNCT	Comma	_	5	punct	_	_
+22	,	,	PUNCT	Comma	_	32	punct	_	_
 23	and	and	CCONJ	_	_	32	cc	_	_
 24	far	far	ADV	_	Degree=Pos	25	advmod	_	_
 25	down	down	ADV	_	_	32	advmod	_	_
@@ -2821,7 +2821,7 @@
 32	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	_
 33	the	the	DET	DEF	Definite=Def|PronType=Art	34	det	_	_
 34	ocean	ocean	NOUN	SG-NOM	Case=Nom	32	nsubj	_	SpaceAfter=No
-35	,	,	PUNCT	Comma	_	5	punct	_	_
+35	,	,	PUNCT	Comma	_	39	punct	_	_
 36	with	with	ADP	_	_	39	case	_	_
 37	its	it	PRON	SG-GEN	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
 38	white	white	ADJ	POS	Degree=Pos	39	amod	_	_
@@ -2844,19 +2844,19 @@
 7	wife	wife	NOUN	SG-NOM	Number=Sing	3	obl	_	_
 8	long	long	ADV	_	Degree=Pos	3	advmod	_	_
 9	ago	ago	ADP	_	Case=Nom	8	case	_	SpaceAfter=No
-10	,	,	PUNCT	Comma	_	9	punct	_	_
+10	,	,	PUNCT	Comma	_	14	punct	_	_
 11	in	in	ADP	_	_	14	case	_	_
 12	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
 13	first	first	ADJ	ORD	Degree=Pos|NumType=Ord	14	amod	_	_
 14	month	month	NOUN	SG-NOM	Number=Sing	3	obl	_	_
 15	of	of	ADP	_	_	16	case	_	_
 16	pregnancy	pregnancy	NOUN	SG-NOM	Number=Sing	14	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	Comma	_	2	punct	_	_
+17	,	,	PUNCT	Comma	_	14	punct	_	_
 18	when	when	SCONJ	_	Case=Nom	23	mark	_	_
 19	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 20	son	son	NOUN	SG-NOM	Number=Sing	23	nsubj	_	_
 21	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	23	cop	_	_
-22	no	no	DET	NEG	_	23	advmod	_	_
+22	no	no	DET	NEG	_	23	det	_	_
 23	more	much	ADJ	CMP-SG	Degree=Cmp	3	obl	_	_
 24	than	than	ADP	_	_	27	case	_	_
 25	a	a	DET	IND-SG	Definite=Ind|PronType=Art	27	det	_	_
@@ -2982,27 +2982,27 @@
 11	had	have	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
 12	read	read	VERB	PERF	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
 13	of	of	ADP	_	_	17	case	_	_
-14	Melville	Melville	NOUN	SG	Number=Sing	17	nmod	_	SpaceAfter=No
+14	Melville	Melville	NOUN	SG	Number=Sing	17	nmod:poss	_	SpaceAfter=No
 15	's	's	PART	GEN	_	14	case	_	_
 16	last	last	ADJ	SPL	Degree=Pos	17	amod	_	_
 17	years	year	NOUN	PL-NOM	Number=Plur	12	obl	_	_
-18	–	–	PUNCT	Dash	_	5	punct	_	_
+18	–	–	PUNCT	Dash	_	9	punct	_	_
 19	the	the	DET	DEF	Definite=Def|PronType=Art	22	det	_	_
 20	taciturn	taciturn	ADJ	POS	Degree=Pos	22	amod	_	_
 21	old	old	ADJ	POS	Degree=Pos	22	amod	_	_
 22	man	man	NOUN	SG-NOM	Number=Sing	23	nsubj	_	_
-23	working	work	VERB	ING	Tense=Pres|VerbForm=Part	9	appos	_	_
+23	working	work	VERB	ING	Tense=Pres|VerbForm=Part	5	parataxis	_	_
 24	in	in	ADP	_	_	29	case	_	_
 25	the	the	DET	DEF	Definite=Def|PronType=Art	29	det	_	_
 26	New	New	PROPN	NOM	Number=Sing	29	compound	_	_
 27	York	York	PROPN	SG-NOM	Number=Sing	26	flat	_	_
 28	customs	customs	NOUN	PL-NOM	Number=Plur	29	compound	_	_
 29	house	house	NOUN	SG-NOM	Number=Sing	23	obl	_	SpaceAfter=No
-30	,	,	PUNCT	Comma	_	35	punct	_	_
+30	,	,	PUNCT	Comma	_	33	punct	_	_
 31	with	with	ADP	_	_	33	case	_	_
-32	no	no	DET	NEG	_	33	advmod	_	_
+32	no	no	DET	NEG	_	33	det	_	_
 33	readers	reader	NOUN	PL-NOM	Number=Plur	23	obl	_	SpaceAfter=No
-34	,	,	PUNCT	Comma	_	35	punct	_	_
+34	,	,	PUNCT	Comma	_	33	punct	_	_
 35	forgotten	forget	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	23	advcl	_	_
 36	by	by	ADP	_	_	37	case	_	_
 37	everyone	everyone	PRON	TOT-SG-NOM	Number=Sing	35	obl	_	SpaceAfter=No
@@ -3011,15 +3011,15 @@
 # sent_id = 2867
 # text = Then, suddenly, with great clarity and precision, he saw Bartleby's window and the blank brick wall before him.
 1	Then	then	ADV	_	PronType=Dem	12	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	Comma	_	1	punct	_	_
+2	,	,	PUNCT	Comma	_	3	punct	_	_
 3	suddenly	sudden	ADV	_	_	12	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	7	punct	_	_
+4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	with	with	ADP	_	_	7	case	_	_
 6	great	great	ADJ	POS	Degree=Pos	7	amod	_	_
 7	clarity	clarity	NOUN	SG-NOM	Number=Sing	12	obl	_	_
 8	and	and	CCONJ	_	_	9	cc	_	_
 9	precision	precision	NOUN	SG-NOM	Number=Sing	7	conj	_	SpaceAfter=No
-10	,	,	PUNCT	Comma	_	5	punct	_	_
+10	,	,	PUNCT	Comma	_	7	punct	_	_
 11	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	saw	see	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 13	Bartleby	bartleby	PROPN	SG	Number=Sing	15	nmod	_	SpaceAfter=No
@@ -3051,7 +3051,7 @@
 13	meet	meet	VERB	INF	VerbForm=Inf	11	advcl	_	_
 14	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
 15	assault	assault	NOUN	SG-NOM	Number=Sing	13	obj	_	SpaceAfter=No
-16	,	,	PUNCT	Comma	_	2	punct	_	_
+16	,	,	PUNCT	Comma	_	11	punct	_	_
 17	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	saw	see	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 19	a	a	DET	IND-SG	Definite=Ind|PronType=Art	23	det	_	_
@@ -3083,7 +3083,7 @@
 8	white	white	ADJ	POS	Degree=Pos	9	amod	_	_
 9	paper	paper	NOUN	SG-NOM	Number=Sing	10	compound	_	_
 10	flag	flag	NOUN	SG-NOM	Number=Sing	1	nsubj	_	SpaceAfter=No
-11	,	,	PUNCT	Comma	_	5	punct	_	_
+11	,	,	PUNCT	Comma	_	10	punct	_	_
 12	one	one	DET	IND-SG	Case=Nom	13	det	_	_
 13	side	side	NOUN	SG-NOM	Number=Sing	16	nsubj	_	_
 14	of	of	ADP	_	_	15	case	_	_
@@ -3234,7 +3234,7 @@
 4	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	det	_	_
 5	grim	grim	ADJ	POS	Degree=Pos	6	amod	_	_
 6	place	place	NOUN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	Comma	_	10	punct	_	_
+7	,	,	PUNCT	Comma	_	6	punct	_	_
 8	filled	fill	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl	_	_
 9	with	with	ADP	_	_	10	case	_	_
 10	dust	dust	NOUN	SG-NOM	Number=Sing	8	obl	_	_
@@ -3244,18 +3244,18 @@
 14	nowhere	nowhere	ADV	NEG-WH	_	6	advmod	_	_
 15	to	to	PART	_	_	16	mark	_	_
 16	go	go	VERB	INF	VerbForm=Inf	14	acl	_	SpaceAfter=No
-17	,	,	PUNCT	Comma	_	2	punct	_	_
+17	,	,	PUNCT	Comma	_	32	punct	_	_
 18	but	but	CCONJ	_	_	32	cc	_	_
 19	now	now	ADV	_	_	32	advmod	_	SpaceAfter=No
 20	,	,	PUNCT	Comma	_	19	punct	_	_
-21	with	with	ADP	_	_	24	case	_	_
+21	with	with	SCONJ	_	_	27	mark	_	_
 22	the	the	DET	DEF	Definite=Def|PronType=Art	24	det	_	_
 23	rush	rush	NOUN	SG-NOM	Case=Nom	24	compound	_	_
-24	hour	hour	NOUN	SG-NOM	Number=Sing	32	obl	_	_
+24	hour	hour	NOUN	SG-NOM	Number=Sing	27	nsubj	_	_
 25	at	at	ADP	_	_	27	case	_	_
 26	full	full	ADJ	POS	Degree=Pos	27	amod	_	_
-27	force	force	NOUN	SG-NOM	Number=Sing	21	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	Comma	_	6	punct	_	_
+27	force	force	NOUN	SG-NOM	Number=Sing	32	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	Comma	_	27	punct	_	_
 29	it	it	PRON	PERS-SG	_	32	nsubj:pass	_	_
 30	had	have	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
 31	been	be	AUX	PERF	Tense=Past|VerbForm=Part	32	aux:pass	_	_
@@ -3430,9 +3430,9 @@
 2	guessed	guess	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
 4	age	age	NOUN	SG-NOM	Number=Sing	2	obj	_	_
-5	at	at	ADP	_	_	6	case	_	_
-6	around	around	ADP	_	_	2	obl	_	_
-7	twenty	twenty	NUM	CARD-PL	NumType=Card	5	nummod	_	SpaceAfter=No
+5	at	at	ADP	_	_	7	case	_	_
+6	around	around	ADP	_	_	7	case	_	_
+7	twenty	twenty	NUM	CARD-PL	NumType=Card	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2885
@@ -3445,7 +3445,7 @@
 6	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
 7	left	left	ADJ	POS	Degree=Pos	8	amod	_	_
 8	cheek	cheek	NOUN	SG-NOM	Number=Sing	4	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	Comma	_	2	punct	_	_
+9	,	,	PUNCT	Comma	_	10	punct	_	_
 10	obscured	obscure	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
 11	by	by	ADP	_	_	14	case	_	_
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	14	det	_	_
@@ -3472,13 +3472,13 @@
 # text = She was, however, reading a book, a paperback with a lurid cover, and Quinn leaned over ever so slightly to his right to catch a glimpse of the title.
 1	She	she	PRON	PERS-SG-NOM	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
-3	,	,	PUNCT	Comma	_	2	punct	_	_
+3	,	,	PUNCT	Comma	_	4	punct	_	_
 4	however	however	ADV	_	_	6	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	reading	read	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
 7	a	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
 8	book	book	NOUN	SG-NOM	Number=Sing	6	obj	_	SpaceAfter=No
-9	,	,	PUNCT	Comma	_	6	punct	_	_
+9	,	,	PUNCT	Comma	_	11	punct	_	_
 10	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
 11	paperback	paperback	NOUN	SG-NOM	Number=Sing	8	nmod	_	_
 12	with	with	ADP	_	_	15	case	_	_
@@ -3511,14 +3511,14 @@
 2	all	all	DET	TOT-PL	_	4	det	_	_
 3	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 4	expectations	expectation	NOUN	PL-NOM	Number=Plur	9	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	1	punct	_	_
+5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	it	it	PRON	PERS-SG	_	9	nsubj	_	_
 7	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	cop	_	_
 8	a	a	DET	IND-SG	Definite=Ind|PronType=Art	9	det	_	_
 9	book	book	NOUN	SG-NOM	Number=Sing	0	root	_	_
 10	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 11	himself	he	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	nmod	_	_
-12	had	have	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	had	have	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
 13	written	write	VERB	PERF	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
 14	–	–	PUNCT	Dash	_	9	punct	_	_
 15	Suicide	suicide	NOUN	SG-NOM	Number=Sing	16	compound	_	_
@@ -3526,7 +3526,7 @@
 17	by	by	ADP	_	_	18	case	_	_
 18	William	William	PROPN	SG-NOM	Number=Sing	16	nmod	_	_
 19	Wilson	Wilson	PROPN	SG-NOM	Number=Sing	18	flat	_	SpaceAfter=No
-20	,	,	PUNCT	Comma	_	7	punct	_	_
+20	,	,	PUNCT	Comma	_	22	punct	_	_
 21	the	the	DET	DEF	Definite=Def|PronType=Art	22	det	_	_
 22	first	first	ADJ	ORD	Degree=Pos|NumType=Ord	16	amod	_	_
 23	of	of	ADP	_	_	27	case	_	_
@@ -3544,7 +3544,7 @@
 4	imagined	imagine	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	6	det	_	_
 6	situation	situation	NOUN	SG-NOM	Number=Sing	4	obj	_	SpaceAfter=No
-7	:	:	PUNCT	Colon	_	2	punct	_	_
+7	:	:	PUNCT	Colon	_	6	punct	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
 9	sudden	sudden	ADJ	POS	Degree=Pos	12	amod	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	9	punct	_	_
@@ -3569,7 +3569,7 @@
 7	that	that	PRON	REL	PronType=Rel	9	nsubj	_	_
 8	would	would	AUX	PAST-AUX	VerbForm=Fin	9	aux	_	_
 9	follow	follow	VERB	INF	VerbForm=Inf	6	acl	_	SpaceAfter=No
-10	:	:	PUNCT	Colon	_	4	punct	_	_
+10	:	:	PUNCT	Colon	_	9	punct	_	_
 11	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	14	punct	_	_
 13	suavely	suave	ADV	_	_	14	advmod	_	_
@@ -3589,7 +3589,7 @@
 27	reluctance	reluctance	NOUN	SG-NOM	Number=Sing	31	obl	_	_
 28	and	and	CCONJ	_	_	29	cc	_	_
 29	modesty	modesty	NOUN	SG-NOM	Number=Sing	27	conj	_	SpaceAfter=No
-30	,	,	PUNCT	Comma	_	14	punct	_	_
+30	,	,	PUNCT	Comma	_	31	punct	_	_
 31	agreeing	agree	VERB	ING	Tense=Pres|VerbForm=Part	14	conj	_	_
 32	to	to	PART	_	_	33	mark	_	_
 33	autograph	autograph	VERB	INFM	VerbForm=Inf	14	xcomp	_	_
@@ -3732,23 +3732,23 @@
 14	turned	turn	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
 15	to	to	ADP	_	_	16	case	_	_
 16	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
-17	with	with	ADP	_	_	20	case	_	_
+17	with	with	SCONJ	_	_	23	mark	_	_
 18	an	an	DET	IND-SG	Definite=Ind|PronType=Art	20	det	_	_
 19	irritated	irritate	ADJ	PASS	Degree=Pos	20	amod	_	_
-20	expression	expression	NOUN	SG-NOM	Number=Sing	14	obl	_	_
+20	expression	expression	NOUN	SG-NOM	Number=Sing	23	nsubj	_	_
 21	on	on	ADP	_	_	23	case	_	_
 22	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nmod:poss	_	_
-23	face	face	NOUN	SG-NOM	Number=Sing	17	nmod	_	_
+23	face	face	NOUN	SG-NOM	Number=Sing	14	advcl	_	_
 24	and	and	CCONJ	_	_	25	cc	_	_
 25	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	SpaceAfter=No
-26	,	,	PUNCT	Comma	_	5	punct	_	_
+26	,	,	PUNCT	Comma	_	25	punct	_	_
 27	You	you	PRON	PERS-P2	_	28	nsubj	_	_
 28	got	get	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	25	ccomp	_	_
 29	a	a	DET	IND-SG	Definite=Ind|PronType=Art	30	det	_	_
 30	problem	problem	NOUN	SG-NOM	Number=Sing	28	obj	_	SpaceAfter=No
 31	,	,	PUNCT	Comma	_	30	punct	_	_
 32	mister	mister	NOUN	SG-NOM	Number=Sing	28	vocative	_	SpaceAfter=No
-33	?	?	PUNCT	QuestionMark	_	5	punct	_	_
+33	?	?	PUNCT	QuestionMark	_	28	punct	_	_
 
 # sent_id = 2895
 # text = Quinn smiled weakly. No problem, he said.
@@ -3756,11 +3756,11 @@
 2	smiled	smile	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	weakly	weak	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	Period	_	2	punct	_	_
-5	No	no	DET	NEG	_	6	advmod	_	_
+5	No	no	DET	NEG	_	6	det	_	_
 6	problem	problem	NOUN	SG-NOM	Number=Sing	9	obj	_	SpaceAfter=No
-7	,	,	PUNCT	Comma	_	2	punct	_	_
+7	,	,	PUNCT	Comma	_	6	punct	_	_
 8	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-9	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 2896
@@ -3784,14 +3784,14 @@
 4	.	.	PUNCT	Period	_	3	punct	_	_
 5	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 6	've	have	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
-7	read	read	VERB	PERF	Tense=Past|VerbForm=Part	3	advcl	_	_
+7	read	read	VERB	PERF	Tense=Past|VerbForm=Part	3	parataxis	_	_
 8	better	good	ADJ	CMP	Degree=Cmp	7	xcomp	_	_
 9	and	and	CCONJ	_	_	12	cc	_	_
 10	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
 11	've	have	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	read	read	VERB	PERF	Tense=Past|VerbForm=Part	7	conj	_	_
 13	worse	bad	ADJ	CMP	Degree=Cmp	12	xcomp	_	SpaceAfter=No
-14	.	.	PUNCT	Period	_	11	punct	_	_
+14	.	.	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 2898
 # text = Quinn wanted to drop the conversation right there, but something in him persisted.
@@ -3850,10 +3850,10 @@
 9	loudly	loudly	ADV	_	_	6	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	3	punct	_	_
 11	Sort	sort	NOUN	SG-NOM	Number=Sing	15	discourse	_	_
-12	of	of	ADP	_	_	11	acl	_	SpaceAfter=No
+12	of	of	ADP	_	_	11	fixed	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	11	punct	_	_
 14	There	there	PRON	EX	_	15	expl	_	SpaceAfter=No
-15	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+15	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 16	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
 17	part	part	NOUN	SG-NOM	Number=Sing	15	nsubj	_	_
 18	where	where	ADV	WH-REL	PronType=Int	21	advmod	_	_
@@ -3866,7 +3866,7 @@
 25	kind	kind	NOUN	SG-NOM	Number=Sing	17	acl	_	_
 26	of	of	ADP	_	_	27	case	_	_
 27	scary	scary	ADJ	POS	Degree=Pos	25	amod	_	SpaceAfter=No
-28	.	.	PUNCT	Period	_	21	punct	_	_
+28	.	.	PUNCT	Period	_	15	punct	_	_
 
 # sent_id = 2901
 # text = Is he a smart detective?
@@ -3956,15 +3956,15 @@
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	it	it	PRON	PERS-SG	_	7	nsubj	_	SpaceAfter=No
 4	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-5	no	no	DET	NEG	_	7	advmod	_	_
+5	no	no	DET	NEG	_	7	det	_	_
 6	big	big	ADJ	POS	Degree=Pos	7	amod	_	_
 7	deal	deal	NOUN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	Period	_	4	punct	_	_
+8	.	.	PUNCT	Period	_	7	punct	_	_
 9	It	it	PRON	PERS-SG	_	13	nsubj	_	SpaceAfter=No
 10	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 11	just	just	ADV	_	_	13	advmod	_	_
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
-13	book	book	NOUN	SG-NOM	Number=Sing	7	advcl	_	SpaceAfter=No
+13	book	book	NOUN	SG-NOM	Number=Sing	7	parataxis	_	SpaceAfter=No
 14	.	.	PUNCT	Period	_	13	punct	_	_
 
 # sent_id = 2909
@@ -3986,7 +3986,7 @@
 15	that	that	SCONJ	_	_	17	mark	_	_
 16	it	it	PRON	PERS-SG	_	17	nsubj	_	_
 17	made	make	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
-18	no	no	DET	NEG	_	19	advmod	_	_
+18	no	no	DET	NEG	_	19	det	_	_
 19	difference	difference	NOUN	SG-NOM	Number=Sing	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -4025,7 +4025,7 @@
 22	away	away	ADV	_	_	20	advmod	_	_
 23	now	now	ADV	_	_	20	advmod	_	SpaceAfter=No
 24	,	,	PUNCT	Comma	_	23	punct	_	_
-25	least	little	ADV	SPL	Degree=Sup	28	advmod	_	_
+25	least	little	ADV	SPL	Degree=Sup	31	advmod	_	_
 26	of	of	ADP	_	_	27	case	_	_
 27	all	all	PRON	TOT-SG	Case=Nom	25	nmod	_	_
 28	to	to	ADP	_	_	31	case	_	_
@@ -4055,7 +4055,7 @@
 # sent_id = 2913
 # text = Rather than punch the girl in the face, he abruptly stood up from his seat and walked away.
 1	Rather	rather	ADV	_	_	12	advmod	_	_
-2	than	than	ADP	_	_	3	advmod	_	_
+2	than	than	SCONJ	_	_	3	mark	_	_
 3	punch	punch	VERB	INF	VerbForm=Inf	1	acl	_	_
 4	the	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
 5	girl	girl	NOUN	SG-NOM	Number=Sing	3	obj	_	_
@@ -4096,10 +4096,10 @@
 3	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
 4	due	due	ADJ	POS	Degree=Pos	0	root	_	_
 5	to	to	PART	_	_	6	mark	_	_
-6	arrive	arrive	VERB	INF	VerbForm=Inf	4	acl	_	_
+6	arrive	arrive	VERB	INF	VerbForm=Inf	4	xcomp	_	_
 7	in	in	ADP	_	_	8	case	_	_
 8	time	time	NOUN	SG-NOM	Number=Sing	6	obl	_	SpaceAfter=No
-9	,	,	PUNCT	Comma	_	3	punct	_	_
+9	,	,	PUNCT	Comma	_	4	punct	_	_
 10	and	and	CCONJ	_	_	22	cc	_	_
 11	from	from	ADP	_	_	13	case	_	_
 12	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
@@ -4110,7 +4110,7 @@
 17	of	of	ADP	_	_	19	case	_	_
 18	the	the	DET	DEF	Definite=Def|PronType=Art	19	det	_	_
 19	doorway	doorway	NOUN	SG-NOM	Number=Sing	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	Comma	_	4	punct	_	_
+20	,	,	PUNCT	Comma	_	13	punct	_	_
 21	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	22	nsubj	_	_
 22	judged	judge	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
 23	that	that	SCONJ	_	_	30	mark	_	_
@@ -4203,7 +4203,7 @@
 28	boy	boy	NOUN	SG-NOM	Number=Sing	25	nmod	_	_
 29	in	in	ADP	_	_	31	amod	_	_
 30	a	a	DET	IND-SG	Definite=Ind|PronType=Art	31	det	_	_
-31	photograph	photograph	NOUN	SG-NOM	Number=Sing	26	nmod	_	_
+31	photograph	photograph	NOUN	SG-NOM	Number=Sing	28	nmod	_	_
 32	and	and	CCONJ	_	_	33	cc	_	_
 33	recognize	recognize	VERB	INF	VerbForm=Inf	7	conj	_	_
 34	the	the	DET	DEF	Definite=Def|PronType=Art	36	det	_	_
@@ -4230,7 +4230,7 @@
 11	had	have	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
 12	to	to	PART	_	_	13	mark	_	_
 13	go	go	VERB	INF	VerbForm=Inf	11	advcl	_	_
-14	on	on	ADP	_	_	13	advmod	_	SpaceAfter=No
+14	on	on	ADV	_	_	13	advmod	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	9	punct	_	_
 16	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
 17	only	only	ADV	_	_	18	advmod	_	_
@@ -4355,10 +4355,10 @@
 17	at	at	ADP	_	_	19	case	_	_
 18	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	19	det	_	_
 19	moment	moment	NOUN	SG-NOM	Number=Sing	14	obl	_	SpaceAfter=No
-20	,	,	PUNCT	Comma	_	3	punct	_	_
+20	,	,	PUNCT	Comma	_	14	punct	_	_
 21	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 22	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	23	cop	_	_
-23	excited	excited	ADJ	POS	Degree=Pos	3	conj	_	SpaceAfter=No
+23	excited	excited	ADJ	POS	Degree=Pos	3	parataxis	_	SpaceAfter=No
 24	.	.	PUNCT	Period	_	23	punct	_	_
 
 # sent_id = 2926
@@ -4612,7 +4612,7 @@
 42	new	new	ADJ	POS	Degree=Pos	43	amod	_	_
 43	face	face	NOUN	SG-NOM	Number=Sing	37	obl	_	SpaceAfter=No
 44	,	,	PUNCT	Comma	_	53	punct	_	_
-45	as	as	SCONJ	_	_	52	mark	_	_
+45	as	as	SCONJ	_	_	53	mark	_	_
 46	if	if	SCONJ	_	_	45	fixed	_	_
 47	the	the	DET	DEF	Definite=Def|PronType=Art	48	det	_	_
 48	accumulation	accumulation	NOUN	SG-NOM	Number=Sing	53	nsubj	_	_
@@ -4731,8 +4731,8 @@
 # text = With what, then?
 1	With	with	ADP	_	_	2	case	_	_
 2	what	what	PRON	WH	PronType=Int	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Comma	_	1	punct	_	_
-4	then	then	ADV	_	PronType=Dem	1	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	Comma	_	2	punct	_	_
+4	then	then	ADV	_	PronType=Dem	2	parataxis	_	SpaceAfter=No
 5	?	?	PUNCT	QuestionMark	_	2	punct	_	_
 
 # sent_id = 2939
@@ -4777,10 +4777,10 @@
 5	for	for	ADP	_	_	6	case	_	_
 6	Paul	Paul	PROPN	SG-NOM	Number=Sing	4	obl	_	_
 7	Auster	Auster	PROPN	SG-NOM	Number=Sing	6	flat	_	SpaceAfter=No
-8	,	,	PUNCT	Comma	_	2	punct	_	_
+8	,	,	PUNCT	Comma	_	6	punct	_	_
 9	the	the	DET	DEF	Definite=Def|PronType=Art	11	det	_	_
 10	private	private	ADJ	POS	Degree=Pos	11	amod	_	_
-11	detective	detective	NOUN	SG-NOM	Number=Sing	7	nmod	_	SpaceAfter=No
+11	detective	detective	NOUN	SG-NOM	Number=Sing	6	appos	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2942
@@ -4967,7 +4967,7 @@
 6	then	then	ADV	_	PronType=Dem	8	advmod	_	_
 7	there	there	PRON	EX	_	8	expl	_	SpaceAfter=No
 8	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	no	no	DET	NEG	_	10	advmod	_	_
+9	no	no	DET	NEG	_	10	det	_	_
 10	hope	hope	NOUN	SG-NOM	Number=Sing	8	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	8	punct	_	_
 
@@ -4986,7 +4986,7 @@
 # text = I have no idea what you're talking about.
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	have	have	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	no	no	DET	NEG	_	4	advmod	_	_
+3	no	no	DET	NEG	_	4	det	_	_
 4	idea	idea	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 5	what	what	PRON	WH	PronType=Int	8	dislocated	_	_
 6	you	you	PRON	PERS-P2	_	8	nsubj	_	SpaceAfter=No
@@ -5063,7 +5063,7 @@
 7	for	for	ADP	_	_	8	case	_	_
 8	Paul	Paul	PROPN	SG-NOM	Number=Sing	6	nmod	_	_
 9	Auster	Auster	PROPN	SG-NOM	Number=Sing	8	flat	_	SpaceAfter=No
-10	,	,	PUNCT	Comma	_	6	punct	_	_
+10	,	,	PUNCT	Comma	_	14	punct	_	_
 11	of	of	ADP	_	_	14	case	_	_
 12	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 13	inexplicable	inexplicable	ADJ	POS	Degree=Pos	14	amod	_	_
@@ -5074,69 +5074,69 @@
 18	,	,	PUNCT	Comma	_	14	punct	_	_
 19	of	of	ADP	_	_	21	case	_	_
 20	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
-21	meeting	meeting	NOUN	SG-NOM	Number=Sing	14	conj	_	_
+21	meeting	meeting	NOUN	SG-NOM	Number=Sing	6	conj	_	_
 22	with	with	ADP	_	_	23	case	_	_
 23	Peter	Peter	PROPN	SG-NOM	Number=Sing	21	nmod	_	_
 24	Stillman	Stillman	PROPN	SG-NOM	Number=Sing	23	flat	_	SpaceAfter=No
-25	,	,	PUNCT	Comma	_	2	punct	_	_
+25	,	,	PUNCT	Comma	_	28	punct	_	_
 26	of	of	ADP	_	_	28	case	_	_
 27	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
-28	conversation	conversation	NOUN	SG-NOM	Number=Sing	19	nmod	_	_
+28	conversation	conversation	NOUN	SG-NOM	Number=Sing	6	conj	_	_
 29	with	with	ADP	_	_	31	case	_	_
 30	Virginia	Virginia	PROPN	SG-NOM	Number=Sing	28	nmod	_	_
 31	Stillman	Stillman	PROPN	SG-NOM	Number=Sing	30	flat	_	SpaceAfter=No
-32	,	,	PUNCT	Comma	_	28	punct	_	_
+32	,	,	PUNCT	Comma	_	35	punct	_	_
 33	of	of	ADP	_	_	35	mark	_	_
 34	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
-35	reading	read	VERB	ING	Tense=Pres|VerbForm=Part	28	conj	_	_
+35	reading	read	VERB	ING	Tense=Pres|VerbForm=Part	6	conj	_	_
 36	Stillman	Stillman	PROPN	SG	Number=Sing	38	amod	_	SpaceAfter=No
 37	's	's	PART	GEN	_	36	case	_	_
 38	book	book	NOUN	SG-NOM	Number=Sing	35	obj	_	SpaceAfter=No
-39	,	,	PUNCT	Comma	_	35	punct	_	_
+39	,	,	PUNCT	Comma	_	42	punct	_	_
 40	of	of	ADP	_	_	42	mark	_	_
 41	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
-42	following	follow	VERB	ING	Tense=Pres|VerbForm=Part	35	conj	_	_
+42	following	follow	VERB	ING	Tense=Pres|VerbForm=Part	6	conj	_	_
 43	Stillman	Stillman	PROPN	SG-NOM	Number=Sing	42	obj	_	_
 44	from	from	ADP	_	_	47	case	_	_
 45	Grand	grand	ADJ	POS	Degree=Pos	47	amod	_	_
 46	Central	central	ADJ	POS	Degree=Pos	47	amod	_	_
 47	Station	station	NOUN	SG-NOM	Number=Sing	42	obl	_	SpaceAfter=No
-48	,	,	PUNCT	Comma	_	42	punct	_	_
+48	,	,	PUNCT	Comma	_	53	punct	_	_
 49	of	of	ADP	_	_	53	case	_	_
 50	Stillman	Stillman	PROPN	SG	Number=Sing	53	amod	_	SpaceAfter=No
 51	's	's	PART	GEN	_	50	case	_	_
 52	daily	daily	ADJ	POS	Degree=Pos	53	amod	_	_
-53	wanderings	wandering	NOUN	PL-NOM	Number=Plur	42	conj	_	SpaceAfter=No
+53	wanderings	wandering	NOUN	PL-NOM	Number=Plur	6	conj	_	SpaceAfter=No
 54	,	,	PUNCT	Comma	_	53	punct	_	_
 55	of	of	ADP	_	_	57	case	_	_
 56	the	the	DET	DEF	Definite=Def|PronType=Art	57	det	_	_
-57	carpetbag	carpetbag	NOUN	SG-NOM	Number=Sing	53	conj	_	_
+57	carpetbag	carpetbag	NOUN	SG-NOM	Number=Sing	6	conj	_	_
 58	and	and	CCONJ	_	_	61	cc	_	_
 59	the	the	DET	DEF	Definite=Def|PronType=Art	61	det	_	_
 60	broken	broken	ADJ	PASS	Degree=Pos	61	amod	_	_
 61	objects	object	NOUN	PL-NOM	Case=Nom	57	conj	_	SpaceAfter=No
-62	,	,	PUNCT	Comma	_	57	punct	_	_
+62	,	,	PUNCT	Comma	_	66	punct	_	_
 63	of	of	ADP	_	_	66	case	_	_
 64	the	the	DET	DEF	Definite=Def|PronType=Art	66	det	_	_
 65	disquieting	disquiet	ADJ	POS	Degree=Pos	66	amod	_	_
-66	maps	map	NOUN	PL-NOM	Number=Plur	57	conj	_	_
+66	maps	map	NOUN	PL-NOM	Number=Plur	6	conj	_	_
 67	that	that	PRON	REL	PronType=Rel	68	nsubj	_	_
 68	formed	form	VERB	PAST	Tense=Past|VerbForm=Part	66	acl:relcl	_	_
 69	letters	letter	NOUN	PL-NOM	Number=Plur	68	obj	_	_
 70	of	of	ADP	_	_	72	case	_	_
 71	the	the	DET	DEF	Definite=Def|PronType=Art	72	det	_	_
 72	alphabet	alphabet	NOUN	SG-NOM	Number=Sing	69	nmod	_	SpaceAfter=No
-73	,	,	PUNCT	Comma	_	66	punct	_	_
+73	,	,	PUNCT	Comma	_	76	punct	_	_
 74	of	of	ADP	_	_	76	case	_	_
 75	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	76	nmod:poss	_	_
-76	talks	talk	NOUN	PL-NOM	Number=Plur	66	conj	_	_
+76	talks	talk	NOUN	PL-NOM	Number=Plur	6	conj	_	_
 77	with	with	ADP	_	_	78	case	_	_
 78	Stillman	Stillman	PROPN	SG-NOM	Number=Sing	76	nmod	_	SpaceAfter=No
-79	,	,	PUNCT	Comma	_	76	punct	_	_
+79	,	,	PUNCT	Comma	_	83	punct	_	_
 80	of	of	ADP	_	_	83	case	_	_
 81	Stillman	Stillman	PROPN	SG	Number=Sing	83	amod	_	SpaceAfter=No
 82	's	's	PART	GEN	_	81	case	_	_
-83	disappearance	disappearance	NOUN	SG-NOM	Number=Sing	76	conj	_	_
+83	disappearance	disappearance	NOUN	SG-NOM	Number=Sing	6	conj	_	_
 84	from	from	ADP	_	_	86	case	_	_
 85	the	the	DET	DEF	Definite=Def|PronType=Art	86	det	_	_
 86	hotel	hotel	NOUN	SG-NOM	Number=Sing	83	nmod	_	SpaceAfter=No
@@ -5169,7 +5169,7 @@
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Auster	Auster	PROPN	SG-NOM	Number=Sing	3	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	3	punct	_	_
+5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	who	who	PRON	WH-REL	PronType=Int	8	nsubj	_	_
 7	had	have	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	listened	listen	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
@@ -5213,11 +5213,11 @@
 10	,	,	PUNCT	Comma	_	3	punct	_	_
 11	as	as	SCONJ	_	_	23	mark	_	_
 12	if	if	SCONJ	_	_	11	fixed	_	SpaceAfter=No
-13	,	,	PUNCT	Comma	_	12	punct	_	_
+13	,	,	PUNCT	Comma	_	16	punct	_	_
 14	at	at	ADP	_	_	16	case	_	_
 15	long	long	ADJ	POS	Degree=Pos	16	amod	_	_
 16	last	last	ADV	_	Case=Nom	23	advmod	_	SpaceAfter=No
-17	,	,	PUNCT	Comma	_	14	punct	_	_
+17	,	,	PUNCT	Comma	_	16	punct	_	_
 18	the	the	DET	DEF	Definite=Def|PronType=Art	19	det	_	_
 19	burden	burden	NOUN	SG-NOM	Number=Sing	23	nsubj	_	_
 20	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	23	cop	_	_
@@ -5297,10 +5297,10 @@
 5	Auster	Auster	PROPN	SG-NOM	Number=Sing	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	Period	_	2	punct	_	_
 7	You	you	PRON	PERS-P2	_	8	nsubj	_	_
-8	see	see	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
-9	,	,	PUNCT	Comma	_	2	punct	_	_
+8	see	see	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	Comma	_	8	punct	_	_
 10	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+11	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 2971
@@ -5375,18 +5375,18 @@
 1	It	it	PRON	PERS-SG	_	2	nsubj	_	SpaceAfter=No
 2	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	of	of	ADP	_	_	5	case	_	_
-4	no	no	DET	NEG	_	5	advmod	_	_
+4	no	no	DET	NEG	_	5	det	_	_
 5	use	use	NOUN	SG-NOM	Number=Sing	2	obl	_	_
 6	to	to	ADP	_	_	7	case	_	_
 7	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	2	punct	_	_
 9	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	10	nsubj	_	_
-10	looked	look	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	looked	look	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 11	around	around	ADP	_	_	13	case	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	13	det	_	_
 13	apartment	apartment	NOUN	SG-NOM	Number=Sing	10	obl	_	_
 14	and	and	CCONJ	_	_	15	cc	_	_
-15	gestured	gesture	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	gestured	gesture	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
 16	vaguely	vague	ADV	_	_	15	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	Period	_	10	punct	_	_
 
@@ -5397,15 +5397,15 @@
 3	some	some	DET	IND	_	5	det	_	_
 4	more	much	ADJ	CMP	Degree=Cmp	5	amod	_	_
 5	books	book	NOUN	PL-NOM	Number=Plur	1	obj	_	SpaceAfter=No
-6	.	.	PUNCT	Period	_	5	punct	_	_
+6	.	.	PUNCT	Period	_	1	punct	_	_
 7	Or	or	CCONJ	_	_	10	cc	_	_
 8	a	a	DET	IND-SG	Definite=Ind|PronType=Art	9	det	_	_
 9	few	few	ADJ	IND-PL	Degree=Pos	10	amod	_	_
-10	toys	toy	NOUN	PL-NOM	Number=Plur	5	conj	_	_
+10	toys	toy	NOUN	PL-NOM	Number=Plur	1	conj	_	_
 11	for	for	ADP	_	_	13	case	_	_
 12	your	you	PRON	P2-GEN	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	kid	kid	NOUN	SG-NOM	Number=Sing	10	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	Period	_	7	punct	_	_
+14	.	.	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = 2979
 # text = This is money you've earned.
@@ -5443,7 +5443,7 @@
 6	'll	will	AUX	PRES-AUX	VerbForm=Fin	7	aux	_	_
 7	do	do	VERB	INF	VerbForm=Inf	4	acl:relcl	_	_
 8	for	for	ADP	_	_	9	case	_	_
-9	you	you	PRON	PERS-P2	_	6	obl	_	SpaceAfter=No
+9	you	you	PRON	PERS-P2	_	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	11	punct	_	_
 11	though	though	ADV	_	_	2	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	2	punct	_	_
@@ -5505,12 +5505,12 @@
 
 # sent_id = 2985
 # text = All right? Auster asked.
-1	All	all	PRON	TOT-SG	Case=Nom	2	advmod	_	_
-2	right	right	ADJ	POS	Degree=Pos	0	root	_	SpaceAfter=No
-3	?	?	PUNCT	QuestionMark	_	5	punct	_	_
+1	All	all	PRON	TOT-SG	Case=Nom	5	obj	_	_
+2	right	right	ADJ	POS	Degree=Pos	1	fixed	_	SpaceAfter=No
+3	?	?	PUNCT	QuestionMark	_	1	punct	_	_
 4	Auster	Auster	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
-5	asked	ask	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
-6	.	.	PUNCT	Period	_	2	punct	_	_
+5	asked	ask	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2986
 # text = Is it agreed?
@@ -5646,31 +5646,31 @@
 5	.	.	PUNCT	Period	_	3	punct	_	_
 6	A	a	DET	IND-SG	Definite=Ind|PronType=Art	7	det	_	_
 7	person	person	NOUN	SG-NOM	Number=Sing	8	nsubj	_	_
-8	tries	try	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+8	tries	try	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 9	to	to	PART	_	_	10	mark	_	_
 10	call	call	VERB	INF	VerbForm=Inf	8	xcomp	_	_
 11	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
 12	number	number	NOUN	SG-NOM	Number=Sing	10	obj	_	SpaceAfter=No
-13	,	,	PUNCT	Comma	_	8	punct	_	_
+13	,	,	PUNCT	Comma	_	18	punct	_	_
 14	and	and	CCONJ	_	_	18	cc	_	_
 15	even	even	ADV	_	_	16	advmod	_	_
 16	though	though	SCONJ	_	_	18	mark	_	_
 17	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-18	dials	dials	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	dials	dials	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
 19	correctly	correct	ADV	_	_	18	advmod	_	SpaceAfter=No
-20	,	,	PUNCT	Comma	_	3	punct	_	_
+20	,	,	PUNCT	Comma	_	18	punct	_	_
 21	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-22	gets	get	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	gets	get	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 23	someone	someone	PRON	IND-SG-NOM	Number=Sing	22	obj	_	_
 24	else	else	ADV	_	_	23	advmod	_	SpaceAfter=No
-25	.	.	PUNCT	Period	_	22	punct	_	_
+25	.	.	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 2996
 # text = Yes, that's happened to me before.
-1	Yes	yes	INTJ	_	_	4	discourse	_	SpaceAfter=No
+1	Yes	yes	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	that	that	PRON	DEM-SG	Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
-4	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	happened	happen	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	to	to	ADP	_	_	7	case	_	_
 7	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
@@ -5868,11 +5868,11 @@
 # text = Quinn realized that he should be going.
 1	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	2	nsubj	_	_
 2	realized	realize	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	that	that	SCONJ	_	_	5	mark	_	_
+3	that	that	SCONJ	_	_	7	mark	_	_
 4	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 5	should	should	AUX	PAST-AUX	VerbForm=Fin	7	aux	_	_
 6	be	be	AUX	INF	VerbForm=Inf	7	aux	_	_
-7	going	go	VERB	ING	Tense=Pres|VerbForm=Part	2	xcomp	_	SpaceAfter=No
+7	going	go	VERB	ING	Tense=Pres|VerbForm=Part	2	ccomp	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3011
@@ -5979,7 +5979,7 @@
 4	really	really	ADV	_	_	6	advmod	_	_
 5	very	very	ADV	_	_	6	advmod	_	_
 6	handsome	handsome	ADJ	POS	Degree=Pos	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	Comma	_	3	punct	_	_
+7	,	,	PUNCT	Comma	_	6	punct	_	_
 8	with	with	ADP	_	_	11	case	_	_
 9	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 10	full	full	ADJ	POS	Degree=Pos	11	amod	_	_
@@ -6050,17 +6050,17 @@
 
 # sent_id = 3020
 # text = The church's manuscript collection is the largest outside Soviet Armenia.
-1	The	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
-2	church	church	NOUN	SG	Number=Sing	4	nmod	_	SpaceAfter=No
+1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
+2	church	church	NOUN	SG	Number=Sing	5	nmod:poss	_	SpaceAfter=No
 3	's	's	PART	GEN	_	2	case	_	_
 4	manuscript	manuscript	NOUN	SG-NOM	Number=Sing	5	compound	_	_
 5	collection	collection	NOUN	SG-NOM	Number=Sing	8	nsubj	_	_
 6	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
 8	largest	large	ADJ	SPL	Degree=Sup	0	root	_	_
-9	outside	outside	ADP	_	_	6	advmod	_	_
+9	outside	outside	ADP	_	_	11	case	_	_
 10	Soviet	soviet	PROPN	SG-NOM	Number=Sing	11	compound	_	_
-11	Armenia	armenia	PROPN	SG-NOM	Number=Sing	9	obj	_	SpaceAfter=No
+11	Armenia	armenia	PROPN	SG-NOM	Number=Sing	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 3021
@@ -6130,7 +6130,7 @@
 28	the	the	DET	DEF	Definite=Def|PronType=Art	30	det	_	_
 29	main	main	ADJ	POS	Degree=Pos	30	amod	_	_
 30	course	course	NOUN	SG-NOM	Number=Sing	26	obl	_	SpaceAfter=No
-31	,	,	PUNCT	Comma	_	2	punct	_	_
+31	,	,	PUNCT	Comma	_	35	punct	_	_
 32	when	when	SCONJ	_	Case=Nom	35	mark	_	_
 33	Levantines	levantine	NOUN	PL-NOM	Number=Plur	35	nsubj	_	_
 34	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	35	cop	_	_
@@ -6163,26 +6163,26 @@
 17	Mansons	manson	PROPN	PL-NOM	Number=Plur	13	conj	_	SpaceAfter=No
 18	,	,	PUNCT	Comma	_	17	punct	_	_
 19	Amins	amin	PROPN	PL-NOM	Number=Plur	13	conj	_	SpaceAfter=No
-20	,	,	PUNCT	Comma	_	13	punct	_	_
+20	,	,	PUNCT	Comma	_	19	punct	_	_
 21	terrorist	terrorist	NOUN	SG-NOM	Number=Sing	22	compound	_	_
 22	massacres	massacre	NOUN	PL-NOM	Number=Plur	13	conj	_	_
 23	at	at	ADP	_	_	25	case	_	_
 24	Olympic	olympic	ADJ	POS	Degree=Pos	25	amod	_	_
 25	Games	game	NOUN	PL-NOM	Number=Plur	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	Comma	_	2	punct	_	_
+26	,	,	PUNCT	Comma	_	22	punct	_	_
 27	what	what	PRON	WH	PronType=Int	0	root	_	_
 28	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	_
 29	illuminated	illuminate	ADJ	PASS	Degree=Pos	30	amod	_	_
 30	manuscripts	manuscript	NOUN	PL-NOM	Number=Plur	27	nsubj	_	SpaceAfter=No
-31	,	,	PUNCT	Comma	_	27	punct	_	_
+31	,	,	PUNCT	Comma	_	32	punct	_	_
 32	what	what	PRON	WH	PronType=Int	27	conj	_	_
 33	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	_
 34	masterpieces	masterpiece	NOUN	PL-NOM	Number=Plur	32	nsubj	_	_
 35	of	of	ADP	_	_	37	case	_	_
 36	wrought	wring	ADJ	PASS	Degree=Pos	37	amod	_	_
 37	iron	iron	NOUN	SG-NOM	Case=Nom	34	nmod	_	SpaceAfter=No
-38	,	,	PUNCT	Comma	_	28	punct	_	_
-39	what	what	PRON	WH	PronType=Int	37	nmod	_	_
+38	,	,	PUNCT	Comma	_	39	punct	_	_
+39	what	what	PRON	WH	PronType=Int	27	conj	_	_
 40	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	39	cop	_	_
 41	holy	holy	ADJ	POS	Degree=Pos	42	amod	_	_
 42	places	place	NOUN	PL-NOM	Number=Plur	39	nsubj	_	SpaceAfter=No
@@ -6470,10 +6470,10 @@
 16	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
 17	Weimar	Weimar	PROPN	SG-NOM	Number=Sing	18	compound	_	_
 18	Republic	republic	NOUN	SG-NOM	Number=Sing	14	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	Comma	_	3	punct	_	_
+19	,	,	PUNCT	Comma	_	10	punct	_	_
 20	what	what	PRON	WH	PronType=Int	22	iobj	_	_
 21	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
-22	told	tell	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+22	told	tell	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
 23	one	one	PRON	RCP-SG-ACC	_	22	obj	_	_
 24	another	another	PRON	RCP-SG-ACC	Case=Nom	23	fixed	_	_
 25	in	in	ADP	_	_	28	case	_	_
@@ -6550,12 +6550,12 @@
 3	wrong	wrong	ADJ	POS	Degree=Pos	6	nsubj	_	_
 4	with	with	ADP	_	_	5	case	_	_
 5	it	it	PRON	PERS-SG	_	3	nmod	_	_
-6	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+6	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	that	that	SCONJ	_	_	11	mark	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 9	discussants	discussant	NOUN	PL-NOM	Number=Plur	11	nsubj	_	_
 10	invariably	invariable	ADV	_	_	11	advmod	_	_
-11	impart	impart	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	impart	impart	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
 12	their	they	PRON	P3PL-GEN	_	14	nmod:poss	_	_
 13	own	own	ADJ	POS	Degree=Pos	14	amod	_	_
 14	intelligence	intelligence	NOUN	SG-NOM	Number=Sing	11	obj	_	_
@@ -6564,7 +6564,7 @@
 17	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 18	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	discussing	discuss	VERB	ING	Tense=Pres|VerbForm=Part	11	advcl	_	SpaceAfter=No
-20	.	.	PUNCT	Period	_	11	punct	_	_
+20	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3045
 # text = Later, historical studies show that what actually happened was devoid of anything like such intelligence.
@@ -6679,7 +6679,7 @@
 3	Scherer	scherer	PROPN	SG	Number=Sing	2	flat	_	SpaceAfter=No
 4	's	's	PART	GEN	_	2	case	_	_
 5	salon	salon	NOUN	SG-NOM	Number=Sing	11	obl	_	SpaceAfter=No
-6	,	,	PUNCT	Comma	_	1	punct	_	_
+6	,	,	PUNCT	Comma	_	5	punct	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 8	elegant	elegant	ADJ	POS	Degree=Pos	9	amod	_	_
 9	guests	guest	NOUN	PL-NOM	Number=Plur	11	nsubj	_	_
@@ -6959,11 +6959,11 @@
 18	attitudes	attitude	NOUN	PL-NOM	Number=Plur	16	nsubj	_	_
 19	toward	toward	ADP	_	_	21	case	_	_
 20	the	the	DET	DEF	Definite=Def|PronType=Art	21	det	_	_
-21	Jews	jew	NOUN	PL-NOM	Case=Nom	16	obl	_	SpaceAfter=No
-22	:	:	PUNCT	Colon	_	16	punct	_	_
+21	Jews	jew	NOUN	PL-NOM	Case=Nom	18	obl	_	SpaceAfter=No
+22	:	:	PUNCT	Colon	_	18	punct	_	_
 23	a	a	DET	IND-SG	Definite=Ind|PronType=Art	25	det	_	_
 24	revolutionary	revolutionary	ADJ	POS	Degree=Pos	25	amod	_	_
-25	attitude	attitude	NOUN	SG-NOM	Number=Sing	18	nmod	_	_
+25	attitude	attitude	NOUN	SG-NOM	Number=Sing	18	appos	_	_
 26	which	which	PRON	WH-REL	PronType=Int	28	nsubj	_	_
 27	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	_
 28	resulted	result	VERB	PERF	Tense=Past|VerbForm=Part	25	acl:relcl	_	_
@@ -7004,7 +7004,7 @@
 10	in	in	ADP	_	_	12	case	_	_
 11	twentieth-century	twentieth-century	NOUN	SG-NOM	Number=Sing	12	compound	_	_
 12	France	france	PROPN	SG-NOM	Number=Sing	9	obl	_	_
-13	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
+13	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 14	century	century	NOUN	SG-NOM	Number=Sing	12	nmod	_	_
 15	of	of	ADP	_	_	18	case	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
@@ -7048,7 +7048,7 @@
 27	"	&quot;	PUNCT	Quote	_	28	punct	_	SpaceAfter=No
 28	go	go	VERB	INF	VerbForm=Inf	25	acl	_	_
 29	home	home	NOUN	SG-NOM	Number=Sing	28	obl	_	SpaceAfter=No
-30	.	.	PUNCT	Period	_	20	punct	_	SpaceAfter=No
+30	.	.	PUNCT	Period	_	28	punct	_	SpaceAfter=No
 31	"	&quot;	PUNCT	Quote	_	28	punct	_	_
 
 # sent_id = 3067
@@ -7057,7 +7057,7 @@
 2	expressed	express	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	4	punct	_	_
 4	politely	politely	ADV	_	_	2	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	2	punct	_	_
+5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 7	hope	hope	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 8	that	that	SCONJ	_	_	20	mark	_	_
@@ -7102,16 +7102,16 @@
 10	;	;	PUNCT	SemiColon	_	3	punct	_	_
 11	another	another	PRON	ADJ-SG	Case=Nom	13	nsubj:pass	_	_
 12	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
-13	handed	hand	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+13	handed	hand	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	_
 14	to	to	ADP	_	_	15	case	_	_
 15	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
 16	by	by	ADP	_	_	18	case	_	_
 17	Manes	mane	PROPN	PL-NOM	Number=Plur	13	obl	_	_
 18	Sperber	sperber	PROPN	SG-NOM	Number=Sing	17	flat	_	SpaceAfter=No
-19	,	,	PUNCT	Comma	_	3	punct	_	_
+19	,	,	PUNCT	Comma	_	21	punct	_	_
 20	the	the	DET	DEF	Definite=Def|PronType=Art	21	det	_	_
 21	novelist	novelist	NOUN	SG-NOM	Number=Sing	18	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	Period	_	12	punct	_	_
+22	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3070
 # text = The letter was never acknowledged.
@@ -7126,7 +7126,7 @@
 # text = Since 1973, Le Monde has openly taken the side of the Arabs in their struggle with Israel.
 1	Since	since	ADP	_	_	2	case	_	_
 2	1973	1973	NUM	ID	NumType=Card	8	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Comma	_	1	punct	_	_
+3	,	,	PUNCT	Comma	_	2	punct	_	_
 4	Le	le	DET	SG-FGN	_	5	det	_	_
 5	Monde	monde	PROPN	SG-NOM-FGN	Number=Sing	8	nsubj	_	_
 6	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -7158,9 +7158,9 @@
 3	friendlier	friendly	ADJ	CMP	Degree=Cmp	0	root	_	_
 4	to	to	ADP	_	_	5	case	_	_
 5	Amin	amin	PROPN	SG-NOM	Number=Sing	3	nmod	_	_
-6	than	than	ADP	_	_	7	case	_	_
-7	to	to	ADP	_	_	3	nmod	_	_
-8	Rabin	rabin	PROPN	SG-NOM	Number=Sing	6	nmod	_	SpaceAfter=No
+6	than	than	ADP	_	_	8	case	_	_
+7	to	to	ADP	_	_	8	case	_	_
+8	Rabin	rabin	PROPN	SG-NOM	Number=Sing	3	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3074
@@ -7187,9 +7187,9 @@
 1	On	on	ADP	_	_	2	case	_	_
 2	July	july	PROPN	SG-NOM	Number=Sing	18	obl	_	_
 3	3	3	ADJ	ORD	Case=Nom	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	1	punct	_	_
+4	,	,	PUNCT	Comma	_	5	punct	_	_
 5	1976	1976	NUM	ID	_	2	nummod	_	SpaceAfter=No
-6	,	,	PUNCT	Comma	_	1	punct	_	_
+6	,	,	PUNCT	Comma	_	5	punct	_	_
 7	before	before	SCONJ	_	_	10	mark	_	_
 8	Israel	israel	PROPN	SG-NOM	Number=Sing	10	nsubj	_	_
 9	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
@@ -7211,13 +7211,13 @@
 25	"	&quot;	PUNCT	Quote	_	28	punct	_	SpaceAfter=No
 26	the	the	DET	DEF	Definite=Def|PronType=Art	28	det	_	_
 27	disquieting	disquiet	ADJ	POS	Degree=Pos	28	amod	_	_
-28	Marshal	marshal	NOUN	SG-NOM	Number=Sing	23	nmod	_	SpaceAfter=No
-29	,	,	PUNCT	Comma	_	23	punct	_	SpaceAfter=No
+28	Marshal	marshal	NOUN	SG-NOM	Number=Sing	23	appos	_	SpaceAfter=No
+29	,	,	PUNCT	Comma	_	28	punct	_	SpaceAfter=No
 30	"	&quot;	PUNCT	Quote	_	28	punct	_	_
-31	maligned	malign	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	28	acl	_	_
+31	maligned	malign	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	23	acl	_	_
 32	by	by	ADP	_	_	33	case	_	_
 33	everyone	everyone	PRON	TOT-SG-NOM	Number=Sing	31	obl	_	SpaceAfter=No
-34	,	,	PUNCT	Comma	_	23	punct	_	_
+34	,	,	PUNCT	Comma	_	31	punct	_	_
 35	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	37	aux	_	_
 36	now	now	ADV	_	_	37	advmod	_	_
 37	become	become	VERB	PERF	Mood=Ind|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
@@ -7304,7 +7304,7 @@
 4	are	be	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	olives	olive	NOUN	PL-NOM	Number=Plur	4	nsubj	_	_
 6	still	still	ADV	_	_	4	advmod	_	SpaceAfter=No
-7	,	,	PUNCT	Comma	_	4	punct	_	_
+7	,	,	PUNCT	Comma	_	11	punct	_	_
 8	which	which	PRON	WH-REL	PronType=Int	11	obj	_	_
 9	Arabs	Arab	NOUN	PL-NOM	Case=Nom	11	nsubj	_	_
 10	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -7435,7 +7435,7 @@
 5	some	some	ADV	_	_	7	advmod	_	_
 6	30	30	NUM	CARD-PL	NumType=Card	7	nummod	_	_
 7	men	man	NOUN	PL-NOM	Number=Plur	3	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	Comma	_	3	punct	_	_
+8	,	,	PUNCT	Comma	_	10	punct	_	_
 9	all	all	PRON	TOT-PL	Case=Nom	10	nsubj	_	_
 10	armed	arm	VERB	PERF	Case=Nom	7	acl:relcl	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	3	punct	_	_
@@ -7468,17 +7468,17 @@
 
 # sent_id = 3092
 # text = Horsemen riding to one side, scorning the perils."
-1	Horsemen	horseman	NOUN	PL-NOM	Number=Plur	0	root	_	_
-2	riding	ride	VERB	ING	Tense=Pres|VerbForm=Part	1	acl	_	_
+1	Horsemen	horseman	NOUN	PL-NOM	Number=Plur	2	nsubj	_	_
+2	riding	ride	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
 3	to	to	ADP	_	_	5	case	_	_
 4	one	one	NUM	CARD-SG	NumType=Card	5	nummod	_	_
 5	side	side	NOUN	SG-NOM	Number=Sing	2	obl	_	SpaceAfter=No
-6	,	,	PUNCT	Comma	_	7	punct	_	_
+6	,	,	PUNCT	Comma	_	2	punct	_	_
 7	scorning	scorn	VERB	ING	Tense=Pres|VerbForm=Part	2	conj	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 9	perils	peril	NOUN	PL-NOM	Number=Plur	7	obj	_	SpaceAfter=No
-10	.	.	PUNCT	Period	_	1	punct	_	SpaceAfter=No
-11	"	&quot;	PUNCT	Quote	_	1	punct	_	_
+10	.	.	PUNCT	Period	_	2	punct	_	SpaceAfter=No
+11	"	&quot;	PUNCT	Quote	_	2	punct	_	_
 
 # sent_id = 3093
 # text = And a few days later, on the barrenness of Judea, "whitish mildew pervading whole tracts of landscape.
@@ -7487,14 +7487,14 @@
 3	few	few	ADJ	IND-PL	Degree=Pos	2	fixed	_	_
 4	days	day	NOUN	PL-NOM	Number=Plur	5	nmod	_	_
 5	later	late	ADV	CMP	_	16	advmod	_	SpaceAfter=No
-6	,	,	PUNCT	Comma	_	5	punct	_	_
+6	,	,	PUNCT	Comma	_	9	punct	_	_
 7	on	on	ADP	_	_	9	case	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 9	barrenness	barrenness	NOUN	SG-NOM	Number=Sing	16	obl	_	_
 10	of	of	ADP	_	_	11	case	_	_
 11	Judea	judea	PROPN	SG-NOM	Number=Sing	9	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	Comma	_	7	punct	_	_
-13	"	&quot;	PUNCT	Quote	_	5	punct	_	SpaceAfter=No
+12	,	,	PUNCT	Comma	_	9	punct	_	_
+13	"	&quot;	PUNCT	Quote	_	16	punct	_	SpaceAfter=No
 14	whitish	whitish	ADJ	POS	Degree=Pos	15	amod	_	_
 15	mildew	mildew	NOUN	SG-NOM	Number=Sing	16	nsubj	_	_
 16	pervading	pervade	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
@@ -7628,12 +7628,12 @@
 30	,	,	PUNCT	Comma	_	20	punct	_	_
 31	"	&quot;	PUNCT	Quote	_	35	punct	_	SpaceAfter=No
 32	How	how	ADV	WH	PronType=Int	35	advmod	_	_
-33	do	do	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	_
+33	do	do	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	_
 34	you	you	PRON	PERS-P2	_	35	nsubj	_	_
 35	account	account	VERB	INF	Case=Nom	20	xcomp	_	_
 36	for	for	ADP	_	_	37	case	_	_
 37	it	it	PRON	PERS-SG	_	35	obl	_	SpaceAfter=No
-38	!	!	PUNCT	ExclMark	_	20	punct	_	SpaceAfter=No
+38	!	!	PUNCT	ExclMark	_	35	punct	_	SpaceAfter=No
 39	"	&quot;	PUNCT	Quote	_	35	punct	_	_
 
 # sent_id = 3101
@@ -7785,7 +7785,7 @@
 13	getting	get	VERB	ING	Tense=Pres|VerbForm=Part	8	acl	_	_
 14	from	from	ADP	_	_	15	case	_	_
 15	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
-16	,	,	PUNCT	Comma	_	8	punct	_	_
+16	,	,	PUNCT	Comma	_	25	punct	_	_
 17	for	for	SCONJ	_	_	25	mark	_	_
 18	ours	we	PRON	PL-GEN-INDEP	_	25	nsubj	_	_
 19	is	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
@@ -7797,7 +7797,7 @@
 25	sort	sort	NOUN	SG-NOM	Number=Sing	13	obl	_	_
 26	of	of	ADP	_	_	27	case	_	_
 27	love	love	NOUN	SG-NOM	Number=Sing	25	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	Comma	_	8	punct	_	_
+28	,	,	PUNCT	Comma	_	30	punct	_	_
 29	as	as	ADV	_	_	30	advmod	_	_
 30	short-lived	short-lived	ADJ	POS	Degree=Pos	27	amod	_	_
 31	as	as	SCONJ	_	_	34	mark	_	_
@@ -7850,7 +7850,7 @@
 28	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	obj	_	_
 29	"	&quot;	PUNCT	Quote	_	30	punct	_	SpaceAfter=No
 30	Brother	brother	NOUN	SG-NOM	Number=Sing	27	xcomp	_	SpaceAfter=No
-31	.	.	PUNCT	Period	_	8	punct	_	SpaceAfter=No
+31	.	.	PUNCT	Period	_	30	punct	_	SpaceAfter=No
 32	"	&quot;	PUNCT	Quote	_	30	punct	_	_
 
 # sent_id = 3110
@@ -7948,8 +7948,8 @@
 8	Sadat	sadat	PROPN	SG-NOM	Number=Sing	11	nsubj	_	_
 9	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	cop	_	_
 10	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
-11	Nazi	nazi	NOUN	SG-NOM	Case=Nom	6	obj	_	SpaceAfter=No
-12	?	?	PUNCT	QuestionMark	_	9	punct	_	SpaceAfter=No
+11	Nazi	nazi	NOUN	SG-NOM	Case=Nom	6	ccomp	_	SpaceAfter=No
+12	?	?	PUNCT	QuestionMark	_	11	punct	_	SpaceAfter=No
 13	"	&quot;	PUNCT	Quote	_	6	punct	_	_
 14	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
 15	librarian	librarian	NOUN	SG-NOM	Number=Sing	16	nsubj	_	_
@@ -8079,7 +8079,7 @@
 3	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 4	print	print	VERB	INF	VerbForm=Inf	0	root	_	_
 5	it	it	PRON	PERS-SG	_	4	obj	_	SpaceAfter=No
-6	?	?	PUNCT	QuestionMark	_	2	punct	_	SpaceAfter=No
+6	?	?	PUNCT	QuestionMark	_	4	punct	_	SpaceAfter=No
 7	"	&quot;	PUNCT	Quote	_	4	punct	_	_
 8	she	she	PRON	PERS-SG-NOM	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	asked	ask	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
@@ -8088,25 +8088,25 @@
 # sent_id = 3122
 # text = "Difficult to guess," I tell her.
 1	"	&quot;	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
-2	Difficult	difficult	ADJ	POS	Degree=Pos	8	xcomp	_	_
+2	Difficult	difficult	ADJ	POS	Degree=Pos	0	root	_	_
 3	to	to	PART	_	_	4	mark	_	_
 4	guess	guess	VERB	INF	VerbForm=Inf	2	acl	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	2	punct	_	SpaceAfter=No
 6	"	&quot;	PUNCT	Quote	_	2	punct	_	_
 7	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-8	tell	tell	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	tell	tell	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 9	her	she	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
-10	.	.	PUNCT	Period	_	8	punct	_	_
+10	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3123
 # text = "The Times ought to be stronger in politics than it is in literature, but who knows.
-1	"	&quot;	PUNCT	Quote	_	3	punct	_	SpaceAfter=No
+1	"	&quot;	PUNCT	Quote	_	4	punct	_	SpaceAfter=No
 2	The	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
-3	Times	Times	PROPN	SG-NOM	Number=Sing	7	nsubj	_	_
-4	ought	ought	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	Times	Times	PROPN	SG-NOM	Number=Sing	4	nsubj	_	_
+4	ought	ought	VERB	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	to	to	PART	_	_	7	mark	_	_
 6	be	be	AUX	INF	VerbForm=Inf	7	cop	_	_
-7	stronger	strong	ADJ	CMP	Degree=Cmp	0	root	_	_
+7	stronger	strong	ADJ	CMP	Degree=Cmp	4	xcomp	_	_
 8	in	in	ADP	_	_	9	case	_	_
 9	politics	politics	NOUN	SG-NOM	Number=Plur	7	nmod	_	_
 10	than	than	SCONJ	_	_	12	mark	_	_
@@ -8114,11 +8114,11 @@
 12	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 13	in	in	ADP	_	_	14	case	_	_
 14	literature	literature	NOUN	SG-NOM	Number=Sing	12	obl	_	SpaceAfter=No
-15	,	,	PUNCT	Comma	_	12	punct	_	_
+15	,	,	PUNCT	Comma	_	18	punct	_	_
 16	but	but	CCONJ	_	_	18	cc	_	_
 17	who	who	PRON	WH-REL	PronType=Int	18	nsubj	_	_
 18	knows	know	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
-19	.	.	PUNCT	Period	_	7	punct	_	_
+19	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3124
 # text = Of course it must do financial news and sports well enough.
@@ -8178,7 +8178,7 @@
 
 # sent_id = 3127
 # text = What disturbs is whether Americans understand the world at all, whether they are a match for the Russians the Sadats are in themselves comparatively unimportant.
-1	What	what	PRON	WH	PronType=Int	2	mark	_	_
+1	What	what	PRON	WH	PronType=Int	2	nsubj	_	_
 2	disturbs	disturb	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
 3	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	whether	whether	SCONJ	WH	_	6	mark	_	_
@@ -8280,13 +8280,13 @@
 3	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	you	you	PRON	PERS-P2	_	6	nsubj	_	_
 5	so	so	ADV	_	_	6	advmod	_	_
-6	kind	kind	ADJ	POS	Degree=Pos	12	xcomp	_	_
+6	kind	kind	ADJ	POS	Degree=Pos	0	root	_	_
 7	to	to	ADP	_	_	8	case	_	_
 8	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	SpaceAfter=No
-9	?	?	PUNCT	QuestionMark	_	3	punct	_	SpaceAfter=No
+9	?	?	PUNCT	QuestionMark	_	6	punct	_	SpaceAfter=No
 10	"	&quot;	PUNCT	Quote	_	6	punct	_	_
 11	Dostoevski	dostoevski	PROPN	SG-NOM	Number=Sing	12	nsubj	_	_
-12	asks	ask	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	asks	ask	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 3132
@@ -8323,7 +8323,7 @@
 30	sorry	sorry	ADJ	POS	Degree=Pos	29	xcomp	_	_
 31	for	for	ADP	_	_	32	case	_	_
 32	you	you	PRON	PERS-P2	_	29	obl	_	SpaceAfter=No
-33	.	.	PUNCT	Period	_	16	punct	_	SpaceAfter=No
+33	.	.	PUNCT	Period	_	23	punct	_	SpaceAfter=No
 34	"	&quot;	PUNCT	Quote	_	23	punct	_	_
 
 # sent_id = 3133
@@ -8345,7 +8345,7 @@
 15	little	little	ADJ	POS	Degree=Pos	17	amod	_	_
 16	cherub-like	cherub-like	ADJ	POS	Degree=Pos	17	amod	_	_
 17	child	child	NOUN	SG-NOM	Number=Sing	12	obj	_	SpaceAfter=No
-18	.	.	PUNCT	Period	_	8	punct	_	SpaceAfter=No
+18	.	.	PUNCT	Period	_	17	punct	_	SpaceAfter=No
 19	"	&quot;	PUNCT	Quote	_	17	punct	_	_
 
 # sent_id = 3134
@@ -8355,11 +8355,11 @@
 3	exceedingly	exceedingly	ADV	_	_	4	advmod	_	_
 4	intelligent	intelligent	ADJ	POS	Degree=Pos	1	amod	_	_
 5	but	but	CCONJ	_	_	12	cc	_	SpaceAfter=No
-6	,	,	PUNCT	Comma	_	1	punct	_	_
+6	,	,	PUNCT	Comma	_	9	punct	_	_
 7	to	to	ADP	_	_	9	case	_	_
 8	a	a	DET	IND-SG	Definite=Ind|PronType=Art	9	det	_	_
 9	Westerner	westerner	NOUN	SG-NOM	Number=Sing	12	obl	_	SpaceAfter=No
-10	,	,	PUNCT	Comma	_	4	punct	_	_
+10	,	,	PUNCT	Comma	_	9	punct	_	_
 11	curiously	curiously	ADV	_	_	12	advmod	_	_
 12	deformed	deform	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
 13	(	(	PUNCT	LeftParenthesis	_	23	punct	_	SpaceAfter=No
@@ -8374,19 +8374,19 @@
 22	Union	union	PROPN	SG-NOM	Number=Sing	21	fixed	_	_
 23	escape	escape	VERB	INF	VerbForm=Inf	12	appos	_	_
 24	deformity	deformity	NOUN	SG-NOM	Number=Sing	23	obj	_	SpaceAfter=No
-25	?	?	PUNCT	QuestionMark	_	15	punct	_	SpaceAfter=No
+25	?	?	PUNCT	QuestionMark	_	23	punct	_	SpaceAfter=No
 26	)	)	PUNCT	RightParanthesis	_	23	punct	_	SpaceAfter=No
-27	,	,	PUNCT	Comma	_	26	punct	_	_
+27	,	,	PUNCT	Comma	_	23	punct	_	_
 28	sees	see	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 29	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	28	obj	_	SpaceAfter=No
 30	,	,	PUNCT	Comma	_	32	punct	_	_
 31	the	the	DET	DEF	Definite=Def|PronType=Art	32	det	_	_
 32	Americans	american	NOUN	PL-NOM	Case=Nom	29	appos	_	SpaceAfter=No
-33	,	,	PUNCT	Comma	_	28	punct	_	_
+33	,	,	PUNCT	Comma	_	32	punct	_	_
 34	as	as	ADP	_	_	35	case	_	_
 35	children	child	NOUN	PL-NOM	Number=Plur	28	obl	_	_
 36	at	at	ADP	_	_	37	case	_	_
-37	whom	who	PRON	WH-REL-ACC	PronType=Int	40	mark	_	_
+37	whom	who	PRON	WH-REL-ACC	PronType=Int	40	obl	_	_
 38	the	the	DET	DEF	Definite=Def|PronType=Art	39	det	_	_
 39	Stalins	stalin	PROPN	PL-NOM	Number=Plur	40	nsubj	_	_
 40	smile	smile	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
@@ -9055,28 +9055,28 @@
 # text = Oh, I never see them, he remarked; 'and, moreover, the changes take place inside, you know.
 1	Oh	oh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	mark	_	_
+3	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	never	never	ADV	NEG	_	5	advmod	_	_
-5	see	see	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+5	see	see	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
 8	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-9	remarked	remark	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	remarked	remark	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 10	;	;	PUNCT	SemiColon	_	9	punct	_	_
-11	'	'	PUNCT	Quote	_	12	punct	_	SpaceAfter=No
+11	'	'	PUNCT	Quote	_	18	punct	_	SpaceAfter=No
 12	and	and	CCONJ	_	_	18	cc	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	9	punct	_	_
+13	,	,	PUNCT	_	_	14	punct	_	_
 14	moreover	moreover	ADV	_	_	18	advmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	9	punct	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
 17	changes	change	NOUN	PL-NOM	Number=Plur	18	nsubj	_	_
-18	take	take	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
+18	take	take	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
 19	place	place	NOUN	SG-NOM	Number=Sing	18	compound:prt	_	_
 20	inside	inside	ADV	_	_	18	advmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	9	punct	_	_
+21	,	,	PUNCT	_	_	23	punct	_	_
 22	you	you	PRON	PERS-P2	_	23	nsubj	_	_
 23	know	know	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
-24	.	.	PUNCT	Period	_	23	punct	_	_
+24	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3163
 # text = He smiled, as if at some quiet joke.
@@ -10032,7 +10032,7 @@
 9	–	–	PUNCT	_	_	3	punct	_	_
 10	there	there	PRON	EX	_	11	expl	_	_
 11	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	_
-12	no	no	DET	NEG	_	14	advmod	_	_
+12	no	no	DET	NEG	_	14	det	_	_
 13	other	other	ADJ	POS	Degree=Pos	14	amod	_	_
 14	movement	movement	NOUN	SG-NOM	Number=Sing	11	nsubj	_	_
 15	and	and	CCONJ	_	_	18	cc	_	_
@@ -10060,7 +10060,7 @@
 
 # sent_id = 3213
 # text = Where did he get it?
-1	Where	where	ADV	WH	PronType=Int	4	advmod	_	_
+1	Where	where	ADV	WH	PronType=Int	4	det	_	_
 2	did	do	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
 3	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	get	get	VERB	INF	VerbForm=Inf	0	root	_	_
@@ -10931,7 +10931,7 @@
 14	)	)	PUNCT	RightParenthesis	_	11	punct	_	_
 15	was	be	AUX	PAST-AUX	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
 16	put	put	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	21	advcl	_	_
-17	in	in	ADP	_	_	18	advmod	_	_
+17	in	in	ADP	_	_	18	case	_	_
 18	there	there	ADV	_	PronType=Dem	16	advmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	16	punct	_	_
 20	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
@@ -10995,10 +10995,10 @@
 14	interior	interior	NOUN	SG-NOM	Number=Sing	19	obl	_	_
 15	you	you	PRON	PERS-P2	_	19	nsubj	_	_
 16	will	will	AUX	PRES-AUX	VerbForm=Fin	19	aux	_	_
-17	no	no	DET	NEG	_	18	advmod	_	_
+17	no	no	DET	NEG	_	18	det	_	_
 18	doubt	doubt	NOUN	SG-NOM	Number=Sing	19	obl	_	_
 19	meet	meet	VERB	INF	VerbForm=Inf	4	xcomp	_	_
-20	Mr.	Mr	NOUN	SG-NOM	Case=Nom	21	compound	_	_
+20	Mr.	Mr	NOUN	SG-NOM	Case=Nom	21	nmod	_	_
 21	Kurtz	Kurtz	PROPN	SG-NOM	Number=Sing	19	obj	_	SpaceAfter=No
 22	.	.	PUNCT	Period	_	4	punct	_	SpaceAfter=No
 23	'	'	PUNCT	Quote	_	19	punct	_	_
@@ -11009,7 +11009,7 @@
 2	my	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	asking	ask	VERB	ING	Tense=Pres|VerbForm=Part	10	advcl	_	_
 4	who	who	PRON	WH-NOM	PronType=Int	3	obj	_	_
-5	Mr.	Mr	NOUN	SG-NOM	Case=Nom	6	compound	_	_
+5	Mr.	Mr	NOUN	SG-NOM	Case=Nom	6	nmod	_	_
 6	Kurtz	Kurtz	PROPN	SG-NOM	Number=Sing	4	nsubj	_	_
 7	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
@@ -11056,7 +11056,7 @@
 4	from	from	ADP	_	_	5	case	_	_
 5	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 6	that	that	SCONJ	_	_	9	mark	_	_
-7	Mr.	Mr	NOUN	SG-NOM	Case=Nom	8	compound	_	_
+7	Mr.	Mr	NOUN	SG-NOM	Case=Nom	8	nmod	_	_
 8	Kurtz	Kurtz	PROPN	SG-NOM	Number=Sing	9	nsubj	_	_
 9	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 10	at	at	ADP	_	_	11	case	_	_
@@ -11267,7 +11267,7 @@
 20	presented	present	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
 21	a	a	DET	IND-SG	Definite=Ind|PronType=Art	22	det	_	_
 22	moment	moment	NOUN	SG-NOM	Number=Sing	20	obl	_	_
-23	ago	ago	ADP	_	Case=Nom	22	advmod	_	SpaceAfter=No
+23	ago	ago	ADP	_	_	22	case	_	SpaceAfter=No
 24	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3265
@@ -11449,17 +11449,17 @@
 7	of	of	ADP	_	_	8	case	_	_
 8	overcompensation	overcompensation	NOUN	SG-NOM	Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	4	punct	_	_
-10	which	which	PRON	WH-REL	PronType=Int	15	mark	_	_
-11	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+10	which	which	PRON	WH-REL	PronType=Int	11	nsubj	_	_
+11	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 12	why	why	ADV	WH	PronType=Int	15	advmod	_	_
 13	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 14	have	have	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
-15	set	set	VERB	PERF	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+15	set	set	VERB	PERF	Tense=Past|VerbForm=Part	11	ccomp	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
 17	margin	margin	NOUN	SG-NOM	Number=Sing	15	obj	_	_
 18	at	at	ADP	_	_	20	case	_	_
 19	2.6	2.6	NUM	ID	_	20	nummod	_	_
-20	-%	%	SYM	_	_	15	advmod	_	SpaceAfter=No
+20	-%	%	SYM	_	_	15	obl	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3274
@@ -11479,24 +11479,24 @@
 # text = Under these conditions, what will the future of the rural areas of Europe be like as a consequence?
 1	Under	under	ADP	_	_	3	case	_	_
 2	these	this	DET	DEM-PL	Number=Plur|PronType=Dem	3	det	_	_
-3	conditions	condition	NOUN	PL-NOM	Number=Plur	5	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	1	punct	_	_
-5	what	what	PRON	WH	PronType=Int	0	root	_	_
-6	will	will	AUX	PRES-AUX	VerbForm=Fin	5	aux	_	_
+3	conditions	condition	NOUN	PL-NOM	Number=Plur	15	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	Comma	_	3	punct	_	_
+5	what	what	PRON	WH	PronType=Int	15	dislocated	_	_
+6	will	will	AUX	PRES-AUX	VerbForm=Fin	15	aux	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
-8	future	future	NOUN	SG-NOM	Number=Sing	5	nsubj	_	_
+8	future	future	NOUN	SG-NOM	Number=Sing	15	nsubj	_	_
 9	of	of	ADP	_	_	12	case	_	_
 10	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
 11	rural	rural	ADJ	POS	Degree=Pos	12	amod	_	_
 12	areas	area	NOUN	PL-NOM	Number=Plur	8	nmod	_	_
 13	of	of	ADP	_	_	14	case	_	_
 14	Europe	europe	PROPN	SG-NOM	Number=Sing	12	nmod	_	_
-15	be	be	AUX	INF	VerbForm=Inf	5	cop	_	_
-16	like	like	ADP	_	_	15	advmod	_	_
+15	be	be	AUX	INF	VerbForm=Inf	0	root	_	_
+16	like	like	ADV	_	_	15	advmod	_	_
 17	as	as	ADP	_	_	19	case	_	_
 18	a	a	DET	IND-SG	Definite=Ind|PronType=Art	19	det	_	_
-19	consequence	consequence	NOUN	SG-NOM	Number=Sing	5	nmod	_	SpaceAfter=No
-20	?	?	PUNCT	QuestionMark	_	5	punct	_	_
+19	consequence	consequence	NOUN	SG-NOM	Number=Sing	15	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	QuestionMark	_	15	punct	_	_
 
 # sent_id = 3276
 # text = We in the Committee on Agriculture and Rural Development feel that this form of production should be encouraged.
@@ -11694,7 +11694,7 @@
 1	At	at	ADP	_	_	3	case	_	_
 2	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	3	det	_	_
 3	stage	stage	NOUN	SG-NOM	Number=Sing	7	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	1	punct	_	_
+4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	it	it	PRON	PERS-SG	_	7	expl	_	_
 6	still	still	ADV	_	_	7	advmod	_	_
 7	seems	seem	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11806,13 +11806,13 @@
 1	Thank	thank	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	you	you	PRON	PERS-P2	_	1	obj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	1	punct	_	_
-4	Mr	mr	NOUN	SG-NOM	Number=Sing	5	compound	_	_
+4	Mr	mr	NOUN	SG-NOM	Number=Sing	5	nmod	_	_
 5	Donnay	donnay	PROPN	SG-NOM	Number=Sing	1	vocative	_	SpaceAfter=No
 6	.	.	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3291
 # text = Mr Escola Hernando is speaking for the first time in this House.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Escola	escola	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
 3	Hernando	hernando	PROPN	SG-NOM	Number=Sing	2	flat	_	_
 4	is	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -11828,7 +11828,7 @@
 
 # sent_id = 3292
 # text = Mr President, I should merely like to answer Mr Kellett-Bowman in one sentence.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	President	president	NOUN	SG-NOM	Number=Sing	7	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	2	punct	_	_
 4	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -11837,7 +11837,7 @@
 7	like	like	VERB	INF	VerbForm=Inf	0	root	_	_
 8	to	to	PART	_	_	9	mark	_	_
 9	answer	answer	VERB	INF	VerbForm=Inf	7	xcomp	_	_
-10	Mr	mr	NOUN	SG-NOM	Number=Sing	11	compound	_	_
+10	Mr	mr	NOUN	SG-NOM	Number=Sing	11	nmod	_	_
 11	Kellett-Bowman	kellett-bowman	PROPN	SG-NOM	Number=Sing	9	obj	_	_
 12	in	in	ADP	_	_	14	case	_	_
 13	one	one	NUM	CARD-SG	NumType=Card	14	nummod	_	_
@@ -11865,7 +11865,7 @@
 17	so	so	ADV	_	_	19	mark	_	_
 18	there	there	PRON	EX	_	19	expl	_	_
 19	are	be	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
-20	no	no	DET	NEG	_	21	advmod	_	_
+20	no	no	DET	NEG	_	21	det	_	_
 21	grounds	ground	NOUN	PL-NOM	Number=Plur	19	nsubj	_	_
 22	for	for	ADP	_	_	23	mark	_	_
 23	changing	change	VERB	ING	Tense=Pres|VerbForm=Part	19	advcl	_	_
@@ -12120,7 +12120,7 @@
 4	our	we	PRON	PL-GEN	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 5	colleague	colleague	NOUN	SG-NOM	Number=Sing	11	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	5	punct	_	_
-7	Mr	mr	NOUN	SG-NOM	Number=Sing	8	compound	_	_
+7	Mr	mr	NOUN	SG-NOM	Number=Sing	8	nmod	_	_
 8	Cox	cox	PROPN	SG-NOM	Number=Sing	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	5	punct	_	_
 10	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -12143,7 +12143,7 @@
 4	fully	fully	ADV	_	_	5	advmod	_	_
 5	agrees	agree	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	with	with	ADP	_	_	8	case	_	_
-7	Mr	mr	NOUN	SG-NOM	Number=Sing	8	compound	_	_
+7	Mr	mr	NOUN	SG-NOM	Number=Sing	8	nmod	_	_
 8	Spencer	spencer	PROPN	SG-NOM	Number=Sing	5	obl	_	_
 9	that	that	SCONJ	_	_	12	mark	_	_
 10	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
@@ -12253,7 +12253,7 @@
 1	In	in	ADP	_	_	3	case	_	_
 2	other	other	ADJ	POS	Degree=Pos	3	amod	_	_
 3	words	word	NOUN	PL-NOM	Number=Plur	6	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	1	punct	_	_
+4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	there	there	PRON	EX	_	6	expl	_	_
 6	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	a	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
@@ -12369,7 +12369,7 @@
 1	In	in	ADP	_	_	3	case	_	_
 2	one	one	NUM	CARD-SG	NumType=Card	3	nummod	_	_
 3	amendment	amendment	NOUN	SG-NOM	Number=Sing	6	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	1	punct	_	_
+4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	there	there	PRON	EX	_	6	expl	_	_
 6	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	a	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
@@ -12395,7 +12395,7 @@
 1	Nevertheless	nevertheless	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-4	want	want	AUX	PRES-AUX	Case=Nom	0	root	_	_
+4	want	want	VERB	PRES	Case=Nom	0	root	_	_
 5	to	to	PART	_	_	6	mark	_	_
 6	limit	limit	VERB	INF	VerbForm=Inf	4	xcomp	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
@@ -12512,7 +12512,7 @@
 2	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
 3	other	other	ADJ	POS	Degree=Pos	4	amod	_	_
 4	hand	hand	NOUN	SG-NOM	Number=Sing	11	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	1	punct	_	_
+5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	these	this	DET	DEM-PL	Number=Plur|PronType=Dem	8	det	_	_
 7	initial	initial	ADJ	POS	Degree=Pos	8	amod	_	_
 8	criteria	criterium	NOUN	PL-NOM	Number=Plur	11	nsubj	_	_
@@ -13246,7 +13246,7 @@
 # text = I am no fanatical defender of profits for pharmaceutical industry multinationals.
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	am	be	AUX	PRES	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	no	no	DET	NEG	_	5	advmod	_	_
+3	no	no	DET	NEG	_	5	det	_	_
 4	fanatical	fanatical	ADJ	POS	Degree=Pos	5	amod	_	_
 5	defender	defender	NOUN	SG-NOM	Number=Sing	0	root	_	_
 6	of	of	ADP	_	_	7	case	_	_
@@ -13279,7 +13279,7 @@
 
 # sent_id = 3369
 # text = Mr President, ladies and gentlemen, the present proposal for a regulation is certainly to be welcomed.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	President	president	NOUN	SG-NOM	Number=Sing	18	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	2	punct	_	_
 4	ladies	lady	NOUN	PL-NOM	Number=Plur	2	conj	_	_
@@ -13329,7 +13329,7 @@
 1	But	but	CCONJ	_	_	4	cc	_	_
 2	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	also	also	ADV	_	_	4	advmod	_	_
-4	want	want	AUX	PRES-AUX	Case=Nom	0	root	_	_
+4	want	want	VERB	PRES	Case=Nom	0	root	_	_
 5	to	to	PART	_	_	6	mark	_	_
 6	create	create	VERB	INF	VerbForm=Inf	4	xcomp	_	_
 7	a	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
@@ -13403,7 +13403,7 @@
 2	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	why	why	ADV	WH-REL	PronType=Int	5	mark	_	_
 4	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-5	want	want	AUX	PRES-AUX	Case=Nom	0	root	_	_
+5	want	want	VERB	PRES	Case=Nom	0	root	_	_
 6	to	to	PART	_	_	7	mark	_	_
 7	support	support	VERB	INF	VerbForm=Inf	5	xcomp	_	_
 8	research	research	NOUN	SG-NOM	Number=Sing	7	obj	_	_
@@ -14010,7 +14010,7 @@
 41	where	where	ADV	WH-REL	PronType=Int	43	advmod	_	_
 42	there	there	PRON	EX	_	43	expl	_	_
 43	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	40	ccomp	_	_
-44	no	no	DET	NEG	_	45	advmod	_	_
+44	no	no	DET	NEG	_	45	det	_	_
 45	path	path	NOUN	SG-NOM	Number=Sing	43	nsubj	_	SpaceAfter=No
 46	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -14041,12 +14041,12 @@
 # text = There were – or used to be – leopards on the outskirts of the town; Dando had once had his dog taken.
 1	There	there	PRON	EX	_	2	expl	_	_
 2	were	be	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	–	–	PUNCT	Dash	_	4	punct	_	_
+3	–	–	PUNCT	Dash	_	5	punct	_	_
 4	or	or	CCONJ	_	_	7	cc	_	_
-5	used	use	AUX	PAST-AUX	Case=Nom	7	aux	_	_
+5	used	use	VERB	PAST-AUX	Case=Nom	2	conj	_	_
 6	to	to	PART	_	_	7	mark	_	_
-7	be	be	VERB	INF	VerbForm=Inf	2	conj	_	_
-8	–	–	PUNCT	Dash	_	4	punct	_	_
+7	be	be	VERB	INF	VerbForm=Inf	5	xcomp	_	_
+8	–	–	PUNCT	Dash	_	5	punct	_	_
 9	leopards	leopard	NOUN	PL-NOM	Number=Plur	2	nsubj	_	_
 10	on	on	ADP	_	_	12	case	_	_
 11	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
@@ -14451,7 +14451,7 @@
 48	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	nsubj	_	_
 49	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	50	aux	_	_
 50	had	have	AUX	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	47	acl:relcl	_	_
-51	no	no	DET	NEG	_	52	advmod	_	_
+51	no	no	DET	NEG	_	52	det	_	_
 52	part	part	NOUN	SG-NOM	Number=Sing	50	obj	_	_
 53	of	of	ADP	_	_	52	acl	_	SpaceAfter=No
 54	,	,	PUNCT	Comma	_	55	punct	_	_
@@ -15728,12 +15728,12 @@
 27	the	the	DET	DEF	Definite=Def|PronType=Art	28	det	_	_
 28	arrangements	arrangement	NOUN	PL-NOM	Number=Plur	35	nsubj	_	_
 29	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	35	cop	_	_
-30	exactly	exactly	ADV	_	_	35	advmod	_	_
-31	what	what	PRON	WH-REL	PronType=Int	35	xcomp	_	_
+30	exactly	exactly	ADV	_	_	33	advmod	_	_
+31	what	what	PRON	WH-REL	PronType=Int	33	dislocated	_	_
 32	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	_
-33	used	use	AUX	PAST-AUX	Case=Nom	35	aux	_	_
+33	used	use	VERB	PAST	Case=Nom	3	conj	_	_
 34	to	to	PART	_	_	35	mark	_	_
-35	use	use	VERB	INF	VerbForm=Inf	3	conj	_	_
+35	use	use	VERB	INF	VerbForm=Inf	33	xcomp	_	_
 36	for	for	ADP	_	_	40	case	_	_
 37	the	the	DET	DEF	Definite=Def|PronType=Art	40	det	_	_
 38	charity	charity	NOUN	SG-NOM	Number=Sing	40	compound	_	_
@@ -15756,17 +15756,17 @@
 5	,	,	PUNCT	Comma	_	1	punct	_	_
 6	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 7	just	just	ADV	_	_	8	advmod	_	_
-8	talk	talk	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	talk	talk	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 9	it	it	PRON	PERS-SG	_	8	obj	_	_
 10	away	away	ADV	_	_	8	advmod	_	_
 11	into	into	ADP	_	_	14	case	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 13	cigarette	cigarette	NOUN	SG-NOM	Number=Sing	14	compound	_	_
 14	smoke	smoke	NOUN	SG-NOM	Number=Sing	8	obl	_	SpaceAfter=No
-15	,	,	PUNCT	Comma	_	1	punct	_	_
+15	,	,	PUNCT	Comma	_	8	punct	_	_
 16	nobody	nobody	PRON	NEG-SG-NOM	Number=Sing	18	nsubj	_	_
 17	even	even	ADV	_	_	18	advmod	_	_
-18	listens	listen	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+18	listens	listen	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3467
@@ -15890,7 +15890,7 @@
 2	if	if	SCONJ	_	_	4	mark	_	_
 3	there	there	PRON	EX	_	10	expl	_	SpaceAfter=No
 4	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-5	no	no	DET	NEG	_	6	advmod	_	_
+5	no	no	DET	NEG	_	6	det	_	_
 6	preparation	preparation	NOUN	SG-NOM	Number=Sing	10	nsubj:pass	_	_
 7	of	of	ADP	_	_	8	case	_	_
 8	replacements	replacement	NOUN	PL-NOM	Number=Plur	6	nmod	_	_
@@ -16245,16 +16245,16 @@
 
 # sent_id = 3486
 # text = Get her to sing, Dando called out proudly.
-1	Get	get	VERB	IMP	Mood=Imp|VerbForm=Fin	7	obj	_	_
+1	Get	get	VERB	IMP	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	her	she	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
 3	to	to	PART	_	_	4	mark	_	_
 4	sing	sing	VERB	INF	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	1	punct	_	_
 6	Dando	Dando	PROPN	SG-NOM	Number=Sing	7	nsubj	_	_
-7	called	call	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	called	call	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataaxis	_	_
 8	out	out	ADV	_	_	7	compound:prt	_	_
 9	proudly	proud	ADV	_	_	7	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	Period	_	7	punct	_	_
+10	.	.	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3487
 # text = not tonight, Dandy-Roly I'm on my best behaviour.
@@ -16419,7 +16419,7 @@
 20	you	you	PRON	PERS-P2	_	22	nsubj	_	_
 21	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
 22	sitting	sit	VERB	ING	Tense=Pres|VerbForm=Part	18	acl:relcl	_	_
-23	with	with	ADP	_	_	22	advmod	_	SpaceAfter=No
+23	with	with	ADP	_	_	22	case	_	SpaceAfter=No
 24	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3499
@@ -16516,7 +16516,7 @@
 2	Congolese	Congolese	ADJ	POS	Degree=Pos	3	amod	_	_
 3	band	band	NOUN	SG-NOM	Number=Sing	4	nsubj	_	_
 4	had	have	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-5	no	no	DET	NEG	_	6	advmod	_	_
+5	no	no	DET	NEG	_	6	det	_	_
 6	idea	idea	NOUN	SG-NOM	Number=Sing	4	obj	_	_
 7	what	what	DET	WH	PronType=Int	8	det	_	_
 8	music	music	NOUN	SG-NOM	Number=Sing	10	nsubj	_	_
@@ -16783,11 +16783,11 @@
 2	young	young	ADJ	POS	Degree=Pos	3	amod	_	_
 3	woman	woman	NOUN	SG-NOM	Number=Sing	4	nsubj	_	_
 4	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-5	in	in	ADP	_	_	4	advmod	_	_
-6	and	and	CCONJ	_	_	11	cc	_	_
-7	out	out	ADP	_	_	11	case	_	_
-8	the	the	DET	DEF	Definite=Def|PronType=Art	11	det	_	_
-9	Bayleys	Bayley	PROPN	PL	Number=Plur	11	amod	_	SpaceAfter=No
+5	in	in	ADP	_	_	11	case	_	_
+6	and	and	CCONJ	_	_	7	cc	_	_
+7	out	out	ADP	_	_	5	conj	_	_
+8	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
+9	Bayleys	Bayley	PROPN	PL	Number=Plur	11	nmod:poss	_	SpaceAfter=No
 10	'	's	PART	GEN	_	9	case	_	_
 11	house	house	NOUN	SG-NOM	Number=Sing	4	conj	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	14	punct	_	_
@@ -17377,7 +17377,7 @@
 16	,	,	PUNCT	Comma	_	4	punct	_	_
 17	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	_
 18	floating	float	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
-19	up	up	ADP	_	_	18	advmod	_	_
+19	up	up	ADV	_	_	18	advmod	_	_
 20	near	near	ADP	_	_	22	case	_	_
 21	the	the	DET	DEF	Definite=Def|PronType=Art	22	det	_	_
 22	ceiling	ceiling	NOUN	SG-NOM	Number=Sing	18	obl	_	SpaceAfter=No
@@ -17556,7 +17556,7 @@
 15	would	would	AUX	PAST-AUX	VerbForm=Fin	16	aux	_	_
 16	flay	flay	VERB	INF	VerbForm=Inf	12	xcomp	_	_
 17	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-18	to	to	ADP	_	_	16	advmod	_	_
+18	to	to	ADP	_	_	21	case	_	_
 19	within	within	ADP	_	_	21	case	_	_
 20	an	an	DET	IND-SG	Definite=Ind|PronType=Art	21	det	_	_
 21	inch	inch	NOUN	SG-NOM	Number=Sing	18	nmod	_	_
@@ -17653,7 +17653,7 @@
 25	a	a	DET	IND-SG	Definite=Ind|PronType=Art	26	det	_	_
 26	letter	letter	NOUN	SG-NOM	Number=Sing	24	obj	_	_
 27	on	on	ADP	_	_	31	case	_	_
-28	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	29	compound	_	_
+28	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	29	nmod	_	_
 29	Mason	mason	PROPN	SG	Number=Sing	31	amod	_	SpaceAfter=No
 30	's	's	PART	GEN	_	29	case	_	_
 31	head	head	NOUN	SG-NOM	Number=Sing	24	obl	_	_
@@ -17665,7 +17665,7 @@
 
 # sent_id = 3552
 # text = Mrs Mason screamed like a banshee and ran from the house, shouting about lunatics.
-1	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Mason	mason	PROPN	SG-NOM	Number=Sing	3	nsubj	_	_
 3	screamed	scream	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	like	like	ADP	_	_	6	case	_	_
@@ -17684,7 +17684,7 @@
 
 # sent_id = 3553
 # text = Mr Mason stayed just long enough to tell the Dursleys that his wife was mortally afraid of birds of all shapes and sizes, and to ask whether this was their idea of a joke.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Mason	mason	PROPN	SG-NOM	Number=Sing	3	nsubj	_	_
 3	stayed	stay	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	just	just	ADV	_	_	5	advmod	_	_
@@ -17770,7 +17770,7 @@
 # sent_id = 3557
 # text = Dear Mr Potter,
 1	Dear	dear	ADJ	POS	Degree=Pos	2	amod	_	_
-2	Mr	mr	NOUN	SG-NOM	Number=Sing	3	compound	_	_
+2	Mr	mr	NOUN	SG-NOM	Number=Sing	3	nmod	_	_
 3	Potter	potter	PROPN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	3	punct	_	_
 
@@ -18104,7 +18104,7 @@
 6	Dursleys	dursley	PROPN	PL-NOM	Number=Plur	8	nsubj	_	_
 7	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	showing	show	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
-9	no	no	DET	NEG	_	10	advmod	_	_
+9	no	no	DET	NEG	_	10	det	_	_
 10	sign	sign	NOUN	SG-NOM	Number=Sing	8	obj	_	_
 11	of	of	ADP	_	_	12	case	_	_
 12	relenting	relenting	ADJ	POS	Degree=Pos	10	amod	_	_
@@ -18389,11 +18389,11 @@
 2	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	_
 4	still	still	ADV	_	_	5	advmod	_	_
-5	alive	alive	ADJ	POS	Degree=Pos	1	obj	_	_
-6	in	in	ADP	_	_	3	advmod	_	_
+5	alive	alive	ADJ	POS	Degree=Pos	1	ccomp	_	_
+6	in	in	ADP	_	_	9	case	_	_
 7	another	another	ADJ	ADJ-SG	_	9	amod	_	_
 8	four	four	NUM	CARD-PL	NumType=Card	9	nummod	_	_
-9	weeks	week	NOUN	PL-NOM	Number=Plur	5	nmod	_	SpaceAfter=No
+9	weeks	week	NOUN	PL-NOM	Number=Plur	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	1	punct	_	_
 11	what	what	PRON	WH	PronType=Int	13	nsubj	_	_
 12	would	would	AUX	PAST-AUX	VerbForm=Fin	13	aux	_	_
@@ -18498,40 +18498,40 @@
 
 # sent_id = 3591
 # text = As always in the wizarding world, the photograph was moving; the wizard, who Harry supposed was Gilderoy Lockhart, kept winking cheekily up at them all.
-1	As	as	ADP	_	_	2	advmod	_	_
+1	As	as	ADP	_	_	2	case	_	_
 2	always	always	ADV	_	_	6	advmod	_	_
 3	in	in	ADP	_	_	6	case	_	_
 4	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
 5	wizarding	wizarding	ADJ	POS	Degree=Pos	6	amod	_	_
 6	world	world	NOUN	SG-NOM	Number=Sing	11	obl	_	SpaceAfter=No
-7	,	,	PUNCT	Comma	_	3	punct	_	_
+7	,	,	PUNCT	Comma	_	6	punct	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 9	photograph	photograph	NOUN	SG-NOM	Number=Sing	11	nsubj	_	_
 10	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	moving	move	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
-12	;	;	PUNCT	SemiColon	_	10	punct	_	_
+12	;	;	PUNCT	SemiColon	_	11	punct	_	_
 13	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 14	wizard	wizard	NOUN	SG-NOM	Number=Sing	23	nsubj	_	SpaceAfter=No
-15	,	,	PUNCT	Comma	_	14	punct	_	_
-16	who	who	PRON	WH-REL	PronType=Int	18	mark	_	_
+15	,	,	PUNCT	Comma	_	18	punct	_	_
+16	who	who	PRON	WH-REL	PronType=Int	18	obj	_	_
 17	Harry	harry	PROPN	SG-NOM	Number=Sing	21	nsubj	_	_
-18	supposed	suppose	VERB	PAST	Tense=Past|VerbForm=Part	21	aux	_	_
+18	supposed	suppose	VERB	PAST	Tense=Past|VerbForm=Part	14	acl:relcl	_	_
 19	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	cop	_	_
-20	Gilderoy	gilderoy	PROPN	SG-NOM	Number=Sing	14	nmod	_	_
+20	Gilderoy	gilderoy	PROPN	SG-NOM	Number=Sing	18	xcomp	_	_
 21	Lockhart	lockhart	PROPN	SG-NOM	Number=Sing	20	flat	_	SpaceAfter=No
-22	,	,	PUNCT	Comma	_	11	punct	_	_
-23	kept	keep	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+22	,	,	PUNCT	Comma	_	18	punct	_	_
+23	kept	keep	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	11	parataxis	_	_
 24	winking	wink	VERB	ING	Tense=Pres|VerbForm=Part	23	xcomp	_	_
 25	cheekily	cheekily	ADV	_	_	24	advmod	_	_
 26	up	up	ADV	_	_	28	advmod	_	_
 27	at	at	ADP	_	_	28	case	_	_
 28	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	obl	_	_
 29	all	all	PRON	TOT-PL	Case=Nom	28	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	Period	_	23	punct	_	_
+30	.	.	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 3592
 # text = Mrs Weasley beamed down at him.
-1	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Weasley	weasley	PROPN	SG-NOM	Number=Sing	3	nsubj	_	_
 3	beamed	beam	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	down	down	ADV	_	_	3	advmod	_	_
@@ -18550,7 +18550,7 @@
 7	Fred	fred	PROPN	SG-NOM	Number=Sing	5	vocative	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	3	punct	_	_
 9	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-10	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	11	compound	_	_
+10	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	11	nmod	_	_
 11	Weasley	weasley	PROPN	SG-NOM	Number=Sing	9	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	16	punct	_	_
 13	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
@@ -18969,7 +18969,7 @@
 
 # sent_id = 3612
 # text = Mr Weasley was slumped in a kitchen chair with his glasses off and his eyes closed.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Weasley	weasley	PROPN	SG-NOM	Number=Sing	4	nsubj:pass	_	_
 3	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
 4	slumped	slump	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -19023,7 +19023,7 @@
 4	long	long	ADJ	POS	Degree=Pos	6	amod	_	_
 5	green	green	ADJ	POS	Degree=Pos	6	amod	_	_
 6	robes	robe	NOUN	PL-NOM	Number=Plur	3	obj	_	_
-7	which	which	PRON	WH-REL	PronType=Int	9	mark	_	_
+7	which	which	PRON	WH-REL	PronType=Int	9	nsubj	_	_
 8	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	_
 9	dusty	dusty	ADJ	POS	Degree=Pos	6	acl:relcl	_	_
 10	and	and	CCONJ	_	_	11	cc	_	_
@@ -19032,7 +19032,7 @@
 
 # sent_id = 3615
 # text = Mr Weasley took a long gulp of tea and sighed.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Weasley	weasley	PROPN	SG-NOM	Number=Sing	3	nsubj	_	_
 3	took	take	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	det	_	_
@@ -19062,7 +19062,7 @@
 2	Muggle-baiting	muggle-baiting	NOUN	SG-NOM	Number=Sing	4	obj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	2	punct	_	_
 4	sighed	sigh	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-5	Mr	mr	NOUN	SG-NOM	Number=Sing	6	compound	_	_
+5	Mr	mr	NOUN	SG-NOM	Number=Sing	6	nmod	_	_
 6	Weasley	weasley	PROPN	SG-NOM	Number=Sing	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	Period	_	4	punct	_	_
 
@@ -19079,7 +19079,7 @@
 9	convict	convict	VERB	INF	VerbForm=Inf	4	acl	_	_
 10	anyone	anyone	PRON	IND-SG-NOM	Number=Sing	9	obj	_	_
 11	because	because	SCONJ	_	_	15	mark	_	_
-12	no	no	DET	NEG	_	13	advmod	_	_
+12	no	no	DET	NEG	_	13	det	_	_
 13	Muggle	muggle	NOUN	SG-NOM	Number=Sing	15	nsubj	_	_
 14	would	would	AUX	PAST-AUX	VerbForm=Fin	15	aux	_	_
 15	admit	admit	VERB	INF	VerbForm=Inf	9	advcl	_	_
@@ -19100,7 +19100,7 @@
 
 # sent_id = 3619
 # text = Mrs Weasley had appeared, holding a long poker like a sword.
-1	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Weasley	weasley	PROPN	SG-NOM	Number=Sing	4	nsubj	_	_
 3	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	appeared	appear	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -19116,7 +19116,7 @@
 
 # sent_id = 3620
 # text = Mr Weasley's eyes jerked open.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Weasley	weasley	PROPN	SG	Number=Sing	4	amod	_	SpaceAfter=No
 3	's	's	PART	GEN	_	2	case	_	_
 4	eyes	eye	NOUN	PL-NOM	Number=Plur	5	nsubj	_	_
@@ -19143,7 +19143,7 @@
 5	cars	car	NOUN	PL-NOM	Number=Plur	7	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	5	punct	_	_
 7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-8	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	9	compound	_	_
+8	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	9	nmod	_	_
 9	Weasley	weasley	PROPN	SG-NOM	Number=Sing	7	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	13	punct	_	_
 11	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	_
@@ -19153,7 +19153,7 @@
 
 # sent_id = 3623
 # text = Mr Weasley blinked.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Weasley	weasley	PROPN	SG-NOM	Number=Sing	3	nsubj	_	_
 3	blinked	blink	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Period	_	3	punct	_	_
@@ -19220,7 +19220,7 @@
 9	sparks	spark	NOUN	PL-NOM	Case=Nom	10	nsubj	_	_
 10	flew	fly	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
 11	from	from	ADP	_	_	15	case	_	_
-12	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	13	compound	_	_
+12	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	13	nmod	_	_
 13	Weasley	weasley	PROPN	SG	Number=Sing	15	amod	_	SpaceAfter=No
 14	's	's	PART	GEN	_	13	case	_	_
 15	eyes	eye	NOUN	PL-NOM	Number=Plur	10	obl	_	SpaceAfter=No
@@ -19256,7 +19256,7 @@
 14	uneven	uneven	ADJ	POS	Degree=Pos	15	amod	_	_
 15	staircase	staircase	NOUN	SG-NOM	Number=Sing	2	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	2	punct	_	_
-17	which	which	PRON	WH-REL	PronType=Int	18	mark	_	_
+17	which	which	PRON	WH-REL	PronType=Int	18	nsubj	_	_
 18	zigzagged	zigzag	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
 19	its	it	PRON	SG-GEN	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 20	way	way	NOUN	SG-NOM	Number=Sing	18	obj	_	_
@@ -19272,7 +19272,7 @@
 2	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
 3	third	third	ADJ	ORD	Degree=Pos|NumType=Ord	4	amod	_	_
 4	landing	landing	NOUN	SG-NOM	Number=Sing	8	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	1	punct	_	_
+5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	a	a	DET	IND-SG	Definite=Ind|PronType=Art	7	det	_	_
 7	door	door	NOUN	SG-NOM	Number=Sing	8	nsubj	_	_
 8	stood	stand	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -19491,7 +19491,7 @@
 27	,	,	PUNCT	Comma	_	6	punct	_	_
 28	Scabbers	scabbers	PROPN	SG-NOM	Number=Sing	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	Comma	_	6	punct	_	_
-30	who	who	PRON	WH-REL	PronType=Int	32	mark	_	_
+30	who	who	PRON	WH-REL	PronType=Int	32	nsubj	_	_
 31	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	32	aux	_	_
 32	snoozing	snooze	VERB	ING	Tense=Pres|VerbForm=Part	28	acl:relcl	_	_
 33	in	in	ADP	_	_	35	case	_	_
@@ -19712,7 +19712,7 @@
 
 # sent_id = 3646
 # text = Mrs Weasley fussed over the state of his socks and tried to force him to eat fourth helpings at every meal.
-1	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Weasley	weasley	PROPN	SG-NOM	Number=Sing	3	nsubj	_	_
 3	fussed	fuss	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	over	over	ADP	_	_	6	case	_	_
@@ -19737,7 +19737,7 @@
 
 # sent_id = 3647
 # text = Mr Weasley liked Harry to sit next to him at the dinner table so that he could bombard him with questions about life with Muggles, asking him to explain how things like plugs and the postal service worked.
-1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	compound	_	_
+1	Mr	mr	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 2	Weasley	weasley	PROPN	SG-NOM	Number=Sing	3	nsubj	_	_
 3	liked	like	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Harry	harry	PROPN	SG-NOM	Number=Sing	6	nsubj	_	_
@@ -19829,7 +19829,7 @@
 7	breakfast	breakfast	NOUN	SG-NOM	Number=Sing	4	obl	_	_
 8	to	to	PART	_	_	9	mark	_	_
 9	find	find	VERB	INF	VerbForm=Inf	4	advcl	_	_
-10	Mr	mr	NOUN	SG-NOM	Number=Sing	13	compound	_	_
+10	Mr	mr	NOUN	SG-NOM	Number=Sing	13	nmod	_	_
 11	and	and	CCONJ	_	_	12	cc	_	_
 12	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	10	conj	_	_
 13	Weasley	weasley	PROPN	SG-NOM	Number=Sing	9	obj	_	_
