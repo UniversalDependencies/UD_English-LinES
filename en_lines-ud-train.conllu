@@ -14206,7 +14206,7 @@
 1	In	in	ADP	_	_	3	case	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
 3	end	end	NOUN	SG-NOM	Number=Sing	8	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	4	punct	_	_
+4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 6	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	actually	actual	ADV	_	_	8	advmod	_	_
@@ -20190,8 +20190,8 @@
 14	executive	executive	NOUN	SG-NOM	Case=Nom	8	acl:relcl	_	_
 15	for	for	ADP	_	_	18	case	_	_
 16	J	j	PROPN	INTL	_	18	nmod	_	_
-17	Walter	Walter	PROPN	SG-NOM	Number=Sing	14	nmod	_	_
-18	Thompson	thompson	PROPN	SG-NOM	Number=Sing	16	flat	_	SpaceAfter=No
+17	Walter	Walter	PROPN	SG-NOM	Number=Sing	18	nmod	_	_
+18	Thompson	thompson	PROPN	SG-NOM	Number=Sing	14	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	8	punct	_	_
 20	one	one	PRON	IND-SG	Number=Sing|PronType=Ind	17	appos	_	_
 21	of	of	ADP	_	_	29	case	_	_
@@ -54185,7 +54185,7 @@
 13	screech	screech	NOUN	SG-NOM	Number=Sing	4	obj	_	_
 14	from	from	ADP	_	_	16	case	_	_
 15	behind	behind	ADP	_	_	16	case	_	_
-16	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod	_	SpaceAfter=No
+16	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
 17	,	,	PUNCT	Comma	_	9	punct	_	_
 18	followed	follow	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
 19	immediately	immediately	ADV	_	_	18	advmod	_	_

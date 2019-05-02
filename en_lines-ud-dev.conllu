@@ -16251,7 +16251,7 @@
 4	sing	sing	VERB	INF	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	1	punct	_	_
 6	Dando	Dando	PROPN	SG-NOM	Number=Sing	7	nsubj	_	_
-7	called	call	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataaxis	_	_
+7	called	call	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
 8	out	out	ADV	_	_	7	compound:prt	_	_
 9	proudly	proud	ADV	_	_	7	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	1	punct	_	_
@@ -17559,7 +17559,7 @@
 18	to	to	ADP	_	_	21	case	_	_
 19	within	within	ADP	_	_	21	case	_	_
 20	an	an	DET	IND-SG	Definite=Ind|PronType=Art	21	det	_	_
-21	inch	inch	NOUN	SG-NOM	Number=Sing	18	nmod	_	_
+21	inch	inch	NOUN	SG-NOM	Number=Sing	16	obl	_	_
 22	of	of	ADP	_	_	24	case	_	_
 23	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
 24	life	life	NOUN	SG-NOM	Number=Sing	21	nmod	_	_
