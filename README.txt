@@ -153,6 +153,8 @@ From UD version 1.3 to UD version 2.0
 
  From UD version 2.3 to UD version 2.4
   * corrections of errors flagged by the validation script
+  * corrections of other errors discovered in the process
+  * in particular, many changes from 'conj' to 'parataxis' when no coordinator is present
 
 --- Machine readable metadata ---
 
