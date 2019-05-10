@@ -151,7 +151,10 @@ From UD version 1.3 to UD version 2.0
   * compounds in the first doc of each (train, dev, test) file have been check and re-analysed to increase consistency
   * conjunctions 'either' and 'neither' which were wrongly analysed in 2.2 have been corrected
 
-
+ From UD version 2.3 to UD version 2.4
+  * corrections of errors flagged by the validation script
+  * corrections of other errors discovered in the process
+  * in particular, many changes from 'conj' to 'parataxis' when no coordinator is present
 
 --- Machine readable metadata ---
 
