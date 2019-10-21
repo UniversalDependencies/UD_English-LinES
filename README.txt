@@ -30,7 +30,7 @@ part of the Linköping Translation Corpus Corpus (Merkel, 1999). The
 treebank was first developed in the project 'Micro- and macro-level
 analysis of translations' funded by the Swedish Research Council (Ahrenberg, 2007).
 
-Five of the sub-corpora are taken from literary works:
+Six of the sub-corpora are taken from literary works:
 
 Paul Auster: City of Glass. The New York Trilogy, Volume One. First
 published by Faber & Faber in 1985.
@@ -45,6 +45,8 @@ Nadine Gordimer: A Guest of Honour. First published in 1970.
 
 J. K. Rowling: Harry Potter and the Chamber of Secrets. First published
 in 1998.
+
+Jennette Winterson: Gut Symmetries. Granta Books, London, 1998.
 
 In addition the corpus includes segments from Microsoft Access 2002
 Online Help and the Englsh part of the Europarl corpus (v.7).
@@ -155,6 +157,10 @@ From UD version 1.3 to UD version 2.0
   * corrections of errors flagged by the validation script
   * corrections of other errors discovered in the process
   * in particular, many changes from 'conj' to 'parataxis' when no coordinator is present
+  
+ From UD version 2.4 to version 2.5
+  * Addition of 679 sentences from Winterson's book. 120 have been added to the dev corpus, 120 to the test corpus, and
+    the rest to the train corpus.
 
 --- Machine readable metadata ---
 
