@@ -161,6 +161,8 @@ From UD version 1.3 to UD version 2.0
  From UD version 2.4 to version 2.5
   * Addition of 679 sentences from Winterson's book. 120 have been added to the dev corpus, 120 to the test corpus, and
     the rest to the train corpus.
+  * correcting dependencies for punctuation marks to guarantee validation, 
+  * correcting other erroneous annotation, in particular related to the parataxis and ccomp relations
 
 --- Machine readable metadata ---
 
