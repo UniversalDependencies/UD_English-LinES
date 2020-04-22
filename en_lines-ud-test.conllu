@@ -968,7 +968,7 @@
 3	RecordsetDef	RecordsetDef	PROPN	SG-NOM	Number=Sing	4	compound	_	_
 4	object	object	NOUN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	7	punct	_	_
-6	which	which	PRON	WH-REL	PronType=Int	7	nsubj	_	_
+6	which	which	PRON	WH-REL	PronType=Rel	7	nsubj	_	_
 7	contains	contain	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 8	one	one	NUM	CARD-PL	NumType=Card	11	nummod	_	_
 9	or	or	CCONJ	CARD-PL	_	8	fixed	_	_
@@ -1512,7 +1512,7 @@
 12	of	of	ADP	_	_	14	case	_	_
 13	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 14	field	field	NOUN	SG-NOM	Number=Sing	11	nmod	_	_
-15	whose	who	PRON	WH-GEN	Poss=Yes|PronType=Int	16	nmod:poss	_	_
+15	whose	who	PRON	WH-REL-GEN	Poss=Yes|PronType=Rel	16	nmod:poss	_	_
 16	items	item	NOUN	PL-NOM	Number=Plur	18	obj	_	_
 17	you	you	PRON	PERS-P2	_	18	nsubj	_	_
 18	grouped	group	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
@@ -2371,7 +2371,7 @@
 12	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	13	det	_	_
 13	man	man	NOUN	SG-NOM	Number=Sing	7	obl	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	20	punct	_	_
-15	whose	who	PRON	WH-REL-GEN	Poss=Yes|PronType=Int	16	nmod:poss	_	_
+15	whose	who	PRON	WH-REL-GEN	Poss=Yes|PronType=Rel	16	nmod:poss	_	_
 16	name	name	NOUN	SG-NOM	Number=Sing	20	obj	_	_
 17	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 18	did	do	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
@@ -3487,7 +3487,7 @@
 17	Virginia	Virginia	PROPN	SG-NOM	Number=Sing	16	obj	_	_
 18	Stillman	Stillman	PROPN	SG-NOM	Number=Sing	17	flat	_	_
 19	with	with	ADP	_	_	22	mark	_	_
-20	what	what	PRON	WH-REL	PronType=Int	22	obj	_	_
+20	what	what	PRON	WH-REL	PronType=Rel	22	obj	_	_
 21	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 22	knew	know	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
 23	.	.	PUNCT	Period	_	10	punct	_	_
@@ -3505,7 +3505,7 @@
 9	reminded	remind	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 10	himself	he	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
 11	of	of	ADP	_	_	12	case	_	_
-12	who	who	PRON	WH-REL	PronType=Int	9	obl	_	_
+12	who	who	PRON	WH-REL	PronType=Rel	9	obl	_	_
 13	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	_
 14	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
 15	supposed	suppose	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
@@ -3929,7 +3929,7 @@
 7	little	little	ADJ	POS	Degree=Pos	8	amod	_	_
 8	shrug	shrug	NOUN	SG-NOM	Number=Sing	5	obj	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	11	punct	_	_
-10	which	which	PRON	WH-REL	PronType=Int	11	nsubj	_	_
+10	which	which	PRON	WH-REL	PronType=Rel	11	nsubj	_	_
 11	seemed	seem	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
 12	to	to	PART	_	_	13	mark	_	_
 13	acknowledge	acknowledge	VERB	INF	VerbForm=Inf	11	xcomp	_	_
@@ -4264,7 +4264,7 @@
 9	the	the	DET	DEF	Definite=Def|PronType=Art	10	det	_	_
 10	meal	meal	NOUN	SG-NOM	Number=Sing	7	obj	_	_
 11	in	in	ADP	_	_	13	mark	_	_
-12	what	what	PRON	WH-REL	PronType=Int	13	nsubj	_	_
+12	what	what	PRON	WH-REL	PronType=Rel	13	nsubj	_	_
 13	seemed	seem	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
 14	a	a	DET	IND-SG	Definite=Ind|PronType=Art	15	det	_	_
 15	matter	matter	NOUN	SG-NOM	Number=Sing	13	xcomp	_	_
@@ -4842,7 +4842,7 @@
 9	show	show	VERB	INF	VerbForm=Inf	3	acl	_	_
 10	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
 11	man	man	NOUN	SG-NOM	Number=Sing	9	obj	_	_
-12	who	who	PRON	WH-REL	PronType=Int	15	nsubj:pass	_	_
+12	who	who	PRON	WH-REL	PronType=Rel	15	nsubj:pass	_	_
 13	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
 14	been	be	AUX	PERF	Tense=Past|VerbForm=Part	15	aux:pass	_	_
 15	bewitched	bewitch	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
@@ -4919,7 +4919,7 @@
 7	be	be	AUX	INF	VerbForm=Inf	8	cop	_	_
 8	present	present	ADJ	POS	Degree=Pos	5	xcomp	_	_
 9	at	at	ADP	_	_	11	mark	_	_
-10	what	what	PRON	WH-REL	PronType=Int	11	nsubj	_	_
+10	what	what	PRON	WH-REL	PronType=Rel	11	nsubj	_	_
 11	happens	happen	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	5	punct	_	_
 
@@ -4999,7 +4999,7 @@
 10	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
 11	only	only	ADV	_	_	12	advmod	_	_
 12	one	one	PRON	IND-P3SG	_	5	advcl	_	_
-13	who	who	PRON	WH-REL	PronType=Int	14	nsubj	_	_
+13	who	who	PRON	WH-REL	PronType=Rel	14	nsubj	_	_
 14	accompanies	accompany	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 15	Don	Don	PROPN	SG-NOM	Number=Sing	14	obj	_	_
 16	Quixote	Quixote	PROPN	SG-NOM	Number=Sing	15	flat	_	_
@@ -5134,7 +5134,7 @@
 25	from	from	ADP	_	_	26	case	_	_
 26	Salamanca	Salamanca	PROPN	SG-NOM	Number=Sing	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	Comma	_	24	punct	_	_
-28	who	who	PRON	WH-REL	PronType=Int	29	nsubj	_	_
+28	who	who	PRON	WH-REL	PronType=Rel	29	nsubj	_	_
 29	proceeded	proceed	VERB	PAST	Tense=Past|VerbForm=Part	20	acl:relcl	_	_
 30	to	to	PART	_	_	31	mark	_	_
 31	translate	translate	VERB	INF	VerbForm=Inf	29	xcomp	_	_
@@ -5541,7 +5541,7 @@
 # text = Israel, which receives us impartially, is accustomed to strange arrivals.
 1	Israel	Israel	PROPN	SG-NOM	Number=Sing	9	nsubj:pass	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	4	punct	_	_
-3	which	which	PRON	WH-REL	PronType=Int	4	nsubj	_	_
+3	which	which	PRON	WH-REL	PronType=Rel	4	nsubj	_	_
 4	receives	receive	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 5	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
 6	impartially	impartially	ADV	_	_	4	advmod	_	SpaceAfter=No
@@ -5657,7 +5657,7 @@
 5	,	,	PUNCT	Comma	_	9	punct	_	_
 6	portions	portion	NOUN	PL-NOM	Number=Plur	9	nsubj	_	_
 7	of	of	ADP	_	_	8	case	_	_
-8	which	which	PRON	WH-REL	PronType=Int	6	nmod	_	_
+8	which	which	PRON	WH-REL	PronType=Rel	6	nmod	_	_
 9	go	go	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 10	back	back	ADV	_	_	9	advmod	_	_
 11	to	to	ADP	_	_	14	case	_	_
@@ -5765,7 +5765,7 @@
 22	two	two	NUM	CARD-PL	NumType=Card	24	nummod	_	_
 23	Israeli	israeli	ADJ	POS	Degree=Pos	24	amod	_	_
 24	couples	couple	VERB	PRES	Case=Nom	4	conj	_	_
-25	whom	who	PRON	WH-REL-ACC	PronType=Int	29	dislocated	_	_
+25	whom	who	PRON	WH-REL-ACC	PronType=Rel	29	dislocated	_	_
 26	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
 27	can	can	AUX	PRES-AUX	VerbForm=Fin	29	aux	_	_
 28	not	not	PART	NEG	_	29	advmod	_	_
@@ -5897,7 +5897,7 @@
 1	(	(	PUNCT	LeftParenthesis	_	11	punct	_	SpaceAfter=No
 2	Tatu	Tatu	PROPN	SG-NOM	Number=Sing	11	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	5	punct	_	_
-4	who	who	PRON	WH-REL	PronType=Int	5	nsubj	_	_
+4	who	who	PRON	WH-REL	PronType=Rel	5	nsubj	_	_
 5	lived	live	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
 6	for	for	ADP	_	_	7	case	_	_
 7	years	year	NOUN	PL-NOM	Number=Plur	5	obl	_	_
@@ -5919,7 +5919,7 @@
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
 2	Archbishop	archbishop	NOUN	SG-NOM	Number=Sing	16	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	7	punct	_	_
-4	who	who	PRON	WH-REL	PronType=Int	7	nsubj	_	_
+4	who	who	PRON	WH-REL	PronType=Rel	7	nsubj	_	_
 5	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	himself	he	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	_
 7	cooked	cook	VERB	PERF	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
@@ -6059,7 +6059,7 @@
 13	those	that	DET	DEM-PL	Number=Plur|PronType=Dem	15	det	_	_
 14	short	short	ADJ	POS	Degree=Pos	15	amod	_	_
 15	men	man	NOUN	PL-NOM	Number=Plur	11	nmod	_	_
-16	who	who	PRON	WH-REL	PronType=Int	18	nsubj	_	_
+16	who	who	PRON	WH-REL	PronType=Rel	18	nsubj	_	_
 17	have	have	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	learned	learn	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
 19	to	to	PART	_	_	20	mark	_	_
@@ -6170,7 +6170,7 @@
 9	of	of	ADP	_	_	11	case	_	_
 10	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
 11	man	man	NOUN	SG-NOM	Number=Sing	8	nmod	_	_
-12	whose	who	PRON	WH-REL-GEN	Poss=Yes|PronType=Int	13	nmod:poss	_	_
+12	whose	who	PRON	WH-REL-GEN	Poss=Yes|PronType=Rel	13	nmod:poss	_	_
 13	life	life	NOUN	SG-NOM	Number=Sing	15	nsubj	_	_
 14	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	easy	easy	ADJ	POS	Degree=Pos	11	acl:relcl	_	_
@@ -6459,7 +6459,7 @@
 35	pitiless	pitiless	ADJ	POS	Degree=Pos	36	amod	_	_
 36	condition	condition	NOUN	SG-NOM	Number=Sing	20	appos	_	_
 37	in	in	ADP	_	_	38	case	_	_
-38	which	which	PRON	WH-REL	PronType=Int	42	obl	_	_
+38	which	which	PRON	WH-REL	PronType=Rel	42	obl	_	_
 39	men	man	NOUN	PL-NOM	Number=Plur	42	nsubj	_	_
 40	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	42	cop	_	_
 41	too	too	ADV	_	_	42	advmod	_	_
@@ -6853,7 +6853,7 @@
 12	Come	come	VERB	INF	VerbForm=Inf	10	acl	_	_
 13	two	two	NUM	CARD-PL	NumType=Card	14	nummod	_	_
 14	Americans	american	NOUN	PL-NOM	Case=Nom	32	nsubj:pass	_	_
-15	who	who	PRON	WH-REL	PronType=Int	16	nsubj	_	_
+15	who	who	PRON	WH-REL	PronType=Rel	16	nsubj	_	_
 16	think	think	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 17	themselves	they	PRON	RFL-P3PL	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
 18	anything	anything	PRON	IND-SG-NOM	Number=Sing	16	xcomp	_	_
@@ -7136,7 +7136,7 @@
 20	of	of	ADP	_	_	21	case	_	_
 21	people	people	NOUN	PL-NOM	Number=Plur	19	nmod	_	_
 22	with	with	ADP	_	_	23	case	_	_
-23	whom	who	PRON	WH-REL-ACC	PronType=Int	26	obl	_	_
+23	whom	who	PRON	WH-REL-ACC	PronType=Rel	26	obl	_	_
 24	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
 25	have	have	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	_
 26	discussed	discuss	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
@@ -7754,7 +7754,7 @@
 6	persistent	persistent	ADJ	POS	Degree=Pos	8	amod	_	_
 7	young	young	ADJ	POS	Degree=Pos	8	amod	_	_
 8	woman	woman	NOUN	SG-NOM	Number=Sing	2	nsubj	_	_
-9	who	who	PRON	WH-REL	PronType=Int	10	nsubj	_	_
+9	who	who	PRON	WH-REL	PronType=Rel	10	nsubj	_	_
 10	writes	write	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 11	to	to	ADP	_	_	12	case	_	_
 12	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
@@ -7762,7 +7762,7 @@
 14	from	from	ADP	_	_	15	case	_	_
 15	Italy	Italy	PROPN	SG-NOM	Number=Sing	10	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	18	punct	_	_
-17	who	who	PRON	WH-REL	PronType=Int	18	nsubj	_	_
+17	who	who	PRON	WH-REL	PronType=Rel	18	nsubj	_	_
 18	insists	insist	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 19	upon	upon	ADP	_	_	20	mark	_	_
 20	giving	give	VERB	ING	Tense=Pres|VerbForm=Part	18	xcomp	_	_
@@ -8044,7 +8044,7 @@
 21	also	also	ADV	_	_	23	advmod	_	_
 22	a	a	DET	IND-SG	Definite=Ind|PronType=Art	23	det	_	_
 23	man	man	NOUN	SG-NOM	Number=Sing	10	conj	_	_
-24	who	who	PRON	WH-REL	PronType=Int	25	nsubj	_	_
+24	who	who	PRON	WH-REL	PronType=Rel	25	nsubj	_	_
 25	has	have	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
 26	lots	lot	NOUN	PL-NOM	Number=Plur	25	obj	_	_
 27	of	of	ADP	_	_	28	case	_	_
@@ -9231,7 +9231,7 @@
 14	compassionate	compassionate	ADJ	POS	Degree=Pos	15	amod	_	_
 15	secretary	secretary	NOUN	SG-NOM	Number=Sing	6	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	25	punct	_	_
-17	who	who	PRON	WH-REL	PronType=Int	25	nsubj	_	SpaceAfter=No
+17	who	who	PRON	WH-REL	PronType=Rel	25	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	full	full	ADJ	POS	Degree=Pos	25	advmod	_	_
 20	of	of	ADP	_	_	21	case	_	_
@@ -10190,7 +10190,7 @@
 25	forehead	forehead	NOUN	SG-NOM	Number=Sing	22	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	22	punct	_	_
 27	upon	upon	ADP	_	_	28	case	_	_
-28	which	which	PRON	WH-REL	PronType=Int	31	obl	_	_
+28	which	which	PRON	WH-REL	PronType=Rel	31	obl	_	_
 29	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
 30	absolutely	absolutely	ADV	_	_	31	advmod	_	_
 31	stumbled	stumble	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
@@ -10400,7 +10400,7 @@
 15	not	not	PART	NEG	_	16	advmod	_	_
 16	one	one	PRON	IND-P3SG	_	20	nsubj:pass	_	_
 17	of	of	ADP	_	_	18	case	_	_
-18	which	which	PRON	WH-REL	PronType=Int	16	nmod	_	_
+18	which	which	PRON	WH-REL	PronType=Rel	16	nmod	_	_
 19	was	be	AUX	PAST-AUX	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
 20	lost	lose	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
 21	to	to	ADP	_	_	24	case	_	_
@@ -10994,7 +10994,7 @@
 5	right	right	NOUN	SG-NOM	Number=Sing	4	obj	_	_
 6	of	of	ADP	_	_	7	case	_	_
 7	recourse	recourse	NOUN	SG-NOM	Number=Sing	5	nmod	_	_
-8	which	which	PRON	WH-REL	PronType=Int	11	obj	_	_
+8	which	which	PRON	WH-REL	PronType=Rel	11	obj	_	_
 9	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	can	can	AUX	PRES-AUX	VerbForm=Fin	11	aux	_	_
 11	use	use	VERB	INF	VerbForm=Inf	5	acl:relcl	_	_
@@ -11345,7 +11345,7 @@
 7	total	total	ADJ	POS	Degree=Pos	8	amod	_	_
 8	harmonization	harmonization	NOUN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	15	punct	_	_
-10	which	which	PRON	WH-REL	PronType=Int	15	nsubj	_	_
+10	which	which	PRON	WH-REL	PronType=Rel	15	nsubj	_	_
 11	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 12	fundamentally	fundamentally	ADV	_	_	15	advmod	_	_
 13	a	a	DET	IND-SG	Definite=Ind|PronType=Art	15	det	_	_
@@ -11714,7 +11714,7 @@
 9	there	there	PRON	EX	_	10	expl	_	_
 10	are	be	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
 11	others	other	PRON	IND-PL-NOM	Case=Nom	10	nsubj	_	_
-12	which	which	PRON	WH-REL	PronType=Int	16	obj	_	_
+12	which	which	PRON	WH-REL	PronType=Rel	16	obj	_	_
 13	you	you	PRON	PERS-P2	_	16	nsubj	_	_
 14	did	do	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
 15	not	not	PART	NEG	_	16	advmod	_	_
@@ -11751,7 +11751,7 @@
 10	Russian	russian	ADJ	POS	Degree=Pos	8	conj	_	_
 11	crises	crisis	NOUN	PL-NOM	Number=Plur	5	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	15	punct	_	_
-13	which	which	PRON	WH-REL	PronType=Int	15	nsubj	_	_
+13	which	which	PRON	WH-REL	PronType=Rel	15	nsubj	_	_
 14	also	also	ADV	_	_	15	advmod	_	_
 15	deprive	deprive	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
@@ -11795,7 +11795,7 @@
 # text = The taxpayer who has to pay for it, the smaller undertakings and species-friendly stock rearing all fall by the wayside.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
 2	taxpayer	taxpayer	NOUN	SG-NOM	Number=Sing	18	dislocated	_	_
-3	who	who	PRON	WH-REL	PronType=Int	6	nsubj	_	_
+3	who	who	PRON	WH-REL	PronType=Rel	6	nsubj	_	_
 4	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	to	to	PART	_	_	6	mark	_	_
 6	pay	pay	VERB	INF	VerbForm=Inf	2	acl:relcl	_	_
@@ -12470,7 +12470,7 @@
 2	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	an	an	DET	IND-SG	Definite=Ind|PronType=Art	4	det	_	_
 4	issue	issue	NOUN	SG-NOM	Number=Sing	0	root	_	_
-5	which	which	PRON	WH-REL	PronType=Int	6	nsubj	_	_
+5	which	which	PRON	WH-REL	PronType=Rel	6	nsubj	_	_
 6	affects	affect	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 7	aspects	aspect	NOUN	PL-NOM	Number=Plur	6	obj	_	_
 8	of	of	ADP	_	_	10	case	_	_
@@ -12618,7 +12618,7 @@
 14	to	to	ADP	_	_	16	case	_	_
 15	the	the	DET	DEF	Definite=Def|PronType=Art	16	det	_	_
 16	questions	question	NOUN	PL-NOM	Number=Plur	13	nmod	_	_
-17	which	which	PRON	WH-REL	PronType=Int	19	obj	_	_
+17	which	which	PRON	WH-REL	PronType=Rel	19	obj	_	_
 18	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 19	raise	raise	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	10	punct	_	_
@@ -13579,7 +13579,7 @@
 9	the	the	DET	DEF	Definite=Def|PronType=Art	11	det	_	_
 10	pale	pale	ADJ	POS	Case=Nom	11	amod	_	_
 11	Cockney	cockney	NOUN	SG-NOM	Number=Sing	21	nsubj	_	_
-12	who	who	PRON	WH-REL	PronType=Int	14	nsubj	_	_
+12	who	who	PRON	WH-REL	PronType=Rel	14	nsubj	_	_
 13	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	aux	_	_
 14	teaching	teach	VERB	ING	Tense=Pres|VerbForm=Part	11	acl:relcl	_	_
 15	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
@@ -13619,7 +13619,7 @@
 10	bunting-swathed	bunting-swathed	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	_
 11	entrance	entrance	NOUN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	27	punct	_	_
-13	where	where	ADV	WH-REL	PronType=Int	27	advmod	_	_
+13	where	where	ADV	WH-REL	PronType=Rel	27	advmod	_	_
 14	a	a	DET	IND-SG	Definite=Ind|PronType=Art	15	det	_	_
 15	picture	picture	NOUN	SG-NOM	Number=Sing	27	nsubj	_	_
 16	of	of	ADP	_	_	21	case	_	_
@@ -13688,7 +13688,7 @@
 35	,	,	PUNCT	Comma	_	36	punct	_	_
 36	splay-footed	splay-footed	ADJ	PASS	Degree=Pos	37	amod	_	_
 37	peasants	peasant	NOUN	PL-NOM	Number=Plur	31	nmod	_	_
-38	who	who	PRON	WH-REL	PronType=Int	41	nsubj	_	_
+38	who	who	PRON	WH-REL	PronType=Rel	41	nsubj	_	_
 39	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	41	aux	_	_
 40	always	always	ADV	_	_	41	advmod	_	_
 41	constituted	constitute	VERB	PERF	Tense=Past|VerbForm=Part	37	acl:relcl	_	_
@@ -14152,7 +14152,7 @@
 30	in	in	ADP	_	_	32	case	_	_
 31	the	the	DET	DEF	Definite=Def|PronType=Art	32	det	_	_
 32	bush	bush	NOUN	SG-NOM	Case=Nom	29	obl	_	_
-33	where	where	ADV	WH-REL	PronType=Int	38	advmod	_	_
+33	where	where	ADV	WH-REL	PronType=Rel	38	advmod	_	_
 34	women	woman	NOUN	PL-NOM	Number=Plur	38	nsubj	_	_
 35	and	and	CCONJ	_	_	36	cc	_	_
 36	children	child	NOUN	PL-NOM	Number=Plur	34	conj	_	_
@@ -14291,7 +14291,7 @@
 18	hairy	hairy	ADJ	POS	Degree=Pos	17	xcomp	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	17	punct	_	_
 20	everywhere	everywhere	ADV	TOT-WH	_	9	advmod	_	_
-21	where	where	ADV	WH-REL	PronType=Int	23	advmod	_	_
+21	where	where	ADV	WH-REL	PronType=Rel	23	advmod	_	_
 22	people	people	NOUN	PL-NOM	Number=Plur	23	nsubj	_	_
 23	passed	pass	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	Period	_	5	punct	_	_
@@ -14532,13 +14532,13 @@
 12	straight	straight	ADJ	POS	Degree=Pos	10	conj	_	SpaceAfter=No
 13	,	,	PUNCT	Comma	_	14	punct	_	_
 14	grey	grey	ADJ	POS	Degree=Pos	10	conj	_	_
-15	where	where	ADV	WH-REL	PronType=Int	18	advmod	_	_
+15	where	where	ADV	WH-REL	PronType=Rel	18	advmod	_	_
 16	it	it	PRON	PERS-SG	_	18	nsubj	_	_
 17	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	cop	_	_
 18	old	old	ADJ	POS	Degree=Pos	14	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	20	punct	_	_
 20	blond	blond	ADJ	POS	Degree=Pos	10	conj	_	_
-21	where	where	ADV	WH-REL	PronType=Int	25	advmod	_	_
+21	where	where	ADV	WH-REL	PronType=Rel	25	advmod	_	_
 22	it	it	PRON	PERS-SG	_	25	nsubj:pass	_	_
 23	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
 24	been	be	AUX	PERF	Tense=Past|VerbForm=Part	25	aux:pass	_	_
@@ -14577,7 +14577,7 @@
 9	porcelain	porcelain	NOUN	SG-NOM	Number=Sing	10	compound	_	_
 10	conductor	conductor	NOUN	SG-NOM	Number=Sing	5	obl	_	_
 11	through	through	ADP	_	_	12	case	_	_
-12	which	which	PRON	WH-REL	PronType=Int	16	obl	_	_
+12	which	which	PRON	WH-REL	PronType=Rel	16	obl	_	_
 13	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
 14	electricity	electricity	NOUN	SG-NOM	Number=Sing	15	compound	_	_
 15	wire	wire	NOUN	SG-NOM	Number=Sing	16	nsubj	_	_
@@ -15048,7 +15048,7 @@
 5	's	's	PART	GEN	_	4	case	_	_
 6	wife	wife	NOUN	SG-NOM	Number=Sing	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	11	punct	_	_
-8	whom	who	PRON	WH-REL-ACC	PronType=Int	11	obj	_	_
+8	whom	who	PRON	WH-REL-ACC	PronType=Rel	11	obj	_	_
 9	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	met	meet	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
@@ -15130,7 +15130,7 @@
 21	one	one	PRON	IND-P3SG	_	23	nsubj	_	SpaceAfter=No
 22	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	done	do	VERB	PERF	Tense=Past|VerbForm=Part	5	conj	_	_
-24	what	what	PRON	WH-REL	PronType=Int	23	obj	_	_
+24	what	what	PRON	WH-REL	PronType=Rel	23	obj	_	_
 25	one	one	PRON	IND-P3SG	_	26	nsubj	_	_
 26	could	could	AUX	PAST-AUX	VerbForm=Fin	24	acl	_	SpaceAfter=No
 27	...	...	PUNCT	Dots	_	5	punct	_	_
@@ -15193,14 +15193,14 @@
 24	forbearance	forbearance	NOUN	SG-NOM	Number=Sing	20	obl	_	_
 25	of	of	ADP	_	_	26	case	_	_
 26	one	one	PRON	IND-P3SG	_	24	nmod	_	_
-27	who	who	PRON	WH-REL	PronType=Int	30	nsubj	_	_
+27	who	who	PRON	WH-REL	PronType=Rel	30	nsubj	_	_
 28	does	do	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
 29	not	not	PART	NEG	_	30	advmod	_	_
 30	spare	spare	VERB	INF	Case=Nom	26	acl:relcl	_	_
 31	himself	he	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	30	obj	_	SpaceAfter=No
 32	,	,	PUNCT	Comma	_	33	punct	_	_
 33	encouraging	encourage	VERB	ING	Tense=Pres|VerbForm=Part	20	advcl	_	_
-34	where	where	ADV	WH-REL	PronType=Int	37	advmod	_	_
+34	where	where	ADV	WH-REL	PronType=Rel	37	advmod	_	_
 35	others	other	PRON	IND-PL-NOM	Case=Nom	37	nsubj	_	_
 36	would	would	AUX	PAST-AUX	VerbForm=Fin	37	aux	_	_
 37	give	give	VERB	INF	VerbForm=Inf	33	advcl	_	_
@@ -15407,7 +15407,7 @@
 1	The	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
 2	elderly	elderly	ADJ	POS	Degree=Pos	3	amod	_	_
 3	servant	servant	NOUN	SG-NOM	Number=Sing	9	nsubj	_	_
-4	who	who	PRON	WH-REL	PronType=Int	5	nsubj	_	_
+4	who	who	PRON	WH-REL	PronType=Rel	5	nsubj	_	_
 5	brought	bring	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
 6	ice	ice	NOUN	SG-NOM	Number=Sing	5	obj	_	_
 7	and	and	CCONJ	_	_	8	cc	_	_
@@ -15881,7 +15881,7 @@
 4	been	be	AUX	PERF	Tense=Past|VerbForm=Part	5	aux:pass	_	_
 5	sent	send	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	anywhere	anywhere	ADV	IND-WH	_	5	advmod	_	_
-7	where	where	ADV	WH-REL	PronType=Int	11	advmod	_	_
+7	where	where	ADV	WH-REL	PronType=Rel	11	advmod	_	_
 8	there	there	PRON	EX	_	11	expl	_	_
 9	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
 10	anything	anything	PRON	IND-SG-NOM	Number=Sing	11	nsubj:pass	_	_
@@ -16260,7 +16260,7 @@
 19	onto	onto	ADP	_	_	21	case	_	_
 20	the	the	DET	DEF	Definite=Def|PronType=Art	21	det	_	_
 21	bed	bed	NOUN	SG-NOM	Number=Sing	16	obl	_	_
-22	where	where	ADV	WH-REL	PronType=Int	24	advmod	_	_
+22	where	where	ADV	WH-REL	PronType=Rel	24	advmod	_	_
 23	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 24	sat	sit	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
 25	hiccoughing	hiccough	VERB	ING	Tense=Pres|VerbForm=Part	24	advcl	_	SpaceAfter=No
@@ -16968,7 +16968,7 @@
 8	those	that	PRON	DEM-PL	Number=Plur|PronType=Dem	7	obj	_	_
 9	of	of	ADP	_	_	10	case	_	_
 10	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
-11	Who	who	PRON	WH-REL	PronType=Int	15	nsubj:pass	_	_
+11	Who	who	PRON	WH-REL	PronType=Rel	15	nsubj:pass	_	_
 12	Must	must	AUX	PRES-AUX	VerbForm=Fin	15	aux:pass	_	_
 13	Not	not	PART	NEG	_	15	advmod	_	_
 14	Be	be	AUX	INF	Mood=Imp|VerbForm=Fin	15	aux:pass	_	_
@@ -17079,7 +17079,7 @@
 # sent_id = en_lines-ud-test-doc7-5058
 # text = Friends who don't even write to Harry Potter? said Dobby slyly.
 1	Friends	friend	NOUN	PL-NOM	Number=Plur	0	root	_	_
-2	who	who	PRON	WH-REL	PronType=Int	6	nsubj	_	_
+2	who	who	PRON	WH-REL	PronType=Rel	6	nsubj	_	_
 3	do	do	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 4	n't	not	PART	NEG	_	6	advmod	_	_
 5	even	even	ADV	_	_	6	advmod	_	_
@@ -17413,7 +17413,7 @@
 # text = Fred, who had finished his own list, peered over at Harry's.
 1	Fred	Fred	PROPN	SG-NOM	Number=Sing	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	5	punct	_	_
-3	who	who	PRON	WH-REL	PronType=Int	5	nsubj	_	_
+3	who	who	PRON	WH-REL	PronType=Rel	5	nsubj	_	_
 4	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	finished	finish	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
 6	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
@@ -17869,7 +17869,7 @@
 6	Quidditch	quidditch	NOUN	SG-NOM	Number=Sing	7	compound	_	_
 7	balls	ball	NOUN	PL-NOM	Number=Plur	4	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	13	punct	_	_
-9	which	which	PRON	WH-REL	PronType=Int	13	nsubj	_	_
+9	which	which	PRON	WH-REL	PronType=Rel	13	nsubj	_	_
 10	would	would	AUX	PAST-AUX	VerbForm=Fin	13	aux	_	_
 11	have	have	AUX	INF-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
 12	been	be	AUX	PERF	Tense=Past|VerbForm=Part	13	cop	_	_
@@ -17911,7 +17911,7 @@
 9	Two	two	NUM	ID	NumType=Card	10	nummod	_	_
 10	Thousand	thousand	NUM	ID	NumType=Card	8	nummod	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	17	punct	_	_
-12	which	which	PRON	WH-REL	PronType=Int	17	nsubj	_	_
+12	which	which	PRON	WH-REL	PronType=Rel	17	nsubj	_	_
 13	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	cop	_	_
 14	easily	easily	ADV	_	_	17	advmod	_	_
 15	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
@@ -18355,7 +18355,7 @@
 13	than	than	ADP	_	_	14	case	_	_
 14	Fred	Fred	PROPN	SG-NOM	Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	17	punct	_	_
-16	who	who	PRON	WH-REL	PronType=Int	17	nsubj	_	_
+16	who	who	PRON	WH-REL	PronType=Rel	17	nsubj	_	_
 17	stepped	step	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
 18	right	right	ADV	_	_	20	advmod	_	_
 19	into	into	ADP	_	_	20	case	_	_
@@ -18750,7 +18750,7 @@
 22	,	,	PUNCT	Comma	_	21	punct	_	_
 23	until	until	ADP	_	_	24	mark	_	_
 24	you	you	PRON	PERS-P2	_	21	obl	_	_
-25	who	who	PRON	WH-REL	PronType=Int	26	nsubj	_	_
+25	who	who	PRON	WH-REL	PronType=Rel	26	nsubj	_	_
 26	leap	leap	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
 27	and	and	CCONJ	_	_	28	cc	_	_
 28	do	do	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux	_	_
@@ -18789,7 +18789,7 @@
 6	a	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
 7	humble	humble	ADJ	POS	Degree=Pos	8	amod	_	_
 8	family	family	NOUN	SG-NOM	Number=Sing	4	nmod	_	_
-9	who	who	PRON	WH-REL	PronType=Int	10	nsubj	_	_
+9	who	who	PRON	WH-REL	PronType=Rel	10	nsubj	_	_
 10	became	become	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
 11	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
 12	name	name	NOUN	SG-NOM	Number=Sing	10	obj	_	SpaceAfter=No
@@ -18835,7 +18835,7 @@
 1	My	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	son	son	NOUN	SG-NOM	Number=Sing	3	nmod	_	_
 3	David	David	PROPN	SG-NOM	Number=Sing	0	root	_	_
-4	whose	who	PRON	WH-REL-GEN	Poss=Yes|PronType=Int	5	nmod:poss	_	_
+4	whose	who	PRON	WH-REL-GEN	Poss=Yes|PronType=Rel	5	nmod:poss	_	_
 5	eyes	eye	NOUN	PL-NOM	Number=Plur	6	nsubj	_	_
 6	have	have	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
@@ -19306,7 +19306,7 @@
 2	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	wanted	want	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	order	order	NOUN	SG-NOM	Number=Sing	3	obj	_	_
-5	where	where	ADV	WH-REL	PronType=Int	7	advmod	_	_
+5	where	where	ADV	WH-REL	PronType=Rel	7	advmod	_	_
 6	there	there	PRON	EX	_	7	expl	_	_
 7	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl	_	_
 8	none	none	PRON	NEG-SG-NOM	Case=Nom	7	nsubj	_	SpaceAfter=No
@@ -19867,7 +19867,7 @@
 20	a	a	DET	IND-SG	Definite=Ind|PronType=Art	22	det	_	_
 21	bright	bright	ADJ	POS	Degree=Pos	22	amod	_	_
 22	boy	boy	NOUN	SG-NOM	Number=Sing	15	obl	_	_
-23	who	who	PRON	WH-REL	PronType=Int	24	nsubj	_	_
+23	who	who	PRON	WH-REL	PronType=Rel	24	nsubj	_	_
 24	had	have	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
 25	a	a	DET	IND-SG	Definite=Ind|PronType=Art	26	det	_	_
 26	way	way	NOUN	SG-NOM	Number=Sing	24	obj	_	_
