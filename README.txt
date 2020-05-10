@@ -163,7 +163,10 @@ From UD version 1.3 to UD version 2.0
     the rest to the train corpus.
   * correcting dependencies for punctuation marks to guarantee validation, 
   * correcting other erroneous annotation, in particular related to the parataxis and ccomp relations
-
+  
+ From UD version 2.5 to version 2.6
+  * Only minor error corrections, specifically related to PronType
+  
 --- Machine readable metadata ---
 
 Documentation status: partial
