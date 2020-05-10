@@ -37,7 +37,7 @@
   <feats unique="40">
     <feat name="Case" value="Acc" upos="PRON">1244</feat><!-- him, her, me, them, himself, us, myself, themselves, itself, herself -->
     <feat name="Case" value="Gen" upos="PRON">1</feat><!-- her -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">4982</feat><!-- he, I, they, we, she, when, all, Access, other, n't -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">4980</feat><!-- he, I, they, we, she, when, all, Access, other, n't -->
     <feat name="Definite" value="Def" upos="DET,PRON">5263</feat><!-- the, her -->
     <feat name="Definite" value="Ind" upos="DET,NOUN,PRON">2589</feat><!-- a, an, Tha, nothing, question -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">195</feat><!-- more, longer, better, most, worse, easier, farther, higher, lower, older -->
@@ -58,14 +58,14 @@
     <feat name="Person" value="1" upos="AUX,PRON,VERB">3155</feat><!-- was, I, my, we, me, us, our, am, myself, ourselves -->
     <feat name="Person" value="2" upos="PRON">103</feat><!-- your, yourself, itself -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">4973</feat><!-- he, his, is, they, him, her, she, 's, them, has -->
-    <feat name="Poss" value="Yes" upos="PRON">1290</feat><!-- his, my, your, its, our, whose, her -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">1292</feat><!-- his, my, your, its, our, whose, her -->
     <feat name="PronType" value="Art" upos="DET">7850</feat><!-- the, a, an, Tha, what -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1069</feat><!-- this, that, then, there, these, here, those -->
     <feat name="PronType" value="Ind" upos="PRON">3</feat><!-- either, one, ones -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">810</feat><!-- what, who, which, how, where, why, whose, whatever, whom, when -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">487</feat><!-- what, how, why, who, where, which, whatever, when, whom, wherever -->
     <feat name="PronType" value="Neg" upos="DET,PRON">2</feat><!-- no, nothing -->
     <feat name="PronType" value="Prs" upos="PRON">5599</feat><!-- he, I, his, my, they, him, her, we, she, me -->
-    <feat name="PronType" value="Rel" upos="ADV,PRON,SCONJ">252</feat><!-- that, where -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON,SCONJ">577</feat><!-- that, who, which, where, what, whose, whom, why -->
     <feat name="PronType" value="Tot" upos="DET,PRON">2</feat><!-- both -->
     <feat name="Reflex" value="Yes" upos="PRON">200</feat><!-- himself, myself, themselves, itself, herself, yourself, ourselves -->
     <feat name="Tense" value="Past" upos="AUX,VERB">7111</feat><!-- was, had, were, said, been, did, made, came, seemed, got -->
@@ -98,7 +98,7 @@
     <dep name="dep">2</dep>
     <dep name="det">8807</dep>
     <dep name="discourse">211</dep>
-    <dep name="dislocated">127</dep>
+    <dep name="dislocated">128</dep>
     <dep name="expl">360</dep>
     <dep name="fixed">567</dep>
     <dep name="flat">516</dep>
@@ -109,7 +109,7 @@
     <dep name="nsubj">7962</dep>
     <dep name="nsubj:pass">674</dep>
     <dep name="nummod">417</dep>
-    <dep name="obj">4434</dep>
+    <dep name="obj">4433</dep>
     <dep name="obl">5089</dep>
     <dep name="orphan">6</dep>
     <dep name="parataxis">532</dep>
