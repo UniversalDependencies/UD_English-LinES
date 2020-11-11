@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_English-LinES:
-commit 048fc55719e5b0584e5105011155403edb970bff
-Merge: 377591e f41a593
+commit 5630164c41f1ab97ec79912c0df8edab2abfa013
+Merge: 60eb118 2e85589
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 94217 of 94217 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.09120126478277.
@@ -19,7 +19,7 @@ Features: 59451 out of 94217 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi: found 5161 bugs.
+Udapi: found 5113 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 94217 words.
 Genres: found 3 out of 17 known.
 validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.658043090527837) = 0.16872899757124
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.4522219981532) = 0.139145230200984
+(weight=0.307692307692308) * (score{udapi}=0.457316620142862) = 0.140712806197804
 (weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
-(TOTAL score=0.588323455280276) * (availability=1) * (validity=1) = 0.588323455280276
+(TOTAL score=0.589891031277095) * (availability=1) * (validity=1) = 0.589891031277095
 STARS = 3
-UD_English-LinES	0.588323455280276	3
+UD_English-LinES	0.589891031277095	3
