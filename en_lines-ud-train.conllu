@@ -66903,6 +66903,6 @@
 8	in	in	ADP	_	_	10	case	_	_
 9	our	we	PRON	PL-GEN	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 10	house	house	NOUN	SG-NOM	Number=Sing	7	nmod	_	_
-11	increased	increase	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	increased	increase	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	11	punct	_	_
 
