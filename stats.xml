@@ -34,16 +34,14 @@
     <tag name="X">48</tag><!-- xsl, xslt, sa, w3c, XSD, db, maris, stella, Aliquem, COM -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="40">
+  <feats unique="37">
     <feat name="Case" value="Acc" upos="PRON">1244</feat><!-- him, her, me, them, himself, us, myself, themselves, itself, herself -->
-    <feat name="Case" value="Gen" upos="PRON">1</feat><!-- her -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">4980</feat><!-- he, I, they, we, she, when, all, Access, other, n't -->
     <feat name="Definite" value="Def" upos="DET,PRON">5263</feat><!-- the, her -->
     <feat name="Definite" value="Ind" upos="DET,NOUN,PRON">2589</feat><!-- a, an, Tha, nothing, question -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">195</feat><!-- more, longer, better, most, worse, easier, farther, higher, lower, older -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,INTJ,VERB">5511</feat><!-- other, white, long, old, new, good, same, little, own, first -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV,PRON">86</feat><!-- best, least, biggest, greatest, worst, largest, nearest, closest, commonest, deepest -->
-    <feat name="Gender" value="Com" upos="NOUN,PRON">2</feat><!-- her, question -->
     <feat name="Gender" value="Fem" upos="PRON">566</feat><!-- her, she, herself, hers, itself -->
     <feat name="Gender" value="Masc" upos="PRON">2313</feat><!-- he, his, him, himself -->
     <feat name="Gender" value="Neut" upos="PRON">105</feat><!-- its, itself, nothing -->
@@ -73,7 +71,6 @@
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">9595</feat><!-- was, had, is, were, are, said, can, would, have, 's -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">2868</feat><!-- be, see, do, know, make, have, get, go, say, take -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">3493</feat><!-- been, going, being, using, done, made, looking, trying, come, moving -->
-    <feat name="Voice" value="Act" upos="VERB">4</feat><!-- Asked, changes, did, increased -->
     <feat name="Voice" value="Pass" upos="VERB">1196</feat><!-- made, used, displayed, done, based, given, taken, created, put, hidden -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
