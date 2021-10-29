@@ -167,6 +167,10 @@ From UD version 1.3 to UD version 2.0
  From UD version 2.5 to version 2.6
   * Only minor error corrections, specifically related to PronType
   
+ For version 2.9: 
+  * Negative adverbs consistently given UPOS PART and 
+  * consistent annotation of 'with' as 'mark' when introducing a subordinate clause such as 'with the rush hour at full force'
+  
 --- Machine readable metadata ---
 
 Documentation status: partial
