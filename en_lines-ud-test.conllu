@@ -15585,7 +15585,7 @@
 8	in	in	ADP	_	_	9	case	_	_
 9	London	London	PROPN	SG-NOM	Number=Sing	7	nmod	_	_
 10	now	now	ADV	_	_	5	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	Comma	_	15	punct	_	_
+11	,	,	PUNCT	Comma	_	19	punct	_	_
 12	with	with	ADP	_	_	19	mark	_	_
 13	perhaps	perhaps	ADV	_	_	15	advmod	_	_
 14	a	a	DET	IND-SG	Definite=Ind|PronType=Art	15	det	_	_
@@ -16018,8 +16018,8 @@
 22	the	the	DET	DEF	Definite=Def|PronType=Art	24	det	_	_
 23	home-made	home-made	ADJ	POS	Degree=Pos	24	amod	_	_
 24	spit	spit	NOUN	SG-NOM	Number=Sing	18	obl	_	SpaceAfter=No
-25	:	:	PUNCT	Colon	_	28	punct	_	SpaceAfter=No
-26	...	...	PUNCT	Dots	_	28	punct	_	_
+25	:	:	PUNCT	Colon	_	27	punct	_	SpaceAfter=No
+26	...	...	PUNCT	Dots	_	27	punct	_	_
 27	damn	damn	VERB	_	_	12	parataxis	_	_
 28	all	all	PRON	TOT-SG	Case=Nom	27	obj	_	_
 29	except	except	SCONJ	_	_	30	mark	_	_
