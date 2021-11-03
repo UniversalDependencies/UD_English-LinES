@@ -3187,12 +3187,12 @@
 12	,	,	PUNCT	Comma	_	13	punct	_	_
 13	leaving	leave	VERB	ING	Tense=Pres|VerbForm=Part	10	advcl	_	_
 14	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	13	obj	_	_
-15	with	with	ADP	_	_	17	case	_	_
+15	with	with	SCONJ	_	_	14	mark	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
-17	pen	pen	NOUN	SG-NOM	Number=Sing	13	obl	_	_
+17	pen	pen	NOUN	SG-NOM	Number=Sing	13	nsubj	_	_
 18	in	in	ADP	_	_	20	case	_	_
 19	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
-20	hand	hand	NOUN	SG-NOM	Number=Sing	17	nmod	_	SpaceAfter=No
+20	hand	hand	NOUN	SG-NOM	Number=Sing	14	acl	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc2-3313
@@ -8995,11 +8995,11 @@
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
 13	gaberdine	gaberdine	NOUN	SG-NOM	Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	17	punct	_	_
-15	with	with	ADP	_	_	17	case	_	_
+15	with	with	ADP	_	_	17	mark	_	_
 16	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
-17	feet	foot	NOUN	PL-NOM	Number=Plur	6	nmod	_	_
+17	feet	foot	NOUN	PL-NOM	Number=Plur	19	nsubj	_	_
 18	in	in	ADP	_	_	19	case	_	_
-19	slippers	slipper	NOUN	PL-NOM	Number=Plur	17	nmod	_	SpaceAfter=No
+19	slippers	slipper	NOUN	PL-NOM	Number=Plur	6	advcl	_	SpaceAfter=No
 20	,	,	PUNCT	Comma	_	23	punct	_	_
 21	and	and	CCONJ	_	_	23	cc	_	_
 22	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
@@ -9330,7 +9330,7 @@
 7	,	,	PUNCT	Comma	_	12	punct	_	_
 8	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 9	would	would	AUX	PAST-AUX	VerbForm=Fin	12	aux	_	SpaceAfter=No
-10	n't	not	ADV	_	Case=Nom	12	advmod	_	_
+10	n't	not	PART	NEG	_	12	advmod	_	_
 11	be	be	AUX	INF-AUX	VerbForm=Inf	12	aux	_	_
 12	talking	talk	VERB	ING	Tense=Pres|VerbForm=Part	5	dislocated	_	_
 13	like	like	ADP	_	_	14	case	_	_
@@ -9573,7 +9573,7 @@
 52	man	man	NOUN	SG-NOM	Number=Sing	40	conj	_	_
 53	you	you	PRON	PERS-P2	_	56	nsubj	_	_
 54	do	do	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	56	aux	_	SpaceAfter=No
-55	n't	not	ADV	_	Case=Nom	56	advmod	_	_
+55	n't	not	PART	NEG	_	56	advmod	_	_
 56	get	get	VERB	INF	VerbForm=Inf	52	acl:relcl	_	_
 57	hold	hold	NOUN	SG-NOM	Number=Sing	56	obj	_	_
 58	of	of	ADP	_	_	56	obl	_	_
@@ -9600,11 +9600,11 @@
 9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
 10	two-penny-halfpenny	two-penny-halfpenny	NOUN	SG-NOM	Number=Sing	11	compound	_	_
 11	river-steamboat	river-steamboat	NOUN	SG-NOM	Number=Sing	7	nmod	_	_
-12	with	with	ADP	_	_	15	case	_	_
+12	with	with	ADP	_	_	16	mark	_	_
 13	a	a	DET	IND-SG	Definite=Ind|PronType=Art	15	det	_	_
 14	penny	penny	NOUN	SG-NOM	Number=Sing	15	compound	_	_
-15	whistle	whistle	NOUN	SG-NOM	Number=Sing	11	nmod	_	_
-16	attached	attach	VERB	PAST	Tense=Past|VerbForm=Part	4	acl	_	SpaceAfter=No
+15	whistle	whistle	NOUN	SG-NOM	Number=Sing	16	nsubj	_	_
+16	attached	attach	VERB	PAST	Tense=Past|VerbForm=Part	11	acl	_	SpaceAfter=No
 17	!	!	PUNCT	ExclMark	_	4	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc4-3633
@@ -9923,12 +9923,12 @@
 5	at	at	ADP	_	_	7	case	_	_
 6	full	full	ADJ	POS	Degree=Pos	7	amod	_	_
 7	length	length	NOUN	SG-NOM	Number=Sing	4	obl	_	_
-8	with	with	ADP	_	_	10	case	_	_
+8	with	with	ADP	_	_	13	mark	_	_
 9	one	one	NUM	CARD-SG	NumType=Card	10	nummod	_	_
-10	shoulder	shoulder	NOUN	SG-NOM	Number=Sing	4	obl	_	_
+10	shoulder	shoulder	NOUN	SG-NOM	Number=Sing	13	nsubj	_	_
 11	against	against	ADP	_	_	13	case	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	13	det	_	_
-13	tree	tree	NOUN	SG-NOM	Number=Sing	10	nmod	_	SpaceAfter=No
+13	tree	tree	NOUN	SG-NOM	Number=Sing	4	advcl	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	19	punct	_	_
 15	and	and	CCONJ	_	_	19	cc	_	_
 16	slowly	slowly	ADV	_	_	19	advmod	_	_
@@ -10274,7 +10274,7 @@
 # text = I didn't want any more loitering in the shade, and I made haste towards the station.
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	did	do	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
-3	n't	not	ADV	_	Case=Nom	4	advmod	_	_
+3	n't	not	PART	NEG	_	4	advmod	_	_
 4	want	want	VERB	INF	VerbForm=Inf	0	root	_	_
 5	any	any	DET	IND	_	7	det	_	_
 6	more	much	ADJ	CMP	Degree=Cmp	7	amod	_	_
@@ -10470,7 +10470,7 @@
 # text = I wouldn't have mentioned the fellow to you at all, only it was from his lips that I first heard the name of the man who is so indissolubly connected with the memories of that time.
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	would	would	AUX	PAST-AUX	VerbForm=Fin	5	aux	_	SpaceAfter=No
-3	n't	not	ADV	_	Case=Nom	5	advmod	_	_
+3	n't	not	PART	NEG	_	5	advmod	_	_
 4	have	have	AUX	INF-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	mentioned	mention	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
@@ -13795,11 +13795,11 @@
 4	shrubs	shrub	NOUN	PL-NOM	Number=Plur	22	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	6	punct	_	_
 6	hibiscus	hibiscus	NOUN	SG-NOM	Number=Sing	4	conj	_	_
-7	with	with	ADP	_	_	10	case	_	_
+7	with	with	ADP	_	_	11	mark	_	_
 8	its	it	PRON	SG-GEN	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 9	big	big	ADJ	POS	Degree=Pos	10	amod	_	_
-10	flowers	flower	NOUN	PL-NOM	Number=Plur	6	nmod	_	_
-11	sluttish	sluttish	ADJ	POS	Degree=Pos	10	amod	_	_
+10	flowers	flower	NOUN	PL-NOM	Number=Plur	11	nsubj	_	_
+11	sluttish	sluttish	ADJ	POS	Degree=Pos	6	acl	_	_
 12	with	with	ADP	_	_	13	case	_	_
 13	pollen	pollen	NOUN	PL-NOM	Number=Plur	11	nmod	_	_
 14	and	and	CCONJ	_	_	15	cc	_	_
@@ -18569,10 +18569,10 @@
 6	Weasleys	Weasley	PROPN	PL-NOM	Number=Plur	7	nsubj	_	_
 7	slouched	slouch	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	outside	outside	ADV	_	_	7	advmod	_	_
-9	with	with	ADP	_	_	10	case	_	_
-10	Harry	Harry	PROPN	SG-NOM	Number=Sing	7	obl	_	_
+9	with	with	ADP	_	_	12	mark	_	_
+10	Harry	Harry	PROPN	SG-NOM	Number=Sing	12	nsubj	_	_
 11	behind	behind	ADP	_	_	12	case	_	_
-12	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+12	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc7-4033
@@ -18977,10 +18977,10 @@
 6	a	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
 7	kitchen	kitchen	NOUN	SG-NOM	Number=Sing	8	compound	_	_
 8	chair	chair	NOUN	SG-NOM	Number=Sing	4	obl	_	_
-9	with	with	ADP	_	_	11	case	_	_
+9	with	with	ADP	_	_	12	mark	_	_
 10	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
-11	glasses	glass	NOUN	PL-NOM	Number=Plur	4	obl	_	_
-12	off	off	ADV	_	_	9	advmod	_	_
+11	glasses	glass	NOUN	PL-NOM	Number=Plur	12	nsubj	_	_
+12	off	off	ADV	_	_	4	advcl	_	_
 13	and	and	CCONJ	_	_	16	cc	_	_
 14	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 15	eyes	eye	NOUN	PL-NOM	Number=Plur	16	nsubj	_	_
@@ -19167,14 +19167,14 @@
 5	carry	carry	VERB	INF	VerbForm=Inf	0	root	_	_
 6	on	on	ADV	_	_	5	compound:prt	_	_
 7	tinkering	tinker	VERB	ING	Tense=Pres|VerbForm=Part	5	xcomp	_	_
-8	with	with	ADP	_	_	12	case	_	_
+8	with	with	ADP	_	_	15	mark	_	_
 9	all	all	DET	TOT-SG	_	12	det	_	_
 10	that	that	DET	DEM-SG	Number=Sing|PronType=Dem	12	det	_	_
 11	Muggle	muggle	NOUN	SG-NOM	Number=Sing	12	compound	_	_
-12	rubbish	rubbish	NOUN	SG-NOM	Number=Sing	7	obl	_	_
+12	rubbish	rubbish	NOUN	SG-NOM	Number=Sing	15	nsubj	_	_
 13	in	in	ADP	_	_	15	case	_	_
 14	your	you	PRON	P2-GEN	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
-15	shed	shed	NOUN	SG-NOM	Case=Nom	12	nmod	_	SpaceAfter=No
+15	shed	shed	NOUN	SG-NOM	Case=Nom	7	advcl	_	SpaceAfter=No
 16	!	!	PUNCT	ExclMark	_	5	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc7-4063
@@ -20083,12 +20083,12 @@
 7	sat	sit	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
 8	many	many	ADJ	POS	Degree=Pos	9	amod	_	_
 9	hours	hour	NOUN	PL-NOM	Number=Plur	7	obl	_	_
-10	with	with	ADP	_	_	12	case	_	_
+10	with	with	ADP	_	_	15	mark	_	_
 11	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	_
-12	head	head	NOUN	SG-NOM	Number=Sing	7	obl	_	_
+12	head	head	NOUN	SG-NOM	Number=Sing	15	nsubj	_	_
 13	in	in	ADP	_	_	15	case	_	_
 14	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nmod:poss	_	_
-15	hands	hand	NOUN	PL-NOM	Number=Plur	12	nmod	_	SpaceAfter=No
+15	hands	hand	NOUN	PL-NOM	Number=Plur	7	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	18	punct	_	_
 17	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 18	thought	think	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	22	parataxis	_	_
@@ -21932,10 +21932,10 @@
 3	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 4	riding	ride	VERB	ING	Tense=Pres|VerbForm=Part	3	acl	_	_
 5	rapids	rapid	NOUN	PL-NOM	Number=Plur	4	obj	_	_
-6	with	with	ADP	_	_	8	case	_	_
+6	with	with	ADP	_	_	9	mark	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
-8	snow	snow	NOUN	SG-NOM	Number=Sing	4	obl	_	_
-9	mantling	mantle	VERB	ING	Tense=Pres|VerbForm=Part	8	acl	_	_
+8	snow	snow	NOUN	SG-NOM	Number=Sing	9	nsubj	_	_
+9	mantling	mantle	VERB	ING	Tense=Pres|VerbForm=Part	4	advcl	_	_
 10	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 11	shoulders	shoulder	NOUN	PL-NOM	Number=Plur	9	obj	_	SpaceAfter=No
 12	?	?	PUNCT	QuestionMark	_	3	punct	_	_
