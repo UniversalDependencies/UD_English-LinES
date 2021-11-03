@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_English-LinES:
-commit c4d9e11ac9841c0c32b159a22e84cd505c9ad4cb
-Merge: a348c7a 3ad59de
+commit 4252764e1ac8a0129918f76f5b237aafda83ca4b
+Merge: 2858e1b a810353
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 94217 of 94217 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.09120126478277.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 59451 out of 94217 total words have one or more features.
+Features: 59419 out of 94217 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL       5113
-Udapi: found 5113 bugs.
+               TOTAL       5114
+Udapi: found 5114 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 94217 words.
 Genres: found 3 out of 17 known.
 validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.658043090527837) = 0.16872899757124
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.457316620142862) = 0.140712806197804
+(weight=0.307692307692308) * (score{udapi}=0.457210482184744) = 0.140680148364537
 (weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
-(TOTAL score=0.589891031277095) * (availability=1) * (validity=1) = 0.589891031277095
+(TOTAL score=0.589858373443828) * (availability=1) * (validity=1) = 0.589858373443828
 STARS = 3
-UD_English-LinES	0.589891031277095	3
+UD_English-LinES	0.589858373443828	3
