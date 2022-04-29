@@ -250,9 +250,9 @@
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
 2	administrator	administrator	NOUN	SG-NOM	Number=Sing	9	nsubj	_	_
 3	of	of	ADP	_	_	6	case	_	_
-4	the	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
-5	SQL	SQL	PROPN	SG-NOM	Number=Sing	2	nmod	_	_
-6	Server	server	NOUN	SG-NOM	Number=Sing	5	flat	_	_
+4	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
+5	SQL	SQL	PROPN	SG-NOM	Number=Sing	6	compound	_	_
+6	Server	server	NOUN	SG-NOM	Number=Sing	2	nmod	_	_
 7	can	can	AUX	PRES-AUX	VerbForm=Fin	9	aux	_	_
 8	also	also	ADV	_	_	9	advmod	_	_
 9	add	add	VERB	INF	VerbForm=Inf	0	root	_	_
@@ -511,7 +511,7 @@
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
 17	data	data	NOUN	PL-NOM	Number=Sing	15	obj	_	_
 18	to	to	ADP	_	_	22	case	_	_
-19	and	and	CCONJ	_	_	22	cc	_	_
+19	and	and	CCONJ	_	_	20	cc	_	_
 20	from	from	ADP	_	_	18	conj	_	_
 21	other	other	ADJ	POS	Degree=Pos	22	amod	_	_
 22	formats	format	NOUN	PL-NOM	Number=Plur	15	obl	_	_
@@ -5082,7 +5082,7 @@
 26	of	of	ADP	_	_	28	case	_	_
 27	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
 28	conversation	conversation	NOUN	SG-NOM	Number=Sing	6	conj	_	_
-29	with	with	ADP	_	_	31	case	_	_
+29	with	with	ADP	_	_	30	case	_	_
 30	Virginia	Virginia	PROPN	SG-NOM	Number=Sing	28	nmod	_	_
 31	Stillman	Stillman	PROPN	SG-NOM	Number=Sing	30	flat	_	SpaceAfter=No
 32	,	,	PUNCT	Comma	_	35	punct	_	_
@@ -7022,9 +7022,9 @@
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
 2	position	position	NOUN	SG-NOM	Number=Sing	20	nsubj	_	_
 3	taken	take	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
-4	by	by	ADP	_	_	8	case	_	_
+4	by	by	ADP	_	_	7	case	_	_
 5	Foreign	foreign	ADJ	POS	Degree=Pos	6	amod	_	_
-6	Minister	minister	NOUN	SG-NOM	Number=Sing	8	compound	_	_
+6	Minister	minister	NOUN	SG-NOM	Number=Sing	7	nmod	_	_
 7	Maurice	Maurice	PROPN	SG-NOM	Number=Sing	3	obl	_	_
 8	Jobert	Jobert	PROPN	SG-NOM	Number=Sing	7	flat	_	_
 9	in	in	ADP	_	_	12	case	_	_
@@ -7105,7 +7105,7 @@
 13	handed	hand	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	_
 14	to	to	ADP	_	_	15	case	_	_
 15	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
-16	by	by	ADP	_	_	18	case	_	_
+16	by	by	ADP	_	_	17	case	_	_
 17	Manes	Mane	PROPN	PL-NOM	Number=Plur	13	obl	_	_
 18	Sperber	Sperber	PROPN	SG-NOM	Number=Sing	17	flat	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	21	punct	_	_
@@ -7342,7 +7342,7 @@
 2	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	go	go	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
 4	up	up	ADV	_	_	3	compound:prt	_	_
-5	into	into	ADP	_	_	8	case	_	_
+5	into	into	ADP	_	_	7	case	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 7	Via	Via	PROPN	SG-NOM	Case=Nom	3	obl	_	_
 8	Dolorosa	Dolorosa	PROPN	SG-NOM	Number=Sing	7	flat	_	SpaceAfter=No
@@ -8055,18 +8055,18 @@
 18	Sadat	Sadat	PROPN	SG-NOM	Number=Sing	16	obl	_	_
 19	in	in	ADP	_	_	20	case	_	_
 20	1953	1953	NUM	ID	_	16	obl	_	_
-21	to	to	ADP	_	_	23	case	_	_
+21	to	to	ADP	_	_	22	case	_	_
 22	Sydney	Sydney	PROPN	SG-NOM	Number=Sing	8	obl	_	_
 23	Gruson	Gruson	PROPN	SG-NOM	Number=Sing	22	flat	_	_
 24	of	of	ADP	_	_	26	case	_	_
 25	the	the	DET	DEF	Definite=Def|PronType=Art	26	det	_	_
 26	Times	Times	PROPN	SG-NOM	Number=Sing	23	nmod	_	_
-27	and	and	CCONJ	_	_	31	cc	_	_
-28	also	also	ADV	_	_	31	advmod	_	_
-29	to	to	ADP	_	_	31	case	_	_
+27	and	and	CCONJ	_	_	30	cc	_	_
+28	also	also	ADV	_	_	30	advmod	_	_
+29	to	to	ADP	_	_	30	case	_	_
 30	Katharine	Katharine	PROPN	SG-NOM	Number=Sing	23	conj	_	_
 31	Graham	Graham	PROPN	SG-NOM	Number=Sing	30	flat	_	_
-32	of	of	ADP	_	_	35	case	_	_
+32	of	of	ADP	_	_	34	case	_	_
 33	The	the	DET	DEF	Definite=Def|PronType=Art	34	det	_	_
 34	Washington	Washington	PROPN	SG-NOM	Number=Sing	31	nmod	_	_
 35	Post	Post	PROPN	SG-NOM	Case=Nom	34	flat	_	SpaceAfter=No
@@ -8212,7 +8212,7 @@
 2	dissident	dissident	NOUN	SG-NOM	Number=Sing	4	compound	_	_
 3	Russian	russian	ADJ	POS	Degree=Pos	4	amod	_	_
 4	writers	writer	NOUN	PL-NOM	Number=Plur	15	nmod	_	_
-5	like	like	ADP	_	_	7	case	_	_
+5	like	like	ADP	_	_	6	case	_	_
 6	Lev	Lev	PROPN	SG-NOM	Number=Sing	4	nmod	_	_
 7	Navrozov	Navrozov	PROPN	SG-NOM	Number=Sing	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	4	punct	_	_
@@ -14581,8 +14581,8 @@
 29	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 30	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	SpaceAfter=No
 31	...	...	PUNCT	Dots	_	35	punct	_	_
-32	back	back	ADV	_	_	36	advmod	_	_
-33	in	in	ADP	_	_	36	case	_	_
+32	back	back	ADV	_	_	35	advmod	_	_
+33	in	in	ADP	_	_	35	case	_	_
 34	the	the	DET	DEF	Definite=Def|PronType=Art	35	det	_	_
 35	Bashi	Bashi	PROPN	SG-NOM	Number=Sing	29	parataxis	_	_
 36	Flats	flat	NOUN	PL-NOM	Number=Plur	35	flat	_	_
@@ -15267,7 +15267,7 @@
 24	a	a	DET	IND-SG	Definite=Ind|PronType=Art	26	det	_	_
 25	personal	personal	ADJ	POS	Degree=Pos	26	amod	_	_
 26	friend	friend	NOUN	SG-NOM	Number=Sing	43	obl	_	_
-27	of	of	ADP	_	_	29	case	_	_
+27	of	of	ADP	_	_	28	case	_	_
 28	Redvers	Redvers	PROPN	SG-NOM	Number=Sing	26	nmod	_	_
 29	Ledley	Ledley	PROPN	SG-NOM	Number=Sing	28	flat	_	SpaceAfter=No
 30	,	,	PUNCT	Comma	_	34	punct	_	_
@@ -15844,8 +15844,8 @@
 4	dress	dress	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 5	made	make	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
 6	of	of	ADP	_	_	8	case	_	_
-7	Congo	Congo	PROPN	SG-NOM	Number=Sing	5	obl	_	_
-8	cloth	cloth	NOUN	SG-NOM	Number=Sing	7	flat	_	SpaceAfter=No
+7	Congo	Congo	PROPN	SG-NOM	Number=Sing	8	compound	_	_
+8	cloth	cloth	NOUN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
 9	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc6-3907
@@ -16010,7 +16010,7 @@
 17	of	of	ADP	_	_	19	case	_	_
 18	the	the	DET	DEF	Definite=Def|PronType=Art	19	det	_	_
 19	dancers	dancer	NOUN	PL-NOM	Number=Plur	16	nmod	_	_
-20	with	with	ADP	_	_	25	case	_	_
+20	with	with	ADP	_	_	22	case	_	_
 21	the	the	DET	DEF	Definite=Def|PronType=Art	22	det	_	_
 22	American	american	NOUN	SG-NOM	Case=Nom	12	obl	_	SpaceAfter=No
 23	,	,	PUNCT	Comma	_	24	punct	_	_
@@ -17192,7 +17192,7 @@
 1	Bray	Bray	PROPN	SG-NOM	Number=Sing	2	nsubj	_	_
 2	asked	ask	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	everywhere	everywhere	ADV	TOT-WH	_	2	advmod	_	_
-4	about	about	ADP	_	_	6	case	_	_
+4	about	about	ADP	_	_	5	case	_	_
 5	Edward	Edward	PROPN	SG-NOM	Number=Sing	2	obl	_	_
 6	Shinza	Shinza	PROPN	SG-NOM	Number=Sing	5	flat	_	SpaceAfter=No
 7	;	;	PUNCT	SemiColon	_	10	punct	_	_
@@ -18177,7 +18177,7 @@
 # text = Yet life at Privet Drive had reached an all-time low.
 1	Yet	yet	ADV	_	_	7	advmod	_	_
 2	life	life	NOUN	SG-NOM	Number=Sing	7	nsubj	_	_
-3	at	at	ADP	_	_	5	case	_	_
+3	at	at	ADP	_	_	4	case	_	_
 4	Privet	Privet	PROPN	SG-NOM	Number=Sing	2	nmod	_	_
 5	Drive	Drive	PROPN	SG-NOM	Case=Nom	4	flat	_	_
 6	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
@@ -19451,7 +19451,7 @@
 22	feature	feature	VERB	INF	VerbForm=Inf	20	xcomp	_	_
 23	The	the	DET	DEF	Definite=Def|PronType=Art	24	det	_	_
 24	Adventures	adventure	NOUN	PL-NOM	Number=Plur	22	obj	_	_
-25	of	of	ADP	_	_	27	case	_	_
+25	of	of	ADP	_	_	26	case	_	_
 26	Martin	Martin	PROPN	SG-NOM	Number=Sing	24	nmod	_	_
 27	Miggs	Migg	PROPN	PL-NOM	Number=Plur	26	flat	_	SpaceAfter=No
 28	,	,	PUNCT	Comma	_	31	punct	_	_
@@ -19611,7 +19611,7 @@
 9	possible	possible	ADJ	POS	Degree=Pos	6	amod	_	_
 10	from	from	ADP	_	_	11	case	_	_
 11	life	life	NOUN	SG-NOM	Number=Sing	7	nmod	_	_
-12	in	in	ADP	_	_	14	case	_	_
+12	in	in	ADP	_	_	13	case	_	_
 13	Privet	Privet	PROPN	SG-NOM	Number=Sing	11	nmod	_	_
 14	Drive	Drive	PROPN	SG-NOM	Case=Nom	13	flat	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	7	punct	_	_
