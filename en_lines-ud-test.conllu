@@ -1059,7 +1059,7 @@
 # sent_id = en_lines-ud-test-doc1-4268
 # text = When the Microsoft SQL Server 2000 Desktop Engine (formerly called the Microsoft Database Engine or MSDE) is installed on Microsoft Windows NT computers, it is installed with Windows NT Authentication implemented (this feature is also known as integrated security).
 1	When	when	SCONJ	_	Case=Nom	20	mark	_	_
-2	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
+2	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
 3	Microsoft	Microsoft	PROPN	SG-NOM	Number=Sing	8	compound	_	_
 4	SQL	SQL	PROPN	SG-NOM	Number=Sing	8	compound	_	_
 5	Server	server	NOUN	SG-NOM	Number=Sing	3	flat	_	_
@@ -1078,8 +1078,8 @@
 18	)	)	PUNCT	RightParenthesis	_	11	punct	_	_
 19	is	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
 20	installed	install	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	29	advcl	_	_
-21	on	on	ADP	_	_	23	case	_	_
-22	Microsoft	Microsoft	PROPN	SG-NOM	Number=Sing	20	compound	_	_
+21	on	on	ADP	_	_	25	case	_	_
+22	Microsoft	Microsoft	PROPN	SG-NOM	Number=Sing	25	compound	_	_
 23	Windows	Windows	PROPN	SG-NOM	Case=Nom	22	flat	_	_
 24	NT	NT	PROPN	SG-NOM	Case=Nom	22	flat	_	_
 25	computers	computer	NOUN	PL-NOM	Number=Plur	20	obl	_	SpaceAfter=No
@@ -3251,7 +3251,7 @@
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	made	make	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	it	it	PRON	PERS-SG	_	2	obj	_	_
-4	to	to	ADP	_	_	6	case	_	_
+4	to	to	ADP	_	_	5	case	_	_
 5	Grand	grand	ADJ	POS	Degree=Pos	2	obl	_	_
 6	Central	central	ADJ	POS	Degree=Pos	5	flat	_	_
 7	well	well	ADV	_	Degree=Pos	9	advmod	_	_
@@ -3747,7 +3747,7 @@
 11	inside	inside	ADP	_	_	13	case	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	13	det	_	_
 13	body	body	NOUN	SG-NOM	Number=Sing	18	advcl	_	_
-14	of	of	ADP	_	_	16	case	_	_
+14	of	of	ADP	_	_	15	case	_	_
 15	Paul	Paul	PROPN	SG-NOM	Number=Sing	13	nmod	_	_
 16	Auster	Auster	PROPN	SG-NOM	Number=Sing	15	flat	_	SpaceAfter=No
 17	,	,	PUNCT	Comma	_	13	punct	_	_
@@ -4366,7 +4366,7 @@
 24	current	current	ADJ	POS	Degree=Pos	25	amod	_	_
 25	piece	piece	NOUN	SG-NOM	Number=Sing	26	nsubj	_	_
 26	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	parataxis	_	_
-27	about	about	ADP	_	_	29	case	_	_
+27	about	about	ADP	_	_	28	case	_	_
 28	Don	Don	PROPN	SG-NOM	Number=Sing	26	obl	_	_
 29	Quixote	Quixote	PROPN	SG-NOM	Number=Sing	28	flat	_	SpaceAfter=No
 30	.	.	PUNCT	Period	_	26	punct	_	_
@@ -4479,7 +4479,7 @@
 11	book	book	NOUN	SG-NOM	Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	3	punct	_	_
 13	Who	who	PRON	WH-NOM	PronType=Int	14	nsubj	_	_
-14	wrote	wrote	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+14	wrote	write	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 15	it	it	PRON	PERS-SG	_	14	obj	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	21	punct	_	_
 17	and	and	CCONJ	_	_	21	cc	_	_
@@ -4512,7 +4512,7 @@
 11	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
 12	book	book	NOUN	SG-NOM	Number=Sing	9	nmod	_	_
 13	Cervantes	Cervantes	PROPN	SG-NOM	Number=Sing	14	nsubj	_	_
-14	wrote	wrote	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+14	wrote	write	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	17	punct	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
 17	one	one	PRON	IND-P3SG	_	12	appos	_	_
@@ -4572,7 +4572,7 @@
 8	written	write	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 9	in	in	ADP	_	_	10	case	_	_
 10	Arabic	Arabic	ADJ	POS	Case=Nom	8	obl	_	_
-11	by	by	ADP	_	_	14	case	_	_
+11	by	by	ADP	_	_	12	case	_	_
 12	Cid	Cid	PROPN	SG-NOM	Number=Sing	8	obl	_	_
 13	Hamete	Hamete	PROPN	SG-NOM	Number=Sing	12	flat	_	_
 14	Benengali	Benengali	PROPN	SG-NOM	Number=Sing	12	flat	_	SpaceAfter=No
@@ -5125,7 +5125,7 @@
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
 17	manuscript	manuscript	NOUN	SG-NOM	Number=Sing	15	obj	_	_
 18	over	over	ADV	_	_	15	compound:prt	_	_
-19	to	to	ADP	_	_	21	case	_	_
+19	to	to	ADP	_	_	20	case	_	_
 20	Samson	Samson	PROPN	SG-NOM	Number=Sing	15	obl	_	_
 21	Carrasco	Carrasco	PROPN	SG-NOM	Number=Sing	20	flat	_	SpaceAfter=No
 22	,	,	PUNCT	Comma	_	24	punct	_	_
@@ -5164,7 +5164,7 @@
 17	book	book	NOUN	SG-NOM	Number=Sing	19	compound	_	_
 18	The	the	DET	DEF	Definite=Def|PronType=Art	19	det	_	_
 19	Adventures	adventure	NOUN	PL-NOM	Number=Plur	15	obj	_	_
-20	of	of	ADP	_	_	22	case	_	_
+20	of	of	ADP	_	_	21	case	_	_
 21	Don	Don	PROPN	SG-NOM	Number=Sing	19	nmod	_	_
 22	Quixote	Quixote	PROPN	SG-NOM	Number=Sing	21	flat	_	SpaceAfter=No
 23	.	.	PUNCT	Period	_	2	punct	_	_
@@ -6000,7 +6000,7 @@
 # text = Alexanian said to Pablo Casals after a performance of some of the suites, You made three bad mistakes.
 1	Alexanian	Alexanian	PROPN	SG-NOM	Number=Sing	2	nsubj	_	_
 2	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	to	to	ADP	_	_	5	case	_	_
+3	to	to	ADP	_	_	4	case	_	_
 4	Pablo	Pablo	PROPN	SG-NOM	Number=Sing	2	obl	_	_
 5	Casals	Casals	PROPN	SG-NOM	Number=Sing	4	flat	_	_
 6	after	after	ADP	_	_	8	case	_	_
@@ -6898,7 +6898,7 @@
 18	,	,	PUNCT	Comma	_	3	punct	_	_
 19	"	&quot;	PUNCT	Quote	_	3	punct	_	SpaceAfter=No
 20	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
-21	wrote	wrote	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+21	wrote	write	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 22	in	in	ADP	_	_	23	case	_	_
 23	1972	1972	NUM	ID	NumType=Card	21	obl	_	SpaceAfter=No
 24	.	.	PUNCT	Period	_	21	punct	_	_
@@ -7202,7 +7202,7 @@
 24	zion	zion	PROPN	SG-NOM	Number=Sing	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	Comma	_	22	punct	_	_
 26	edited	edit	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
-27	by	by	ADP	_	_	30	case	_	_
+27	by	by	ADP	_	_	28	case	_	_
 28	Ehud	Ehud	PROPN	SG-NOM	Number=Sing	26	obl	_	_
 29	ben	ben	PROPN	SG-NOM	Number=Sing	28	flat	_	_
 30	Ezer	Ezer	PROPN	SG-NOM	Number=Sing	28	flat	_	SpaceAfter=No
@@ -7999,7 +7999,7 @@
 9	soul	soul	NOUN	SG-NOM	Number=Sing	4	appos	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	2	punct	_	_
 11	She	she	PRON	PERS-SG-NOM	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-12	wrote	wrote	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+12	wrote	write	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 13	:	:	PUNCT	Colon	_	18	punct	_	_
 14	'	'	PUNCT	Quote	_	18	punct	_	SpaceAfter=No
 15	It	it	PRON	PERS-SG	_	18	nsubj	_	_
@@ -9839,7 +9839,7 @@
 27	thickets	thicket	NOUN	PL-NOM	Number=Plur	16	conj	_	SpaceAfter=No
 28	,	,	PUNCT	Comma	_	33	punct	_	_
 29	down	down	ADP	_	_	33	case	_	_
-30	and	and	CCONJ	_	_	33	cc	_	_
+30	and	and	CCONJ	_	_	31	cc	_	_
 31	up	up	ADP	_	_	29	conj	_	_
 32	chilly	chilly	ADJ	POS	Degree=Pos	33	amod	_	_
 33	ravines	ravine	NOUN	PL-NOM	Number=Plur	16	obl	_	SpaceAfter=No
@@ -14314,11 +14314,11 @@
 14	in	in	ADP	_	_	16	case	_	_
 15	the	the	DET	DEF	Definite=Def|PronType=Art	16	det	_	_
 16	garden	garden	NOUN	SG-NOM	Case=Nom	13	nmod	_	_
-17	of	of	ADP	_	_	22	case	_	_
+17	of	of	ADP	_	_	20	case	_	_
 18	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 19	old	old	ADJ	POS	Degree=Pos	20	amod	_	_
-20	friend	friend	NOUN	SG-NOM	Number=Sing	22	nmod	_	_
-21	Roland	Roland	PROPN	SG-NOM	Number=Sing	16	nmod	_	_
+20	friend	friend	NOUN	SG-NOM	Number=Sing	16	nmod	_	_
+21	Roland	Roland	PROPN	SG-NOM	Number=Sing	20	appos	_	_
 22	Dando	Dando	PROPN	SG-NOM	Number=Sing	21	flat	_	_
 23	–	–	PUNCT	Dash	_	25	punct	_	_
 24	a	a	DET	IND-SG	Definite=Ind|PronType=Art	25	det	_	_
@@ -17084,7 +17084,7 @@
 4	n't	not	PART	NEG	_	6	advmod	_	_
 5	even	even	ADV	_	_	6	advmod	_	_
 6	write	write	VERB	INF	VerbForm=Inf	1	acl:relcl	_	_
-7	to	to	ADP	_	_	9	case	_	_
+7	to	to	ADP	_	_	8	case	_	_
 8	Harry	Harry	PROPN	SG-NOM	Number=Sing	6	obl	_	_
 9	Potter	Potter	PROPN	SG-NOM	Number=Sing	8	flat	_	SpaceAfter=No
 10	?	?	PUNCT	QuestionMark	_	1	punct	_	_
@@ -17340,7 +17340,7 @@
 6	,	,	PUNCT	Comma	_	7	punct	_	_
 7	Grade	grade	NOUN	SG-NOM	Number=Sing	3	nmod	_	_
 8	2	2	NUM	ID	NumType=Card	7	nummod	_	_
-9	by	by	ADP	_	_	11	case	_	_
+9	by	by	ADP	_	_	10	case	_	_
 10	Miranda	Miranda	PROPN	SG-NOM	Number=Sing	3	nmod	_	_
 11	Goshawk	Goshawk	PROPN	SG-NOM	Number=Sing	10	flat	_	_
 
@@ -17350,7 +17350,7 @@
 2	with	with	ADP	_	_	4	case	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	4	det	_	_
 4	Banshee	banshee	NOUN	SG-NOM	Number=Sing	1	obl	_	_
-5	by	by	ADP	_	_	7	case	_	_
+5	by	by	ADP	_	_	6	case	_	_
 6	Gilderoy	Gilderoy	PROPN	SG-NOM	Number=Sing	1	obl	_	_
 7	Lockhart	Lockhart	PROPN	SG-NOM	Number=Sing	6	flat	_	_
 
@@ -17359,7 +17359,7 @@
 1	Gadding	gad	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
 2	with	with	ADP	_	_	3	case	_	_
 3	Ghouls	ghoul	NOUN	PL-NOM	Number=Plur	1	obl	_	_
-4	by	by	ADP	_	_	6	case	_	_
+4	by	by	ADP	_	_	5	case	_	_
 5	Gilderoy	Gilderoy	PROPN	SG-NOM	Number=Sing	1	obl	_	_
 6	Lockhart	Lockhart	PROPN	SG-NOM	Number=Sing	5	flat	_	_
 
@@ -17368,7 +17368,7 @@
 1	Holidays	holiday	NOUN	PL-NOM	Number=Plur	0	root	_	_
 2	with	with	ADP	_	_	3	case	_	_
 3	Hags	hag	NOUN	PL-NOM	Number=Plur	1	nmod	_	_
-4	by	by	ADP	_	_	6	case	_	_
+4	by	by	ADP	_	_	5	case	_	_
 5	Gilderoy	Gilderoy	PROPN	SG-NOM	Number=Sing	1	nmod	_	_
 6	Lockhart	Lockhart	PROPN	SG-NOM	Number=Sing	5	flat	_	_
 
@@ -17377,7 +17377,7 @@
 1	Travels	travel	NOUN	PL-NOM	Case=Nom	0	root	_	_
 2	with	with	ADP	_	_	3	case	_	_
 3	Trolls	troll	NOUN	PL-NOM	Number=Plur	1	nmod	_	_
-4	by	by	ADP	_	_	6	case	_	_
+4	by	by	ADP	_	_	5	case	_	_
 5	Gilderoy	Gilderoy	PROPN	SG-NOM	Number=Sing	1	nmod	_	_
 6	Lockhart	Lockhart	PROPN	SG-NOM	Number=Sing	5	flat	_	_
 
@@ -17386,7 +17386,7 @@
 1	Voyages	voyage	NOUN	PL-NOM	Number=Plur	0	root	_	_
 2	with	with	ADP	_	_	3	case	_	_
 3	Vampires	vampire	NOUN	PL-NOM	Number=Plur	1	nmod	_	_
-4	by	by	ADP	_	_	6	case	_	_
+4	by	by	ADP	_	_	5	case	_	_
 5	Gilderoy	Gilderoy	PROPN	SG-NOM	Number=Sing	1	nmod	_	_
 6	Lockhart	Lockhart	PROPN	SG-NOM	Number=Sing	5	flat	_	_
 
@@ -17395,7 +17395,7 @@
 1	Wanderings	wandering	NOUN	PL-NOM	Number=Plur	0	root	_	_
 2	with	with	ADP	_	_	3	case	_	_
 3	Werewolves	werewolf	NOUN	PL-NOM	Number=Plur	1	nmod	_	_
-4	by	by	ADP	_	_	6	case	_	_
+4	by	by	ADP	_	_	5	case	_	_
 5	Gilderoy	Gilderoy	PROPN	SG-NOM	Number=Sing	1	nmod	_	_
 6	Lockhart	Lockhart	PROPN	SG-NOM	Number=Sing	5	flat	_	_
 
@@ -17405,7 +17405,7 @@
 2	with	with	ADP	_	_	4	case	_	_
 3	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
 4	Yeti	yeti	NOUN	SG-NOM	Number=Sing	1	nmod	_	_
-5	by	by	ADP	_	_	7	case	_	_
+5	by	by	ADP	_	_	6	case	_	_
 6	Gilderoy	Gilderoy	PROPN	SG-NOM	Number=Sing	1	nmod	_	_
 7	Lockhart	Lockhart	PROPN	SG-NOM	Number=Sing	6	flat	_	_
 
@@ -17603,7 +17603,7 @@
 # sent_id = en_lines-ud-test-doc7-5087
 # text = I wrote to her saying we were going to try and rescue you from the Dursleys.
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	wrote	wrote	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	wrote	write	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	to	to	ADP	_	_	4	case	_	_
 4	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
 5	saying	say	VERB	ING	Tense=Pres|VerbForm=Part	2	advcl	_	_
@@ -17774,7 +17774,7 @@
 3	n't	not	PART	NEG	_	5	advmod	_	_
 4	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	meet	meet	VERB	INF	VerbForm=Inf	0	root	_	_
-6	in	in	ADP	_	_	8	case	_	_
+6	in	in	ADP	_	_	7	case	_	_
 7	Diagon	Diagon	PROPN	SG-NOM	Number=Sing	5	obl	_	_
 8	Alley	Alley	PROPN	SG-NOM	Number=Sing	7	flat	_	SpaceAfter=No
 9	?	?	PUNCT	QuestionMark	_	5	punct	_	_
