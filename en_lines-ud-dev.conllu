@@ -71,7 +71,7 @@
 1	With	with	ADP	_	_	4	case	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
 3	default	default	NOUN	SG-NOM	Number=Sing	4	compound	_	_
-4	installation	installation	NOUN	SG-NOM	Number=Sing	22	nmod	_	_
+4	installation	installation	NOUN	SG-NOM	Number=Sing	22	obl	_	_
 5	of	of	ADP	_	_	12	case	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
 7	Microsoft	Microsoft	PROPN	SG-NOM	Number=Sing	12	compound	_	_
@@ -1406,7 +1406,7 @@
 26	use	use	VERB	INF	VerbForm=Inf	20	xcomp	_	_
 27	another	another	ADJ	ADJ-SG	_	28	amod	_	_
 28	language	language	NOUN	SG-NOM	Number=Sing	26	obj	_	_
-29	in	in	PART	_	Case=Nom	32	mark	_	_
+29	in	in	ADP	_	Case=Nom	32	mark	_	_
 30	order	order	NOUN	_	Number=Sing	29	fixed	_	_
 31	to	to	ADP	_	_	29	fixed	_	_
 32	write	write	VERB	INF	VerbForm=Inf	26	advcl	_	SpaceAfter=No
@@ -3757,7 +3757,7 @@
 3	weakly	weak	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	Period	_	2	punct	_	_
 5	No	no	DET	NEG	_	6	det	_	_
-6	problem	problem	NOUN	SG-NOM	Number=Sing	9	obj	_	SpaceAfter=No
+6	problem	problem	NOUN	SG-NOM	Number=Sing	9	ccomp	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	6	punct	_	_
 8	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
@@ -4639,14 +4639,14 @@
 6	thought	think	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	14	punct	_	_
 8	So	so	ADV	_	_	14	advmod	_	_
-9	this	this	PRON	DEM-SG	Number=Sing|PronType=Dem	14	nsubj	_	_
+9	this	this	PRON	DEM-SG	Number=Sing|PronType=Dem	14	nsubj:outer	_	_
 10	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 11	what	what	PRON	WH	PronType=Int	14	dislocated	_	_
 12	detective	detective	NOUN	SG-NOM	Number=Sing	13	compound	_	_
 13	work	work	NOUN	SG-NOM	Number=Sing	14	nsubj	_	_
-14	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	xcomp	_	_
+14	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
 15	like	like	ADP	_	_	11	case	_	SpaceAfter=No
-16	.	.	PUNCT	Period	_	6	punct	_	_
+16	.	.	PUNCT	Period	_	14	punct	_	_
 17	But	but	CCONJ	_	_	22	cc	_	_
 18	other	other	PRON	ADJ	Case=Nom	22	obl	_	_
 19	than	than	ADP	_	_	20	case	_	_
@@ -4878,11 +4878,11 @@
 # text = That might be, said Auster.
 1	That	that	PRON	DEM-SG	Number=Sing|PronType=Dem	3	nsubj	_	_
 2	might	might	AUX	PAST-AUX	VerbForm=Fin	3	aux	_	_
-3	be	be	VERB	INF	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	be	be	VERB	INF	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	5	punct	_	_
-5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	Auster	Auster	PROPN	SG-NOM	Number=Sing	5	nsubj	_	SpaceAfter=No
-7	.	.	PUNCT	Period	_	3	punct	_	_
+7	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc2-3387
 # text = But I'm not a detective.
@@ -4948,13 +4948,13 @@
 # sent_id = en_lines-ud-dev-doc2-3393
 # text = But that's what I happen to be.
 1	But	but	CCONJ	_	_	6	cc	_	_
-2	that	that	PRON	DEM-SG	Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
+2	that	that	PRON	DEM-SG	Number=Sing|PronType=Dem	6	nsubj:outer	_	SpaceAfter=No
 3	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	what	what	PRON	WH	PronType=Int	6	dislocated	_	_
 5	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	happen	happen	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	to	to	PART	_	_	8	mark	_	_
-8	be	be	VERB	INF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+7	to	to	PART	_	_	4	mark	_	_
+8	be	be	AUX	INF	VerbForm=Inf	4	cop	_	SpaceAfter=No
 9	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc2-3394
@@ -5297,10 +5297,10 @@
 5	Auster	Auster	PROPN	SG-NOM	Number=Sing	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	Period	_	2	punct	_	_
 7	You	you	PRON	PERS-P2	_	8	nsubj	_	_
-8	see	see	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+8	see	see	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	11	punct	_	_
 10	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+11	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc2-3409
@@ -5521,14 +5521,14 @@
 
 # sent_id = en_lines-ud-dev-doc2-3425
 # text = All right, said Quinn at last.
-1	All	all	ADV	_	_	0	root	_	_
+1	All	all	ADV	_	_	4	ccomp	_	_
 2	right	right	ADJ	_	Degree=Pos	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	4	punct	_	_
-4	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+4	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	4	nsubj	_	_
 6	at	at	ADV	_	_	4	advmod	_	_
 7	last	last	ADV	_	Case=Nom	6	fixed	_	SpaceAfter=No
-8	.	.	PUNCT	Period	_	1	punct	_	_
+8	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc2-3426
 # text = We'll see what happens.
@@ -5581,7 +5581,7 @@
 # sent_id = en_lines-ud-dev-doc2-3429
 # text = There's a much more important question than the check, he said.
 1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
-2	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	7	det	_	_
 4	much	much	ADV	POS	_	5	advmod	_	_
 5	more	very	ADV	CMP	_	6	advmod	_	_
@@ -5592,8 +5592,8 @@
 10	check	check	NOUN	SG-NOM	Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	13	punct	_	_
 12	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-13	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
-14	.	.	PUNCT	Period	_	2	punct	_	_
+13	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	Period	_	13	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc2-3430
 # text = The fact that my name has been mixed up in this.
@@ -5784,17 +5784,17 @@
 
 # sent_id = en_lines-ud-dev-doc2-3442
 # text = But the fact is, it's not a joke.
-1	But	but	CCONJ	_	_	7	cc	_	_
+1	But	but	CCONJ	_	_	10	cc	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
-3	fact	fact	NOUN	SG-NOM	Number=Sing	7	nsubj	_	_
-4	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	4	punct	_	_
-6	it	it	PRON	PERS-SG	_	7	nsubj	_	SpaceAfter=No
-7	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	not	not	PART	NEG	_	7	advmod	_	_
+3	fact	fact	NOUN	SG-NOM	Number=Sing	10	nsubj:outer	_	_
+4	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+5	,	,	PUNCT	Comma	_	10	punct	_	_
+6	it	it	PRON	PERS-SG	_	10	nsubj	_	SpaceAfter=No
+7	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	not	not	PART	NEG	_	10	advmod	_	_
 9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	10	det	_	_
-10	joke	joke	NOUN	SG-NOM	Number=Sing	7	xcomp	_	SpaceAfter=No
-11	.	.	PUNCT	Period	_	7	punct	_	_
+10	joke	joke	NOUN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc2-3443
 # text = It's a real case with real people.
@@ -7020,7 +7020,7 @@
 # sent_id = en_lines-ud-dev-doc3-3504
 # text = The position taken by Foreign Minister Maurice Jobert in the October War of 1973 was that the Palestinian Arabs had a natural and justified desire to "go home."
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
-2	position	position	NOUN	SG-NOM	Number=Sing	20	nsubj	_	_
+2	position	position	NOUN	SG-NOM	Number=Sing	20	nsubj:outer	_	_
 3	taken	take	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
 4	by	by	ADP	_	_	7	case	_	_
 5	Foreign	foreign	ADJ	POS	Degree=Pos	6	amod	_	_
@@ -7644,7 +7644,7 @@
 
 # sent_id = en_lines-ud-dev-doc3-3540
 # text = This is what I would say if I did answer her:
-1	This	this	PRON	DEM-SG	Number=Sing|PronType=Dem	6	nsubj	_	_
+1	This	this	PRON	DEM-SG	Number=Sing|PronType=Dem	6	nsubj:outer	_	_
 2	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	what	what	PRON	WH	PronType=Int	6	obj	_	_
 4	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -7943,7 +7943,7 @@
 3	do	do	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 4	n't	not	PART	NEG	_	6	advmod	_	_
 5	Americans	american	NOUN	PL-NOM	Case=Nom	6	nsubj	_	_
-6	know	know	VERB	INF	VerbForm=Inf	0	root	_	_
+6	know	know	VERB	INF	VerbForm=Inf	16	ccomp	_	_
 7	that	that	SCONJ	_	_	11	mark	_	_
 8	Sadat	Sadat	PROPN	SG-NOM	Number=Sing	11	nsubj	_	_
 9	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	cop	_	_
@@ -7953,8 +7953,8 @@
 13	"	&quot;	PUNCT	Quote	_	6	punct	_	_
 14	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
 15	librarian	librarian	NOUN	SG-NOM	Number=Sing	16	nsubj	_	_
-16	says	say	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
-17	.	.	PUNCT	Period	_	6	punct	_	_
+16	says	say	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	Period	_	16	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc3-3556
 # text = Well, yes, well-informed people do have this information in their files.
@@ -8015,7 +8015,7 @@
 38	probably	probably	ADV	_	_	39	advmod	_	_
 39	decided	decide	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
 40	that	that	SCONJ	_	_	44	mark	_	_
-41	it	it	PRON	PERS-SG	_	44	nsubj	_	_
+41	it	it	PRON	PERS-SG	_	44	expl	_	_
 42	would	would	AUX	PAST-AUX	VerbForm=Fin	44	aux	_	_
 43	be	be	AUX	INF	VerbForm=Inf	44	cop	_	_
 44	impolitic	impolitic	ADJ	POS	Degree=Pos	39	xcomp	_	_
@@ -8873,11 +8873,11 @@
 3	not	not	PART	NEG	_	6	advmod	_	_
 4	such	such	ADJ	ADJ	_	6	amod	_	_
 5	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	det	_	_
-6	fool	fool	NOUN	SG-NOM	Number=Sing	11	xcomp	_	_
+6	fool	fool	NOUN	SG-NOM	Number=Sing	11	ccomp	_	_
 7	as	as	SCONJ	_	_	9	mark	_	_
 8	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	look	look	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
-10	,	,	PUNCT	Comma	_	9	punct	_	_
+10	,	,	PUNCT	Comma	_	11	punct	_	_
 11	quoth	quoth	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	_
 12	Plato	Plato	PROPN	SG-NOM	Number=Sing	11	nsubj	_	_
 13	to	to	ADP	_	_	15	case	_	_
@@ -9014,12 +9014,12 @@
 # text = I always ask leave, in the interests of science, to measure the crania of those going out there, he said.
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	always	always	ADV	_	_	3	advmod	_	_
-3	ask	ask	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ask	ask	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
 4	leave	leave	NOUN	SG-NOM	Number=Sing	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	8	punct	_	_
 6	in	in	ADP	_	_	8	case	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
-8	interests	interest	NOUN	PL-NOM	Number=Plur	4	nmod	_	_
+8	interests	interest	NOUN	PL-NOM	Number=Plur	13	obl	_	_
 9	of	of	ADP	_	_	10	case	_	_
 10	science	science	NOUN	SG-NOM	Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	8	punct	_	_
@@ -9034,8 +9034,8 @@
 20	there	there	ADV	_	PronType=Dem	18	advmod	_	SpaceAfter=No
 21	,	,	PUNCT	Comma	_	23	punct	_	_
 22	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
-23	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
-24	.	.	PUNCT	Period	_	3	punct	_	_
+23	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	Period	_	23	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc4-3599
 # text = And when they come back, too? I asked.
@@ -9166,7 +9166,7 @@
 
 # sent_id = en_lines-ud-dev-doc4-3608
 # text = It would be, he said, without taking notice of my irritation, 'interesting for science to watch the mental changes of individuals, on the spot, but...
-1	It	it	PRON	PERS-SG	_	16	nsubj	_	_
+1	It	it	PRON	PERS-SG	_	16	expl	_	_
 2	would	would	AUX	PAST-AUX	VerbForm=Fin	16	aux	_	_
 3	be	be	AUX	INF-AUX	VerbForm=Inf	16	aux	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	3	punct	_	_
@@ -11676,18 +11676,18 @@
 
 # sent_id = en_lines-ud-dev-doc5-3722
 # text = But that is precisely why we first need a clear strategy.
-1	But	but	CCONJ	_	_	8	cc	_	_
-2	that	that	PRON	DEM-SG	Number=Sing|PronType=Dem	8	nsubj	_	_
-3	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-4	precisely	precisely	ADV	_	_	8	advmod	_	_
-5	why	why	ADV	WH	PronType=Int	8	mark	_	_
+1	But	but	CCONJ	_	_	2	cc	_	_
+2	that	that	PRON	DEM-SG	Number=Sing|PronType=Dem	0	root	_	_
+3	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	precisely	precisely	ADV	_	_	2	advmod	_	_
+5	why	why	ADV	WH	PronType=Int	8	advmod	_	_
 6	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 7	first	first	ADV	_	_	8	advmod	_	_
-8	need	need	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	need	need	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	2	csubj	_	_
 9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
 10	clear	clear	ADJ	POS	Degree=Pos	11	amod	_	_
 11	strategy	strategy	NOUN	SG-NOM	Number=Sing	8	obj	_	SpaceAfter=No
-12	.	.	PUNCT	Period	_	8	punct	_	_
+12	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc5-3723
 # text = At this stage, it still seems a little too soon to take a final position on this question.
@@ -12072,13 +12072,13 @@
 3	Union-wide	union-wide	ADJ	POS	Degree=Pos	5	amod	_	_
 4	harmonising	harmonise	ADJ	ING	Degree=Pos	5	amod	_	_
 5	directive	directive	NOUN	SG-NOM	Number=Sing	1	obj	_	_
-6	on	on	ADP	_	_	8	case	_	_
+6	on	on	ADP	_	_	10	case	_	_
 7	as	as	ADV	_	_	8	advmod	_	_
-8	complex	complex	ADJ	POS	Degree=Pos	1	amod	_	_
+8	complex	complex	ADJ	POS	Degree=Pos	10	amod	_	_
 9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	10	det	_	_
-10	matter	matter	NOUN	SG-NOM	Number=Sing	17	nsubj	_	_
+10	matter	matter	NOUN	SG-NOM	Number=Sing	1	obl	_	_
 11	as	as	ADP	_	_	12	case	_	_
-12	energy	energy	NOUN	SG-NOM	Number=Sing	10	nmod	_	_
+12	energy	energy	NOUN	SG-NOM	Number=Sing	8	nmod	_	_
 13	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 14	certainly	certainly	ADV	_	_	17	advmod	_	_
 15	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
@@ -13126,14 +13126,14 @@
 # text = What I criticise is the spirit underlying these amendments.
 1	What	what	PRON	WH	PronType=Int	3	obj	_	_
 2	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	criticise	criticise	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	4	csubj	_	_
-4	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	criticise	criticise	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	6	csubj	_	_
+4	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
-6	spirit	spirit	NOUN	SG-NOM	Number=Sing	4	nsubj	_	_
+6	spirit	spirit	NOUN	SG-NOM	Number=Sing	0	root	_	_
 7	underlying	underlie	VERB	ING	Tense=Pres|VerbForm=Part	6	acl	_	_
 8	these	this	DET	DEM-PL	Number=Plur|PronType=Dem	9	det	_	_
 9	amendments	amendment	NOUN	PL-NOM	Number=Plur	7	obj	_	SpaceAfter=No
-10	.	.	PUNCT	Period	_	4	punct	_	_
+10	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc5-3799
 # text = This is the last rule in our Rules of Procedure and it concerns the annexes.
@@ -13399,21 +13399,21 @@
 
 # sent_id = en_lines-ud-dev-doc5-3813
 # text = That is why we want to support research rather than make it more difficult.
-1	That	that	PRON	DEM-SG	Number=Sing|PronType=Dem	5	nsubj	_	_
-2	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	why	why	ADV	WH-REL	PronType=Rel	5	mark	_	_
+1	That	that	PRON	DEM-SG	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	why	why	ADV	WH-REL	PronType=Rel	0	root	_	_
 4	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-5	want	want	VERB	PRES	Case=Nom	0	root	_	_
+5	want	want	VERB	PRES	Case=Nom	3	acl:relcl	_	_
 6	to	to	PART	_	_	7	mark	_	_
 7	support	support	VERB	INF	VerbForm=Inf	5	xcomp	_	_
 8	research	research	NOUN	SG-NOM	Number=Sing	7	obj	_	_
-9	rather	rather	ADV	_	_	5	advmod	_	_
-10	than	than	SCONJ	_	_	11	mark	_	_
-11	make	make	VERB	INF	VerbForm=Inf	9	acl	_	_
+9	rather	rather	ADV	_	_	11	advmod	_	_
+10	than	than	CCONJ	_	_	11	cc	_	_
+11	make	make	VERB	INF	VerbForm=Inf	3	conj	_	_
 12	it	it	PRON	PERS-SG	_	11	obj	_	_
 13	more	very	ADV	_	_	14	advmod	_	_
 14	difficult	difficult	ADJ	POS	Degree=Pos	11	xcomp	_	SpaceAfter=No
-15	.	.	PUNCT	Period	_	5	punct	_	_
+15	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc5-3814
 # text = We believe that is a risk we should not necessarily take on.
@@ -13741,11 +13741,11 @@
 47	an	an	DET	IND-SG	Definite=Ind|PronType=Art	49	det	_	_
 48	old	old	ADJ	POS	Degree=Pos	49	amod	_	_
 49	fellow	fellow	NOUN	SG-NOM	Case=Nom	55	nsubj	_	_
-50	in	in	ADP	_	_	49	acl	_	_
+50	in	in	ADP	_	_	54	acl	_	_
 51	a	a	DET	IND-SG	Definite=Ind|PronType=Art	54	det	_	_
 52	cook	cook	NOUN	SG	Case=Nom	54	nmod:poss	_	SpaceAfter=No
 53	's	's	PART	GEN	_	52	case	_	_
-54	hat	hat	NOUN	SG-NOM	Number=Sing	55	nsubj	_	_
+54	hat	hat	NOUN	SG-NOM	Number=Sing	49	nmod	_	_
 55	put	put	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
 56	tea	tea	NOUN	SG-NOM	Number=Sing	55	obj	_	_
 57	under	under	ADP	_	_	59	case	_	_
@@ -15044,17 +15044,17 @@
 
 # sent_id = en_lines-ud-dev-doc6-3876
 # text = Yes, poor old Shinza, that's what everyone says.
-1	Yes	yes	INTJ	_	_	11	discourse	_	SpaceAfter=No
+1	Yes	yes	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	poor	poor	ADJ	POS	Degree=Pos	5	amod	_	_
 4	old	old	ADJ	POS	Degree=Pos	5	amod	_	_
-5	Shinza	Shinza	PROPN	SG-NOM	Number=Sing	11	discourse	_	SpaceAfter=No
+5	Shinza	Shinza	PROPN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	5	punct	_	_
-7	that	that	PRON	DEM-SG	Number=Sing|PronType=Dem	11	nsubj	_	SpaceAfter=No
-8	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	that	that	PRON	DEM-SG	Number=Sing|PronType=Dem	5	parataxis	_	SpaceAfter=No
+8	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 9	what	what	PRON	WH	PronType=Int	11	obj	_	_
 10	everyone	everyone	PRON	TOT-SG-NOM	Number=Sing	11	nsubj	_	_
-11	says	say	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	says	say	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	csubj	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc6-3877
@@ -15347,25 +15347,25 @@
 
 # sent_id = en_lines-ud-dev-doc6-3889
 # text = It's enough to make your hair stand on end, said Dando; and enjoyed the effect.
-1	It	it	PRON	PERS-SG	_	2	nsubj	_	SpaceAfter=No
-2	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	enough	enough	ADV	_	_	2	advmod	_	_
+1	It	it	PRON	PERS-SG	_	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	enough	enough	ADJ	_	_	12	ccomp	_	_
 4	to	to	PART	_	_	5	mark	_	_
-5	make	make	VERB	INF	VerbForm=Inf	3	acl	_	_
+5	make	make	VERB	INF	VerbForm=Inf	3	xcomp	_	_
 6	your	you	PRON	P2-GEN	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 7	hair	hair	NOUN	SG-NOM	Number=Sing	5	obj	_	_
 8	stand	stand	VERB	INF	VerbForm=Inf	5	xcomp	_	_
 9	on	on	ADP	_	_	10	case	_	_
 10	end	end	NOUN	SG-NOM	Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	12	punct	_	_
-12	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+12	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 13	Dando	Dando	PROPN	SG-NOM	Number=Sing	12	nsubj	_	SpaceAfter=No
-14	;	;	PUNCT	SemiColon	_	16	punct	_	_
+14	;	;	PUNCT	SemiColon	_	12	punct	_	_
 15	and	and	CCONJ	_	_	16	cc	_	_
 16	enjoyed	enjoy	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
 17	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
 18	effect	effect	NOUN	SG-NOM	Number=Sing	16	obj	_	SpaceAfter=No
-19	.	.	PUNCT	Period	_	2	punct	_	_
+19	.	.	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc6-3890
 # text = The People's Independence Party, at the time, had taken Harvey's remark as an insulting reference to Mweta's hair; he still had it all, and it certainly would be in evidence on Tuesday.
@@ -15726,7 +15726,7 @@
 25	man	man	NOUN	SG-NOM	Number=Sing	23	vocative	_	_
 26	–	–	PUNCT	Dash	_	25	punct	_	_
 27	the	the	DET	DEF	Definite=Def|PronType=Art	28	det	_	_
-28	arrangements	arrangement	NOUN	PL-NOM	Number=Plur	35	nsubj	_	_
+28	arrangements	arrangement	NOUN	PL-NOM	Number=Plur	35	nsubj:outer	_	_
 29	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	35	cop	_	_
 30	exactly	exactly	ADV	_	_	33	advmod	_	_
 31	what	what	PRON	WH-REL	PronType=Rel	33	dislocated	_	_
@@ -16944,7 +16944,7 @@
 # sent_id = en_lines-ud-dev-doc6-3958
 # text = The atmosphere at the parties was what he thought it must have been at gatherings described in nineteenth-century Russian novels.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
-2	atmosphere	atmosphere	NOUN	SG-NOM	Number=Sing	9	nsubj	_	_
+2	atmosphere	atmosphere	NOUN	SG-NOM	Number=Sing	9	nsubj:outer	_	_
 3	at	at	ADP	_	_	5	case	_	_
 4	the	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
 5	parties	party	NOUN	PL-NOM	Number=Plur	2	nmod	_	_
@@ -18244,7 +18244,7 @@
 # sent_id = en_lines-ud-dev-doc7-4017
 # text = The cat-flap rattled and Aunt Petunia's hand appeared, pushing a bowl of tinned soup into the room.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
-2	cat-flap	cat-flap	NOUN	SG-NOM	Number=Sing	9	nsubj	_	_
+2	cat-flap	cat-flap	NOUN	SG-NOM	Number=Sing	3	nsubj	_	_
 3	rattled	rattle	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	and	and	CCONJ	_	_	9	cc	_	_
 5	Aunt	aunt	NOUN	SG-NOM	Number=Sing	6	compound	_	_
@@ -18545,19 +18545,19 @@
 2	n't	not	PART	NEG	_	5	advmod	_	_
 3	be	be	AUX	INF	VerbForm=Inf	5	cop	_	_
 4	so	so	ADV	_	_	5	advmod	_	_
-5	ridiculous	ridiculous	ADJ	POS	Degree=Pos	0	root	_	SpaceAfter=No
+5	ridiculous	ridiculous	ADJ	POS	Degree=Pos	9	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	7	punct	_	_
 7	Fred	Fred	PROPN	SG-NOM	Number=Sing	5	vocative	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	7	punct	_	_
-9	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+9	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 10	Mrs	Mrs	NOUN	SG-NOM	Number=Sing	11	nmod	_	_
 11	Weasley	Weasley	PROPN	SG-NOM	Number=Sing	9	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	16	punct	_	_
 13	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
 14	cheeks	cheek	NOUN	PL-NOM	Number=Plur	16	nsubj	_	_
 15	rather	rather	ADV	_	_	16	advmod	_	_
-16	pink	pink	ADJ	POS	Degree=Pos	9	advmod	_	SpaceAfter=No
-17	.	.	PUNCT	Period	_	5	punct	_	_
+16	pink	pink	ADJ	POS	Degree=Pos	11	acl	_	SpaceAfter=No
+17	.	.	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc7-4032
 # text = Yawning and grumbling, the Weasleys slouched outside with Harry behind them.
@@ -18671,10 +18671,10 @@
 1	This	this	PRON	DEM-SG	Number=Sing|PronType=Dem	4	nsubj	_	_
 2	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	4	det	_	_
-4	gnome	gnome	NOUN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
+4	gnome	gnome	NOUN	SG-NOM	Number=Sing	7	ccomp	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	7	punct	_	_
 6	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	grimly	grimly	ADV	_	_	7	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	Period	_	7	punct	_	_
 
@@ -18945,13 +18945,13 @@
 
 # sent_id = en_lines-ud-dev-doc7-4048
 # text = He's back! said George.
-1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
-2	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	back	back	ADV	_	_	2	advmod	_	SpaceAfter=No
-4	!	!	PUNCT	ExclMark	_	2	punct	_	_
-5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	back	back	ADV	_	_	5	ccomp	_	SpaceAfter=No
+4	!	!	PUNCT	ExclMark	_	3	punct	_	_
+5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	George	George	PROPN	SG-NOM	Number=Sing	5	nsubj	_	SpaceAfter=No
-7	.	.	PUNCT	Period	_	2	punct	_	_
+7	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc7-4049
 # text = They hurried through the garden and back into the house.
@@ -19046,15 +19046,15 @@
 
 # sent_id = en_lines-ud-dev-doc7-4054
 # text = Find anything, Dad? said Fred eagerly.
-1	Find	find	VERB	IMP	Mood=Imp|VerbForm=Fin	0	root	_	_
+1	Find	find	VERB	INF	VerbForm=Inf	6	ccomp	_	_
 2	anything	anything	PRON	IND-SG-NOM	Number=Sing	1	obj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	4	punct	_	_
 4	Dad	dad	NOUN	SG-NOM	Number=Sing	1	vocative	_	SpaceAfter=No
 5	?	?	PUNCT	QuestionMark	_	1	punct	_	_
-6	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+6	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	Fred	Fred	PROPN	SG-NOM	Number=Sing	6	nsubj	_	_
 8	eagerly	eagerly	ADV	_	_	6	advmod	_	SpaceAfter=No
-9	.	.	PUNCT	Period	_	1	punct	_	_
+9	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc7-4055
 # text = Just Muggle-baiting, sighed Mr Weasley.
@@ -19764,18 +19764,18 @@
 25	Muggles	muggle	NOUN	PL-NOM	Number=Plur	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	Comma	_	27	punct	_	_
 27	asking	ask	VERB	ING	Tense=Pres|VerbForm=Part	18	advcl	_	_
-28	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+28	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
 29	to	to	PART	_	_	30	mark	_	_
-30	explain	explain	VERB	INF	VerbForm=Inf	27	ccomp	_	_
-31	how	how	ADV	WH	PronType=Int	34	advmod	_	_
+30	explain	explain	VERB	INF	VerbForm=Inf	27	xcomp	_	_
+31	how	how	ADV	WH	PronType=Int	39	advmod	_	_
 32	things	thing	NOUN	PL-NOM	Number=Plur	39	nsubj	_	_
-33	like	like	ADP	_	_	32	acl	_	_
-34	plugs	plug	NOUN	PL-NOM	Number=Plur	30	ccomp	_	_
-35	and	and	CCONJ	_	_	39	cc	_	_
+33	like	like	ADP	_	_	34	acl	_	_
+34	plugs	plug	NOUN	PL-NOM	Number=Plur	32	obl	_	_
+35	and	and	CCONJ	_	_	38	cc	_	_
 36	the	the	DET	DEF	Definite=Def|PronType=Art	38	det	_	_
 37	postal	postal	ADJ	POS	Degree=Pos	38	amod	_	_
-38	service	service	NOUN	SG-NOM	Number=Sing	39	nsubj	_	_
-39	worked	work	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	34	conj	_	SpaceAfter=No
+38	service	service	NOUN	SG-NOM	Number=Sing	34	conj	_	_
+39	worked	work	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	30	ccomp	_	SpaceAfter=No
 40	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc7-4086
@@ -20126,13 +20126,13 @@
 1	'	'	PUNCT	Quote	_	4	punct	_	SpaceAfter=No
 2	Oh	oh	INTJ	_	_	4	discourse	_	_
 3	not	not	PART	NEG	_	4	advmod	_	_
-4	yet	yet	ADV	_	_	0	root	_	SpaceAfter=No
+4	yet	yet	ADV	_	_	7	ccomp	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	4	punct	_	SpaceAfter=No
 6	'	'	PUNCT	Quote	_	4	punct	_	_
-7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	my	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	mother	mother	NOUN	SG-NOM	Number=Sing	7	nsubj	_	SpaceAfter=No
-10	.	.	PUNCT	Period	_	4	punct	_	SpacesAfter=\n\n
+10	.	.	PUNCT	Period	_	7	punct	_	SpacesAfter=\n\n
 
 # sent_id = en_lines-ud-dev-doc8-4104
 # text = Father said: 'There was nothing to tell.'
@@ -20168,14 +20168,14 @@
 2	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	should	should	AUX	PAST-AUX	VerbForm=Fin	5	aux	_	_
 4	have	have	AUX	INF-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	tidied	tidy	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	tidied	tidy	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	11	ccomp	_	_
 6	up	up	ADV	_	_	5	compound:prt	_	_
 7	first	first	ADV	_	_	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	5	punct	_	SpaceAfter=No
 9	'	'	PUNCT	Quote	_	5	punct	_	_
 10	she	she	PRON	PERS-SG-NOM	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-12	.	.	PUNCT	Period	_	5	punct	_	SpacesAfter=\n\n
+11	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	Period	_	11	punct	_	SpacesAfter=\n\n
 
 # sent_id = en_lines-ud-dev-doc8-4107
 # text = Alluvia: the deposits collected and jetted by the river.
@@ -21304,14 +21304,14 @@
 # text = 'I see why he likes you,' said Stella, examining my neck with her fingers.
 1	'	'	PUNCT	Quote	_	3	punct	_	SpaceAfter=No
 2	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	see	see	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	see	see	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 4	why	why	ADV	WH	PronType=Int	6	advmod	_	_
 5	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	likes	like	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 7	you	you	PRON	PERS-P2	_	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	3	punct	_	SpaceAfter=No
 9	'	'	PUNCT	Quote	_	3	punct	_	_
-10	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+10	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	Stella	Stella	PROPN	SG-NOM	Number=Sing	10	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	13	punct	_	_
 13	examining	examine	VERB	ING	Tense=Pres|VerbForm=Part	10	advcl	_	_
@@ -21320,7 +21320,7 @@
 16	with	with	ADP	_	_	18	case	_	_
 17	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	_
 18	fingers	finger	NOUN	PL-NOM	Number=Plur	13	obl	_	SpaceAfter=No
-19	.	.	PUNCT	Period	_	3	punct	_	SpacesAfter=\n\n
+19	.	.	PUNCT	Period	_	10	punct	_	SpacesAfter=\n\n
 
 # sent_id = en_lines-ud-dev-doc8-4156
 # text = What can a little girl see that astronomers and telescopes cannot?
@@ -21725,7 +21725,7 @@
 41	by	by	ADP	_	_	45	case	_	_
 42	someone	someone	PRON	IND-SG-NOM	Number=Sing	43	nmod	_	_
 43	else	else	PRON	IND-SG	Case=Nom	45	nmod:poss	_	SpaceAfter=No
-44	's	be	PART	GEN	_	43	case	_	_
+44	's	's	PART	GEN	_	43	case	_	_
 45	shape	shape	NOUN	SG-NOM	Number=Sing	40	obl	_	_
 46	over	over	ADP	_	_	47	case	_	_
 47	mine	I	PRON	P1SG-GEN-INDEP	_	45	nmod	_	SpaceAfter=No
