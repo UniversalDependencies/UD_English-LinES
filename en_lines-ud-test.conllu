@@ -2491,7 +2491,7 @@
 10	,	,	PUNCT	Comma	_	12	punct	_	_
 11	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
-13	.	.	PUNCT	Period	_	7	punct	_	_
+13	.	.	PUNCT	Period	_	12	punct	_	_
 14	Boom	boom	INTJ	_	_	7	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	16	punct	_	_
 16	boom	boom	NOUN	SG-NOM	Number=Sing	7	discourse	_	SpaceAfter=No
@@ -2650,29 +2650,29 @@
 2	Kingman	Kingman	PROPN	SG-NOM	Number=Sing	1	flat	_	_
 3	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	a	a	DET	IND-SG	Definite=Ind|PronType=Art	5	det	_	_
-5	turd	turd	NOUN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
+5	turd	turd	NOUN	SG-NOM	Number=Sing	7	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	7	punct	_	_
-7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	7	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
 10	biting	bite	VERB	ING	Tense=Pres|VerbForm=Part	7	advcl	_	_
 11	into	into	ADP	_	_	13	case	_	_
 12	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	hamburger	hamburger	NOUN	SG-NOM	Number=Sing	10	obl	_	SpaceAfter=No
-14	.	.	PUNCT	Period	_	5	punct	_	_
+14	.	.	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4351
 # text = But watch out for Foster, said the counterman.
 1	But	but	CCONJ	_	_	2	cc	_	_
-2	watch	watch	VERB	IMP	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	watch	watch	VERB	IMP	Mood=Imp|VerbForm=Fin	7	ccomp	_	_
 3	out	out	ADV	_	_	2	compound:prt	_	_
 4	for	for	ADP	_	_	5	case	_	_
 5	Foster	Foster	PROPN	SG-NOM	Case=Nom	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	7	punct	_	_
-7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 9	counterman	counterman	NOUN	SG-NOM	Number=Sing	7	nsubj	_	SpaceAfter=No
-10	.	.	PUNCT	Period	_	2	punct	_	_
+10	.	.	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4352
 # text = Foster's washed up. A has-been. A mean-faced bozo. Quinn chewed his food carefully, feeling with his tongue for stray bits of bone.
@@ -2721,12 +2721,12 @@
 
 # sent_id = en_lines-ud-test-doc2-4354
 # text = Yeah, said the counterman.
-1	Yeah	yeah	INTJ	_	_	0	root	_	SpaceAfter=No
+1	Yeah	yeah	INTJ	_	_	3	ccomp	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	3	punct	_	_
-3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	the	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
 5	counterman	counterman	NOUN	SG-NOM	Number=Sing	3	nsubj	_	SpaceAfter=No
-6	.	.	PUNCT	Period	_	1	punct	_	_
+6	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4355
 # text = But they'll be tough. Better than last year, anyway.
@@ -2749,15 +2749,15 @@
 1	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	do	do	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
 3	n't	not	PART	NEG	_	4	advmod	_	_
-4	know	know	VERB	INF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	know	know	VERB	INF	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	6	punct	_	_
-6	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+6	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	6	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	9	punct	_	_
 9	taking	take	VERB	ING	Tense=Pres|VerbForm=Part	6	advcl	_	_
 10	another	another	ADJ	ADJ-SG	_	11	amod	_	_
 11	bite	bite	NOUN	SG-NOM	Number=Sing	9	obj	_	SpaceAfter=No
-12	.	.	PUNCT	Period	_	4	punct	_	_
+12	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4357
 # text = It looks good on paper, but what do they really have?
@@ -2888,15 +2888,15 @@
 # text = Maybe I make you the manager, said the counterman.
 1	Maybe	maybe	ADV	_	_	3	advmod	_	_
 2	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	make	make	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	make	make	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 4	you	you	PRON	PERS-P2	_	3	obj	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
 6	manager	manage	NOUN	SG-NOM	Number=Sing	3	xcomp	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	8	punct	_	_
-8	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+8	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 9	the	the	DET	DEF	Definite=Def|PronType=Art	10	det	_	_
 10	counterman	counterman	NOUN	SG-NOM	Number=Sing	8	nsubj	_	SpaceAfter=No
-11	.	.	PUNCT	Period	_	3	punct	_	_
+11	.	.	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4365
 # text = You could tell those fuckers where to get off.
@@ -2914,14 +2914,14 @@
 # sent_id = en_lines-ud-test-doc2-4366
 # text = You bet your bottom dollar, said Quinn.
 1	You	you	PRON	PERS-P2	_	2	nsubj	_	_
-2	bet	bet	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bet	bet	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 3	your	you	PRON	P2-GEN	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 4	bottom	bottom	NOUN	SG-NOM	Number=Sing	5	compound	_	_
 5	dollar	dollar	NOUN	SG-NOM	Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	7	punct	_	_
-7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	7	nsubj	_	SpaceAfter=No
-9	.	.	PUNCT	Period	_	2	punct	_	_
+9	.	.	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4367
 # text = After he finished eating, Quinn wandered over to the stationery shelves.
@@ -3981,13 +3981,13 @@
 
 # sent_id = en_lines-ud-test-doc2-4413
 # text = It was as though Auster had read his thoughts, divining the thing he wanted most – to eat, to have an excuse to stay a while.
-1	It	it	PRON	PERS-SG	_	7	nsubj	_	_
-2	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+1	It	it	PRON	PERS-SG	_	7	expl	_	_
+2	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	cop	_	_
 3	as	as	SCONJ	_	_	7	mark	_	_
 4	though	though	SCONJ	_	_	3	fixed	_	_
 5	Auster	Auster	PROPN	SG-NOM	Number=Sing	7	nsubj	_	_
 6	had	have	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
-7	read	read	VERB	PERF	Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	read	read	VERB	PERF	Tense=Past|VerbForm=Part	0	root	_	_
 8	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	thoughts	thought	NOUN	PL-NOM	Number=Plur	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	11	punct	_	_
@@ -4017,11 +4017,11 @@
 2	really	really	ADV	_	_	5	advmod	_	_
 3	should	should	AUX	PAST-AUX	VerbForm=Fin	5	aux	_	_
 4	be	be	AUX	INF	VerbForm=Inf	5	aux	_	_
-5	going	go	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	going	go	VERB	ING	Tense=Pres|VerbForm=Part	8	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
 7	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-8	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-9	.	.	PUNCT	Period	_	5	punct	_	_
+8	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4415
 # text = But yes, thank you. A little food can't do any harm.
@@ -4373,15 +4373,15 @@
 
 # sent_id = en_lines-ud-test-doc2-4433
 # text = One of my favourite books, said Quinn.
-1	One	one	NUM	CARD-SG	NumType=Card	0	root	_	_
+1	One	one	NUM	CARD-SG	NumType=Card	7	ccomp	_	_
 2	of	of	ADP	_	_	5	case	_	_
 3	my	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 4	favourite	favourite	ADJ	POS	Degree=Pos	5	amod	_	_
 5	books	book	NOUN	PL-NOM	Number=Plur	1	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	7	punct	_	_
-7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	7	nsubj	_	SpaceAfter=No
-9	.	.	PUNCT	Period	_	1	punct	_	_
+9	.	.	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4434
 # text = Yes, mine too.
@@ -6782,12 +6782,12 @@
 # text = No explanations necessary," says Nota.
 1	No	no	DET	NEG	_	2	det	_	_
 2	explanations	explanation	NOUN	PL-NOM	Number=Plur	3	nsubj	_	_
-3	necessary	necessary	ADJ	POS	Degree=Pos	0	root	_	SpaceAfter=No
+3	necessary	necessary	ADJ	POS	Degree=Pos	6	ccomp	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	3	punct	_	SpaceAfter=No
 5	"	&quot;	PUNCT	Quote	_	6	punct	_	_
-6	says	say	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+6	says	say	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	Nota	Nota	PROPN	SG-NOM	Number=Sing	6	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	Period	_	3	punct	_	_
+8	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-test-doc3-4573
 # text = We are first cousins but he is Russian, I am an American, and in his Russian eyes an American is amiable, good-natured, attractive perhaps, but undeveloped, helpless: all that Dostoevski was to his fellow convict the murderer.
@@ -7485,15 +7485,15 @@
 2	You	you	PRON	PERS-P2	_	5	nsubj	_	_
 3	do	do	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	not	not	PART	NEG	_	5	advmod	_	_
-5	achieve	achieve	VERB	INF	VerbForm=Inf	0	root	_	_
+5	achieve	achieve	VERB	INF	VerbForm=Inf	12	ccomp	_	_
 6	peace	peace	NOUN	SG-NOM	Number=Sing	5	obj	_	_
 7	from	from	ADP	_	_	8	case	_	_
 8	history	history	NOUN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	5	punct	_	SpaceAfter=No
 10	"	"	PUNCT	Quote	_	5	punct	_	_
 11	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-12	says	say	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-13	.	.	PUNCT	Period	_	5	punct	_	_
+12	says	say	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = en_lines-ud-test-doc3-4597
 # text = The feeling of being swept along and of uncertainty as regards the future prevents you from seeing things in any perspective whatsoever.
@@ -9435,17 +9435,17 @@
 2	What	what	DET	WH	PronType=Int	5	det	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	5	det	_	_
 4	frightful	frightful	ADJ	POS	Degree=Pos	5	amod	_	_
-5	row	row	NOUN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
+5	row	row	NOUN	SG-NOM	Number=Sing	9	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	5	punct	_	SpaceAfter=No
 7	'	'	PUNCT	Quote	_	5	punct	_	_
 8	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-9	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-10	.	.	PUNCT	Period	_	5	punct	_	_
+9	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = en_lines-ud-test-doc4-4675
 # text = He crossed the room gently to look at the sick man, and returning, said to me, 'He does not hear.'
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	crossed	cross	VERB	PAST	Tense=Past|VerbForm=Part	0	root	_	_
+2	crossed	cross	VERB	PAST	Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
 4	room	room	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 5	gently	gently	ADV	_	_	2	advmod	_	_
@@ -9476,13 +9476,13 @@
 1	'	'	PUNCT	Quote	_	4	punct	_	SpaceAfter=No
 2	What	what	PRON	WH	PronType=Int	4	discourse	_	SpaceAfter=No
 3	!	!	PUNCT	ExclMark	_	2	punct	_	_
-4	Dead	dead	ADJ	POS	Degree=Pos	0	root	_	SpaceAfter=No
+4	Dead	dead	ADJ	POS	Degree=Pos	8	ccomp	_	SpaceAfter=No
 5	?	?	PUNCT	QuestionMark	_	4	punct	_	SpaceAfter=No
 6	'	'	PUNCT	Quote	_	4	punct	_	_
 7	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-8	asked	ask	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+8	asked	ask	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
-10	startled	startle	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+10	startled	startle	VERB	PASS	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = en_lines-ud-test-doc4-4677
@@ -10312,13 +10312,13 @@
 1	What	what	PRON	WH	PronType=Int	4	obj	_	_
 2	do	do	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	you	you	PRON	PERS-P2	_	4	nsubj	_	_
-4	think	think	VERB	INF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	think	think	VERB	INF	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
 5	?	?	PUNCT	QuestionMark	_	4	punct	_	_
 6	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	9	punct	_	_
 9	scornfully	scornfully	ADV	_	_	7	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	Period	_	4	punct	_	_
+10	.	.	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = en_lines-ud-test-doc4-4710
 # text = Then he got fever, and had to be carried in a hammock slung under a pole.
@@ -14027,14 +14027,14 @@
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	you	you	PRON	PERS-P2	_	5	nsubj	_	_
 4	must	must	AUX	PRES-AUX	VerbForm=Fin	5	aux	_	_
-5	make	make	VERB	INF	VerbForm=Inf	0	root	_	_
+5	make	make	VERB	INF	VerbForm=Inf	10	ccomp	_	_
 6	trip	trip	NOUN	SG-NOM	Number=Sing	5	obj	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 8	young	young	ADJ	POS	Degree=Pos	9	amod	_	_
 9	man	man	NOUN	SG-NOM	Number=Sing	10	nsubj	_	_
-10	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+10	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	proudly	proud	ADV	_	_	10	advmod	_	SpaceAfter=No
-12	.	.	PUNCT	Period	_	5	punct	_	_
+12	.	.	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = en_lines-ud-test-doc6-4904
 # text = I do it to Umsalongwe in ten hours.
@@ -14803,7 +14803,7 @@
 # sent_id = en_lines-ud-test-doc6-4935
 # text = The kind of laugh they've picked up from people like Uncle Willie said Neil.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
-2	kind	kind	NOUN	SG-NOM	Number=Sing	0	root	_	_
+2	kind	kind	NOUN	SG-NOM	Number=Sing	14	ccomp	_	_
 3	of	of	ADP	_	_	4	case	_	_
 4	laugh	laugh	NOUN	SG-NOM	Case=Nom	2	nmod	_	_
 5	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
@@ -14815,9 +14815,9 @@
 11	like	like	ADP	_	_	13	case	_	_
 12	Uncle	uncle	NOUN	SG-NOM	Number=Sing	13	nmod	_	_
 13	Willie	Willie	PROPN	SG-NOM	Number=Sing	10	nmod	_	_
-14	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+14	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 15	Neil	Neil	PROPN	SG-NOM	Number=Sing	14	nsubj	_	SpaceAfter=No
-16	.	.	PUNCT	Period	_	2	punct	_	_
+16	.	.	PUNCT	Period	_	14	punct	_	_
 
 # sent_id = en_lines-ud-test-doc6-4936
 # text = Still, the Cloughs pursued Bray through Vivien.
@@ -15746,11 +15746,11 @@
 19	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	cop	_	_
 20	child	child	NOUN	SG	Number=Sing	22	nmod:poss	_	SpaceAfter=No
 21	's	's	PART	GEN	_	20	case	_	_
-22	play	play	NOUN	SG-NOM	Number=Sing	12	parataxis	_	_
+22	play	play	NOUN	SG-NOM	Number=Sing	12	ccomp	_	_
 23	compared	compare	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
 24	with	with	ADP	_	_	25	case	_	_
 25	this	this	PRON	DEM-SG	Number=Sing|PronType=Dem	23	obl	_	SpaceAfter=No
-26	.	.	PUNCT	Period	_	22	punct	_	_
+26	.	.	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = en_lines-ud-test-doc6-4981
 # text = One has had to learn how to camp out...
@@ -15834,7 +15834,7 @@
 8	have	have	VERB	INF	VerbForm=Inf	6	xcomp	_	_
 9	it	it	PRON	PERS-SG	_	8	obj	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	16	punct	_	_
-11	it	it	PRON	PERS-SG	_	16	nsubj	_	SpaceAfter=No
+11	it	it	PRON	PERS-SG	_	16	expl	_	SpaceAfter=No
 12	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 13	someone	someone	PRON	IND-SG-NOM	Number=Sing	16	nmod:poss	_	_
 14	else	else	ADJ	_	Degree=Pos	13	amod	_	SpaceAfter=No
@@ -15879,7 +15879,7 @@
 2	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 3	never	never	ADV	NEG	_	5	advmod	_	_
 4	been	be	AUX	PERF	Tense=Past|VerbForm=Part	5	aux:pass	_	_
-5	sent	send	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	sent	send	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	16	ccomp	_	_
 6	anywhere	anywhere	ADV	IND-WH	_	5	advmod	_	_
 7	where	where	ADV	WH-REL	PronType=Rel	11	advmod	_	_
 8	there	there	PRON	EX	_	11	expl	_	_
@@ -15890,8 +15890,8 @@
 13	do	do	VERB	INF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	16	punct	_	_
 15	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-16	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-17	.	.	PUNCT	Period	_	5	punct	_	_
+16	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	Period	_	16	punct	_	_
 
 # sent_id = en_lines-ud-test-doc6-4989
 # text = Clough only goes in for the last year, after self-government's been granted and the date for independence's been given.
@@ -15949,15 +15949,15 @@
 # sent_id = en_lines-ud-test-doc6-4992
 # text = The impression was that he and his wife were slipping away quietly after the field of battle.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
-2	impression	impression	NOUN	SG-NOM	Number=Sing	10	nsubj	_	_
-3	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	impression	impression	NOUN	SG-NOM	Number=Sing	10	nsubj:outer	_	_
+3	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	cop	_	_
 4	that	that	SCONJ	_	_	10	mark	_	_
 5	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 6	and	and	CCONJ	_	_	8	cc	_	_
 7	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 8	wife	wife	NOUN	SG-NOM	Number=Sing	5	conj	_	_
 9	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
-10	slipping	slip	VERB	ING	Tense=Pres|VerbForm=Part	3	ccomp	_	_
+10	slipping	slip	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
 11	away	away	ADV	_	_	10	compound:prt	_	_
 12	quietly	quietly	ADV	_	_	10	advmod	_	_
 13	after	after	ADP	_	_	15	case	_	_
@@ -15965,7 +15965,7 @@
 15	field	field	NOUN	SG-NOM	Number=Sing	10	obl	_	_
 16	of	of	ADP	_	_	17	case	_	_
 17	battle	battle	NOUN	SG-NOM	Number=Sing	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	Period	_	3	punct	_	_
+18	.	.	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = en_lines-ud-test-doc6-4993
 # text = Since he arrived eighteen months ago there's been damn all for him to do except go fishing up at Rinsala.
@@ -16078,7 +16078,7 @@
 4	Felix	Felix	PROPN	SG-NOM	Number=Sing	7	advcl	_	_
 5	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 6	'd	will	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
-7	make	make	VERB	INF	VerbForm=Inf	0	root	_	_
+7	make	make	VERB	INF	VerbForm=Inf	20	ccomp	_	_
 8	you	you	PRON	PERS-P2	_	7	obj	_	_
 9	go	go	VERB	INF	VerbForm=Inf	7	xcomp	_	_
 10	back	back	ADV	_	_	9	advmod	_	_
@@ -16091,7 +16091,7 @@
 17	girl	girl	NOUN	SG-NOM	Number=Sing	7	vocative	_	SpaceAfter=No
 18	,	,	PUNCT	Comma	_	20	punct	_	_
 19	Neil	Neil	PROPN	SG-NOM	Number=Sing	20	nsubj	_	_
-20	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+20	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 21	,	,	PUNCT	Comma	_	34	punct	_	_
 22	and	and	CCONJ	_	_	34	cc	_	_
 23	the	the	DET	DEF	Definite=Def|PronType=Art	24	det	_	_
@@ -16131,7 +16131,7 @@
 57	at	at	ADP	_	_	58	case	_	_
 58	Cloughs	Cloughs	PROPN	PL	Number=Plur	53	obl	_	SpaceAfter=No
 59	'	's	PART	GEN	_	58	case	_	SpaceAfter=No
-60	!	!	PUNCT	ExclMark	_	7	punct	_	_
+60	!	!	PUNCT	ExclMark	_	51	punct	_	_
 
 # sent_id = en_lines-ud-test-doc6-4997
 # text = I showed off by making a point of speaking to the servant in Gala.
@@ -16308,12 +16308,12 @@
 2	ca	can	AUX	PRES-AUX	VerbForm=Fin	5	aux	_	SpaceAfter=No
 3	n't	not	PART	NEG	_	5	advmod	_	_
 4	have	have	AUX	INF-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	met	meet	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	met	meet	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	10	ccomp	_	_
 6	many	many	ADJ	POS	Degree=Pos	8	amod	_	_
 7	decent	decent	ADJ	POS	Degree=Pos	8	amod	_	_
 8	wizards	wizard	NOUN	PL-NOM	Number=Plur	5	obj	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
-10	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+10	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	Harry	Harry	PROPN	SG-NOM	Number=Sing	10	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	13	punct	_	_
 13	trying	try	VERB	ING	Tense=Pres|VerbForm=Part	10	advcl	_	_
@@ -16321,7 +16321,7 @@
 15	cheer	cheer	VERB	INF	VerbForm=Inf	13	xcomp	_	_
 16	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 17	up	up	ADV	_	_	15	compound:prt	_	SpaceAfter=No
-18	.	.	PUNCT	Period	_	5	punct	_	_
+18	.	.	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = en_lines-ud-test-doc7-5008
 # text = Dobby shook his head.
@@ -16555,11 +16555,11 @@
 
 # sent_id = en_lines-ud-test-doc7-5025
 # text = Voldemort? said Harry.
-1	Voldemort	Voldemort	PROPN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
+1	Voldemort	Voldemort	PROPN	SG-NOM	Number=Sing	3	ccomp	_	SpaceAfter=No
 2	?	?	PUNCT	QuestionMark	_	1	punct	_	_
-3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Harry	Harry	PROPN	SG-NOM	Number=Sing	3	nsubj	_	SpaceAfter=No
-5	.	.	PUNCT	Period	_	1	punct	_	_
+5	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-test-doc7-5026
 # text = He stopped again.
@@ -16779,14 +16779,14 @@
 # sent_id = en_lines-ud-test-doc7-5039
 # text = "Why?" said Harry in surprise.
 1	"	&quot;	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
-2	Why	why	ADV	WH	PronType=Int	0	root	_	SpaceAfter=No
+2	Why	why	ADV	WH	PronType=Int	5	ccomp	_	SpaceAfter=No
 3	?	?	PUNCT	QuestionMark	_	2	punct	_	SpaceAfter=No
 4	"	&quot;	PUNCT	Quote	_	2	punct	_	_
-5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	Harry	Harry	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
 7	in	in	ADP	_	_	8	case	_	_
 8	surprise	surprise	NOUN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
-9	.	.	PUNCT	Period	_	2	punct	_	_
+9	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-test-doc7-5040
 # text = Harry Potter must not put himself in peril.
@@ -16804,13 +16804,13 @@
 # text = What terrible things? said Harry at once.
 1	What	what	DET	WH	PronType=Int	3	det	_	_
 2	terrible	terrible	ADJ	POS	Degree=Pos	3	amod	_	_
-3	things	thing	NOUN	PL-NOM	Number=Plur	0	root	_	SpaceAfter=No
+3	things	thing	NOUN	PL-NOM	Number=Plur	5	ccomp	_	SpaceAfter=No
 4	?	?	PUNCT	QuestionMark	_	3	punct	_	_
-5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	Harry	Harry	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
 7	at	at	ADV	_	_	5	advmod	_	_
 8	once	once	ADV	_	NumType=Mult	7	fixed	_	SpaceAfter=No
-9	.	.	PUNCT	Period	_	3	punct	_	_
+9	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-test-doc7-5042
 # text = Dobby made a funny choking noise and then banged his head madly against the wall.
@@ -17035,9 +17035,9 @@
 8	–	–	PUNCT	Dash	_	7	punct	_	_
 9	you	you	PRON	PERS-P2	_	11	nsubj	_	_
 10	–	–	PUNCT	Dash	_	9	punct	_	_
-11	doing	do	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+11	doing	do	VERB	ING	Tense=Pres|VerbForm=Part	13	ccomp	_	SpaceAfter=No
 12	?	?	PUNCT	QuestionMark	_	11	punct	_	_
-13	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	11	parataxis	_	_
+13	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 14	Uncle	uncle	NOUN	SG-NOM	Number=Sing	15	nmod	_	_
 15	Vernon	Vernon	PROPN	SG-NOM	Number=Sing	13	nsubj	_	_
 16	through	through	ADP	_	_	18	case	_	_
@@ -17078,7 +17078,7 @@
 
 # sent_id = en_lines-ud-test-doc7-5058
 # text = Friends who don't even write to Harry Potter? said Dobby slyly.
-1	Friends	friend	NOUN	PL-NOM	Number=Plur	0	root	_	_
+1	Friends	friend	NOUN	PL-NOM	Number=Plur	11	ccomp	_	_
 2	who	who	PRON	WH-REL	PronType=Rel	6	nsubj	_	_
 3	do	do	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 4	n't	not	PART	NEG	_	6	advmod	_	_
@@ -17088,7 +17088,7 @@
 8	Harry	Harry	PROPN	SG-NOM	Number=Sing	6	obl	_	_
 9	Potter	Potter	PROPN	SG-NOM	Number=Sing	8	flat	_	SpaceAfter=No
 10	?	?	PUNCT	QuestionMark	_	1	punct	_	_
-11	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+11	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 12	Dobby	Dobby	PROPN	SG-NOM	Number=Sing	11	nsubj	_	_
 13	slyly	slyly	ADV	_	_	11	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	Period	_	11	punct	_	_
@@ -17104,16 +17104,16 @@
 # sent_id = en_lines-ud-test-doc7-5060
 # text = Dobby has them here, sir, said the elf.
 1	Dobby	Dobby	PROPN	SG-NOM	Number=Sing	2	nsubj	_	_
-2	has	have	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	has	have	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 3	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
 4	here	here	ADV	_	PronType=Dem	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	6	punct	_	_
 6	sir	Sir	NOUN	SG-NOM	Case=Nom	2	vocative	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	6	punct	_	_
-8	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+8	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 9	the	the	DET	DEF	Definite=Def|PronType=Art	10	det	_	_
 10	elf	elf	NOUN	SG-NOM	Number=Sing	8	nsubj	_	SpaceAfter=No
-11	.	.	PUNCT	Period	_	2	punct	_	_
+11	.	.	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = en_lines-ud-test-doc7-5061
 # text = Stepping nimbly out of Harry's reach, he pulled a thick wad of envelopes from the inside of the pillowcase he was wearing.
@@ -17476,16 +17476,16 @@
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	you	you	PRON	PERS-P2	_	5	nsubj	_	_
-5	starting	start	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
+5	starting	start	VERB	ING	Tense=Pres|VerbForm=Part	12	ccomp	_	_
 6	at	at	ADP	_	_	7	case	_	_
 7	Hogwarts	Hogwarts	PROPN	PL-NOM	Number=Plur	5	obl	_	_
 8	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	9	det	_	_
 9	year	year	NOUN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
 10	?	?	PUNCT	QuestionMark	_	5	punct	_	_
 11	Harry	Harry	PROPN	SG-NOM	Number=Sing	12	nsubj	_	_
-12	asked	ask	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+12	asked	ask	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 13	Ginny	Ginny	PROPN	SG-NOM	Number=Sing	12	obj	_	SpaceAfter=No
-14	.	.	PUNCT	Period	_	5	punct	_	_
+14	.	.	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = en_lines-ud-test-doc7-5083
 # text = She nodded, blushing to the roots of her flaming hair, and put her elbow in the butter dish.
@@ -17998,7 +17998,7 @@
 
 # sent_id = en_lines-ud-test-doc7-5103
 # text = Wish I knew what he was up to, said Fred, frowning.
-1	Wish	wish	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Wish	wish	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 2	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	knew	know	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	ccomp	_	_
 4	what	what	PRON	WH	PronType=Int	6	dislocated	_	_
@@ -18007,11 +18007,11 @@
 7	up	up	ADV	_	_	6	compound:prt	_	_
 8	to	to	ADP	_	_	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
-10	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+10	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	Fred	Fred	PROPN	SG-NOM	Number=Sing	10	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	13	punct	_	_
 13	frowning	frown	VERB	ING	Tense=Pres|VerbForm=Part	10	advcl	_	SpaceAfter=No
-14	.	.	PUNCT	Period	_	1	punct	_	_
+14	.	.	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = en_lines-ud-test-doc7-5104
 # text = If we're not careful, we'll have another Head Boy in the family.
@@ -18296,12 +18296,12 @@
 
 # sent_id = en_lines-ud-test-doc7-5119
 # text = Never? said Mr Weasley.
-1	Never	never	ADV	NEG	_	0	root	_	SpaceAfter=No
+1	Never	never	ADV	NEG	_	3	ccomp	_	SpaceAfter=No
 2	?	?	PUNCT	QuestionMark	_	1	punct	_	_
-3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Mr	mr	NOUN	SG-NOM	Number=Sing	5	nmod	_	_
 5	Weasley	Weasley	PROPN	SG-NOM	Number=Sing	3	nsubj	_	SpaceAfter=No
-6	.	.	PUNCT	Period	_	1	punct	_	_
+6	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-test-doc7-5120
 # text = How exactly –
@@ -18976,12 +18976,12 @@
 
 # sent_id = en_lines-ud-test-doc8-5151
 # text = It was what Jove had said a few months ago when he had been holding my wrist, too tightly, across a restaurant table.
-1	It	it	PRON	PERS-SG	_	6	nsubj	_	_
-2	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+1	It	it	PRON	PERS-SG	_	6	nsubj:outer	_	_
+2	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	cop	_	_
 3	what	what	PRON	WH	PronType=Int	6	obj	_	_
 4	Jove	Jove	PROPN	SG-NOM	Number=Sing	6	nsubj	_	_
 5	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
-6	said	say	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	said	say	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	a	a	DET	IND-SG	Definite=Ind|PronType=Art	9	det	_	_
 8	few	few	ADJ	IND-PL	Degree=Pos	7	fixed	_	_
 9	months	month	NOUN	PL-NOM	Number=Plur	6	obl	_	_
@@ -19001,7 +19001,7 @@
 23	a	a	DET	IND-SG	Definite=Ind|PronType=Art	25	det	_	_
 24	restaurant	restaurant	NOUN	SG-NOM	Number=Sing	25	compound	_	_
 25	table	table	NOUN	SG-NOM	Number=Sing	15	obl	_	SpaceAfter=No
-26	.	.	PUNCT	Period	_	2	punct	_	_
+26	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-test-doc8-5152
 # text = She was still holding my hand and what I did was outside of anything I had imagined I would do.
@@ -19569,12 +19569,12 @@
 # sent_id = en_lines-ud-test-doc8-5182
 # text = 'David,' she said.
 1	'	'	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
-2	David	David	PROPN	SG-NOM	Number=Sing	0	root	_	SpaceAfter=No
+2	David	David	PROPN	SG-NOM	Number=Sing	6	ccomp	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	2	punct	_	SpaceAfter=No
 4	'	'	PUNCT	Quote	_	2	punct	_	_
 5	she	she	PRON	PERS-SG-NOM	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-6	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
-7	.	.	PUNCT	Period	_	2	punct	_	_
+6	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-test-doc8-5183
 # text = She was wearing a black oilskin that had been her husband's.
@@ -20320,10 +20320,10 @@
 1	'	'	PUNCT	Quote	_	4	punct	_	SpaceAfter=No
 2	Is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	something	something	PRON	IND-SG-NOM	Number=Sing	4	nsubj	_	_
-4	wrong	wrong	ADJ	POS	Degree=Pos	0	root	_	SpaceAfter=No
+4	wrong	wrong	ADJ	POS	Degree=Pos	7	ccomp	_	SpaceAfter=No
 5	?	?	PUNCT	QuestionMark	_	4	punct	_	SpaceAfter=No
 6	'	'	PUNCT	Quote	_	4	punct	_	_
-7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+7	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	my	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	father	father	NOUN	SG-NOM	Number=Sing	7	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	7	punct	_	SpacesAfter=\n\n
