@@ -9182,7 +9182,7 @@
 # sent_id = en_lines-ud-train-doc2-432
 # text = He's been waiting for you since eight o'clock.
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
-2	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	's	have	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	been	be	AUX	PERF	Tense=Past|VerbForm=Part	4	aux	_	_
 4	waiting	wait	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
 5	for	for	ADP	_	_	6	case	_	_
@@ -9220,7 +9220,7 @@
 # sent_id = en_lines-ud-train-doc2-435
 # text = He's been frantic, the woman explained.
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
-2	's	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	's	have	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	been	be	AUX	PERF	Tense=Past|VerbForm=Part	4	cop	_	_
 4	frantic	frantic	ADJ	POS	Degree=Pos	8	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	4	punct	_	_
@@ -44069,7 +44069,7 @@
 # sent_id = en_lines-ud-train-doc6-2078
 # text = He's just been to Denmark or somewhere because his mother died.
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
-2	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	just	just	ADV	_	_	4	advmod	_	_
 4	been	be	AUX	PERF	Tense=Past|VerbForm=Part	0	root	_	_
 5	to	to	ADP	_	_	6	case	_	_
@@ -44167,7 +44167,7 @@
 # sent_id = en_lines-ud-train-doc6-2084
 # text = it's got the character of the miners' pub it was, but it's very handy for the new government offices, not too overawing, so you get quite a few Africans coming in.
 1	it	it	PRON	PERS-SG	_	3	nsubj	_	SpaceAfter=No
-2	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	got	get	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	the	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
 5	character	character	NOUN	SG-NOM	Number=Sing	3	obj	_	_
@@ -44307,7 +44307,7 @@
 2	tell	tell	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 4	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
-5	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	got	get	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
 8	contract	contract	NOUN	SG-NOM	Number=Sing	6	obj	_	_
@@ -45151,7 +45151,7 @@
 # text = Anyone who's stayed on is a fool if he hasn't thought about that, said Bray.
 1	Anyone	anyone	PRON	IND-SG-NOM	Number=Sing	8	nsubj	_	_
 2	who	who	PRON	WH-REL	PronType=Rel	4	nsubj	_	SpaceAfter=No
-3	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	stayed	stay	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
 5	on	on	ADV	_	_	4	compound:prt	_	_
 6	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -47937,7 +47937,7 @@
 17	some	some	DET	IND	_	18	det	_	_
 18	nights	night	NOUN	PL-NOM	Number=Plur	21	obl	_	_
 19	it	it	PRON	PERS-SG	_	21	nsubj	_	SpaceAfter=No
-20	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	been	be	AUX	PERF	Tense=Past|VerbForm=Part	5	conj	_	_
 22	until	until	ADP	_	_	23	case	_	_
 23	ten	ten	NUM	ID	NumType=Card	21	obl	_	SpaceAfter=No
@@ -48025,7 +48025,7 @@
 28	great	great	ADJ	POS	Degree=Pos	29	nmod:poss	_	_
 29	men	man	NOUN	PL-NOM	Number=Plur	26	obj	_	_
 30	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	SpaceAfter=No
-31	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
 32	seen	see	VERB	PERF	Tense=Past|VerbForm=Part	29	acl:relcl	_	_
 33	in	in	ADP	_	_	35	case	_	_
 34	the	the	DET	DEF	Definite=Def|PronType=Art	35	det	_	_
@@ -50075,7 +50075,7 @@
 # sent_id = en_lines-ud-train-doc6-2341
 # text = Rebecca's been to the Sputnik and she says it's terrific now.
 1	Rebecca	Rebecca	PROPN	SG-NOM	Number=Sing	3	nsubj	_	SpaceAfter=No
-2	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	been	be	AUX	PERF	Tense=Past|VerbForm=Part	0	root	_	_
 4	to	to	ADP	_	_	6	case	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
@@ -50132,7 +50132,7 @@
 3	one	one	PRON	IND-P3SG	_	8	nsubj	_	_
 4	of	of	ADP	_	_	5	case	_	_
 5	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
-6	's	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	's	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	been	be	AUX	PERF	Tense=Past|VerbForm=Part	8	aux	_	_
 8	taking	take	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
 9	Rebecca	Rebecca	PROPN	SG-NOM	Number=Sing	8	obj	_	_
