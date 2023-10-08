@@ -7641,7 +7641,7 @@
 44	collapse	collapse	NOUN	SG-NOM	Number=Sing	21	conj	_	_
 45	of	of	ADP	_	_	46	case	_	_
 46	New	New	PROPN	SG-NOM	Number=Sing	44	nmod	_	_
-47	York	York	PROPN	SG-NOM	Number=Sing	46	fixed	_	SpaceAfter=No
+47	York	York	PROPN	SG-NOM	Number=Sing	46	flat	_	SpaceAfter=No
 48	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-test-doc3-4602
@@ -7785,7 +7785,7 @@
 3	lunch	lunch	NOUN	SG-NOM	Number=Sing	8	nsubj	_	_
 4	in	in	ADP	_	_	5	case	_	_
 5	New	New	PROPN	SG-NOM	Number=Sing	3	nmod	_	_
-6	York	York	PROPN	SG-NOM	Number=Sing	5	fixed	_	_
+6	York	York	PROPN	SG-NOM	Number=Sing	5	flat	_	_
 7	actually	actual	ADV	_	_	8	advmod	_	_
 8	refers	refer	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	to	to	ADP	_	_	11	case	_	_
@@ -13026,7 +13026,7 @@
 # text = The United States has shown that it holds negotiations in contempt.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	2	det	_	_
 2	United	United	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
-3	States	States	PROPN	SG-NOM	Number=Plur	2	fixed	_	_
+3	States	States	PROPN	SG-NOM	Number=Plur	2	flat	_	_
 4	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	shown	show	VERB	PERF	Tense=Past|VerbForm=Part	0	root	_	_
 6	that	that	SCONJ	_	_	8	mark	_	_
