@@ -7013,7 +7013,7 @@
 2	my	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	letter	letter	NOUN	SG-NOM	Number=Sing	9	obl	_	_
 4	to	to	ADP	_	_	6	case	_	_
-5	Le	le	DET	SG-FGN	_	6	det	_	_
+5	Le	le	DET	SG-FGN	Definite=Def|PronType=Art	6	det	_	_
 6	Monde	Monde	PROPN	SG-NOM-FGN	Number=Sing	3	nmod	_	_
 7	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 8	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
@@ -7197,7 +7197,7 @@
 1	Since	since	ADP	_	_	2	case	_	_
 2	1973	1973	NUM	ID	NumType=Card	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	2	punct	_	_
-4	Le	le	DET	SG-FGN	_	5	det	_	_
+4	Le	le	DET	SG-FGN	Definite=Def|PronType=Art	5	det	_	_
 5	Monde	Monde	PROPN	SG-NOM-FGN	Number=Sing	8	nsubj	_	_
 6	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	openly	openly	ADV	_	_	8	advmod	_	_
