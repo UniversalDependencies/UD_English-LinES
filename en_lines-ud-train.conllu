@@ -3613,7 +3613,7 @@
 23	properly	properly	ADV	_	_	24	advmod	_	_
 24	nested	nested	ADJ	POS	Degree=Pos	6	conj	_	_
 25	within	within	ADP	_	_	26	case	_	_
-26	each	each	PRON	RCP-SG-ACC	Case=Nom	24	nmod	_	_
+26	each	each	DET	RCP-SG-ACC	_	24	nmod	_	_
 27	other	other	PRON	RCP-SG-ACC	Case=Nom	26	fixed	_	SpaceAfter=No
 28	.	.	PUNCT	Period	_	1	punct	_	_
 
@@ -14309,7 +14309,7 @@
 13	madness	madness	NOUN	SG-NOM	Number=Sing	5	obl	_	_
 14	to	to	PART	_	_	15	mark	_	_
 15	record	record	VERB	INF	Case=Nom	5	advcl	_	_
-16	each	each	PRON	TOT-SG	Case=Nom	15	obj	_	_
+16	each	each	DET	TOT-SG	_	15	obj	_	_
 17	of	of	ADP	_	_	22	case	_	_
 18	his	he	PRON	P3SG-GEN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
 19	absurd	absurd	ADJ	POS	Degree=Pos	22	amod	_	_
@@ -24750,7 +24750,7 @@
 18	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	obj	_	_
 19	tolerant	tolerant	ADJ	POS	Degree=Pos	17	xcomp	_	_
 20	of	of	ADP	_	_	24	case	_	_
-21	each	each	PRON	TOT-SG	_	24	nmod:poss	_	_
+21	each	each	DET	TOT-SG	_	24	nmod:poss	_	_
 22-23	other's	_	_	_	_	_	_	_	_
 22	other	other	PRON	PL	Case=Nom	21	fixed	_	_
 23	's	's	PART	GEN	_	21	case	_	_
@@ -27021,7 +27021,7 @@
 21	joining	join	VERB	ING	Tense=Pres|VerbForm=Part	17	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Comma	_	23	punct	_	_
 23	crossing	cross	VERB	ING	Case=Nom	17	conj	_	_
-24	each	each	PRON	RCP-SG-ACC	Case=Nom	23	obj	_	_
+24	each	each	DET	RCP-SG-ACC	_	23	obj	_	_
 25	other	other	PRON	RCP-SG-ACC	Case=Nom	24	fixed	_	_
 26	–	–	PUNCT	Dash	_	23	punct	_	_
 27	then	then	ADV	_	PronType=Dem	28	advmod	_	_
@@ -30141,7 +30141,7 @@
 16	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
 17	rope	rope	NOUN	SG-NOM	Number=Sing	14	nmod	_	SpaceAfter=No
 18	;	;	PUNCT	SemiColon	_	20	punct	_	_
-19	each	each	PRON	TOT-SG	Case=Nom	20	nsubj	_	_
+19	each	each	DET	TOT-SG	_	20	nsubj	_	_
 20	had	have	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 21	an	an	DET	IND-SG	Definite=Ind|PronType=Art	23	det	_	_
 22	iron	iron	NOUN	SG-NOM	Case=Nom	23	compound	_	_
@@ -33470,7 +33470,7 @@
 7	and	and	CCONJ	_	_	8	cc	_	_
 8	intriguing	intrigue	VERB	ING	Tense=Pres|VerbForm=Part	6	conj	_	_
 9	against	against	ADP	_	_	10	case	_	_
-10	each	each	PRON	RCP-SG-ACC	Case=Nom	8	obl	_	_
+10	each	each	DET	RCP-SG-ACC	_	8	obl	_	_
 11	other	other	PRON	RCP-SG-ACC	Case=Nom	10	fixed	_	_
 12	in	in	ADP	_	_	15	case	_	_
 13	a	a	DET	IND-SG	Definite=Ind|PronType=Art	15	det	_	_
@@ -33574,7 +33574,7 @@
 4	slandered	slander	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 5	and	and	CCONJ	_	_	6	cc	_	_
 6	hated	hate	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
-7	each	each	PRON	RCP-SG-ACC	Case=Nom	6	obj	_	_
+7	each	each	DET	RCP-SG-ACC	_	6	obj	_	_
 8	other	other	PRON	RCP-SG-ACC	Case=Nom	7	fixed	_	_
 9	only	only	ADV	_	_	12	advmod	_	_
 10	on	on	ADP	_	_	12	case	_	_
@@ -43992,7 +43992,7 @@
 9	connected	connect	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
 10	not	not	PART	NEG	_	12	advmod	_	_
 11	with	with	ADP	_	_	12	case	_	_
-12	each	each	PRON	RCP-SG-ACC	Case=Nom	9	obl	_	_
+12	each	each	DET	RCP-SG-ACC	_	9	obl	_	_
 13	other	other	PRON	RCP-SG-ACC	Case=Nom	12	fixed	_	_
 14	but	but	CCONJ	_	_	20	cc	_	_
 15	to	to	ADP	_	_	20	case	_	_
@@ -44098,7 +44098,7 @@
 15	the	the	DET	DEF	Definite=Def|PronType=Art	16	det	_	_
 16	journey	journey	NOUN	SG-NOM	Number=Sing	13	nmod	_	_
 17	ignored	ignore	VERB	PAST	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-18	each	each	PRON	RCP-SG-ACC	Case=Nom	17	obj	_	_
+18	each	each	DET	RCP-SG-ACC	_	17	obj	_	_
 19	other	other	PRON	RCP-SG-ACC	Case=Nom	18	fixed	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	17	punct	_	_
 
@@ -46728,7 +46728,7 @@
 10	and	and	CCONJ	_	_	11	cc	_	_
 11	Roly	Roly	PROPN	SG-NOM	Number=Sing	9	conj	_	_
 12	saluted	salute	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	appos	_	_
-13	each	each	PRON	RCP-SG-ACC	Case=Nom	12	obj	_	_
+13	each	each	DET	RCP-SG-ACC	_	12	obj	_	_
 14	other	other	PRON	RCP-SG-ACC	Case=Nom	13	fixed	_	_
 15	with	with	ADP	_	_	17	case	_	_
 16	mock	mock	ADJ	POS	Degree=Pos	17	amod	_	_
@@ -47032,7 +47032,7 @@
 34	and	and	CCONJ	_	_	35	cc	_	_
 35	exclaimed	exclaim	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 36	over	over	ADP	_	_	37	case	_	_
-37	each	each	PRON	RCP-SG-ACC	Case=Nom	35	obl	_	_
+37	each	each	DET	RCP-SG-ACC	_	35	obl	_	_
 38	other	other	PRON	RCP-SG-ACC	Case=Nom	37	fixed	_	SpaceAfter=No
 39	,	,	PUNCT	Comma	_	41	punct	_	_
 40	everyone	everyone	PRON	TOT-SG-NOM	Number=Sing	41	nsubj	_	_
@@ -53807,7 +53807,7 @@
 2	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	stared	stare	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
 4	at	at	ADP	_	_	5	case	_	_
-5	each	each	PRON	RCP-SG-ACC	Case=Nom	3	obl	_	_
+5	each	each	DET	RCP-SG-ACC	_	3	obl	_	_
 6	other	other	PRON	RCP-SG-ACC	Case=Nom	5	fixed	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	3	punct	_	_
 8	Harry	Harry	PROPN	SG-NOM	Number=Sing	9	nsubj	_	_
@@ -55022,7 +55022,7 @@
 5	George	George	PROPN	SG-NOM	Number=Sing	3	conj	_	_
 6	look	look	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 7	at	at	ADP	_	_	8	case	_	_
-8	each	each	PRON	RCP-SG-ACC	Case=Nom	6	nmod	_	_
+8	each	each	DET	RCP-SG-ACC	_	6	nmod	_	_
 9	other	other	PRON	RCP-SG-ACC	Case=Nom	8	fixed	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -57603,7 +57603,7 @@
 13	,	,	PUNCT	Comma	_	14	punct	_	_
 14	muttering	mutter	VERB	ING	Tense=Pres|VerbForm=Part	5	advcl	_	_
 15	to	to	ADP	_	_	16	case	_	_
-16	each	each	PRON	RCP-SG-ACC	Case=Nom	14	obl	_	_
+16	each	each	DET	RCP-SG-ACC	_	14	obl	_	_
 17	other	other	PRON	RCP-SG-ACC	Case=Nom	16	fixed	_	SpaceAfter=No
 18	.	.	PUNCT	Period	_	5	punct	_	_
 
@@ -58706,7 +58706,7 @@
 # sent_id = en_lines-ud-train-doc7-2734
 # text = They each grabbed a copy of Break with a Banshee, and sneaked up the line to where the rest of the Weasleys were standing with Mr and Mrs Granger.
 1	They	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-2	each	each	PRON	TOT-SG	Case=Nom	3	obl	_	_
+2	each	each	DET	TOT-SG	_	3	obl	_	_
 3	grabbed	grab	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	a	a	DET	IND-SG	Definite=Ind|PronType=Art	5	det	_	_
 5	copy	copy	NOUN	SG-NOM	Number=Sing	3	obj	_	_
@@ -61190,7 +61190,7 @@
 12	war	war	NOUN	SG-NOM	Number=Sing	9	obl	_	_
 13	and	and	CCONJ	_	_	14	cc	_	_
 14	hold	hold	VERB	INF	VerbForm=Inf	9	conj	_	_
-15	each	each	PRON	RCP-SG-ACC	Case=Nom	18	nmod:poss	_	_
+15	each	each	DET	RCP-SG-ACC	_	18	nmod:poss	_	_
 16-17	other's	_	_	_	_	_	_	_	_
 16	other	other	PRON	RCP-SG-ACC	Case=Nom	15	fixed	_	_
 17	's	's	PART	GEN	_	15	case	_	_
@@ -65452,7 +65452,7 @@
 19	the	the	DET	DEF	Definite=Def|PronType=Art	20	det	_	_
 20	surface	surface	NOUN	SG-NOM	Number=Sing	6	conj	_	_
 21	of	of	ADP	_	_	22	case	_	_
-22	each	each	PRON	TOT-SG	_	20	nmod	_	_
+22	each	each	DET	TOT-SG	_	20	nmod	_	_
 23	the	the	DET	DEF	Definite=Def|PronType=Art	19	det	_	_
 24	head	head	NOUN	SG-NOM	Number=Sing	20	nsubj	_	_
 25	of	of	ADP	_	_	22	case	_	_
@@ -66729,7 +66729,7 @@
 15	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	conj	_	_
 16	hypnotised	hypnotise	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
 17	by	by	ADP	_	_	18	case	_	_
-18	each	each	PRON	RCP-SG-ACC	Case=Nom	16	obl	_	_
+18	each	each	DET	RCP-SG-ACC	_	16	obl	_	_
 19	other	other	PRON	RCP-SG-ACC	Case=Nom	18	fixed	_	SpaceAfter=No
 20	,	,	PUNCT	Comma	_	21	punct	_	_
 21	unable	unable	ADJ	POS	Degree=Pos	16	conj	_	_
