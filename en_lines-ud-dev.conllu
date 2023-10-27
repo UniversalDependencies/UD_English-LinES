@@ -1629,7 +1629,7 @@
 3	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	independent	independent	ADJ	POS	Degree=Pos	0	root	_	_
 5	of	of	ADP	_	_	6	case	_	_
-6	each	each	PRON	RCP-SG-ACC	Case=Nom	4	nmod	_	_
+6	each	each	DET	RCP-SG-ACC	_	4	nmod	_	_
 7	other	other	PRON	RCP-SG-ACC	Case=Nom	6	fixed	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	4	punct	_	_
 
@@ -3159,7 +3159,7 @@
 27	hand	hand	NOUN	SG-NOM	Number=Sing	28	compound	_	_
 28	positions	position	NOUN	PL-NOM	Number=Plur	25	obj	_	_
 29	for	for	ADP	_	_	30	case	_	_
-30	each	each	PRON	TOT-SG	Case=Nom	28	nmod	_	_
+30	each	each	DET	TOT-SG	_	28	nmod	_	_
 31	of	of	ADP	_	_	34	case	_	_
 32	the	the	DET	DEF	Definite=Def|PronType=Art	34	det	_	_
 33	twenty-six	twenty-six	NUM	CARD-PL	_	34	nummod	_	_
@@ -14255,7 +14255,7 @@
 36	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	38	nsubj	_	_
 37	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	38	aux	_	_
 38	seen	see	VERB	PERF	Tense=Past|VerbForm=Part	33	advcl	_	_
-39	each	each	PRON	RCP-SG-ACC	Case=Nom	38	obj	_	_
+39	each	each	DET	RCP-SG-ACC	_	38	obj	_	_
 40	other	other	PRON	RCP-SG-ACC	Case=Nom	39	fixed	_	_
 41	a	a	DET	IND-SG	Definite=Ind|PronType=Art	42	det	_	_
 42	week	week	NOUN	SG-NOM	Number=Sing	38	obl	_	_
@@ -16259,7 +16259,7 @@
 12	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
 13	left	leave	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
 14	facing	face	VERB	ING	Tense=Pres|VerbForm=Part	13	xcomp	_	_
-15	each	each	PRON	RCP-SG-ACC	Case=Nom	14	obj	_	_
+15	each	each	DET	RCP-SG-ACC	_	14	obj	_	_
 16	other	other	PRON	RCP-SG-ACC	Case=Nom	15	fixed	_	_
 17	like	like	ADP	_	_	19	case	_	_
 18	the	the	DET	DEF	Definite=Def|PronType=Art	19	det	_	_
@@ -16876,7 +16876,7 @@
 3	good	good	ADJ	POS	Degree=Pos	4	amod	_	_
 4	night	night	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 5	to	to	ADP	_	_	6	case	_	_
-6	each	each	PRON	RCP-SG-ACC	Case=Nom	2	obl	_	_
+6	each	each	DET	RCP-SG-ACC	_	2	obl	_	_
 7	other	other	PRON	RCP-SG-ACC	Case=Nom	6	fixed	_	_
 8	in	in	ADP	_	_	12	case	_	_
 9	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
@@ -20625,7 +20625,7 @@
 42	water	water	NOUN	SG-NOM	Number=Sing	39	nmod	_	_
 43	changed	change	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	30	ccomp	_	_
 44	into	into	ADP	_	_	45	case	_	_
-45	each	each	PRON	RCP-SG-ACC	Case=Nom	43	obl	_	_
+45	each	each	DET	RCP-SG-ACC	_	43	obl	_	_
 46	other	other	PRON	RCP-SG-ACC	Case=Nom	45	fixed	_	SpaceAfter=No
 47	.	.	PUNCT	Period	_	11	punct	_	_
 

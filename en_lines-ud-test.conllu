@@ -5507,7 +5507,7 @@
 15	final	final	ADJ	POS	Degree=Pos	16	amod	_	_
 16	look	look	NOUN	SG-NOM	Number=Sing	13	obj	_	_
 17	at	at	ADP	_	_	18	case	_	_
-18	each	each	PRON	RCP-SG-ACC	Case=Nom	16	nmod	_	_
+18	each	each	DET	RCP-SG-ACC	_	16	nmod	_	_
 19	other	other	PRON	RCP-SG-ACC	Case=Nom	18	fixed	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	6	punct	_	_
 
@@ -13312,7 +13312,7 @@
 9	probably	probably	ADV	_	_	10	advmod	_	_
 10	bump	bump	VERB	INF	VerbForm=Inf	0	root	_	_
 11	into	into	ADP	_	_	12	case	_	_
-12	each	each	PRON	RCP-SG-ACC	Case=Nom	10	obl	_	_
+12	each	each	DET	RCP-SG-ACC	_	10	obl	_	_
 13	other	other	PRON	RCP-SG-ACC	Case=Nom	12	fixed	_	_
 14	in	in	ADP	_	_	15	case	_	_
 15	Great	great	ADJ	POS	Degree=Pos	16	amod	_	_
@@ -15041,7 +15041,7 @@
 8	'd	will	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
 9	never	never	ADV	NEG	_	10	advmod	_	_
 10	see	see	VERB	INF	VerbForm=Inf	3	ccomp	_	_
-11	each	each	PRON	RCP-SG-ACC	Case=Nom	10	obj	_	_
+11	each	each	DET	RCP-SG-ACC	_	10	obj	_	_
 12	other	other	PRON	RCP-SG-ACC	Case=Nom	11	fixed	_	_
 13	in	in	ADP	_	_	14	case	_	_
 14	London	London	PROPN	SG-NOM	Number=Sing	10	obl	_	_
@@ -18080,7 +18080,7 @@
 29	threw	throw	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 30	apples	apple	NOUN	PL-NOM	Number=Plur	29	obj	_	_
 31	for	for	ADP	_	_	32	case	_	_
-32	each	each	PRON	RCP-SG-ACC	Case=Nom	35	nsubj	_	_
+32	each	each	DET	RCP-SG-ACC	_	35	nsubj	_	_
 33	other	other	PRON	RCP-SG-ACC	Case=Nom	32	fixed	_	_
 34	to	to	PART	_	_	35	mark	_	_
 35	catch	catch	VERB	INF	VerbForm=Inf	30	acl	_	SpaceAfter=No
@@ -18430,7 +18430,7 @@
 4	half-a-dozen	half-a-dozen	NUM	CARD-PL	_	6	nummod	_	_
 5	bacon	bacon	NOUN	SG-NOM	Number=Sing	6	compound	_	_
 6	sandwiches	sandwich	NOUN	PL-NOM	Number=Plur	10	obl	_	_
-7	each	each	PRON	TOT-SG	Case=Nom	6	nmod	_	SpaceAfter=No
+7	each	each	DET	TOT-SG	_	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	6	punct	_	_
 9	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
 10	pulled	pull	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
