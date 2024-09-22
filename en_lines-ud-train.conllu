@@ -61363,9 +61363,9 @@
 # sent_id = en_lines-ud-train-doc8-2873
 # text = My family are addicted to sentimentality.
 1	My	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
-2	family	family	NOUN	SG-NOM	Number=Sing	4	nsubj:pass	_	_
-3	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	addicted	addicted	ADJ	POS	Degree=Pos|VerbForm=Part	0	root	_	_
+2	family	family	NOUN	SG-NOM	Number=Sing	4	nsubj	_	_
+3	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+4	addicted	addicted	ADJ	POS	Degree=Pos	0	root	_	_
 5	to	to	ADP	_	_	6	case	_	_
 6	sentimentality	sentimentality	NOUN	SG-NOM	Number=Sing	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Period	_	4	punct	_	_

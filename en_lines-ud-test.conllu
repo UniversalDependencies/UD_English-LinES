@@ -19408,7 +19408,7 @@
 # text = Asked her question and did nothing.
 1	Asked	ask	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	her	her	PRON	RFL-SG-GEN	Definite=Def|Number=Sing|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
-3	question	question	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Number=Sing	1	obj	_	_
+3	question	question	NOUN	SG-NOM	Number=Sing	1	obj	_	_
 4	and	and	CCONJ	_	_	5	cc	_	_
 5	did	do	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	_
 6	nothing	nothing	PRON	NEG-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	5	obj	_	SpaceAfter=No
