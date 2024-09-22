@@ -132,45 +132,45 @@ Dissertation No. 607.
 Changelog
 
 From UD version 1.3 to UD version 2.0
- * changes of part-of-speech labels and dependency labels in accordance with 2.0 guidelines
- * addition of comments for sent_id, text, and document boundaries
- * addition of SpaceAfter=No features in the MISC column
+  * changes of part-of-speech labels and dependency labels in accordance with 2.0 guidelines
+  * addition of comments for sent_id, text, and document boundaries
+  * addition of SpaceAfter=No features in the MISC column
 
- From UD version 2.0 to UD version 2.1
+From UD version 2.0 to UD version 2.1
   * all tokens have received a lemma
   * the test data have been manually reviewed to correct errors and make data agree better with the version 2 guidelines.
     Changes affect about 14% of all tokens and some 36% of all punctuation tokens.
 
- From UD version 2.1 to UD version 2.2
+From UD version 2.1 to UD version 2.2
   * features have been added to the UFEATS column. They have been mapped from UD_English v2.1 and then manually reviewed.
   * the word 'that' when introducing a relative clause is tagged PRON and assigned a clausal relation.
   * the train and dev data have been partially reviewed to correct errors and make data agree better with the
     version 2 guidelines.
-    
- From UD version 2.2 to UD version 2.3
+
+From UD version 2.2 to UD version 2.3
   * nouns with clitic 's has consistently been assigned the deprel 'nmod'
   * occurrences of deprel 'aux:pass' has been checked and applied consistently
   * compounds in the first doc of each (train, dev, test) file have been check and re-analysed to increase consistency
   * conjunctions 'either' and 'neither' which were wrongly analysed in 2.2 have been corrected
 
- From UD version 2.3 to UD version 2.4
+From UD version 2.3 to UD version 2.4
   * corrections of errors flagged by the validation script
   * corrections of other errors discovered in the process
   * in particular, many changes from 'conj' to 'parataxis' when no coordinator is present
-  
- From UD version 2.4 to version 2.5
+
+From UD version 2.4 to version 2.5
   * Addition of 679 sentences from Winterson's book. 120 have been added to the dev corpus, 120 to the test corpus, and
     the rest to the train corpus.
   * correcting dependencies for punctuation marks to guarantee validation, 
   * correcting other erroneous annotation, in particular related to the parataxis and ccomp relations
-  
- From UD version 2.5 to version 2.6
+
+From UD version 2.5 to version 2.6
   * Only minor error corrections, specifically related to PronType
-  
- For version 2.9: 
+
+For version 2.9: 
   * Negative adverbs consistently given UPOS PART and 
   * consistent annotation of 'with' as 'mark' when introducing a subordinate clause such as 'with the rush hour at full force'
-  
+
 --- Machine readable metadata ---
 
 Documentation status: partial
