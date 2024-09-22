@@ -66567,7 +66567,7 @@
 # sent_id = en_lines-ud-train-doc8-3133
 # text = The reflecting image of a woman with a woman is seductive.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
-2	reflecting	reflect	ADJ	ING	Tense=Pres|VerbForm=Part	3	amod	_	_
+2	reflecting	reflect	VERB	ING	Tense=Pres|VerbForm=Part	3	amod	_	_
 3	image	image	NOUN	SG-NOM	Number=Sing	11	nsubj	_	_
 4	of	of	ADP	_	_	6	case	_	_
 5	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	det	_	_
