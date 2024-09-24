@@ -21748,7 +21748,7 @@
 10	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = en_lines-ud-train-doc3-1057
-# text = It is accompanied by the further reflection (partly proud, mostly bitter) that we Jews seem to have A genius for finding the heart of the crisis.
+# text = It is accompanied by the further reflection (partly proud, mostly bitter) that we Jews seem to have a genius for finding the heart of the crisis.
 1	It	it	PRON	PERS-SG	_	3	nsubj:pass	_	_
 2	is	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	accompanied	accompany	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -30638,7 +30638,7 @@
 37	.	.	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = en_lines-ud-train-doc4-1425
-# text = How insidious he could be, too, I was only to find out several months later And a thousand miles farther.
+# text = How insidious he could be, too, I was only to find out several months later and a thousand miles farther.
 1	How	how	ADV	WH	PronType=Int	2	advmod	_	_
 2	insidious	insidious	ADJ	POS	Degree=Pos	13	ccomp	_	_
 3	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -34627,7 +34627,7 @@
 15	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
 16	new	new	ADJ	POS	Degree=Pos	17	amod	_	_
 17	standards	standard	NOUN	PL-NOM	Number=Plur	18	nsubj	_	_
-18	take	take	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	take	take	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 19	effect	effect	NOUN	SG-NOM	Number=Sing	18	obj	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	10	punct	_	_
 
@@ -45426,7 +45426,7 @@
 6	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 7	left-over	leave+over	ADJ	PASS	Degree=Pos	9	amod	_	_
 8	granadilla	granadilla	NOUN	SG-NOM	Number=Sing	9	compound	_	_
-9	pudding	pudding	NOUN	SG-NOM	Number=Sing	5	nmod	_	SpaceAfter=No
+9	pudding	pudding	NOUN	SG-NOM	Number=Sing	4	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	13	punct	_	_
 11	and	and	CCONJ	_	_	13	cc	_	_
 12	there	there	PRON	EX	_	13	expl	_	_
@@ -66445,7 +66445,7 @@
 2	their	their	PRON	P3PL-GEN	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 3	wedding	wedding	NOUN	SG	Number=Sing	4	compound	_	_
 4	night	night	NOUN	SG-NOM	Number=Sing	18	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	9	punct	_	_
+5	,	,	PUNCT	Comma	_	8	punct	_	_
 6	at	at	ADP	_	_	8	case	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
 8	Hotel	hotel	PROPN	SG-NOM	Number=Sing	18	obl	_	_
@@ -66455,7 +66455,7 @@
 12	:	:	PUNCT	Colon	_	11	punct	_	_
 13	Merseyside-Egypt	Merseyside-Egypt	PROPN	SG-NOM	Number=Sing	9	parataxis	_	SpaceAfter=No
 14	)	)	PUNCT	RightParenthesis	_	13	punct	_	SpaceAfter=No
-15	,	,	PUNCT	Comma	_	9	punct	_	_
+15	,	,	PUNCT	Comma	_	8	punct	_	_
 16	my	my	PRON	P1SG-GEN	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
 17	father	father	NOUN	SG-NOM	Number=Sing	18	nsubj	_	_
 18	took	take	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_

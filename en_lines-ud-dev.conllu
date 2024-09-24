@@ -11420,7 +11420,7 @@
 16	forward	forward	ADV	_	_	15	advmod	_	_
 17	by	by	ADP	_	_	19	case	_	_
 18	our	our	PRON	PL-GEN	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
-19	colleague	colleague	NOUN	SG-NOM	Number=Sing	20	obl	_	_
+19	colleague	colleague	NOUN	SG-NOM	Number=Sing	15	obl	_	_
 20	Edouard	Edouard	PROPN	SG-NOM	Number=Sing	19	appos	_	_
 21	des	de	PROPN	NMPT	_	20	flat	_	_
 22	Places	Places	PROPN	PL-NOM	Number=Sing	20	flat	_	SpaceAfter=No
@@ -12215,7 +12215,7 @@
 5	colleague	colleague	NOUN	SG-NOM	Number=Sing	11	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
 7	Mr	mr	NOUN	SG-NOM	Number=Sing	8	nmod:unmarked	_	_
-8	Cox	Cox	PROPN	SG-NOM	Number=Sing	5	appos
+8	Cox	Cox	PROPN	SG-NOM	Number=Sing	5	appos	_	_
 10	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	done	do	VERB	PERF	Tense=Past|VerbForm=Part	0	root	_	_
 12	some	some	DET	IND	PronType=Ind	14	det	_	_
