@@ -1963,7 +1963,7 @@
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 7	data	data	NOUN	PL-NOM	Number=Sing	9	nsubj	_	_
 8	will	will	AUX	PRES-AUX	VerbForm=Fin	9	aux	_	_
-9	look	look	VERB	INF	VerbForm=Inf	5	acl	_	_
+9	look	look	VERB	INF	VerbForm=Inf	4	ccomp	_	_
 10	like	like	ADP	_	_	5	case	_	_
 11	after	after	SCONJ	_	_	17	mark	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
