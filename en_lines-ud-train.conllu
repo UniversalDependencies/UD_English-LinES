@@ -40907,13 +40907,13 @@
 8	African	african	ADJ	POS	Degree=Pos	9	amod	_	_
 9	territory	territory	NOUN	SG-NOM	Number=Sing	3	appos	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	9	punct	_	_
-11	that	that	SCONJ	REL	PronType=Rel	17	mark	_	_
+11	that	that	PRON	REL	PronType=Rel	17	obl:unmarked	_	_
 12	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 13	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
 14	been	be	AUX	PERF	Tense=Past|VerbForm=Part	17	cop	_	_
 15	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
 16	colonial	colonial	ADJ	POS	Degree=Pos	17	amod	_	_
-17	servant	servant	NOUN	SG-NOM	Number=Sing	3	acl	_	_
+17	servant	servant	NOUN	SG-NOM	Number=Sing	3	advcl:relcl	_	_
 18	until	until	SCONJ	_	_	21	mark	_	_
 19	the	the	DET	DEF	Definite=Def|PronType=Art	20	det	_	_
 20	settlers	settler	NOUN	PL-NOM	Number=Plur	21	nsubj	_	_
