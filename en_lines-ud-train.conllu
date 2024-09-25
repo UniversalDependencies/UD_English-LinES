@@ -19810,7 +19810,7 @@
 10	facts	fact	NOUN	PL-NOM	Number=Plur	2	obj	_	_
 11	unknown	unknown	ADJ	POS	Degree=Pos	10	amod	_	_
 12	to	to	ADP	_	_	13	case	_	_
-13	most	many	PRON	SPL	Degree=Sup	11	nmod	_	_
+13	most	many	ADJ	SPL	Degree=Sup	11	nmod	_	_
 14	about	about	ADP	_	_	16	case	_	_
 15	American	american	ADJ	POS	Degree=Pos	16	amod	_	_
 16	diplomacy	diplomacy	NOUN	SG-NOM	Number=Sing	10	nmod	_	_
@@ -55028,7 +55028,7 @@
 
 # sent_id = en_lines-ud-train-doc7-2546
 # text = Well, said Fred, put it this way – house-elves have got powerful magic of their own, but they can't usually use it without their master's permission.
-1	Well	well	INTJ	_	Degree=Pos	6	discourse	_	SpaceAfter=No
+1	Well	well	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
 4	Fred	Fred	PROPN	SG-NOM	Number=Sing	3	nsubj	_	SpaceAfter=No
@@ -57365,7 +57365,7 @@
 
 # sent_id = en_lines-ud-train-doc7-2663
 # text = Cursed – Has Claimed the Lives of Nineteen Muggle Owners to Date.
-1	Cursed	curse	VERB	PERF	Degree=Pos	4	discourse	_	_
+1	Cursed	curse	VERB	PERF	Tense=Past|VerbForm=Part	4	discourse	_	_
 2	–	–	PUNCT	Dash	_	1	punct	_	_
 3	Has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	Claimed	claim	VERB	PERF	Tense=Past|VerbForm=Part	0	root	_	_
@@ -60867,7 +60867,7 @@
 11	by	by	ADP	_	_	12	case	_	_
 12	thousands	thousand	NOUN	PL-NOM	Number=Plur	7	obl	_	_
 13	of	of	ADP	_	_	15	case	_	_
-14	screaming	scream	VERB	ING	Degree=Pos	15	amod	_	_
+14	screaming	scream	VERB	ING	Tense=Pres|VerbForm=Part	15	amod	_	_
 15	girls	girl	NOUN	PL-NOM	Number=Plur	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	7	punct	_	_
 
