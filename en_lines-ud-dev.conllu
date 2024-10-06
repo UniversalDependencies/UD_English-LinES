@@ -1984,7 +1984,7 @@
 6	displayed	display	ADJ	PASS	Degree=Pos	7	amod	_	_
 7	data	data	NOUN	PL-NOM	Number=Sing	3	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	14	punct	_	_
-9	or	or	CCONJ	_	_	13	cc	_	_
+9	or	or	CCONJ	_	_	14	cc	_	_
 10	both	both	CCONJ	_	_	11	cc	_	_
 11	visible	visible	ADJ	POS	Degree=Pos	14	amod	_	_
 12	and	and	CCONJ	_	_	13	cc	_	_
