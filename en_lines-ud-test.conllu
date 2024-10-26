@@ -1959,12 +1959,12 @@
 2	following	follow	ADJ	ING	_	3	amod	_	_
 3	illustration	illustration	NOUN	SG-NOM	Number=Sing	4	nsubj	_	_
 4	shows	show	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	what	what	PRON	WH	PronType=Int	9	obl	_	_
+5	what	what	PRON	WH	PronType=Int	4	obj	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 7	data	data	NOUN	PL-NOM	Number=Sing	9	nsubj	_	_
 8	will	will	AUX	PRES-AUX	VerbForm=Fin	9	aux	_	_
-9	look	look	VERB	INF	VerbForm=Inf	4	ccomp	_	_
-10	like	like	ADP	_	_	5	case	_	_
+9	look	look	VERB	INF	VerbForm=Inf	5	acl	_	_
+10	like	like	ADP	_	_	5	obl	_	_
 11	after	after	SCONJ	_	_	17	mark	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 13	Category	category	NOUN	SG-NOM	Number=Sing	14	compound	_	_
@@ -4953,7 +4953,7 @@
 8	present	present	ADJ	POS	Degree=Pos	5	xcomp	_	_
 9	at	at	ADP	_	_	10	case	_	_
 10	what	what	PRON	WH-REL	PronType=Rel	8	obl	_	_
-11	happens	happen	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+11	happens	happen	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4468
@@ -5049,9 +5049,9 @@
 1	But	but	CCONJ	_	_	5	cc	_	_
 2	Sancho	Sancho	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
 3	can	can	AUX	PRES-AUX	VerbForm=Fin	5	aux	_	_
-4	neither	neither	CCONJ	_	PronType=Neg	5	cc	_	_
+4	neither	neither	CCONJ	_	Polarity=Neg	5	cc	_	_
 5	read	read	VERB	INF	VerbForm=Inf	0	root	_	_
-6	nor	nor	CCONJ	_	_	7	cc	_	_
+6	nor	nor	CCONJ	_	Polarity=Neg	7	cc	_	_
 7	write	write	VERB	INF	VerbForm=Inf	5	conj	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	5	punct	_	_
 
@@ -7740,10 +7740,10 @@
 
 # sent_id = en_lines-ud-test-doc3-4604
 # text = Neither the facts nor the deformations, the insidious platitudes of the media (tormenting because the underlying realities are so huge and so terrible), can be screened out.
-1	Neither	neither	CCONJ	_	PronType=Neg	3	cc	_	_
+1	Neither	neither	CCONJ	_	Polarity=Neg	3	cc	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
 3	facts	fact	NOUN	PL-NOM	Number=Plur	30	nsubj:pass	_	_
-4	nor	nor	CCONJ	_	_	6	cc	_	_
+4	nor	nor	CCONJ	_	Polarity=Neg	6	cc	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
 6	deformations	deformation	NOUN	PL-NOM	Number=Plur	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	10	punct	_	_
@@ -19535,7 +19535,7 @@
 17	and	and	CCONJ	_	_	18	cc	_	_
 18	abandoned	abandon	ADJ	POS	Degree=Pos	16	conj	_	_
 19	beneath	beneath	ADV	_	_	14	advmod	_	SpaceAfter=No
-20	,	,	PUNCT	Comma	_	31	punct	_	_
+20	,	,	PUNCT	Comma	_	19	punct	_	_
 21	and	and	CCONJ	_	_	31	cc	_	_
 22	somewhere	somewhere	ADV	WH-IND	PronType=Ind	23	advmod	_	_
 23	above	above	ADV	_	_	34	advmod	_	SpaceAfter=No
@@ -19546,7 +19546,7 @@
 28	blackness	blackness	NOUN	SG-NOM	Number=Sing	34	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	Comma	_	28	punct	_	_
 30	the	the	DET	DEF	Definite=Def|PronType=Art	31	det	_	_
-31	Ship	ship	NOUN	SG-NOM	Number=Sing	34	conj	_	_
+31	Ship	ship	NOUN	SG-NOM	Number=Sing	34	nsubj	_	_
 32	of	of	ADP	_	_	33	case	_	_
 33	Fools	fool	NOUN	PL-NOM	Number=Plur	31	nmod	_	_
 34	navigating	navigate	VERB	ING	Tense=Pres|VerbForm=Part	11	conj	_	_
