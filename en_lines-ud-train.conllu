@@ -19810,7 +19810,7 @@
 10	facts	fact	NOUN	PL-NOM	Number=Plur	2	obj	_	_
 11	unknown	unknown	ADJ	POS	Degree=Pos	10	amod	_	_
 12	to	to	ADP	_	_	13	case	_	_
-13	most	many	PRON	SPL	Degree=Sup	11	nmod	_	_
+13	most	many	ADJ	SPL	Degree=Cmp	11	obl	_	_
 14	about	about	ADP	_	_	16	case	_	_
 15	American	american	ADJ	POS	Degree=Pos	16	amod	_	_
 16	diplomacy	diplomacy	NOUN	SG-NOM	Number=Sing	10	nmod	_	_
@@ -40897,9 +40897,9 @@
 
 # sent_id = en_lines-ud-train-doc6-1942
 # text = It was there, in this Central African territory, that he had been a colonial servant until the settlers succeeded in having him recalled and deported for his support of the People's Independence Party.
-1	It	it	PRON	PERS-SG	_	2	expl	_	_
-2	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-3	there	there	ADV	_	PronType=Dem	2	advmod	_	SpaceAfter=No
+1	It	it	PRON	PERS-SG	_	3	expl	_	_
+2	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	there	there	ADV	_	PronType=Dem	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	9	punct	_	_
 5	in	in	ADP	_	_	9	case	_	_
 6	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	9	det	_	_
@@ -40907,13 +40907,13 @@
 8	African	african	ADJ	POS	Degree=Pos	9	amod	_	_
 9	territory	territory	NOUN	SG-NOM	Number=Sing	3	appos	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	9	punct	_	_
-11	that	that	SCONJ	REL	PronType=Rel	17	mark	_	_
+11	that	that	PRON	REL	PronType=Rel	17	obl	_	_
 12	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 13	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
 14	been	be	AUX	PERF	Tense=Past|VerbForm=Part	17	cop	_	_
 15	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
 16	colonial	colonial	ADJ	POS	Degree=Pos	17	amod	_	_
-17	servant	servant	NOUN	SG-NOM	Number=Sing	3	acl	_	_
+17	servant	servant	NOUN	SG-NOM	Number=Sing	3	advcl:relcl	_	_
 18	until	until	SCONJ	_	_	21	mark	_	_
 19	the	the	DET	DEF	Definite=Def|PronType=Art	20	det	_	_
 20	settlers	settler	NOUN	PL-NOM	Number=Plur	21	nsubj	_	_
@@ -40934,7 +40934,7 @@
 34	's	's	PART	GEN	_	33	case	_	_
 35	Independence	independence	NOUN	SG-NOM	Number=Sing	36	compound	_	_
 36	Party	party	NOUN	SG-NOM	Number=Sing	30	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	Period	_	2	punct	_	_
+37	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-train-doc6-1943
 # text = He said to his wife, Mweta's invited me to come back as their guest.
@@ -46718,7 +46718,7 @@
 # text = He attended most of the official occasions (he and Roly saluted each other with mock surprise when they met in the house, half-dressed in formal dinner clothes every night) but the real parties took place before and after.
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	attended	attend	VERB	PAST	Tense=Past|VerbForm=Part	0	root	_	_
-3	most	many	ADJ	SPL	Degree=Cmp	2	xcomp	_	_
+3	most	many	ADJ	SPL	Degree=Cmp	2	obj	_	_
 4	of	of	ADP	_	_	7	case	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 6	official	official	ADJ	POS	Degree=Pos	7	amod	_	_
@@ -55028,7 +55028,7 @@
 
 # sent_id = en_lines-ud-train-doc7-2546
 # text = Well, said Fred, put it this way – house-elves have got powerful magic of their own, but they can't usually use it without their master's permission.
-1	Well	well	INTJ	_	Degree=Pos	6	discourse	_	SpaceAfter=No
+1	Well	well	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
 4	Fred	Fred	PROPN	SG-NOM	Number=Sing	3	nsubj	_	SpaceAfter=No
@@ -57365,7 +57365,7 @@
 
 # sent_id = en_lines-ud-train-doc7-2663
 # text = Cursed – Has Claimed the Lives of Nineteen Muggle Owners to Date.
-1	Cursed	curse	VERB	PERF	Degree=Pos	4	discourse	_	_
+1	Cursed	curse	ADJ	POS	Degree=Pos	4	discourse	_	_
 2	–	–	PUNCT	Dash	_	1	punct	_	_
 3	Has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	Claimed	claim	VERB	PERF	Tense=Past|VerbForm=Part	0	root	_	_
@@ -60867,7 +60867,7 @@
 11	by	by	ADP	_	_	12	case	_	_
 12	thousands	thousand	NOUN	PL-NOM	Number=Plur	7	obl	_	_
 13	of	of	ADP	_	_	15	case	_	_
-14	screaming	scream	VERB	ING	Degree=Pos	15	amod	_	_
+14	screaming	scream	VERB	ING	Tense=Pres|VerbForm=Part	15	amod	_	_
 15	girls	girl	NOUN	PL-NOM	Number=Plur	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	7	punct	_	_
 
@@ -64135,7 +64135,7 @@
 5	so	so	ADV	_	_	6	advmod	_	_
 6	bad	bad	ADJ	POS	Degree=Pos	0	root	_	_
 7	that	that	SCONJ	_	_	12	mark	_	_
-8	most	many	NOUN	SG-NOM	Number=Sing	12	nsubj	_	_
+8	most	many	ADJ	SPL	Degree=Cmp	12	nsubj	_	_
 9	of	of	ADP	_	_	11	case	_	_
 10	the	the	DET	DEF	Definite=Def|PronType=Art	11	det	_	_
 11	adults	adult	NOUN	PL-NOM	Number=Plur	8	nmod	_	_

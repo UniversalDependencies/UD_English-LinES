@@ -5127,7 +5127,7 @@
 34	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
 35	reading	read	VERB	ING	Tense=Pres|VerbForm=Part	6	conj	_	_
 36-37	Stillman's	_	_	_	_	_	_	_	_
-36	Stillman	Stillman	PROPN	SG	Number=Sing	38	mmod:poss	_	_
+36	Stillman	Stillman	PROPN	SG	Number=Sing	38	nmod:poss	_	_
 37	's	's	PART	GEN	_	36	case	_	_
 38	book	book	NOUN	SG-NOM	Number=Sing	35	obj	_	SpaceAfter=No
 39	,	,	PUNCT	Comma	_	42	punct	_	_
@@ -12215,7 +12215,7 @@
 5	colleague	colleague	NOUN	SG-NOM	Number=Sing	11	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
 7	Mr	mr	NOUN	SG-NOM	Number=Sing	8	nmod:unmarked	_	_
-8	Cox	Cox	PROPN	SG-NOM	Number=Sing	5	appos	_	_
+8	Cox	Cox	PROPN	SG-NOM	Number=Sing	5	appos	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	8	punct	_	_
 10	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	done	do	VERB	PERF	Tense=Past|VerbForm=Part	0	root	_	_
