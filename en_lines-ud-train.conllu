@@ -2664,7 +2664,7 @@
 7	Schema	schema	NOUN	SG-NOM	Number=Sing	6	flat	_	_
 8	standard	standard	NOUN	SG-NOM	Number=Sing	5	obj	_	_
 9	(	(	PUNCT	LeftParenthesis	_	10	punct	_	SpaceAfter=No
-10	XSD	Xsd	PROPN	SG-NOM	Number=Sing	8	appos	_	SpaceAfter=No
+10	XSD	XSD	PROPN	SG-NOM	Number=Sing	8	appos	_	SpaceAfter=No
 11	)	)	PUNCT	RightParenthesis	_	10	punct	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	1	punct	_	_
 
@@ -2831,7 +2831,7 @@
 6	a	a	DET	IND-SG	Definite=Ind|PronType=Art	7	det	_	_
 7	file	file	NOUN	SG-NOM	Number=Sing	4	obl	_	_
 8	named	name	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
-9	.xml	XML	X	NOM	_	8	obj	_	SpaceAfter=No
+9	.xml	.xml	X	NOM	_	8	obj	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = en_lines-ud-train-doc1-142
@@ -2916,14 +2916,14 @@
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 7	schema	schema	NOUN	SG-NOM	Number=Sing	5	obj	_	_
 8	as	as	ADP	_	_	9	case	_	_
-9	XSD	Xsd	PROPN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
+9	XSD	XSD	PROPN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	3	punct	_	_
 11	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
 12	file	file	NOUN	SG-NOM	Number=Sing	14	nsubj:pass	_	_
 13	is	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
 14	saved	save	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 15	as	as	ADP	_	_	16	case	_	_
-16	.xsd	xsd	NOUN	NOM	_	14	obl	_	SpaceAfter=No
+16	.xsd	.xsd	NOUN	NOM	_	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	Period	_	14	punct	_	_
 
 # sent_id = en_lines-ud-train-doc1-145
