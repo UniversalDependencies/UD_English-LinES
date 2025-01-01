@@ -2991,7 +2991,7 @@
 12	read	read	VERB	PERF	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
 13	of	of	ADP	_	_	17	case	_	_
 14-15	Melville's	_	_	_	_	_	_	_	_
-14	Melville	Melville	NOUN	SG	Number=Sing	17	nmod:poss	_	_
+14	Melville	Melville	PROPN	SG-NOM	Number=Sing	17	nmod:poss	_	_
 15	's	's	PART	GEN	_	14	case	_	_
 16	last	last	ADJ	SPL	Degree=Pos	17	amod	_	_
 17	years	year	NOUN	PL-NOM	Number=Plur	12	obl	_	_
@@ -6761,7 +6761,7 @@
 16	and	and	CCONJ	_	_	18	cc	_	_
 17	the	the	DET	DEF	Definite=Def|PronType=Art	19	det	_	_
 18	Duc	duc	NOUN	SG-NOM	Number=Sing	15	conj	_	_
-19	d'Enghien	d'enghien	PROPN	SG-NOM	Number=Sing	18	nmod:unmarked	_	SpaceAfter=No
+19	d'Enghien	d'Enghien	PROPN	SG-NOM	Number=Sing	18	nmod:unmarked	_	SpaceAfter=No
 20	,	,	PUNCT	Comma	_	24	punct	_	_
 21	and	and	CCONJ	_	_	24	cc	_	_
 22	Prince	prince	NOUN	SG-NOM	_	23	compound	_	_
@@ -16100,7 +16100,7 @@
 22	a	a	DET	IND-SG	Definite=Ind|PronType=Art	23	det	_	_
 23	bunch	bunch	NOUN	SG-NOM	Number=Sing	19	obl	_	_
 24	of	of	ADP	_	_	25	case	_	_
-25	Lambala	Lambala	NOUN	SG-NOM	Number=Sing	23	nmod	_	_
+25	Lambala	Lambala	PROPN	SG-NOM	Number=Sing	23	nmod	_	_
 26	and	and	CCONJ	_	_	27	cc	_	_
 27	speakers	speaker	NOUN	PL-NOM	Number=Plur	23	conj	_	_
 28	from	from	ADP	_	_	31	case	_	_
@@ -17097,7 +17097,7 @@
 29	Gala	Gala	NOUN	SG-NOM	Number=Sing	27	nmod	_	_
 30	and	and	CCONJ	_	_	33	cc	_	_
 31	the	the	DET	DEF	Definite=Def|PronType=Art	33	det	_	_
-32	Lambala	Lambala	NOUN	SG-NOM	Number=Sing	33	compound	_	_
+32	Lambala	Lambala	PROPN	SG-NOM	Number=Sing	33	compound	_	_
 33	group	group	NOUN	SG-NOM	Number=Sing	29	conj	_	_
 34	of	of	ADP	_	_	35	case	_	_
 35	languages	language	NOUN	PL-NOM	Number=Plur	33	nmod	_	SpaceAfter=No
