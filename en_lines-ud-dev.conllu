@@ -882,7 +882,7 @@
 5	Language	language	NOUN	SG-NOM	Number=Sing	6	compound	_	_
 6	Transformation	transformation	NOUN	SG-NOM	Number=Sing	10	compound	_	_
 7	(	(	PUNCT	LeftParenthesis	_	8	punct	_	SpaceAfter=No
-8	XSLT	XSLT	X	NOM	_	6	appos	_	SpaceAfter=No
+8	XSLT	XSLT	PROPN	SG-NOM	_	6	appos	_	SpaceAfter=No
 9	)	)	PUNCT	RightParenthesis	_	8	punct	_	_
 10	file	file	NOUN	SG-NOM	Number=Sing	1	obj	_	_
 11	to	to	PART	_	_	12	mark	_	_
@@ -1189,13 +1189,13 @@
 5	Schema	schema	NOUN	SG-NOM	Number=Sing	4	flat	_	_
 6	standard	standard	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 7	(	(	PUNCT	LeftParenthesis	_	8	punct	_	SpaceAfter=No
-8	XSD	XSD	X	NOM	_	6	appos	_	SpaceAfter=No
+8	XSD	XSD	PROPN	SG-NOM	_	6	appos	_	SpaceAfter=No
 9	)	)	PUNCT	RightParenthesis	_	8	punct	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc1-3226
 # text = XSD is a proposed World Wide Web Consortium (W3C) standard designed as a basic infrastructure for describing the type and structure of XML documents.
-1	XSD	XSD	X	NOM	_	12	nsubj	_	_
+1	XSD	XSD	PROPN	SG-NOM	_	12	nsubj	_	_
 2	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
 4	proposed	propose	ADJ	PASS	Degree=Pos	12	amod	_	_
@@ -1460,7 +1460,7 @@
 8	Stylesheet	stylesheet	NOUN	SG-NOM	Number=Sing	9	compound	_	_
 9	Language	language	NOUN	SG-NOM	Number=Sing	14	compound	_	_
 10	(	(	PUNCT	LeftParenthesis	_	11	punct	_	SpaceAfter=No
-11	XSL	XSL	X	NOM	_	9	appos	_	SpaceAfter=No
+11	XSL	XSL	PROPN	SG-NOM	_	9	appos	_	SpaceAfter=No
 12	)	)	PUNCT	RightParenthesis	_	11	punct	_	_
 13	style	style	NOUN	SG-NOM	Number=Sing	14	compound	_	_
 14	sheet	sheet	NOUN	SG-NOM	Number=Sing	18	nsubj	_	_
