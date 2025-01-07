@@ -81,7 +81,7 @@
 11	Desktop	desktop	NOUN	SG-NOM	Number=Sing	12	compound	_	_
 12	Engine	engine	NOUN	SG-NOM	Number=Sing	4	nmod	_	_
 13	with	with	ADP	_	_	15	case	_	_
-14	integrated	integrate	ADJ	PASS	Degree=Pos	15	amod	_	_
+14	integrated	integrated	ADJ	PASS	Degree=Pos	15	amod	_	_
 15	security	security	NOUN	SG-NOM	Number=Sing	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	4	punct	_	_
 17	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
@@ -144,7 +144,7 @@
 16	to	to	ADP	_	_	22	case	_	_
 17	the	the	DET	DEF	Definite=Def|PronType=Art	22	det	_	_
 18	locally	locally	ADV	_	_	19	advmod	_	_
-19	installed	install	ADJ	PASS	Degree=Pos	22	amod	_	_
+19	installed	installed	ADJ	PASS	Degree=Pos	22	amod	_	_
 20	SQL	SQL	PROPN	SG-NOM	Number=Sing	22	compound	_	_
 21	Server	server	NOUN	SG-NOM	Number=Sing	20	flat	_	_
 22	database	database	NOUN	SG-NOM	Number=Sing	12	obl	_	_
@@ -214,7 +214,7 @@
 9	you	you	PRON	PERS-P2	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
 10	can	can	AUX	PRES-AUX	VerbForm=Fin	11	aux	_	_
 11	enable	enable	VERB	INF	VerbForm=Inf	0	root	_	_
-12	mixed	mix	ADJ	PASS	Degree=Pos	13	amod	_	_
+12	mixed	mixed	ADJ	PASS	Degree=Pos	13	amod	_	_
 13	mode	mode	NOUN	SG-NOM	Number=Sing	14	compound	_	_
 14	security	security	NOUN	SG-NOM	Number=Sing	11	obj	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	11	punct	_	_
@@ -517,7 +517,7 @@
 22	formats	format	NOUN	PL-NOM	Number=Plur	15	obl	_	_
 23	using	use	VERB	ING	Tense=Pres|VerbForm=Part	15	advcl	_	_
 24	XML	XML	PROPN	SG-NOM	Number=Sing	25	compound	_	_
-25	related	relate	ADJ	PASS	Degree=Pos	26	amod	_	_
+25	related	related	ADJ	PASS	Degree=Pos	26	amod	_	_
 26	files	file	NOUN	PL-NOM	Number=Plur	23	obj	_	SpaceAfter=No
 27	.	.	PUNCT	Period	_	3	punct	_	_
 
@@ -730,7 +730,7 @@
 2	addition	addition	NOUN	SG-NOM	Number=Sing	5	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	2	punct	_	_
 4	XML	XML	PROPN	SG-NOM	Number=Sing	5	compound	_	_
-5	defined	define	ADJ	PASS	Degree=Pos	6	amod	_	_
+5	defined	defined	ADJ	PASS	Degree=Pos	6	amod	_	_
 6	structures	structure	NOUN	PL-NOM	Number=Plur	8	nsubj	_	_
 7	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	unambiguous	unambiguous	ADJ	POS	Degree=Pos	0	root	_	SpaceAfter=No
@@ -1065,12 +1065,12 @@
 6	to	to	PART	_	_	7	mark	_	_
 7	overwrite	overwrite	VERB	INF	VerbForm=Inf	4	xcomp	_	_
 8	any	any	DET	IND	PronType=Ind	10	det	_	_
-9	existing	exist	ADJ	ING	Degree=Pos	10	amod	_	_
+9	existing	existing	ADJ	ING	Degree=Pos	10	amod	_	_
 10	tables	table	NOUN	PL-NOM	Number=Plur	7	obj	_	_
 11	or	or	CCONJ	_	_	12	cc	_	_
 12	append	append	VERB	INF	VerbForm=Inf	7	conj	_	_
 13	to	to	ADP	_	_	15	case	_	_
-14	existing	exist	ADJ	ING	Degree=Pos	15	amod	_	_
+14	existing	existing	ADJ	ING	Degree=Pos	15	amod	_	_
 15	data	data	NOUN	PL-NOM	Number=Sing	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	4	punct	_	_
 
@@ -1108,7 +1108,7 @@
 23	any	any	DET	IND	PronType=Ind	24	det	_	_
 24	number	number	NOUN	SG-NOM	Number=Sing	16	conj	_	_
 25	of	of	ADP	_	_	28	case	_	_
-26	XML-enabled	enable+xml	ADJ	PASS	Degree=Pos	28	amod	_	_
+26	XML-enabled	xml-enabled	ADJ	PASS	Degree=Pos	28	amod	_	_
 27	software	software	NOUN	SG-NOM	Number=Sing	28	compound	_	_
 28	programs	program	NOUN	PL-NOM	Number=Plur	24	nmod	_	_
 29	can	can	AUX	PRES-AUX	VerbForm=Fin	30	aux	_	_
@@ -1198,7 +1198,7 @@
 1	XSD	XSD	X	NOM	_	12	nsubj	_	_
 2	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
-4	proposed	propose	ADJ	PASS	Degree=Pos	12	amod	_	_
+4	proposed	proposed	ADJ	PASS	Degree=Pos	12	amod	_	_
 5	World	world	NOUN	SG-NOM	Number=Sing	8	compound	_	_
 6	Wide	wide	ADJ	POS	Degree=Pos	5	flat	_	_
 7	Web	web	NOUN	SG-NOM	Number=Sing	5	flat	_	_
@@ -1259,7 +1259,7 @@
 32	conforms	conform	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
 33	to	to	ADP	_	_	36	case	_	_
 34	a	a	DET	IND-SG	Definite=Ind|PronType=Art	36	det	_	_
-35	defined	define	ADJ	PASS	Degree=Pos	36	amod	_	_
+35	defined	defined	ADJ	PASS	Degree=Pos	36	amod	_	_
 36	structure	structure	NOUN	SG-NOM	Number=Sing	32	obl	_	SpaceAfter=No
 37	.	.	PUNCT	Period	_	8	punct	_	_
 
@@ -1981,7 +1981,7 @@
 3	include	include	VERB	INF	VerbForm=Inf	0	root	_	_
 4	only	only	ADV	_	_	7	advmod	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
-6	displayed	display	ADJ	PASS	Degree=Pos	7	amod	_	_
+6	displayed	displayed	ADJ	PASS	Degree=Pos	7	amod	_	_
 7	data	data	NOUN	PL-NOM	Number=Sing	3	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	14	punct	_	_
 9	or	or	CCONJ	_	_	13	cc	_	_
@@ -2022,7 +2022,7 @@
 19	control	control	NOUN	SG-NOM	Number=Sing	17	obj	_	_
 20	in	in	ADP	_	_	23	case	_	_
 21	the	the	DET	DEF	Definite=Def|PronType=Art	23	det	_	_
-22	following	follow	ADJ	ING	Degree=Pos	23	amod	_	_
+22	following	following	ADJ	ING	Degree=Pos	23	amod	_	_
 23	ways	way	NOUN	PL-NOM	Number=Plur	17	obl	_	SpaceAfter=No
 24	:	:	PUNCT	Colon	_	17	punct	_	_
 
@@ -2041,7 +2041,7 @@
 6	by	by	ADP	_	_	7	mark	_	_
 7	using	use	VERB	ING	Tense=Pres|VerbForm=Part	3	advcl	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	10	det	_	_
-9	sizing	size	ADJ	ING	Degree=Pos	10	amod	_	_
+9	sizing	sizing	ADJ	ING	Degree=Pos	10	amod	_	_
 10	handles	handle	NOUN	PL-NOM	Number=Plur	7	obj	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	15	punct	_	_
 12	or	or	CCONJ	_	_	15	cc	_	_
@@ -2449,7 +2449,7 @@
 11	applied	apply	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 12	to	to	ADP	_	_	15	case	_	_
 13	all	all	DET	TOT-PL	PronType=Tot	15	det	_	_
-14	selected	select	ADJ	PASS	Degree=Pos	15	amod	_	_
+14	selected	selected	ADJ	PASS	Degree=Pos	15	amod	_	_
 15	controls	control	NOUN	PL-NOM	Number=Plur	11	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	11	punct	_	_
 
@@ -2784,7 +2784,7 @@
 9	some	some	DET	IND	PronType=Ind	13	det	_	_
 10	New	New	PROPN	NOM	Number=Sing	13	compound	_	_
 11	England	England	PROPN	SG-NOM	Number=Sing	10	flat	_	_
-12	fishing	fish	ADJ	ING	Degree=Pos	13	amod	_	_
+12	fishing	fishing	ADJ	ING	Degree=Pos	13	amod	_	_
 13	village	village	NOUN	SG-NOM	_	7	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	16	punct	_	_
 15	perhaps	perhaps	ADV	_	_	16	advmod	_	_
@@ -2968,7 +2968,7 @@
 38	Melville	Melville	PROPN	SG-NOM	Number=Sing	25	conj	_	_
 39	and	and	CCONJ	_	_	42	cc	_	_
 40	the	the	DET	DEF	Definite=Def|PronType=Art	42	det	_	_
-41	opening	open	ADJ	ING	Degree=Pos	42	amod	_	_
+41	opening	opening	ADJ	ING	Degree=Pos	42	amod	_	_
 42	pages	page	NOUN	PL-NOM	Number=Plur	38	conj	_	_
 43	of	of	ADP	_	_	44	case	_	_
 44	Moby	Moby	PROPN	SG-NOM	Number=Sing	42	nmod	_	_
@@ -3232,7 +3232,7 @@
 13	himself	himself	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	12	obj	_	_
 14	to	to	ADP	_	_	17	case	_	_
 15	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
-16	waiting	wait	ADJ	ING	Degree=Pos	17	amod	_	_
+16	waiting	waiting	ADJ	ING	Degree=Pos	17	amod	_	_
 17	room	room	NOUN	SG-NOM	Number=Sing	12	obl	_	SpaceAfter=No
 18	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -3469,7 +3469,7 @@
 20	a	a	DET	IND-SG	Definite=Ind|PronType=Art	21	det	_	_
 21	wad	wad	NOUN	SG-NOM	Number=Sing	26	nsubj	_	_
 22	of	of	ADP	_	_	24	case	_	_
-23	chewing	chew	ADJ	ING	Degree=Pos	24	amod	_	_
+23	chewing	chewing	ADJ	ING	Degree=Pos	24	amod	_	_
 24	gum	gum	NOUN	SG-NOM	Number=Sing	21	nmod	_	_
 25	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	26	aux	_	_
 26	crackling	crackle	VERB	ING	Tense=Pres|VerbForm=Part	2	conj	_	_
@@ -3744,7 +3744,7 @@
 16	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
 17	with	with	SCONJ	_	_	23	mark	_	_
 18	an	a	DET	IND-SG	Definite=Ind|PronType=Art	20	det	_	_
-19	irritated	irritate	ADJ	PASS	Degree=Pos	20	amod	_	_
+19	irritated	irritated	ADJ	PASS	Degree=Pos	20	amod	_	_
 20	expression	expression	NOUN	SG-NOM	Number=Sing	23	nsubj	_	_
 21	on	on	ADP	_	_	23	case	_	_
 22	her	her	PRON	P3SG-GEN	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
@@ -4851,7 +4851,7 @@
 7	asked	ask	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	for	for	ADP	_	_	11	case	_	_
 9	Chief	chief	NOUN	SG-NOM	Number=Sing	11	compound	_	_
-10	Sitting	sit	ADJ	ING	Degree=Pos	11	amod	_	_
+10	Sitting	sitting	ADJ	ING	Degree=Pos	11	amod	_	_
 11	Bull	bull	NOUN	SG-NOM	Number=Sing	7	obl	_	_
 12	–	–	PUNCT	Dash	_	19	punct	_	_
 13	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
@@ -5157,7 +5157,7 @@
 62	,	,	PUNCT	Comma	_	66	punct	_	_
 63	of	of	ADP	_	_	66	case	_	_
 64	the	the	DET	DEF	Definite=Def|PronType=Art	66	det	_	_
-65	disquieting	disquiet	ADJ	POS	Degree=Pos	66	amod	_	_
+65	disquieting	disquieting	ADJ	POS	Degree=Pos	66	amod	_	_
 66	maps	map	NOUN	PL-NOM	Number=Plur	6	conj	_	_
 67	that	that	PRON	REL	PronType=Rel	68	nsubj	_	_
 68	formed	form	VERB	PAST	Tense=Past|VerbForm=Part	66	acl:relcl	_	_
@@ -6237,7 +6237,7 @@
 26	,	,	PUNCT	Comma	_	22	punct	_	_
 27	what	what	PRON	WH	PronType=Int	0	root	_	_
 28	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	_
-29	illuminated	illuminate	ADJ	PASS	Degree=Pos	30	amod	_	_
+29	illuminated	illuminated	ADJ	PASS	Degree=Pos	30	amod	_	_
 30	manuscripts	manuscript	NOUN	PL-NOM	Number=Plur	27	nsubj	_	SpaceAfter=No
 31	,	,	PUNCT	Comma	_	32	punct	_	_
 32	what	what	PRON	WH	PronType=Int	27	conj	_	_
@@ -6732,7 +6732,7 @@
 4	clear	clear	ADJ	POS	Degree=Pos	2	xcomp	_	_
 5	in	in	ADP	_	_	8	case	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
-7	opening	open	ADJ	ING	Degree=Pos	8	amod	_	_
+7	opening	opening	ADJ	ING	Degree=Pos	8	amod	_	_
 8	pages	page	NOUN	PL-NOM	Number=Plur	2	obl	_	_
 9	of	of	ADP	_	_	10	case	_	_
 10	War	war	NOUN	SG-NOM	Number=Sing	8	nmod	_	_
@@ -7280,7 +7280,7 @@
 24	,	,	PUNCT	Comma	_	28	punct	_	_
 25	"	&quot;	PUNCT	Quote	_	28	punct	_	SpaceAfter=No
 26	the	the	DET	DEF	Definite=Def|PronType=Art	28	det	_	_
-27	disquieting	disquiet	ADJ	POS	Degree=Pos	28	amod	_	_
+27	disquieting	disquieting	ADJ	POS	Degree=Pos	28	amod	_	_
 28	Marshal	marshal	NOUN	SG-NOM	Number=Sing	23	appos	_	SpaceAfter=No
 29	,	,	PUNCT	Comma	_	28	punct	_	SpaceAfter=No
 30	"	&quot;	PUNCT	Quote	_	28	punct	_	_
@@ -7499,7 +7499,7 @@
 # sent_id = en_lines-ud-dev-doc3-3525
 # text = A mounted escort of some 30 men, all armed.
 1	A	a	DET	IND-SG	Definite=Ind|PronType=Art	3	det	_	_
-2	mounted	mount	ADJ	PASS	Degree=Pos	3	amod	_	_
+2	mounted	mounted	ADJ	PASS	Degree=Pos	3	amod	_	_
 3	escort	escort	NOUN	SG-NOM	Number=Sing	0	root	_	_
 4	of	of	ADP	_	_	7	case	_	_
 5	some	some	ADV	_	_	7	advmod	_	_
@@ -8544,7 +8544,7 @@
 1	She	she	PRON	PERS-SG-NOM	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	wore	wear	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	det	_	_
-4	starched	starch	ADJ	PASS	Degree=Pos	6	amod	_	_
+4	starched	starched	ADJ	PASS	Degree=Pos	6	amod	_	_
 5	white	white	ADJ	POS	Degree=Pos	6	amod	_	_
 6	affair	affair	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 7	on	on	ADP	_	_	9	case	_	_
@@ -8559,7 +8559,7 @@
 16	cheek	cheek	NOUN	SG-NOM	Number=Sing	11	obl	_	SpaceAfter=No
 17	,	,	PUNCT	Comma	_	21	punct	_	_
 18	and	and	CCONJ	_	_	21	cc	_	_
-19	silver-rimmed	rim	ADJ	PASS	Degree=Pos	20	amod	_	_
+19	silver-rimmed	silver-rimmed	ADJ	PASS	Degree=Pos	20	amod	_	_
 20	spectacles	spectacle	NOUN	PL-NOM	Number=Plur	21	nsubj	_	_
 21	hung	hang	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 22	on	on	ADP	_	_	24	case	_	_
@@ -8939,7 +8939,7 @@
 3	very	very	ADV	_	_	4	advmod	_	_
 4	cool	cool	ADJ	POS	Degree=Pos	2	xcomp	_	_
 5	and	and	CCONJ	_	_	6	cc	_	_
-6	collected	collect	ADJ	POS	Degree=Pos	4	conj	_	_
+6	collected	collected	ADJ	POS	Degree=Pos	4	conj	_	_
 7	all	all	ADV	_	_	8	advmod	_	_
 8	at	at	ADV	_	_	2	advmod	_	_
 9	once	once	ADV	_	NumType=Mult	8	fixed	_	SpaceAfter=No
@@ -9194,7 +9194,7 @@
 2	gave	give	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
 4	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	det	_	_
-5	searching	search	ADJ	ING	Degree=Pos	6	amod	_	_
+5	searching	searching	ADJ	ING	Degree=Pos	6	amod	_	_
 6	glance	glance	NOUN	SG-NOM	Number=Sing	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	9	punct	_	_
 8	and	and	CCONJ	_	_	9	cc	_	_
@@ -10418,7 +10418,7 @@
 2	saw	see	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	det	_	_
 4	high	high	ADJ	POS	Degree=Pos	6	amod	_	_
-5	starched	starch	ADJ	PASS	Degree=Pos	6	amod	_	_
+5	starched	starched	ADJ	PASS	Degree=Pos	6	amod	_	_
 6	collar	collar	NOUN	SG-NOM	Number=Sing	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	9	punct	_	_
 8	white	white	ADJ	POS	Degree=Pos	9	amod	_	_
@@ -10437,7 +10437,7 @@
 21	necktie	necktie	NOUN	SG-NOM	Number=Sing	6	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Comma	_	25	punct	_	_
 23	and	and	CCONJ	_	_	25	cc	_	_
-24	varnished	varnish	ADJ	PASS	Degree=Pos	25	amod	_	_
+24	varnished	varnished	ADJ	PASS	Degree=Pos	25	amod	_	_
 25	boots	boot	NOUN	PL-NOM	Number=Plur	6	conj	_	SpaceAfter=No
 26	.	.	PUNCT	Period	_	6	punct	_	_
 27	No	no	DET	_	PronType=Neg	28	det	_	_
@@ -10455,7 +10455,7 @@
 7	,	,	PUNCT	Comma	_	11	punct	_	_
 8	under	under	ADP	_	_	11	case	_	_
 9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
-10	green-lined	line	ADJ	PASS	Degree=Pos	11	amod	_	_
+10	green-lined	green-lined	ADJ	PASS	Degree=Pos	11	amod	_	_
 11	parasol	parasol	NOUN	SG-NOM	Number=Sing	2	obl	_	_
 12	held	hold	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
 13	in	in	ADP	_	_	17	case	_	_
@@ -10620,7 +10620,7 @@
 10	cuffs	cuff	NOUN	PL-NOM	Number=Plur	6	conj	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	14	punct	_	_
 12	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
-13	brushed	brush	ADJ	PASS	Degree=Pos	14	amod	_	_
+13	brushed	brushed	ADJ	PASS	Degree=Pos	14	amod	_	_
 14	hair	hair	NOUN	SG-NOM	Number=Sing	6	conj	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	4	punct	_	_
 
@@ -10664,7 +10664,7 @@
 # sent_id = en_lines-ud-dev-doc4-3672
 # text = His starched collars and got-up shirt-fronts were achievements of character.
 1	His	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
-2	starched	starch	ADJ	PASS	Degree=Pos	3	amod	_	_
+2	starched	starched	ADJ	PASS	Degree=Pos	3	amod	_	_
 3	collars	collar	NOUN	PL-NOM	Number=Plur	8	nsubj	_	_
 4	and	and	CCONJ	_	_	6	cc	_	_
 5	got-up	get+up	ADJ	PASS	Degree=Pos	6	amod	_	_
@@ -10811,7 +10811,7 @@
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
 13	stream	stream	NOUN	SG-NOM	Number=Sing	8	appos	_	_
 14	of	of	ADP	_	_	16	case	_	_
-15	manufactured	manufacture	ADJ	PASS	Degree=Pos	16	amod	_	_
+15	manufactured	manufactured	ADJ	PASS	Degree=Pos	16	amod	_	_
 16	goods	good	NOUN	PL-NOM	Number=Plur	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	Comma	_	19	punct	_	_
 18	rubbishy	rubbishy	ADJ	POS	Degree=Pos	19	amod	_	_
@@ -11016,7 +11016,7 @@
 7	man	man	NOUN	SG-NOM	Number=Sing	3	nmod	_	_
 8	(	(	PUNCT	LeftParenthesis	_	11	punct	_	SpaceAfter=No
 9	some	some	DET	IND	PronType=Ind	11	det	_	_
-10	invalided	invalid	ADJ	PASS	Degree=Pos	11	amod	_	_
+10	invalided	invalided	ADJ	PASS	Degree=Pos	11	amod	_	_
 11	agent	agent	NOUN	SG-NOM	Number=Sing	7	appos	_	_
 12	from	from	ADP	_	_	13	case	_	_
 13	up-country	up-country	NOUN	SG-NOM	Number=Sing	11	nmod	_	SpaceAfter=No
@@ -11157,7 +11157,7 @@
 13	charge	charge	NOUN	SG-NOM	Number=Sing	9	obl	_	_
 14	of	of	ADP	_	_	17	case	_	_
 15	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
-16	trading	trade	ADJ	ING	Degree=Pos	17	amod	_	_
+16	trading	trading	ADJ	ING	Degree=Pos	17	amod	_	_
 17	post	post	NOUN	SG-NOM	Number=Sing	13	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	Comma	_	22	punct	_	_
 19	a	a	DET	IND-SG	Definite=Ind|PronType=Art	22	det	_	_
@@ -11233,7 +11233,7 @@
 2	there	there	PRON	EX	_	3	expl	_	_
 3	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	det	_	_
-5	growing	grow	ADJ	ING	Degree=Pos	6	amod	_	_
+5	growing	growing	ADJ	ING	Degree=Pos	6	amod	_	_
 6	murmur	murmur	NOUN	SG-NOM	Number=Sing	3	nsubj	_	_
 7	of	of	ADP	_	_	8	case	_	_
 8	voices	voice	NOUN	PL-NOM	Number=Plur	6	nmod	_	_
@@ -12052,7 +12052,7 @@
 11	two	two	NUM	CARD-PL	NumType=Card	12	nummod	_	_
 12	minutes	minute	NOUN	PL	Number=Plur	14	nmod:poss	_	SpaceAfter=No
 13	'	's	PART	GEN	_	12	case	_	_
-14	speaking	speak	ADJ	ING	Degree=Pos	15	amod	_	_
+14	speaking	speaking	ADJ	ING	Degree=Pos	15	amod	_	_
 15	time	time	NOUN	SG-NOM	Number=Sing	10	obj	_	_
 16	in	in	ADP	_	_	18	case	_	_
 17	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	18	det	_	_
@@ -12163,7 +12163,7 @@
 1	Preparing	prepare	VERB	ING	Tense=Pres|VerbForm=Part	17	csubj	_	_
 2	a	a	DET	IND-SG	Definite=Ind|PronType=Art	5	det	_	_
 3	Union-wide	union-wide	ADJ	POS	Degree=Pos	5	amod	_	_
-4	harmonising	harmonise	ADJ	ING	Degree=Pos	5	amod	_	_
+4	harmonising	harmonising	ADJ	ING	Degree=Pos	5	amod	_	_
 5	directive	directive	NOUN	SG-NOM	Number=Sing	1	obj	_	_
 6	on	on	ADP	_	_	10	case	_	_
 7	as	as	ADV	_	_	8	advmod	_	_
@@ -12504,7 +12504,7 @@
 14	to	to	PART	_	_	15	mark	_	_
 15	cover	cover	VERB	INF	VerbForm=Inf	6	conj	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
-17	remaining	remain	ADJ	PASS	Degree=Pos	18	amod	_	_
+17	remaining	remaining	ADJ	PASS	Degree=Pos	18	amod	_	_
 18	provisions	provision	NOUN	PL-NOM	Number=Plur	15	obj	_	_
 19	in	in	ADP	_	_	20	mark	_	_
 20	implementing	implement	VERB	ING	Tense=Pres|VerbForm=Part	15	advcl	_	_
@@ -13050,7 +13050,7 @@
 1	This	this	DET	DEM-SG	Number=Sing|PronType=Dem	5	det	_	_
 2	new	new	ADJ	POS	Degree=Pos	5	amod	_	_
 3	legally	legally	ADV	_	_	4	advmod	_	_
-4	binding	bind	ADJ	ING	Degree=Pos	5	amod	_	_
+4	binding	binding	ADJ	ING	Degree=Pos	5	amod	_	_
 5	vote	vote	NOUN	SG-NOM	Number=Sing	7	nsubj:pass	_	_
 6	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 7	highlighted	highlight	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -13131,12 +13131,12 @@
 10	new	new	ADJ	POS	Degree=Pos	11	amod	_	_
 11	technologies	technology	NOUN	PL-NOM	Number=Plur	8	conj	_	_
 12	and	and	CCONJ	_	_	14	cc	_	_
-13	speaking	speak	ADJ	ING	Degree=Pos	14	amod	_	_
+13	speaking	speaking	ADJ	ING	Degree=Pos	14	amod	_	_
 14	time	time	NOUN	SG-NOM	Number=Sing	8	conj	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	3	punct	_	_
 16	my	my	PRON	P1SG-GEN	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
 17	own	own	ADJ	POS	Degree=Pos	19	amod	_	_
-18	speaking	speak	ADJ	ING	Degree=Pos	19	amod	_	_
+18	speaking	speaking	ADJ	ING	Degree=Pos	19	amod	_	_
 19	time	time	NOUN	SG-NOM	Number=Sing	21	nsubj	_	_
 20	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	elapsed	elapse	VERB	PERF	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -13335,7 +13335,7 @@
 9	may	may	AUX	PRES-AUX	VerbForm=Fin	12	aux	_	_
 10	be	be	AUX	INF	VerbForm=Inf	12	aux	_	_
 11	somewhat	somewhat	ADV	_	_	12	advmod	_	_
-12	complicated	complicate	ADJ	POS	Degree=Pos	5	advcl	_	SpaceAfter=No
+12	complicated	complicated	ADJ	POS	Degree=Pos	5	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc5-3805
@@ -13662,7 +13662,7 @@
 34	particular	particular	ADJ	POS	Degree=Pos	35	amod	_	_
 35	combination	combination	NOUN	SG-NOM	Number=Sing	25	obl	_	_
 36	of	of	ADP	_	_	38	case	_	_
-37	articulated	articulate	ADJ	PASS	Degree=Pos	38	amod	_	_
+37	articulated	articulated	ADJ	PASS	Degree=Pos	38	amod	_	_
 38	sounds	sound	NOUN	PL-NOM	Number=Plur	35	nmod	_	SpaceAfter=No
 39	,	,	PUNCT	Comma	_	42	punct	_	_
 40	but	but	CCONJ	_	_	42	cc	_	_
@@ -14307,7 +14307,7 @@
 41	,	,	PUNCT	Comma	_	45	punct	_	_
 42	in	in	ADP	_	_	45	case	_	_
 43	a	a	DET	IND-SG	Definite=Ind|PronType=Art	45	det	_	_
-44	clinging	cling	ADJ	ING	Degree=Pos	45	amod	_	_
+44	clinging	clinging	ADJ	ING	Degree=Pos	45	amod	_	_
 45	fluff	fluff	NOUN	SG-NOM	Number=Sing	40	obl	_	_
 46	of	of	ADP	_	_	47	case	_	_
 47	supposition	supposition	NOUN	SG-NOM	Number=Sing	45	nmod	_	_
@@ -14533,7 +14533,7 @@
 25	colour-feeling	colour-feeling	NOUN	SG-NOM	Number=Sing	23	nmod	_	_
 26	by	by	ADP	_	_	27	mark	_	_
 27	avoiding	avoid	VERB	ING	Tense=Pres|VerbForm=Part	21	advcl	_	_
-28	tainted	taint	ADJ	PASS	Degree=Pos	29	amod	_	_
+28	tainted	tainted	ADJ	PASS	Degree=Pos	29	amod	_	_
 29	words	word	NOUN	PL-NOM	Number=Plur	27	obj	_	_
 30	and	and	CCONJ	_	_	31	cc	_	_
 31	addressing	address	VERB	ING	Tense=Pres|VerbForm=Part	27	conj	_	_
@@ -14973,7 +14973,7 @@
 23	to	to	PART	_	_	24	mark	_	_
 24	find	find	VERB	INF	VerbForm=Inf	22	xcomp	_	_
 25	a	a	DET	IND-SG	Definite=Ind|PronType=Art	28	det	_	_
-26	piddling	piddle	ADJ	ING	Degree=Pos	28	amod	_	_
+26	piddling	piddling	ADJ	ING	Degree=Pos	28	amod	_	_
 27	little	little	ADJ	POS	Degree=Pos	28	amod	_	_
 28	job	job	NOUN	SG-NOM	Number=Sing	24	obj	_	_
 29	somewhere	somewhere	ADV	WH-IND	PronType=Ind	28	advmod	_	SpaceAfter=No
@@ -15382,7 +15382,7 @@
 9	of	of	ADP	_	_	14	case	_	_
 10	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 11	three	three	NUM	CARD-PL	NumType=Card	14	nummod	_	_
-12	mining	mine	ADJ	ING	Degree=Pos	13	amod	_	_
+12	mining	mining	ADJ	ING	Degree=Pos	13	amod	_	_
 13	concessionaire	concessionaire	NOUN	SG-NOM	Number=Sing	14	compound	_	_
 14	companies	Companies	NOUN	PL-NOM	Number=Plur	8	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	20	punct	_	_
@@ -15519,7 +15519,7 @@
 15	remark	remark	NOUN	SG-NOM	Number=Sing	12	obj	_	_
 16	as	as	ADP	_	_	19	case	_	_
 17	an	a	DET	IND-SG	Definite=Ind|PronType=Art	19	det	_	_
-18	insulting	insult	ADJ	ING	Degree=Pos	19	amod	_	_
+18	insulting	insulting	ADJ	ING	Degree=Pos	19	amod	_	_
 19	reference	reference	NOUN	SG-NOM	Number=Sing	12	obl	_	_
 20	to	to	ADP	_	_	23	case	_	_
 21-22	Mweta's	_	_	_	_	_	_	_	_
@@ -15639,7 +15639,7 @@
 
 # sent_id = en_lines-ud-dev-doc6-3895
 # text = Sheltered employment all these years, what d' you expect?
-1	Sheltered	shelter	ADJ	PASS	Degree=Pos	2	amod	_	_
+1	Sheltered	sheltered	ADJ	PASS	Degree=Pos	2	amod	_	_
 2	employment	employment	NOUN	SG-NOM	Number=Sing	0	root	_	_
 3	all	all	DET	TOT-PL	PronType=Tot	5	det	_	_
 4	these	this	DET	DEM-PL	Number=Plur|PronType=Dem	5	det	_	_
@@ -15969,13 +15969,13 @@
 50	,	,	PUNCT	Comma	_	49	punct	_	_
 51	thin	thin	ADJ	POS	Degree=Pos	54	amod	_	SpaceAfter=No
 52	,	,	PUNCT	Comma	_	51	punct	_	_
-53	unpainted	paint	ADJ	PASS	Degree=Pos	54	amod	_	_
+53	unpainted	unpainted	ADJ	PASS	Degree=Pos	54	amod	_	_
 54	mouth	mouth	NOUN	SG-NOM	Number=Sing	33	conj	_	SpaceAfter=No
 55	,	,	PUNCT	Comma	_	57	punct	_	_
 56	black	black	ADJ	POS	Degree=Pos	57	amod	_	_
 57	hair	hair	NOUN	SG-NOM	Number=Sing	33	conj	_	_
 58	and	and	CCONJ	_	_	63	cc	_	_
-59	glittering	glitter	ADJ	ING	Degree=Pos	63	amod	_	SpaceAfter=No
+59	glittering	glittering	ADJ	ING	Degree=Pos	63	amod	_	SpaceAfter=No
 60	,	,	PUNCT	Comma	_	59	punct	_	_
 61	sorrowful	sorrowful	ADJ	POS	Degree=Pos	63	amod	_	_
 62	black	black	ADJ	POS	Degree=Pos	63	amod	_	_
@@ -16069,7 +16069,7 @@
 16	for	for	ADP	_	_	17	mark	_	_
 17	training	train	VERB	ING	Tense=Pres|VerbForm=Part	12	advcl	_	_
 18	in	in	ADP	_	_	20	case	_	_
-19	broadcasting	broadcast	ADJ	ING	Degree=Pos	20	amod	_	_
+19	broadcasting	broadcasting	ADJ	ING	Degree=Pos	20	amod	_	_
 20	techniques	technique	NOUN	PL-NOM	Number=Plur	17	obl	_	_
 21	–	–	PUNCT	Dash	_	2	punct	_	_
 
@@ -16546,7 +16546,7 @@
 22	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 23	such	such	ADJ	ADJ	Degree=Pos	26	amod	_	_
 24	a	a	DET	IND-SG	Definite=Ind|PronType=Art	26	det	_	_
-25	rough-sounding	sound	ADJ	ING	Degree=Pos	26	amod	_	_
+25	rough-sounding	rough-sounding	ADJ	ING	Degree=Pos	26	amod	_	_
 26	language	language	NOUN	SG-NOM	Number=Sing	17	advcl	_	_
 27	anyway	anyway	ADV	_	_	26	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	Period	_	3	punct	_	_
@@ -16584,7 +16584,7 @@
 # sent_id = en_lines-ud-dev-doc6-3937
 # text = The Oriental-looking little girl with Ras?
 1	The	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
-2	Oriental-looking	look	ADJ	ING	Degree=Pos	4	amod	_	_
+2	Oriental-looking	oriental-looking	ADJ	ING	Degree=Pos	4	amod	_	_
 3	little	little	ADJ	POS	Degree=Pos	4	amod	_	_
 4	girl	girl	NOUN	SG-NOM	Number=Sing	0	root	_	_
 5	with	with	ADP	_	_	6	case	_	_
@@ -16687,7 +16687,7 @@
 12	and	and	CCONJ	_	_	13	cc	_	_
 13	produced	produce	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
 14	a	a	DET	IND-SG	Definite=Ind|PronType=Art	16	det	_	_
-15	stomping	stomp	ADJ	ING	Degree=Pos	16	amod	_	_
+15	stomping	stomping	ADJ	ING	Degree=Pos	16	amod	_	_
 16	crescendo	crescendo	NOUN	SG-NOM	Number=Sing	13	obj	_	SpaceAfter=No
 17	;	;	PUNCT	SemiColon	_	23	punct	_	_
 18	then	then	ADV	_	PronType=Dem	23	advmod	_	_
@@ -16881,7 +16881,7 @@
 8	in	in	ADP	_	_	12	case	_	_
 9	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
 10	bright	bright	ADJ	POS	Degree=Pos	12	amod	_	_
-11	slanting	slant	ADJ	ING	Degree=Pos	12	amod	_	_
+11	slanting	slanting	ADJ	ING	Degree=Pos	12	amod	_	_
 12	sun	sun	NOUN	SG-NOM	Number=Sing	2	obl	_	_
 13	and	and	CCONJ	_	_	17	cc	_	_
 14	the	the	DET	DEF	Definite=Def|PronType=Art	16	det	_	_
@@ -16912,7 +16912,7 @@
 7	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	lost	lose	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 9	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
-10	stylized	stylize	ADJ	PERF	Degree=Pos	12	amod	_	SpaceAfter=No
+10	stylized	stylized	ADJ	PERF	Degree=Pos	12	amod	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	10	punct	_	_
 12	apparition-quality	apparition-quality	NOUN	SG-NOM	Number=Sing	8	obj	_	_
 13	of	of	ADP	_	_	16	case	_	_
@@ -17539,7 +17539,7 @@
 11	of	of	ADP	_	_	12	case	_	_
 12	cream	cream	NOUN	SG-NOM	Number=Sing	10	nmod	_	_
 13	and	and	CCONJ	_	_	15	cc	_	_
-14	sugared	sugar	ADJ	PASS	Degree=Pos	15	amod	_	_
+14	sugared	sugared	ADJ	PASS	Degree=Pos	15	amod	_	_
 15	violets	violet	NOUN	PL-NOM	Number=Plur	12	conj	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	10	punct	_	_
 17	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	_
@@ -17693,7 +17693,7 @@
 21	nephew	nephew	NOUN	SG-NOM	Number=Sing	5	appos	_	_
 22	–	–	PUNCT	Dash	_	24	punct	_	_
 23	very	very	ADV	_	_	24	advmod	_	_
-24	disturbed	disturb	ADJ	POS	Degree=Pos	21	amod	_	_
+24	disturbed	disturbed	ADJ	POS	Degree=Pos	21	amod	_	_
 25	meeting	meet	VERB	ING	Tense=Pres|VerbForm=Part	27	csubj	_	_
 26	strangers	stranger	NOUN	PL-NOM	Number=Plur	25	obj	_	_
 27	upsets	upset	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
@@ -17711,7 +17711,7 @@
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	shooed	shoo	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
-4	shocked	shock	ADJ	PASS	Degree=Pos	5	amod	_	_
+4	shocked	shocked	ADJ	PASS	Degree=Pos	5	amod	_	_
 5	Masons	Mason	PROPN	PL-NOM	Number=Plur	2	obj	_	_
 6	back	back	ADV	_	_	2	advmod	_	_
 7	into	into	ADP	_	_	10	case	_	_
@@ -18195,7 +18195,7 @@
 # sent_id = en_lines-ud-dev-doc7-4007
 # text = The following morning, he paid a man to fit bars on Harry's window.
 1	The	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
-2	following	follow	ADJ	ING	Degree=Pos	3	amod	_	_
+2	following	following	ADJ	ING	Degree=Pos	3	amod	_	_
 3	morning	morning	NOUN	SG-NOM	Number=Sing	6	obl:unmarked	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -18807,7 +18807,7 @@
 21	but	but	CCONJ	_	_	23	cc	_	_
 22	there	there	PRON	EX	_	23	expl	_	_
 23	were	be	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
-24	gnarled	gnarl	ADJ	PASS	Degree=Pos	25	amod	_	_
+24	gnarled	gnarled	ADJ	PASS	Degree=Pos	25	amod	_	_
 25	trees	tree	NOUN	PL-NOM	Number=Plur	23	nsubj	_	_
 26	all	all	ADV	_	_	29	advmod	_	_
 27	around	around	ADP	_	_	29	case	_	_
@@ -18935,7 +18935,7 @@
 # text = Seeing the shocked look on Harry's face, Ron added, It doesn't hurt them – you've just got to make them really dizzy so they can't find their way back to the gnomeholes.
 1	Seeing	see	VERB	ING	Tense=Pres|VerbForm=Part	11	advcl	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
-3	shocked	shock	ADJ	PASS	Degree=Pos	4	amod	_	_
+3	shocked	shocked	ADJ	PASS	Degree=Pos	4	amod	_	_
 4	look	look	NOUN	SG-NOM	Number=Sing	1	obj	_	_
 5	on	on	ADP	_	_	8	case	_	_
 6-7	Harry's	_	_	_	_	_	_	_	_
@@ -19517,7 +19517,7 @@
 9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	10	det	_	_
 10	door	door	NOUN	SG-NOM	Number=Sing	8	obj	_	_
 11	with	with	ADP	_	_	13	case	_	_
-12	peeling	peel	ADJ	ING	Degree=Pos	13	amod	_	_
+12	peeling	peeling	ADJ	ING	Degree=Pos	13	amod	_	_
 13	paint	paint	NOUN	SG-NOM	Number=Sing	10	nmod	_	_
 14	and	and	CCONJ	_	_	17	cc	_	_
 15	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
@@ -19715,7 +19715,7 @@
 5	pack	pack	NOUN	SG-NOM	Number=Sing	2	obl	_	_
 6	of	of	ADP	_	_	9	case	_	_
 7	Self-Shuffling	self-shuffling	ADJ	POS	Degree=Pos	8	amod	_	_
-8	playing	play	ADJ	ING	Degree=Pos	9	amod	_	_
+8	playing	playing	ADJ	ING	Degree=Pos	9	amod	_	_
 9	cards	card	NOUN	PL-NOM	Number=Plur	5	nmod	_	_
 10	on	on	ADP	_	_	12	case	_	_
 11	the	the	DET	DEF	Definite=Def|PronType=Art	12	det	_	_
@@ -19899,7 +19899,7 @@
 14	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	cop	_	_
 15	n't	not	PART	NEG	Polarity=Neg	18	advmod	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
-17	talking	talk	ADJ	ING	Degree=Pos	18	amod	_	_
+17	talking	talking	ADJ	ING	Degree=Pos	18	amod	_	_
 18	mirror	mirror	NOUN	SG-NOM	Number=Sing	0	root	_	_
 19	or	or	CCONJ	_	_	22	cc	_	_
 20	the	the	DET	DEF	Definite=Def|PronType=Art	22	det	_	_
@@ -21452,7 +21452,7 @@
 10	mind	mind	NOUN	SG-NOM	Number=Sing	14	nsubj	_	_
 11	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	14	det	_	_
-13	self-regulating	self-regulate	ADJ	ING	Degree=Pos	14	amod	_	_
+13	self-regulating	self-regulating	ADJ	ING	Degree=Pos	14	amod	_	_
 14	system	system	NOUN	SG-NOM	Number=Sing	2	ccomp	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	20	punct	_	_
 16	where	where	ADV	WH-REL	PronType=Rel	17	advmod	_	_
@@ -21594,7 +21594,7 @@
 10	the	the	DET	DEF	Definite=Def|PronType=Art	11	det	_	_
 11	sails	sail	NOUN	PL-NOM	Number=Plur	2	conj	_	_
 12	in	in	ADP	_	_	14	case	_	_
-13	tattered	tatter	ADJ	PASS	Degree=Pos	14	amod	_	_
+13	tattered	tattered	ADJ	PASS	Degree=Pos	14	amod	_	_
 14	cloth	cloth	NOUN	SG-NOM	Number=Sing	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -22239,7 +22239,7 @@
 9	fighting	fight	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	_
 10	with	with	ADP	_	_	13	case	_	_
 11	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
-12	assumed	assume	ADJ	POS	Degree=Pos	13	amod	_	_
+12	assumed	assumed	ADJ	POS	Degree=Pos	13	amod	_	_
 13	self	self	NOUN	SG-NOM	Number=Sing	9	obl	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	16	punct	_	_
 15	and	and	CCONJ	_	_	16	cc	_	_
