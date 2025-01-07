@@ -1995,7 +1995,7 @@
 12	fields	field	NOUN	PL-NOM	Number=Plur	21	nsubj:pass	_	_
 13	that	that	SCONJ	_	_	15	mark	_	_
 14	are	be	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
-15	closest	close	ADV	SPL	Degree=Sup	12	acl	_	_
+15	closest	close	ADJ	SPL	Degree=Sup	12	acl	_	_
 16	to	to	ADP	_	_	19	case	_	_
 17	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
 18	detail	detail	NOUN	SG-NOM	Number=Sing	19	compound	_	_
@@ -4705,7 +4705,7 @@
 13	line	line	NOUN	SG-NOM	Number=Sing	9	nmod	_	_
 14	and	and	CCONJ	_	_	18	cc	_	_
 15	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
-16	nearest	near	ADV	SPL	_	17	advmod	_	_
+16	nearest	near	ADJ	SPL	Degree=Sup	18	amod	_	_
 17	parallel	parallel	ADJ	POS	Degree=Pos	18	amod	_	_
 18	line	line	NOUN	SG-NOM	Number=Sing	13	conj	_	_
 19	below	below	ADV	_	_	18	advmod	_	_
@@ -4740,7 +4740,7 @@
 13	line	line	NOUN	SG-NOM	Number=Sing	9	nmod	_	_
 14	and	and	CCONJ	_	_	18	cc	_	_
 15	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
-16	nearest	near	ADV	SPL	_	17	advmod	_	_
+16	nearest	near	ADJ	SPL	Degree=Sup	18	amod	_	_
 17	parallel	parallel	ADJ	POS	Degree=Pos	18	amod	_	_
 18	line	line	NOUN	SG-NOM	Number=Sing	13	conj	_	_
 19	below	below	ADV	_	_	18	advmod	_	_
@@ -4784,7 +4784,7 @@
 13	grid	grid	NOUN	SG-NOM	Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	4	punct	_	_
 15	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
-16	nearest	near	ADV	SPL	_	17	advmod	_	_
+16	nearest	near	ADJ	SPL	Degree=Sup	18	amod	_	_
 17	parallel	parallel	ADJ	POS	Degree=Pos	18	amod	_	_
 18	line	line	NOUN	SG-NOM	Number=Sing	21	nsubj	_	_
 19-20	doesn't	_	_	_	_	_	_	_	_
@@ -4803,7 +4803,7 @@
 31	moving	move	VERB	ING	Tense=Pres|VerbForm=Part	28	acl:relcl	_	_
 32	and	and	CCONJ	_	_	36	cc	_	_
 33	the	the	DET	DEF	Definite=Def|PronType=Art	36	det	_	_
-34	nearest	near	ADV	SPL	_	35	advmod	_	_
+34	nearest	near	ADJ	SPL	Degree=Pos	36	amod	_	_
 35	parallel	parallel	ADJ	POS	Degree=Pos	36	amod	_	_
 36	line	line	NOUN	SG-NOM	Number=Sing	28	conj	_	_
 37	grows	grow	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
@@ -4826,7 +4826,7 @@
 12	grid	grid	NOUN	SG-NOM	Number=Sing	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	Comma	_	4	punct	_	_
 14	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
-15	nearest	near	ADV	SPL	_	16	advmod	_	_
+15	nearest	near	ADJ	SPL	Degree=Pos	17	amod	_	_
 16	parallel	parallel	ADJ	POS	Degree=Pos	17	amod	_	_
 17	line	line	NOUN	SG-NOM	Number=Sing	20	nsubj	_	_
 18-19	doesn't	_	_	_	_	_	_	_	_
@@ -4845,7 +4845,7 @@
 30	moving	move	VERB	ING	Tense=Pres|VerbForm=Part	27	acl:relcl	_	_
 31	and	and	CCONJ	_	_	35	cc	_	_
 32	the	the	DET	DEF	Definite=Def|PronType=Art	35	det	_	_
-33	nearest	near	ADV	SPL	_	34	advmod	_	_
+33	nearest	near	ADJ	SPL	Degree=Pos	35	amod	_	_
 34	parallel	parallel	ADJ	POS	Degree=Pos	35	amod	_	_
 35	line	line	NOUN	SG-NOM	Number=Sing	27	conj	_	_
 36	grows	grow	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
