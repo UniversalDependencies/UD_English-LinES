@@ -25,28 +25,24 @@ analysis of translations' funded by the Swedish Research Council (Ahrenberg, 200
 
 # Details on the source texts
 
-UD English_LinES contains segments from seven different sources, three of which are
+UD English_LinES contains segments from nine different sources, three of which are
 part of the Linköping Translation Corpus Corpus (Merkel, 1999). The
 treebank was first developed in the project 'Micro- and macro-level
 analysis of translations' funded by the Swedish Research Council (Ahrenberg, 2007).
 
-Six of the sub-corpora are taken from literary works:
+Seven of the sub-corpora are taken from literary works:
 
 Paul Auster: City of Glass. The New York Trilogy, Volume One. First
 published by Faber & Faber in 1985.
-
 Saul Bellow: To Jerusalem and back: a personal accunt. First published
 in 1976.
-
 Joseph Conrad: Heart of darkness. First published in 1899 as a serial
 in Blackwood's Magazine, in 1902 as a book.
-
 Nadine Gordimer: A Guest of Honour. First published in 1970.
-
 J. K. Rowling: Harry Potter and the Chamber of Secrets. First published
 in 1998.
-
 Jennette Winterson: Gut Symmetries. Granta Books, London, 1998.
+Rachel Cusk: Outline. Farrar, Straus and Giroux, New York, 2014.
 
 In addition the corpus includes segments from Microsoft Access 2002
 Online Help and the Englsh part of the Europarl corpus (v.7).
@@ -68,9 +64,9 @@ English_LinES and Swedish_LinES have been split the same way.
 
 BASIC STATISTICS
 
-Tree count: 4564
-Word count: 82821
-Token count: 82821
+Tree count: 5696
+Word count: ?
+Token count: ?
 Dep. relations: 40 of which 7 language specific
 POS tags: 17
 Category=value feature pairs: 0
@@ -170,6 +166,10 @@ From UD version 2.5 to version 2.6
 For version 2.9: 
   * Negative adverbs consistently given UPOS PART and 
   * consistent annotation of 'with' as 'mark' when introducing a subordinate clause such as 'with the rush hour at full force'
+
+For version 2.16
+  * Several changes in annotation to make it more similar to the UD guidelines for English
+  * Extension with some 450 sentences from Cusk's Outline.
 
 --- Machine readable metadata ---
 
