@@ -65,8 +65,8 @@ English_LinES and Swedish_LinES have been split the same way.
 BASIC STATISTICS
 
 Tree count: 5696
-Word count: ?
-Token count: ?
+Word count: 92,620
+Token count: 106,305
 Dep. relations: 40 of which 7 language specific
 POS tags: 17
 Category=value feature pairs: 0
