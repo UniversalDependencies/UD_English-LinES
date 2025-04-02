@@ -7618,7 +7618,7 @@
 8	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 9	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	cop	_	_
 10	thirty-five	thirty-five	NUM	CARD-PL	_	11	nummod	_	_
-11	years	year	NOUN	PL-NOM	Number=Plur	12	compound	_	_
+11	years	year	NOUN	PL-NOM	Number=Plur	12	obl:unmarked	_	_
 12	old	old	ADJ	POS	Degree=Pos	2	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -69616,7 +69616,7 @@
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	_
 3	thirty-six	thirty-six	NUM	CARD-PL	_	4	nummod	_	_
-4	years	year	NOUN	PL-NOM	Number=Plur	5	nmod	_	_
+4	years	year	NOUN	PL-NOM	Number=Plur	5	obl:unmarked	_	_
 5	old	old	ADJ	POS	Degree=Pos	0	root	_	_
 6	and	and	CCONJ	_	_	8	cc	_	_
 7	still	still	ADV	_	_	8	advmod	_	_
