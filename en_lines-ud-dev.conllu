@@ -2494,7 +2494,7 @@
 10	never	never	ADV	NEG	PronType=Neg	11	advmod	_	_
 11	appears	appear	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	when	when	SCONJ	_	_	18	mark	_	_
-13	more	more	ADJ	CMP	Degree=Cmp|ExtPos=ADP	15	advmod	_	_
+13	more	more	ADJ	CMP	Degree=Cmp|ExtPos=ADP	15	case	_	_
 14	than	than	ADP	_	_	13	fixed	_	_
 15	one	one	NUM	CARD-SG	NumType=Card	16	nummod	_	_
 16	control	control	NOUN	SG-NOM	Number=Sing	18	nsubj:pass	_	_
@@ -2583,9 +2583,9 @@
 29	,	,	PUNCT	Comma	_	30	punct	_	_
 30	Mar-Apr	mar-apr	NOUN	SG-NOM	Number=Sing	28	conj	_	SpaceAfter=No
 31	,	,	PUNCT	Comma	_	32	punct	_	_
-32	and	and	CCONJ	_	ExtPos=ADV	28	conj	_	_
-33	so	so	ADV	_	_	32	fixed	_	_
-34	on	on	ADP	_	_	32	fixed	_	SpaceAfter=No
+32	and	and	CCONJ	_	_	33	cc	_	_
+33	so	so	ADV	_	_	28	conj	_	_
+34	on	on	ADV	_	_	33	advmod	_	SpaceAfter=No
 35	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc1-3290
@@ -2636,9 +2636,9 @@
 17	,	,	PUNCT	Comma	_	18	punct	_	_
 18	100	100	NUM	CARD-PL	NumType=Card	12	conj	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	20	punct	_	_
-20	and	and	CCONJ	_	ExtPos=CCONJ	12	conj	_	_
-21	so	so	ADV	_	_	20	fixed	_	_
-22	on	on	ADP	_	_	20	fixed	_	SpaceAfter=No
+20	and	and	CCONJ	_	_	21	cc	_	_
+21	so	so	ADV	_	_	12	conj	_	_
+22	on	on	ADP	_	_	21	advmod	_	SpaceAfter=No
 23	.	.	PUNCT	Period	_	3	punct	_	_
 24	For	for	ADP	_	_	25	case	_	_
 25	example	example	NOUN	_	Number=Sing	29	obl	_	SpaceAfter=No
@@ -2656,9 +2656,9 @@
 37	,	,	PUNCT	Comma	_	38	punct	_	_
 38	101-200	101-200	NUM	ITVL	_	36	conj	_	SpaceAfter=No
 39	,	,	PUNCT	Comma	_	40	punct	_	_
-40	and	and	CCONJ	_	ExtPos=CCONJ	36	conj	_	_
-41	so	so	ADV	_	_	40	fixed	_	_
-42	on	on	ADP	_	_	40	fixed	_	SpaceAfter=No
+40	and	and	CCONJ	_	_	41	cc	_	_
+41	so	so	ADV	_	_	36	conj	_	_
+42	on	on	ADP	_	_	41	advmod	_	SpaceAfter=No
 43	.	.	PUNCT	Period	_	29	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc1-3293
@@ -2715,9 +2715,9 @@
 26	in	in	ADP	_	_	27	case	_	_
 27	February	February	PROPN	SG-NOM	Number=Sing	25	obl	_	SpaceAfter=No
 28	,	,	PUNCT	Comma	_	29	punct	_	_
-29	and	and	CCONJ	_	ExtPos=CCONJ	27	conj	_	_
-30	so	so	ADV	_	_	29	fixed	_	_
-31	on	on	ADP	_	_	29	fixed	_	SpaceAfter=No
+29	and	and	CCONJ	_	_	30	cc	_	_
+30	so	so	ADV	_	_	27	conj	_	_
+31	on	on	ADP	_	_	30	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	Period	_	6	punct	_	_
 
 # newdoc id = 2
