@@ -548,8 +548,8 @@
 11	to	to	PART	_	_	12	mark	_	_
 12	bind	bind	VERB	INF	VerbForm=Inf	7	advcl	_	_
 13	one	one	NUM	CARD-PL	NumType=Card	18	nummod	_	_
-14	or	or	CCONJ	CARD-PL	_	13	fixed	_	_
-15	more	very	ADV	CARD-PL	_	13	fixed	_	_
+14	or	or	CCONJ	_	_	15	cc	_	_
+15	more	many	ADV	CARD-PL	_	13	conj	_	_
 16	data	data	NOUN	PL-NOM	Number=Sing	17	compound	_	_
 17	access	access	NOUN	SG-NOM	Number=Sing	18	compound	_	_
 18	pages	page	NOUN	PL-NOM	Number=Plur	12	obj	_	_
@@ -4162,8 +4162,8 @@
 7	you	you	PRON	PERS-P2	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
 8	select	select	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	one	one	NUM	CARD-PL	NumType=Card	12	nummod	_	_
-10	or	or	CCONJ	CARD-PL	_	9	fixed	_	_
-11	more	very	ADV	CARD-PL	_	9	fixed	_	_
+10	or	or	CCONJ	_	_	11	cc	_	_
+11	more	very	ADV	CARD-PL	_	9	conj	_	_
 12	items	item	NOUN	PL-NOM	Number=Plur	8	obj	_	_
 13	of	of	ADP	_	_	14	case	_	_
 14	data	data	NOUN	PL-NOM	Number=Sing	12	nmod	_	_
@@ -4615,8 +4615,8 @@
 2	you	you	PRON	PERS-P2	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
 3	select	select	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	25	advcl	_	_
 4	one	one	NUM	CARD-PL	NumType=Card	7	nummod	_	_
-5	or	or	CCONJ	CARD-PL	_	4	fixed	_	_
-6	more	very	ADV	CARD-PL	_	4	fixed	_	_
+5	or	or	CCONJ	_	_	6	cc	_	_
+6	more	very	ADV	CARD-PL	_	4	conj	_	_
 7	items	item	NOUN	PL-NOM	Number=Plur	3	obj	_	_
 8	in	in	ADP	_	_	11	case	_	_
 9	the	the	DET	DEF	Definite=Def|PronType=Art	11	det	_	_
@@ -5247,7 +5247,7 @@
 31	and	and	CCONJ	_	_	32	cc	_	_
 32	so	so	ADV	_	_	11	conj	_	_
 33	on	on	ADV	_	_	32	advmod	_	SpaceAfter=No
-34	,	,	PUNCT	Comma	_	31	punct	_	_
+34	,	,	PUNCT	Comma	_	32	punct	_	_
 35	as	as	ADV	_	_	36	advmod	_	_
 36	long	long	ADV	_	Degree=Pos	37	advmod	_	_
 37	as	as	SCONJ	_	_	41	mark	_	_
@@ -5719,8 +5719,8 @@
 34	associated	associate	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	28	acl:relcl	_	_
 35	with	with	ADP	_	_	40	case	_	_
 36	one	one	NUM	CARD-PL	NumType=Card	40	nummod	_	_
-37	or	or	CCONJ	CARD-PL	_	36	fixed	_	_
-38	more	very	ADV	CARD-PL	_	36	fixed	_	_
+37	or	or	CCONJ	_	_	38	cc	_	_
+38	more	very	ADV	CARD-PL	_	36	conj	_	_
 39	Web	web	NOUN	SG-NOM	Number=Sing	40	compound	_	_
 40	pages	page	NOUN	PL-NOM	Number=Plur	34	obl	_	SpaceAfter=No
 41	.	.	PUNCT	Period	_	8	punct	_	_
@@ -6167,8 +6167,8 @@
 13	've	have	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	created	create	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
 15	one	one	NUM	CARD-PL	NumType=Card	18	nummod	_	_
-16	or	or	CCONJ	CARD-PL	_	15	fixed	_	_
-17	more	very	ADV	CARD-PL	_	15	fixed	_	_
+16	or	or	CCONJ	_	_	17	cc	_	_
+17	more	many	ADV	CARD-PL	_	15	conj	_	_
 18	queries	query	NOUN	PL-NOM	Number=Plur	14	obj	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	1	punct	_	_
 
@@ -46677,7 +46677,7 @@
 7	over	over	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	16	punct	_	_
 9	and	and	CCONJ	_	_	16	cc	_	_
-10	in	in	ADP	_	_	16	case	_	_
+10	in	in	ADP	_	ExtPos=ADP	16	case	_	_
 11	between	between	ADP	_	_	10	fixed	_	_
 12	all	all	DET	TOT-PL	PronType=Tot	16	det	_	_
 13	the	the	DET	DEF	Definite=Def|PronType=Art	16	det	_	_
