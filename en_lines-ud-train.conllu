@@ -5243,10 +5243,10 @@
 27	or	or	CCONJ	_	_	29	cc	_	_
 28	PivotTable	PivotTable	NOUN	SG-NOM	Number=Sing	29	compound	_	_
 29	List	list	NOUN	SG-NOM	Number=Sing	26	conj	_	SpaceAfter=No
-30	,	,	PUNCT	Comma	_	31	punct	_	_
-31	and	and	ADV	_	_	11	conj	_	_
-32	so	so	ADV	_	_	31	fixed	_	_
-33	on	on	ADP	_	_	31	fixed	_	SpaceAfter=No
+30	,	,	PUNCT	Comma	_	32	punct	_	_
+31	and	and	CCONJ	_	_	32	cc	_	_
+32	so	so	ADV	_	_	11	conj	_	_
+33	on	on	ADV	_	_	32	advmod	_	SpaceAfter=No
 34	,	,	PUNCT	Comma	_	31	punct	_	_
 35	as	as	ADV	_	_	36	advmod	_	_
 36	long	long	ADV	_	Degree=Pos	37	advmod	_	_
@@ -9138,7 +9138,7 @@
 41	eyes	eye	NOUN	PL-NOM	Number=Plur	38	nmod	_	_
 42	that	that	PRON	REL	PronType=Rel	46	nsubj	_	_
 43	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	46	cop	_	_
-44	at	at	ADV	_	_	46	advmod	_	_
+44	at	at	ADP	_	ExtPos=ADV	46	advmod	_	_
 45	once	once	ADV	_	NumType=Mult	44	fixed	_	_
 46	self-contained	contain	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	38	acl:relcl	_	_
 47	and	and	CCONJ	_	_	49	cc	_	_
@@ -9830,7 +9830,7 @@
 12	and	and	CCONJ	_	_	14	cc	_	_
 13	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	realized	realize	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
-15	at	at	ADV	_	_	14	advmod	_	_
+15	at	at	ADP	_	ExtPos=ADV	14	advmod	_	_
 16	once	once	ADV	_	NumType=Mult	15	fixed	_	_
 17	that	that	SCONJ	_	_	18	mark	_	_
 18	this	this	PRON	DEM-SG	Number=Sing|PronType=Dem	22	nsubj	_	_
@@ -11851,7 +11851,7 @@
 3	days	day	NOUN	PL-NOM	Number=Plur	5	obl	_	_
 4	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	spent	spend	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-6	at	at	ADV	_	_	7	advmod	_	_
+6	at	at	ADP	_	ExtPos=ADV	7	advmod	_	_
 7	least	little	ADV	SPL	Degree=Sup	5	advmod	_	_
 8	several	several	ADJ	POS	Degree=Pos	9	amod	_	_
 9	hours	hour	NOUN	PL-NOM	Number=Plur	5	obj	_	_
@@ -12377,7 +12377,7 @@
 20	of	of	ADP	_	_	21	case	_	_
 21	faith	faith	NOUN	SG-NOM	Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	Comma	_	27	punct	_	_
-23	at	at	ADV	_	_	27	advmod	_	_
+23	at	at	ADP	_	ExtPos=ADV	27	advmod	_	_
 24	least	little	ADV	SPL	Degree=Sup	23	fixed	_	_
 25	for	for	ADP	_	_	27	case	_	_
 26	the	the	DET	DEF	Definite=Def|PronType=Art	27	det	_	_
@@ -12977,7 +12977,7 @@
 5	disturbing	disturbing	ADJ	ING	Degree=Pos	6	amod	_	_
 6	calls	call	NOUN	PL-NOM	Number=Plur	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	10	punct	_	_
-8	at	at	ADV	_	_	10	advmod	_	_
+8	at	at	ADP	_	ExtPos=ADV	10	advmod	_	_
 9	least	little	ADV	SPL	Degree=Sup	8	fixed	_	_
 10	temporarily	temporarily	ADV	_	_	3	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	3	punct	_	_
@@ -18146,7 +18146,7 @@
 7	too	too	ADV	_	_	8	advmod	_	_
 8	many	many	ADJ	POS	Degree=Pos	9	amod	_	_
 9	shocks	shock	NOUN	PL-NOM	Number=Plur	5	obj	_	_
-10	at	at	ADV	_	_	5	advmod	_	_
+10	at	at	ADP	_	ExtPos=ADV	5	advmod	_	_
 11	once	once	ADV	_	NumType=Mult	10	fixed	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	15	punct	_	_
 13	and	and	CCONJ	_	_	15	cc	_	_
@@ -31013,7 +31013,7 @@
 8	of	of	ADP	_	_	10	case	_	_
 9	that	that	DET	DEM-SG	Number=Sing|PronType=Dem	10	det	_	_
 10	wreck	wreck	NOUN	SG-NOM	Number=Sing	7	nmod	_	_
-11	at	at	ADV	_	_	4	advmod	_	_
+11	at	at	ADP	_	ExtPos=ADV	4	advmod	_	_
 12	once	once	ADV	_	NumType=Mult	11	fixed	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	4	punct	_	_
 
@@ -32018,11 +32018,11 @@
 26	–	–	PUNCT	Dash	_	24	punct	_	_
 27	and	and	CCONJ	_	_	28	cc	_	_
 28	so	so	ADV	_	_	15	conj	_	_
-29	on	on	ADP	_	_	28	fixed	_	SpaceAfter=No
+29	on	on	ADV	_	_	28	advmod	_	SpaceAfter=No
 30	,	,	PUNCT	Comma	_	32	punct	_	_
 31	and	and	CCONJ	_	_	32	cc	_	_
 32	so	so	ADV	_	_	15	conj	_	_
-33	on	on	ADP	_	_	32	fixed	_	SpaceAfter=No
+33	on	on	ADV	_	_	32	advmod	_	SpaceAfter=No
 34	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-train-doc4-1492
@@ -40371,7 +40371,7 @@
 # text = he knew at once where he was.
 1	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	knew	know	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	at	at	ADV	_	_	2	advmod	_	_
+3	at	at	ADP	_	ExtPos=ADV	2	advmod	_	_
 4	once	once	ADV	_	NumType=Mult	3	fixed	_	_
 5	where	where	ADV	WH	PronType=Int	7	advmod	_	_
 6	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -44395,7 +44395,7 @@
 5	've	have	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	been	be	AUX	PERF	Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	gone	go	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-8	at	at	ADV	_	_	10	advmod	_	_
+8	at	at	ADP	_	ExtPos=ADV	10	advmod	_	_
 9	least	little	ADV	_	Degree=Sup	8	fixed	_	_
 10	five	five	NUM	CARD-PL	NumType=Card	13	nummod	_	_
 11	or	or	CCONJ	_	_	12	cc	_	_
@@ -53293,7 +53293,7 @@
 1	Dudley	Dudley	PROPN	SG-NOM	Number=Sing	2	nsubj	_	_
 2	stumbled	stumble	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	backwards	backwards	ADV	_	_	2	advmod	_	_
-4	at	at	ADV	_	_	2	advmod	_	_
+4	at	at	ADP	_	ExtPos=ADV	2	advmod	_	_
 5	once	once	ADV	_	NumType=Mult	4	fixed	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
 7	a	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
@@ -60329,9 +60329,9 @@
 
 # sent_id = en_lines-ud-train-doc8-2821
 # text = At least not until later, much later, when things began to change.
-1	At	at	ADP	_	_	3	case	_	_
+1	At	at	ADP	_	ExtPos=ADV	5	advmod	_	_
 2	least	little	ADV	SPL	Degree=Sup	1	fixed	_	_
-3	not	not	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	not	not	PART	NEG	Polarity=Neg	5	advmod	_	_
 4	until	until	SCONJ	_	_	5	mark	_	_
 5	later	late	ADV	CMP	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
@@ -63727,7 +63727,7 @@
 7	it	it	PRON	PERS-SG	_	9	expl	_	_
 8	will	will	AUX	PRES-AUX	VerbForm=Fin	9	aux	_	_
 9	be	be	AUX	INF	VerbForm=Inf	5	ccomp	_	_
-10	at	at	ADV	_	_	13	advmod	_	_
+10	at	at	ADP	_	ExtPos=ADV	13	advmod	_	_
 11	least	little	ADV	_	_	10	fixed	_	_
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
 13	week	week	NOUN	SG-NOM	Number=Sing	9	obj	_	_
@@ -73268,8 +73268,8 @@
 13	displeased	displease	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	20	punct	_	_
 15	but	but	CCONJ	_	_	20	cc	_	_
-16	at	at	ADP	_	_	17	case	_	_
-17	least	little	ADV	SPL	Degree=Sup	20	advmod	_	_
+16	at	at	ADP	_	ExtPos=ADV	20	advmod	_	_
+17	least	little	ADV	SPL	Degree=Sup	16	fixed	_	_
 18	it	it	PRON	PERS-SG	_	20	expl	_	_
 19	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	cop	_	_
 20	possible	possible	ADJ	POS	Degree=Pos	13	conj	_	_
@@ -73948,7 +73948,7 @@
 11	do	do	VERB	INF	VerbForm=Inf	9	acl	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	17	punct	_	_
 13	or	or	CCONJ	_	_	17	cc	_	_
-14	at	at	ADV	_	_	17	advmod	_	_
+14	at	at	ADP	_	ExtPos=ADV	17	advmod	_	_
 15	least	little	VERB	INF	VerbForm=Inf	14	fixed	_	_
 16	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
 17	thing	thing	NOUN	SG-NOM	Number=Sing	9	conj	_	_
