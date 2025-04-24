@@ -7712,7 +7712,7 @@
 21	it	it	PRON	PERS-SG	_	23	expl	_	_
 22	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 23	necessary	necessary	ADJ	POS	Degree=Pos	4	advcl	_	_
-24	after	after	ADP	_	_	23	advmod	_	_
+24	after	after	ADP	_	ExtPos=ADV	23	advmod	_	_
 25	all	all	PRON	TOT-SG	Case=Nom	24	fixed	_	_
 26	to	to	PART	_	_	27	mark	_	_
 27	know	know	VERB	INF	VerbForm=Inf	23	csubj	_	_
@@ -9721,7 +9721,7 @@
 7	in	in	ADP	_	_	9	case	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 9	Administration	administration	NOUN	SG-NOM	Number=Sing	6	nmod	_	_
-10	before	before	ADP	_	_	6	advmod	_	_
+10	before	before	ADP	_	ExtPos=ADV	6	advmod	_	_
 11	long	long	ADV	_	Degree=Pos	10	fixed	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	6	punct	_	_
 

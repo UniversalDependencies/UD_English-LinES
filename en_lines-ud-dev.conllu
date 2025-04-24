@@ -642,7 +642,7 @@
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 7	presentation	presentation	NOUN	SG-NOM	Number=Sing	2	obl	_	_
 8	so	so	SCONJ	_	ExtPos=SCONJ	16	mark	_	_
-9	that	that	SCONJ	_	_	8	fixed	_	_
+9	that	that	SCONJ	_	_	16	mark	_	_
 10	the	the	DET	DEF	Definite=Def|PronType=Art	13	det	_	_
 11	same	same	ADJ	POS	Degree=Pos	13	amod	_	_
 12	XML	XML	PROPN	SG-NOM	Number=Sing	13	compound	_	_
@@ -934,7 +934,7 @@
 6	dialog	dialog	NOUN	SG-NOM	Number=Sing	7	compound	_	_
 7	box	box	NOUN	SG-NOM	Number=Sing	3	obj	_	_
 8	so	so	SCONJ	_	ExtPos=SCONJ	12	mark	_	_
-9	that	that	SCONJ	_	_	8	fixed	_	_
+9	that	that	SCONJ	_	_	12	mark	_	_
 10	you	you	PRON	PERS-P2	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
 11	can	can	AUX	PRES-AUX	VerbForm=Fin	12	aux	_	_
 12	select	select	VERB	INF	VerbForm=Inf	3	advcl	_	_
@@ -1277,7 +1277,7 @@
 10	and	and	CCONJ	_	_	11	cc	_	_
 11	applications	application	NOUN	PL-NOM	Number=Plur	9	conj	_	_
 12	so	so	ADV	_	ExtPos=SCONJ	15	mark	_	_
-13	that	that	SCONJ	_	_	12	fixed	_	_
+13	that	that	SCONJ	_	_	15	mark	_	_
 14	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
 15	know	know	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 16	how	how	ADV	WH	PronType=Int	19	advmod	_	_
@@ -1408,7 +1408,7 @@
 26	use	use	VERB	INF	VerbForm=Inf	20	xcomp	_	_
 27	another	another	ADJ	ADJ-SG	Degree=Pos	28	amod	_	_
 28	language	language	NOUN	SG-NOM	Number=Sing	26	obj	_	_
-29	in	in	ADP	_	_	32	mark	_	_
+29	in	in	ADP	_	ExtPos=ADV	32	mark	_	_
 30	order	order	NOUN	_	Number=Sing	29	fixed	_	_
 31	to	to	ADP	_	_	29	fixed	_	_
 32	write	write	VERB	INF	VerbForm=Inf	26	advcl	_	SpaceAfter=No
@@ -1662,7 +1662,7 @@
 8	conditional	conditional	ADJ	POS	Degree=Pos	9	amod	_	_
 9	filter	filter	NOUN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	14	punct	_	_
-11	regardless	regardless	ADP	_	_	14	case	_	_
+11	regardless	regardless	ADV	_	ExtPos=ADP	14	case	_	_
 12	of	of	ADP	_	_	11	fixed	_	_
 13	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 14	order	order	NOUN	SG-NOM	Number=Sing	5	obl	_	_
@@ -2342,7 +2342,7 @@
 5	of	of	ADP	_	_	7	case	_	_
 6	several	several	ADJ	POS	Degree=Pos	7	amod	_	_
 7	controls	control	NOUN	PL-NOM	Number=Plur	4	nmod	_	_
-8	at	at	ADV	_	_	2	advmod	_	_
+8	at	at	ADP	_	ExtPos=ADV	2	advmod	_	_
 9	once	once	ADV	_	NumType=Mult	8	fixed	_	_
 
 # sent_id = en_lines-ud-dev-doc1-3280
@@ -2459,7 +2459,7 @@
 2	select	select	VERB	INF	VerbForm=Inf	15	advcl	_	_
 3	several	several	ADJ	POS	Degree=Pos	4	amod	_	_
 4	controls	control	NOUN	PL-NOM	Number=Plur	2	obj	_	_
-5	at	at	ADV	_	_	2	advmod	_	_
+5	at	at	ADP	_	ExtPos=ADV	2	advmod	_	_
 6	once	once	ADV	_	NumType=Mult	5	fixed	_	_
 7	in	in	ADP	_	_	11	case	_	_
 8	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
@@ -2494,7 +2494,7 @@
 10	never	never	ADV	NEG	PronType=Neg	11	advmod	_	_
 11	appears	appear	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	when	when	SCONJ	_	_	18	mark	_	_
-13	more	more	ADJ	CMP	Degree=Cmp	15	advmod	_	_
+13	more	more	ADJ	CMP	Degree=Cmp|ExtPos=ADP	15	advmod	_	_
 14	than	than	ADP	_	_	13	fixed	_	_
 15	one	one	NUM	CARD-SG	NumType=Card	16	nummod	_	_
 16	control	control	NOUN	SG-NOM	Number=Sing	18	nsubj:pass	_	_
@@ -2583,7 +2583,7 @@
 29	,	,	PUNCT	Comma	_	30	punct	_	_
 30	Mar-Apr	mar-apr	NOUN	SG-NOM	Number=Sing	28	conj	_	SpaceAfter=No
 31	,	,	PUNCT	Comma	_	32	punct	_	_
-32	and	and	ADV	_	_	28	conj	_	_
+32	and	and	CCONJ	_	ExtPos=ADV	28	conj	_	_
 33	so	so	ADV	_	_	32	fixed	_	_
 34	on	on	ADP	_	_	32	fixed	_	SpaceAfter=No
 35	.	.	PUNCT	Period	_	6	punct	_	_
@@ -2636,7 +2636,7 @@
 17	,	,	PUNCT	Comma	_	18	punct	_	_
 18	100	100	NUM	CARD-PL	NumType=Card	12	conj	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	20	punct	_	_
-20	and	and	ADV	_	_	12	conj	_	_
+20	and	and	CCONJ	_	ExtPos=CCONJ	12	conj	_	_
 21	so	so	ADV	_	_	20	fixed	_	_
 22	on	on	ADP	_	_	20	fixed	_	SpaceAfter=No
 23	.	.	PUNCT	Period	_	3	punct	_	_
@@ -2656,7 +2656,7 @@
 37	,	,	PUNCT	Comma	_	38	punct	_	_
 38	101-200	101-200	NUM	ITVL	_	36	conj	_	SpaceAfter=No
 39	,	,	PUNCT	Comma	_	40	punct	_	_
-40	and	and	ADV	_	_	36	conj	_	_
+40	and	and	CCONJ	_	ExtPos=CCONJ	36	conj	_	_
 41	so	so	ADV	_	_	40	fixed	_	_
 42	on	on	ADP	_	_	40	fixed	_	SpaceAfter=No
 43	.	.	PUNCT	Period	_	29	punct	_	_
@@ -2715,7 +2715,7 @@
 26	in	in	ADP	_	_	27	case	_	_
 27	February	February	PROPN	SG-NOM	Number=Sing	25	obl	_	SpaceAfter=No
 28	,	,	PUNCT	Comma	_	29	punct	_	_
-29	and	and	ADV	_	_	27	conj	_	_
+29	and	and	CCONJ	_	ExtPos=CCONJ	27	conj	_	_
 30	so	so	ADV	_	_	29	fixed	_	_
 31	on	on	ADP	_	_	29	fixed	_	SpaceAfter=No
 32	.	.	PUNCT	Period	_	6	punct	_	_
@@ -3861,7 +3861,7 @@
 8	gum	gum	NOUN	SG-NOM	Number=Sing	6	obj	_	_
 9	loudly	loudly	ADV	_	_	6	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	3	punct	_	_
-11	Sort	sort	NOUN	SG-NOM	Number=Sing	15	discourse	_	_
+11	Sort	sort	NOUN	SG-NOM	ExtPos=ADV|Number=Sing	15	discourse	_	_
 12	of	of	ADP	_	_	11	fixed	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	11	punct	_	_
 14-15	There's	_	_	_	_	_	_	_	_
@@ -4104,7 +4104,7 @@
 3	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	posted	post	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	himself	himself	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	4	obj	_	_
-6	in	in	ADP	_	_	10	case	_	_
+6	in	in	ADP	_	ExtPos=ADP	10	case	_	_
 7	front	front	NOUN	_	Number=Sing	6	fixed	_	_
 8	of	of	ADP	_	_	6	fixed	_	_
 9	gate	gate	NOUN	SG-NOM	Number=Sing	10	compound	_	_
@@ -4366,7 +4366,7 @@
 4	little	little	ADV	_	Degree=Pos	5	advmod	_	_
 5	good	good	ADJ	POS	Degree=Pos	3	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	Period	_	3	punct	_	_
-7	In	in	ADP	_	_	14	mark	_	_
+7	In	in	ADP	_	ExtPos=SCONJ	14	mark	_	_
 8	spite	spite	NOUN	_	Number=Sing	7	fixed	_	_
 9	of	of	ADP	_	_	7	fixed	_	_
 10	what	what	PRON	WH-REL	PronType=Rel	14	obj	_	_
@@ -4958,8 +4958,8 @@
 5	spoke	speak	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 7	word	word	NOUN	SG-NOM	Number=Sing	5	obj	_	_
-8	as	as	SCONJ	_	_	13	mark	_	_
-9	though	though	SCONJ	_	_	8	fixed	_	_
+8	as	as	ADP	_	_	13	mark	_	_
+9	though	though	SCONJ	_	_	13	mark	_	_
 10	it	it	PRON	PERS-SG	_	13	nsubj	_	_
 11	were	be	AUX	SBJ	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
@@ -20782,7 +20782,7 @@
 3	:	:	PUNCT	Colon	_	5	punct	_	_
 4	to	to	PART	_	_	5	mark	_	_
 5	come	come	VERB	INF	VerbForm=Inf	2	appos	_	_
-6	face	face	NOUN	SG-NOM	Number=Sing	5	advmod	_	_
+6	face	face	NOUN	SG-NOM	ExtPos=ADV|Number=Sing	5	obl	_	_
 7	to	to	ADP	_	_	6	fixed	_	_
 8	face	face	NOUN	SG-NOM	Number=Sing	6	fixed	_	_
 9	with	with	ADP	_	_	5	obl:unmarked	_	SpaceAfter=No
