@@ -1153,9 +1153,9 @@
 20	,	,	PUNCT	Comma	_	21	punct	_	_
 21	B	B	NOUN	SG-NOM	Number=Sing	19	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Comma	_	23	punct	_	_
-23	and	and	CCONJ	_	_	19	conj	_	_
-24	so	so	ADV	_	_	23	fixed	_	_
-25	on	on	ADP	_	_	23	fixed	_	SpaceAfter=No
+23	and	and	CCONJ	_	_	24	cc	_	_
+24	so	so	ADV	_	_	19	conj	_	_
+25	on	on	ADV	_	_	24	advmod	_	SpaceAfter=No
 26	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-test-doc1-4272
@@ -6581,7 +6581,7 @@
 # text = So, at least, Navrozov thinks.
 1	So	so	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	3	punct	_	_
-3	at	at	ADV	_	_	7	advmod	_	_
+3	at	at	ADP	_	ExtPos=ADV	7	advmod	_	_
 4	least	little	ADV	_	Degree=Sup	3	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	3	punct	_	_
 6	Navrozov	Navrozov	PROPN	SG-NOM	Number=Sing	7	nsubj	_	_
@@ -10852,7 +10852,7 @@
 16	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
 17	general	general	ADJ	POS	Degree=Pos	18	amod	_	_
 18	manager	manage	NOUN	SG-NOM	Number=Sing	15	obj	_	_
-19	at	at	ADV	_	_	15	advmod	_	_
+19	at	at	ADP	_	ExtPos=ADV	15	advmod	_	_
 20	once	once	ADV	_	NumType=Mult	19	fixed	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	13	punct	_	_
 
@@ -12793,7 +12793,7 @@
 5	Commission	commission	NOUN	SG-NOM	Number=Sing	7	nsubj	_	_
 6	will	will	AUX	PRES-AUX	VerbForm=Fin	7	aux	_	_
 7	act	act	VERB	INF	VerbForm=Inf	0	root	_	_
-8	at	at	ADV	_	_	7	advmod	_	_
+8	at	at	ADP	_	ExtPos=ADV	7	advmod	_	_
 9	once	once	ADV	_	NumType=Mult	8	fixed	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	7	punct	_	_
 
@@ -13574,7 +13574,7 @@
 7	the	the	DET	DEF	Definite=Def|PronType=Art	9	det	_	_
 8	two	two	NUM	CARD-PL	NumType=Card	9	nummod	_	_
 9	men	man	NOUN	PL-NOM	Number=Plur	5	obl	_	_
-10	at	at	ADV	_	_	5	advmod	_	_
+10	at	at	ADP	_	ExtPos=ADV	5	advmod	_	_
 11	once	once	ADV	_	NumType=Mult	10	fixed	_	_
 12	and	and	CCONJ	_	_	13	cc	_	_
 13	hearing	hear	VERB	ING	Tense=Pres|VerbForm=Part	5	conj	_	_
@@ -16648,7 +16648,7 @@
 # sent_id = en_lines-ud-test-doc7-5021
 # text = Almost at once, Harry wished he hadn't spoken.
 1	Almost	almost	ADV	_	_	2	advmod	_	_
-2	at	at	ADV	_	_	6	advmod	_	_
+2	at	at	ADP	_	ExtPos=ADV	6	advmod	_	_
 3	once	once	ADV	_	NumType=Mult	2	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	2	punct	_	_
 5	Harry	Harry	PROPN	SG-NOM	Number=Sing	6	nsubj	_	_
@@ -16969,7 +16969,7 @@
 4	?	?	PUNCT	QuestionMark	_	3	punct	_	_
 5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	Harry	Harry	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
-7	at	at	ADV	_	_	5	advmod	_	_
+7	at	at	ADP	_	ExtPos=ADV	5	advmod	_	_
 8	once	once	ADV	_	NumType=Mult	7	fixed	_	SpaceAfter=No
 9	.	.	PUNCT	Period	_	5	punct	_	_
 
@@ -17758,7 +17758,7 @@
 24	feather	feather	NOUN	SG-NOM	Number=Sing	25	compound	_	_
 25	duster	duster	NOUN	SG-NOM	Number=Sing	16	obj	_	_
 26	–	–	PUNCT	Dash	_	31	punct	_	_
-27	at	at	ADV	_	_	31	advmod	_	_
+27	at	at	ADP	_	ExtPos=ADV	31	advmod	_	_
 28	least	little	ADV	_	Degree=Sup	27	fixed	_	SpaceAfter=No
 29	,	,	PUNCT	Comma	_	27	punct	_	_
 30	that	that	PRON	DEM-SG	Number=Sing|PronType=Dem	31	obj	_	_
@@ -17890,7 +17890,7 @@
 16	let	let	VERB	INF	VerbForm=Inf	5	conj	_	_
 17	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
 18	know	know	VERB	INF	VerbForm=Inf	16	xcomp	_	_
-19	at	at	ADV	_	_	18	advmod	_	_
+19	at	at	ADP	_	ExtPos=ADV	18	advmod	_	_
 20	once	once	ADV	_	NumType=Mult	19	fixed	_	SpaceAfter=No
 21	,	,	PUNCT	Comma	_	27	punct	_	_
 22	but	but	CCONJ	_	_	27	cc	_	_
@@ -20043,7 +20043,7 @@
 2	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	step	step	VERB	INF	VerbForm=Inf	0	root	_	_
 4	inside	inside	ADV	_	_	3	advmod	_	_
-5	at	at	ADV	_	_	3	advmod	_	_
+5	at	at	ADP	_	ExtPos=ADV	3	advmod	_	_
 6	once	once	ADV	_	NumType=Mult	5	fixed	_	SpaceAfter=No
 7	?	?	PUNCT	QuestionMark	_	3	punct	_	SpacesAfter=\n\n
 
@@ -20559,7 +20559,7 @@
 6	do	do	VERB	INF	VerbForm=Inf	4	conj	_	_
 7	eight	eight	NUM	CARD-PL	NumType=Card	8	nummod	_	_
 8	things	thing	NOUN	PL-NOM	Number=Plur	6	obj	_	_
-9	at	at	ADV	_	_	6	advmod	_	_
+9	at	at	ADP	_	ExtPos=ADV	6	advmod	_	_
 10	once	once	ADV	_	NumType=Mult	9	fixed	_	SpaceAfter=No
 11	?	?	PUNCT	QuestionMark	_	4	punct	_	SpaceAfter=No
 12	'	'	PUNCT	Quote	_	4	punct	_	_
