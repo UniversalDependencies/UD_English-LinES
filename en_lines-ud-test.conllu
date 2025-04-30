@@ -17883,7 +17883,7 @@
 9	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	all	all	ADV	_	_	11	advmod	_	_
 11	right	right	ADJ	_	Degree=Pos	16	advcl	_	SpaceAfter=No
-12	,	,	PUNCT	Comma	_	5	punct	_	_
+12	,	,	PUNCT	Comma	_	11	punct	_	_
 13	will	will	AUX	PRES-AUX	VerbForm=Fin	16	aux	_	_
 14	you	you	PRON	PERS-P2	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
 15	please	please	INTJ	_	_	16	discourse	_	_
