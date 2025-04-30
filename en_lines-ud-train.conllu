@@ -27365,8 +27365,8 @@
 52	homes	home	NOUN	PL-NOM	Number=Plur	50	obj	_	SpaceAfter=No
 53	,	,	PUNCT	Comma	_	59	punct	_	_
 54	just	just	ADV	_	_	59	advmod	_	_
-55	as	as	SCONJ	_	_	56	mark	_	_
-56	though	though	SCONJ	_	_	56	mark	_	_
+55	as	as	SCONJ	_	_	59	mark	_	_
+56	though	though	SCONJ	_	_	59	mark	_	_
 57	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	59	nsubj	_	_
 58	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	59	aux	_	_
 59	got	get	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	43	advcl	_	_
@@ -31107,7 +31107,7 @@
 18	board	board	NOUN	SG-NOM	Number=Sing	17	fixed	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	21	punct	_	_
 20	in	in	ADP	_	_	21	case	_	_
-21	charge	charge	NOUN	SG-NOM	Number=Sing	18	nmod	_	_
+21	charge	charge	NOUN	SG-NOM	Number=Sing	17	conj	_	_
 22	of	of	ADP	_	_	25	case	_	_
 23	some	some	DET	IND	PronType=Ind	25	det	_	_
 24	volunteer	volunteer	NOUN	SG-NOM	Number=Sing	25	compound	_	_
@@ -42300,7 +42300,7 @@
 # sent_id = en_lines-ud-train-doc6-2003
 # text = What else was there to live by?
 1	What	what	PRON	WH	PronType=Int	3	nsubj	_	_
-2	else	else	ADJ	IND-SG	Case=Nom	1	amod	_	_
+2	else	else	ADJ	IND-SG	Degree=Pos	1	amod	_	_
 3	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	there	there	PRON	EX	_	3	expl	_	_
 5	to	to	PART	_	_	6	mark	_	_
@@ -67453,7 +67453,7 @@
 22	no	no	DET	NEG-SG-NOM	PronType=Neg	23	det	_	_
 23	one	one	PRON	NEG-SG-NOM	Number=Sing|PronType=Neg	21	nsubj	_	_
 24	who	who	PRON	WH-REL	PronType=Rel	25	nsubj	_	_
-25	seemed	seem	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+25	seemed	seem	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
 26	interested	interested	ADJ	POS	Degree=Pos	25	xcomp	_	_
 27	in	in	ADP	_	_	28	case	_	_
 28	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	obl	_	SpaceAfter=No
