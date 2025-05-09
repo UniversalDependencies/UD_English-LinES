@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_English-LinES:
-commit 0aa14cdeddef9d1d4a6bb155d1669f2e1694c039
-Merge: 61a1435 eced5e1
+commit 5d496515cf354820c1676303f3a54247c5b7e7ea
+Merge: 93a7780 2239cf4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 94217 of 94217 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.09120126478277.
+Size: counted 106305 of 106305 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.33262464186066.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,42 +15,66 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 59858 out of 94217 total words have one or more features.
+Features: 69026 out of 106305 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
-Universal relations: 33 out of 37 found in the corpus.
+Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL       4090
-Udapi: found 4090 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 94217 words.
-Genres: found 3 out of 17 known.
+               TOTAL       3415
+Udapi: found 3415 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 106305 words.
+Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-dev.conllu
-[Line 3587 Sent en_lines-ud-dev-doc2-3327 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:the:det --> 15:as:mark)
-[Line 6515 Sent en_lines-ud-dev-doc3-3477 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:a:det --> 10:half:amod)
-[Line 12630 Sent en_lines-ud-dev-doc5-3766 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:a:det --> 1:Such:amod)
-[Line 19087 Sent en_lines-ud-dev-doc7-4045 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:the:det --> 3:they:nsubj)
-Warnings: 4
+[Line 5560 Sent en_lines-ud-dev-doc2-3423 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'All right' does not have the 'ExtPos' feature
+[Line 5576 Sent en_lines-ud-dev-doc2-3425 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'All right' does not have the 'ExtPos' feature
+[Line 5581 Sent en_lines-ud-dev-doc2-3425 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'at last' does not have the 'ExtPos' feature
+[Line 5675 Sent en_lines-ud-dev-doc2-3431 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'at all' does not have the 'ExtPos' feature
+[Line 7556 Sent en_lines-ud-dev-doc3-3531 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'a few' does not have the 'ExtPos' feature
+[Line 7695 Sent en_lines-ud-dev-doc3-3538 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 'all but' does not have the 'ExtPos' feature
+[Line 7909 Sent en_lines-ud-dev-doc3-3547 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'side by side' does not have the 'ExtPos' feature
+[Line 10179 Sent en_lines-ud-dev-doc4-3653 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'at all' does not have the 'ExtPos' feature
+[Line 10339 Sent en_lines-ud-dev-doc4-3658 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'in front of' does not have the 'ExtPos' feature
+[Line 10568 Sent en_lines-ud-dev-doc4-3667 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'at all' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 29
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-test.conllu
+[Line 487 Sent en_lines-ud-test-doc1-4234 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'more or less' does not have the 'ExtPos' feature
+[Line 521 Sent en_lines-ud-test-doc1-4235 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
+[Line 628 Sent en_lines-ud-test-doc1-4240 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
+[Line 2876 Sent en_lines-ud-test-doc2-4362 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'as for' does not have the 'ExtPos' feature
+[Line 3909 Sent en_lines-ud-test-doc2-4407 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'In spite of' does not have the 'ExtPos' feature
+[Line 3943 Sent en_lines-ud-test-doc2-4409 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'At last' does not have the 'ExtPos' feature
+[Line 3974 Sent en_lines-ud-test-doc2-4410 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'was about' does not have the 'ExtPos' feature
+[Line 4052 Sent en_lines-ud-test-doc2-4415 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'thank you' does not have the 'ExtPos' feature
+[Line 4213 Sent en_lines-ud-test-doc2-4425 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'over and over again' does not have the 'ExtPos' feature
+[Line 4374 Sent en_lines-ud-test-doc2-4432 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'at last' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 29
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-train.conllu
-[Line 9726 Sent en_lines-ud-train-doc2-460 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:the:det --> 6:as:mark)
-[Line 9919 Sent en_lines-ud-train-doc2-466 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:all:det --> 18:that:mark)
-[Line 22429 Sent en_lines-ud-train-doc3-1089 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:the:det --> 13:one:nsubj)
-[Line 31501 Sent en_lines-ud-train-doc4-1464 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:a:det --> 10:a:appos)
-[Line 53951 Sent en_lines-ud-train-doc7-2493 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:a:det --> 23:to:mark)
-[Line 57681 Sent en_lines-ud-train-doc7-2677 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:a:det --> 12:such:amod)
-Warnings: 6
+[Line 10273 Sent en_lines-ud-train-doc2-483 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'at last' does not have the 'ExtPos' feature
+[Line 10531 Sent en_lines-ud-train-doc2-499 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'in front of' does not have the 'ExtPos' feature
+[Line 16219 Sent en_lines-ud-train-doc2-778 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'at all' does not have the 'ExtPos' feature
+[Line 16697 Sent en_lines-ud-train-doc2-805 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'At last' does not have the 'ExtPos' feature
+[Line 17050 Sent en_lines-ud-train-doc2-826 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
+[Line 17208 Sent en_lines-ud-train-doc3-833 Node 39]: [L3 Warning fixed-without-extpos] Fixed expression 'in and out' does not have the 'ExtPos' feature
+[Line 17854 Sent en_lines-ud-train-doc3-869 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
+[Line 19503 Sent en_lines-ud-train-doc3-971 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
+[Line 19591 Sent en_lines-ud-train-doc3-975 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
+[Line 20723 Sent en_lines-ud-train-doc3-1013 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'by now' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 117
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
+(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.658043090527837) = 0.16872899757124
+(weight=0.256410256410256) * (score{size}=0.675517897272399) = 0.173209717249333
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.565895751297537) = 0.174121769630011
-(weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
-(TOTAL score=0.623299994709302) * (availability=1) * (validity=1) = 0.623299994709302
-STARS = 3
-UD_English-LinES	0.623299994709302	3
+(weight=0.307692307692308) * (score{udapi}=0.678754527068341) = 0.208847546790259
+(weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
+(TOTAL score=0.663623445605774) * (availability=1) * (validity=1) = 0.663623445605774
+STARS = 3.5
+UD_English-LinES	0.663623445605774	3.5
