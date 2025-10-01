@@ -20432,9 +20432,9 @@
 14	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
 15	bar	bar	NOUN	SG-NOM	Number=Sing	4	obl	_	_
 16	at	at	ADP	_	_	18	case	_	_
-17	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
-18	Algonquin	Algonquin	PROPN	SG-NOM	Number=Sing	15	nmod	_	_
-19	Hotel	hotel	PROPN	SG-NOM	Number=Sing	18	flat	_	SpaceAfter=No
+17	the	the	DET	DEF	Definite=Def|PronType=Art	19	det	_	_
+18	Algonquin	Algonquin	PROPN	SG-NOM	Number=Sing	19	compound	_	_
+19	Hotel	hotel	PROPN	SG-NOM	Number=Sing	15	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	4	punct	_	SpaceAfter=No
 21	'	'	PUNCT	Quote	_	4	punct	_	SpacesAfter=\n\n
 
