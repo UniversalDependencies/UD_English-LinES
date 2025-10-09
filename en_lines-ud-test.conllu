@@ -20825,8 +20825,8 @@
 20	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 21	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
 22	done	do	VERB	PERF	Tense=Past|VerbForm=Part	16	ccomp	_	_
-23	with	with	ADP	_	_	22	case	_	_
-24	it	it	PRON	PERS-SG	_	22	obj	_	SpaceAfter=No
+23	with	with	ADP	_	_	24	case	_	_
+24	it	it	PRON	PERS-SG	_	22	obl	_	SpaceAfter=No
 25	.	.	PUNCT	Period	_	7	punct	_	SpacesAfter=\n\n
 
 # sent_id = en_lines-ud-test-doc8-5233

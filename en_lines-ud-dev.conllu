@@ -2081,7 +2081,7 @@
 17	ruler	ruler	NOUN	SG-NOM	Number=Sing	15	obj	_	_
 18	to	to	PART	_	_	19	mark	_	_
 19	help	help	VERB	INF	VerbForm=Inf	15	xcomp	_	_
-20	you	you	PRON	PERS-P2	Case=Acc|Person=2|PronType=Prs	21	obj	_	_
+20	you	you	PRON	PERS-P2	Case=Acc|Person=2|PronType=Prs	21	iobj	_	_
 21	resize	resize	VERB	INF	VerbForm=Inf	19	xcomp	_	_
 22	controls	control	NOUN	PL-NOM	Number=Plur	21	obj	_	SpaceAfter=No
 23	.	.	PUNCT	Period	_	15	punct	_	_
@@ -10085,7 +10085,7 @@
 7	but	but	CCONJ	_	_	9	cc	_	_
 8	to	to	PART	_	_	9	mark	_	_
 9	offer	offer	VERB	INF	VerbForm=Inf	6	conj	_	_
-10	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+10	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
 11	one	one	NUM	CARD-SG	NumType=Card	9	obj	_	_
 12	of	of	ADP	_	_	19	case	_	_
 13	my	my	PRON	P1SG-GEN	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
@@ -16611,7 +16611,7 @@
 3	only	only	ADV	_	_	4	advmod	_	_
 4	let	let	VERB	INF	VerbForm=Inf	0	root	_	_
 5	her	she	PRON	PERS-P3SG-ACC	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	obj	_	_
-6	come	come	VERB	INF	VerbForm=Inf	4	obj	_	_
+6	come	come	VERB	INF	VerbForm=Inf	4	xcomp	_	_
 7	if	if	SCONJ	_	_	9	mark	_	_
 8	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	promised	promise	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_

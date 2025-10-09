@@ -1431,7 +1431,7 @@
 5	an	a	DET	IND-SG	Definite=Ind|PronType=Art	7	det	_	_
 6	interactive	interactive	ADJ	POS	Degree=Pos	7	amod	_	_
 7	table	table	NOUN	SG-NOM	Number=Sing	0	root	_	_
-8	that	that	SCONJ	_	_	13	obj	_	_
+8	that	that	SCONJ	_	_	11	obj	_	_
 9	you	you	PRON	PERS-P2	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
 10	can	can	AUX	PRES-AUX	VerbForm=Fin	11	aux	_	_
 11	use	use	VERB	INF	VerbForm=Inf	7	acl:relcl	_	_
@@ -2643,7 +2643,7 @@
 10	,	,	PUNCT	Comma	_	9	punct	_	_
 11	use	use	VERB	INF	VerbForm=Inf	1	conj	_	_
 12	an	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
-13	XSLT	XSLT	X	NOM	_	15	obj	_	_
+13	XSLT	XSLT	X	NOM	_	11	obj	_	_
 14	to	to	PART	_	_	15	mark	_	_
 15	transform	transform	VERB	INF	VerbForm=Inf	11	xcomp	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
@@ -17782,7 +17782,7 @@
 5	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	ask	ask	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
-8	stewardess	stewardess	NOUN	SG-NOM	Number=Sing	10	obj	_	_
+8	stewardess	stewardess	NOUN	SG-NOM	Number=Sing	6	obj	_	_
 9	to	to	PART	_	_	10	mark	_	_
 10	serve	serve	VERB	INF	Mood=Ind|Tense=Pres|VerbForm=Fin	6	xcomp	_	_
 11	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
@@ -21439,7 +21439,7 @@
 12	baksheesh	baksheesh	NOUN	SG-NOM	Number=Sing	13	compound	_	_
 13	mentality	mentality	NOUN	SG-NOM	Number=Sing	10	obj	_	_
 14	to	to	ADP	_	_	15	case	_	_
-15	Israel	Israel	PROPN	SG-NOM	Number=Sing	10	obj	_	SpaceAfter=No
+15	Israel	Israel	PROPN	SG-NOM	Number=Sing	10	obl	_	SpaceAfter=No
 16	;	;	PUNCT	SemiColon	_	20	punct	_	_
 17	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
 18	intellectuals	intellectual	NOUN	PL-NOM	Number=Plur	20	nsubj:pass	_	_
@@ -28882,8 +28882,8 @@
 4	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 5	would	would	AUX	PAST-AUX	VerbForm=Fin	6	aux	_	_
 6	feel	feel	VERB	INF	VerbForm=Inf	0	root	_	_
-7	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
-8	belonged	belong	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	6	obj	_	_
+7	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	belonged	belong	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	_
 9	still	still	ADV	_	_	8	advmod	_	_
 10	to	to	ADP	_	_	12	case	_	_
 11	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
@@ -35273,12 +35273,12 @@
 # sent_id = en_lines-ud-train-doc5-1654
 # text = So it is essential that we activate this right fully.
 1	So	so	ADV	_	_	4	advmod	_	_
-2	it	it	PRON	PERS-SG	_	4	nsubj	_	_
+2	it	it	PRON	PERS-SG	_	4	expl	_	_
 3	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	essential	essential	ADJ	POS	Degree=Pos	0	root	_	_
-5	that	that	PRON	_	PronType=Rel	7	obj	_	_
+5	that	that	SCONJ	_	_	7	mark	_	_
 6	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
-7	activate	activate	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	activate	activate	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	4	csubj	_	_
 8	this	this	DET	DEM-SG	Number=Sing|PronType=Dem	9	det	_	_
 9	right	right	NOUN	SG-NOM	Number=Sing	7	obj	_	_
 10	fully	fully	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -43646,7 +43646,7 @@
 31	has	have	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
 32	the	the	DET	DEF	Definite=Def|PronType=Art	33	det	_	_
 33	cover	cover	NOUN	SG-NOM	Number=Sing	31	obj	_	_
-34	taken	take	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	31	obj	_	_
+34	taken	take	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	31	advcl	_	_
 35	off	off	ADP	_	_	37	case	_	_
 36	its	its	PRON	SG-GEN	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
 37	cage	cage	NOUN	SG-NOM	Number=Sing	34	obl	_	SpaceAfter=No
@@ -49385,7 +49385,7 @@
 13	kept	keep	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
 14	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 15	lips	lip	NOUN	PL-NOM	Number=Plur	13	obj	_	_
-16	drawn	draw	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	13	obj	_	_
+16	drawn	draw	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	_
 17	back	back	ADV	_	_	16	advmod	_	_
 18	slightly	slightly	ADV	_	_	16	advmod	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	20	punct	_	_
@@ -54527,7 +54527,7 @@
 6	Fred	Fred	PROPN	SG-NOM	Number=Sing	5	obj	_	_
 7	and	and	CCONJ	_	_	8	cc	_	_
 8	George	George	PROPN	SG-NOM	Number=Sing	6	conj	_	_
-9	heave	heave	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	5	obj	_	_
+9	heave	heave	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 10	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 11	trunk	trunk	NOUN	SG-NOM	Number=Sing	9	obj	_	_
 12	up	up	ADP	_	_	14	case	_	_
@@ -58175,7 +58175,7 @@
 
 # sent_id = en_lines-ud-train-doc7-2707
 # text = Guess who I saw in Borgin and Burkes? Harry asked Ron and Hermione as they climbed the Gringotts steps.
-1	Guess	guess	VERB	IMP	Mood=Imp|VerbForm=Fin	11	obj	_	_
+1	Guess	guess	VERB	IMP	Mood=Imp|VerbForm=Fin	11	ccomp	_	_
 2	who	who	PRON	WH-NOM	PronType=Int	4	obj	_	_
 3	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	saw	see	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	1	ccomp	_	_
@@ -64361,7 +64361,7 @@
 20	through	through	ADP	_	_	23	case	_	_
 21	the	the	DET	DEF	Definite=Def|PronType=Art	23	det	_	_
 22	unfathomable	unfathomable	ADJ	POS	Degree=Pos	23	amod	_	_
-23	universe	universe	NOUN	SG-NOM	Number=Sing	17	obj	_	SpaceAfter=No
+23	universe	universe	NOUN	SG-NOM	Number=Sing	17	obl	_	SpaceAfter=No
 24	,	,	PUNCT	Comma	_	25	punct	_	_
 25	chasing	chase	VERB	ING	Tense=Pres|VerbForm=Part	17	conj	_	_
 26	that	that	PRON	DEM-SG	Number=Sing|Person=3|PronType=Dem	25	obj	_	_
@@ -64469,7 +64469,7 @@
 40	,	,	PUNCT	Comma	_	41	punct	_	_
 41	call	call	VERB	INF	VerbForm=Inf	29	conj	_	_
 42	it	it	PRON	PERS-SG	_	41	obj	_	_
-43	god	god	NOUN	SG-NOM	Number=Sing	41	obj	_	SpaceAfter=No
+43	god	god	NOUN	SG-NOM	Number=Sing	41	xcomp	_	SpaceAfter=No
 44	,	,	PUNCT	Comma	_	41	punct	_	_
 45	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	46	aux:pass	_	_
 46	driven	drive	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
@@ -68034,7 +68034,7 @@
 # text = She showed us the life jacket with its little pipe, the emergency exits, the oxygen mask dangling from a length of clear tubing.
 1	She	she	PRON	PERS-SG-NOM	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	showed	show	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+3	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	_
 4	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
 5	life	life	NOUN	SG-NOM	Number=Sing	6	compound	_	_
 6	jacket	jacket	NOUN	SG-NOM	Number=Sing	2	obj	_	_
