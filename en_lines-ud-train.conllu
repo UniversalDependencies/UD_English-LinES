@@ -74184,7 +74184,7 @@
 8	n't	not	PART	NEG	_	7	advmod	_	_
 9	quite	quite	ADV	_	_	10	advmod	_	_
 10	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
-11	few	few	ADJ	IND-PL	Degree=Pos	12	amod_	_
+11	few	few	ADJ	IND-PL	Degree=Pos	12	amod	_	_
 12	people	people	NOUN	PL-NOM	Number=Plur	7	nsubj	_	_
 13	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 14	would	would	AUX	PAST-AUX	Mood=Ind|VerbForm=Fin	15	aux	_	_
