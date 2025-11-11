@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_English-LinES:
-commit 5d496515cf354820c1676303f3a54247c5b7e7ea
-Merge: 93a7780 2239cf4
+commit e61c36964056214007083b4c1ecc68c1411a24a8
+Merge: 477ea9f 9c1e6e9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'en_lines'
+Language code (from CoNLL-U file name) = 'en'
+Found the following data files: en_lines-ud-dev.conllu, en_lines-ud-test.conllu, en_lines-ud-train.conllu
 Size: counted 106305 of 106305 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.33262464186066.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,66 +19,61 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 69026 out of 106305 total words have one or more features.
+Features: 69027 out of 106305 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi:
-               TOTAL       3415
-Udapi: found 3415 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 106305 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-dev.conllu
-[Line 5560 Sent en_lines-ud-dev-doc2-3423 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'All right' does not have the 'ExtPos' feature
-[Line 5576 Sent en_lines-ud-dev-doc2-3425 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'All right' does not have the 'ExtPos' feature
-[Line 5581 Sent en_lines-ud-dev-doc2-3425 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'at last' does not have the 'ExtPos' feature
-[Line 5675 Sent en_lines-ud-dev-doc2-3431 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'at all' does not have the 'ExtPos' feature
-[Line 7556 Sent en_lines-ud-dev-doc3-3531 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'a few' does not have the 'ExtPos' feature
-[Line 7695 Sent en_lines-ud-dev-doc3-3538 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 'all but' does not have the 'ExtPos' feature
-[Line 7909 Sent en_lines-ud-dev-doc3-3547 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'side by side' does not have the 'ExtPos' feature
-[Line 10179 Sent en_lines-ud-dev-doc4-3653 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'at all' does not have the 'ExtPos' feature
-[Line 10339 Sent en_lines-ud-dev-doc4-3658 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'in front of' does not have the 'ExtPos' feature
-[Line 10568 Sent en_lines-ud-dev-doc4-3667 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'at all' does not have the 'ExtPos' feature
+[Line 112 Sent en_lines-ud-dev-doc1-3180]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 129 Sent en_lines-ud-dev-doc1-3181]: [L3 Warning pron-det-without-prontype] The word 'There' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 401 Sent en_lines-ud-dev-doc1-3193]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 432 Sent en_lines-ud-dev-doc1-3194]: [L3 Warning pron-det-without-prontype] The word 'Some' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 622 Sent en_lines-ud-dev-doc1-3202]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 670 Sent en_lines-ud-dev-doc1-3204]: [L3 Warning pron-det-without-prontype] The word 'that' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 810 Sent en_lines-ud-dev-doc1-3207]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 853 Sent en_lines-ud-dev-doc1-3211]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1479 Sent en_lines-ud-dev-doc1-3235]: [L3 Warning pron-det-without-prontype] The word 'It' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1586 Sent en_lines-ud-dev-doc1-3240]: [L3 Warning pron-det-without-prontype] The word 'ones' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 29
+Warnings: 444
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-test.conllu
-[Line 487 Sent en_lines-ud-test-doc1-4234 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'more or less' does not have the 'ExtPos' feature
-[Line 521 Sent en_lines-ud-test-doc1-4235 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
-[Line 628 Sent en_lines-ud-test-doc1-4240 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
-[Line 2876 Sent en_lines-ud-test-doc2-4362 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'as for' does not have the 'ExtPos' feature
-[Line 3909 Sent en_lines-ud-test-doc2-4407 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'In spite of' does not have the 'ExtPos' feature
-[Line 3943 Sent en_lines-ud-test-doc2-4409 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'At last' does not have the 'ExtPos' feature
-[Line 3974 Sent en_lines-ud-test-doc2-4410 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'was about' does not have the 'ExtPos' feature
-[Line 4052 Sent en_lines-ud-test-doc2-4415 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'thank you' does not have the 'ExtPos' feature
-[Line 4213 Sent en_lines-ud-test-doc2-4425 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'over and over again' does not have the 'ExtPos' feature
-[Line 4374 Sent en_lines-ud-test-doc2-4432 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'at last' does not have the 'ExtPos' feature
+[Line 340 Sent en_lines-ud-test-doc1-4225]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 344 Sent en_lines-ud-test-doc1-4225]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 487 Sent en_lines-ud-test-doc1-4234]: [L3 Warning fixed-without-extpos] Fixed expression 'more or less' does not have the 'ExtPos' feature
+[Line 521 Sent en_lines-ud-test-doc1-4235]: [L3 Warning fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
+[Line 628 Sent en_lines-ud-test-doc1-4240]: [L3 Warning fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
+[Line 785 Sent en_lines-ud-test-doc1-4249]: [L3 Warning pron-det-without-prontype] The word 'It' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1090 Sent en_lines-ud-test-doc1-4268]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1967 Sent en_lines-ud-test-doc1-4314]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'what') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2234 Sent en_lines-ud-test-doc2-4328]: [L3 Warning pron-det-without-prontype] The word 'one' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2239 Sent en_lines-ud-test-doc2-4328]: [L3 Warning pron-det-without-prontype] The word 'other' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 29
+Warnings: 415
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-train.conllu
-[Line 10273 Sent en_lines-ud-train-doc2-483 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'at last' does not have the 'ExtPos' feature
-[Line 10531 Sent en_lines-ud-train-doc2-499 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'in front of' does not have the 'ExtPos' feature
-[Line 16219 Sent en_lines-ud-train-doc2-778 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'at all' does not have the 'ExtPos' feature
-[Line 16697 Sent en_lines-ud-train-doc2-805 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'At last' does not have the 'ExtPos' feature
-[Line 17050 Sent en_lines-ud-train-doc2-826 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
-[Line 17208 Sent en_lines-ud-train-doc3-833 Node 39]: [L3 Warning fixed-without-extpos] Fixed expression 'in and out' does not have the 'ExtPos' feature
-[Line 17854 Sent en_lines-ud-train-doc3-869 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
-[Line 19503 Sent en_lines-ud-train-doc3-971 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
-[Line 19591 Sent en_lines-ud-train-doc3-975 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
-[Line 20723 Sent en_lines-ud-train-doc3-1013 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'by now' does not have the 'ExtPos' feature
+[Line 5 Sent en_lines-ud-train-doc1-1]: [L3 Warning pron-det-without-prontype] The word 'All' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 17 Sent en_lines-ud-train-doc1-3]: [L3 Warning pron-det-without-prontype] The word 'Some' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 223 Sent en_lines-ud-train-doc1-12]: [L3 Warning pron-det-without-prontype] The word 'there' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 846 Sent en_lines-ud-train-doc1-42]: [L3 Warning pron-det-without-prontype] The word 'one' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1169 Sent en_lines-ud-train-doc1-57]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1368 Sent en_lines-ud-train-doc1-66]: [L3 Warning pron-det-without-prontype] The word 'one' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1377 Sent en_lines-ud-train-doc1-66]: [L3 Warning pron-det-without-prontype] The word 'another' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2103 Sent en_lines-ud-train-doc1-112]: [L3 Warning pron-det-without-prontype] The word 'all' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2231 Sent en_lines-ud-train-doc1-119]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2625 Sent en_lines-ud-train-doc1-132]: [L3 Warning pron-det-without-prontype] The word 'both' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 117
+Warnings: 1351
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.675517897272399) = 0.173209717249333
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.678754527068341) = 0.208847546790259
-(weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.663623445605774) * (availability=1) * (validity=1) = 0.663623445605774
+(weight=0.111111111111111) * (score{features}=0.4) = 0.0444444444444444
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.675517897272399) = 0.250191813804592
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.827027027027027) = 0.0918918918918919
+(TOTAL score=0.656898520511299) * (availability=1) * (validity=1) = 0.656898520511299
 STARS = 3.5
-UD_English-LinES	0.663623445605774	3.5
+UD_English-LinES	0.656898520511299	3.5
