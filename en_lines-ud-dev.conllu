@@ -9517,10 +9517,9 @@
 5	,	,	PUNCT	Comma	_	8	punct	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	Foreign=Yes	8	case	_	Lang=fr
-7	le	le	DET	_	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Lang=fr
+7	le	le	DET	_	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Lang=fr
 8	calme	calme	NOUN	FGN	Foreign=Yes	4	conj	_	Lang=fr|SpaceAfter=No
 9	.	.	PUNCT	Period	_	4	punct	_	_
-
 
 # sent_id = en_lines-ud-dev-doc4-3626
 # text = Adieu.
@@ -14256,7 +14255,7 @@
 32	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obl	_	_
 33	behaved	behave	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 34	as	as	SCONJ	_	_	38	mark	_	_
-35	if	if	SCONJ	_	_	34	mark	_	_
+35	if	if	SCONJ	_	_	38	mark	_	_
 36	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	38	nsubj	_	_
 37	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	38	aux	_	_
 38	seen	see	VERB	PERF	Tense=Past|VerbForm=Part	33	advcl	_	_
