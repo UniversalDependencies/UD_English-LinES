@@ -57391,8 +57391,8 @@
 7	cabinet	cabinet	NOUN	SG-NOM	Number=Sing	5	obj	_	_
 8	right	right	ADV	_	_	12	advmod	_	_
 9	in	in	ADP	_	ExtPos=ADP	12	case	_	_
-10	front	front	NOUN	SG-NOM	Number=Sing	10	fixed	_	_
-11	of	of	ADP	_	_	10	fixed	_	_
+10	front	front	NOUN	SG-NOM	Number=Sing	9	fixed	_	_
+11	of	of	ADP	_	_	9	fixed	_	_
 12	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -69963,7 +69963,7 @@
 15	to	to	PART	_	_	16	mark	_	_
 16	mention	mention	VERB	INF	VerbForm=Inf	14	xcomp	_	_
 17	it	it	PRON	PERS-SG	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-18	at	at	ADV	_	_	16	advmod	_	_
+18	at	at	ADP	_	ExtPos=ADV	16	advmod	_	_
 19	all	all	ADV	_	_	18	fixed	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	11	punct	_	_
 
@@ -70058,7 +70058,7 @@
 28	sense	sense	NOUN	SG-NOM	Number=Sing	18	obl	_	_
 29	of	of	ADP	_	_	30	case	_	_
 30	shame	shame	NOUN	SG-NOM	Number=Sing	28	nmod	_	_
-31	at	at	ADV	_	_	28	advmod	_	_
+31	at	at	ADP	_	ExtPos=ADV	28	advmod	_	_
 32	all	all	ADV	_	_	31	fixed	_	SpaceAfter=No
 33	.	.	PUNCT	Period	_	4	punct	_	_
 
@@ -70157,7 +70157,7 @@
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	often	often	ADV	_	_	3	advmod	_	_
 3	invited	invite	VERB	PERF	Tense=Past|VerbForm=Part	0	root	_	_
-<4	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
+4	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
 5	parents	parent	NOUN	PL-NOM	Number=Plur	3	obj	_	_
 6	to	to	PART	_	_	7	mark	_	_
 7	stay	stay	VERB	INF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
@@ -70425,8 +70425,8 @@
 22	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	travelled	travel	VERB	PERF	Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	Comma	_	27	punct	_	_
-25	no	no	DET	NEG	_	27	advmod	_	_
-26	longer	long	ADV	CMP	Degree=Cmp	25	fixed	_	_
+25	no	no	DET	NEG	_	26	advmod	_	_
+26	longer	long	ADV	CMP	Degree=Cmp	27	advmod	_	_
 27	immersed	immerse	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	_
 28	in	in	ADP	_	_	30	case	_	_
 29	the	the	DET	DEF	Definite=Def|PronType=Art	30	det	_	_
@@ -72159,8 +72159,8 @@
 19	to	to	PART	_	_	20	mark	_	_
 20	write	write	VERB	INF	VerbForm=Inf	18	acl	_	SpaceAfter=No
 21	,	,	PUNCT	Comma	_	16	punct	_	_
-22	what	what	PRON	WH	ExtPos=ADP|PronType=Int	25	nmod:unmarked	_	_
-23	with	with	ADP	_	_	22	fixed	_	_
+22	what	what	PRON	WH	PronType=Int	25	nmod:unmarked	_	_
+23	with	with	ADP	_	_	25	case	_	_
 24	the	the	DET	DEF	Definite=Def|PronType=Art	25	det	_	_
 25	family	family	NOUN	SG-NOM	Number=Sing	16	obl	_	_
 26	and	and	CCONJ	_	_	29	cc	_	_
@@ -72785,7 +72785,7 @@
 8	old	old	ADJ	POS	Degree=Pos	9	amod	_	_
 9	friend	friend	NOUN	SG-NOM	Number=Sing	6	obj	_	_
 10	of	of	ADP	_	_	11	case	_	_
-11	mine	I	PRON	P1SG-GEN-INDEP	_	9	nmod	_	SpaceAfter=No
+11	mine	I	PRON	P1SG-GEN-INDEP	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	13	punct	_	_
 13	Paniotis	Paniotis	PROPN	SG-NOM	Number=Sing	11	appos	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	13	punct	_	_
@@ -72980,7 +72980,7 @@
 4	with	with	SCONJ	_	_	9	mark	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
 6	sun	sun	NOUN	SG-NOM	Number=Sing	9	nsubj	_	_
-7	no	no	DET	NEG	_	8	advmod	_	_
+7	no	no	ADV	NEG	_	8	advmod	_	_
 8	longer	long	ADV	CMP	Degree=Cmp	9	advmod	_	_
 9	overhead	overhead	NOUN	SG-NOM	Number=Sing	13	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	9	punct	_	_
@@ -74338,7 +74338,7 @@
 5	one	one	NUM	CARD-SG	Number=Sing|NumType=Card	4	nmod	_	_
 6	after	after	ADP	_	_	8	case	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
-8	other	other	PRON	ADJ	Case=Nom	5	nmod	_	_
+8	other	other	NOUN	ADJ	Number=Sing	5	nmod	_	_
 9	and	and	CCONJ	_	_	10	cc	_	_
 10	placed	place	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 11	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
@@ -75409,7 +75409,7 @@
 
 # sent_id = en_lines-ud-train-doc9-5685
 # text = nothing was ever perfect, he said.
-1	nothing	nothing	PRON	NEG-SG	Number=Sing	4	nsubj	_	_
+1	nothing	nothing	PRON	NEG-SG	Number=Sing|PronType=Neg	4	nsubj	_	_
 2	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	ever	ever	ADV	_	_	4	advmod	_	_
 4	perfect	perfect	ADJ	POS	Degree=Pos	0	root	_	SpaceAfter=No
