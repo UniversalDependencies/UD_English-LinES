@@ -9498,7 +9498,7 @@
 # sent_id = en_lines-ud-test-doc4-4675
 # text = He crossed the room gently to look at the sick man, and returning, said to me, 'He does not hear.'
 1	He	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	crossed	cross	VERB	PAST	Tense=Past|VerbForm=Fin	0	root	_	_
+2	crossed	cross	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
 4	room	room	NOUN	SG-NOM	Number=Sing	2	obj	_	_
 5	gently	gently	ADV	_	_	2	advmod	_	_
@@ -10349,8 +10349,8 @@
 11	by	by	ADP	_	_	12	mark	_	_
 12	coming	come	VERB	ING	Tense=Pres|VerbForm=Part	10	advcl	_	_
 13	there	there	ADV	_	PronType=Dem	12	advmod	_	_
-14	at	at	ADV	_	_	12	advmod	_	_
-15	all	all	ADV	_	_	14	fixed	_	SpaceAfter=No
+14	at	at	ADP	_	_	15	case	_	_
+15	all	all	DET	_	PronType=Tot	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = en_lines-ud-test-doc4-4708
@@ -15396,8 +15396,8 @@
 10	an	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
 11	intransigent	intransigent	ADJ	POS	Degree=Pos	12	amod	_	_
 12	fellow	fellow	NOUN	SG-NOM	_	2	conj	_	_
-13	at	at	ADV	_	_	14	case	_	_
-14	all	all	ADV	_	_	12	obl	_	SpaceAfter=No
+13	at	at	ADP	_	_	14	case	_	_
+14	all	all	DET	_	PronType=Tot	12	obl	_	SpaceAfter=No
 15	...	...	PUNCT	Dots	_	2	punct	_	_
 
 # sent_id = en_lines-ud-test-doc6-4956
@@ -23100,7 +23100,7 @@
 # text = This room contained, as well as many books, several painted wooden models of boats, which had been mounted to the walls.
 1	This	this	DET	DEM-SG	Number=Sing|PronType=Dem	2	det	_	_
 2	room	room	NOUN	SG-NOM	Number=Sing	3	nsubj	_	_
-3	contained	contain	VERB	PASS	Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	contained	contain	VERB	PASS	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	9	punct	_	_
 5	as	as	ADV	_	ExtPos=ADP	9	case	_	_
 6	well	well	ADV	_	Degree=Pos	5	fixed	_	_
@@ -23299,7 +23299,7 @@
 76	not	not	PART	NEG	_	77	advmod	_	_
 77	cloth	cloth	NOUN	SG-NOM	Number=Sing	72	acl:relcl	_	_
 78	at	at	ADP	_	_	79	case	_	_
-79	all	all	ADV	_	_	77	advmod	_	_
+79	all	all	DET	_	PronType=Tot	77	obl	_	_
 80	but	but	ADP	_	_	81	case	_	_
 81	paper	paper	NOUN	SG-NOM	Number=Sing	77	nmod	_	SpaceAfter=No
 82	,	,	PUNCT	Comma	_	84	punct	_	_
