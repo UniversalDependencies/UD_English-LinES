@@ -10528,11 +10528,11 @@
 5	dropped	drop	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
 6	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 7	off	off	ADV	_	_	5	advmod	_	_
-8	in	in	ADP	_	_	12	case	_	_
-9	front	front	NOUN	_	Number=Sing	8	fixed	_	_
-10	of	of	ADP	_	_	8	fixed	_	_
+8	in	in	ADP	_	_	9	case	_	_
+9	front	front	NOUN	_	Number=Sing	5	obl	_	_
+10	of	of	ADP	_	_	12	case	_	_
 11	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-12	house	house	NOUN	SG-NOM	Number=Sing	5	obl	_	SpaceAfter=No
+12	house	house	NOUN	SG-NOM	Number=Sing	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	Comma	_	5	punct	_	_
 14	Quinn	Quinn	PROPN	SG-NOM	Number=Sing	15	nsubj	_	_
 15	realized	realize	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -13418,7 +13418,7 @@
 5	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	had	have	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
 7	lost	lose	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
-8	half	half	PRON	ADJ-SG-NOM	Case=Nom	7	obj	_	_
+8	half	half	NOUN	ADJ-SG-NOM	Number=Sing|NumForm=Word|NumType=Frac	7	obj	_	_
 9	of	of	ADP	_	_	10	case	_	_
 10	himself	himself	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	2	punct	_	_
@@ -16888,7 +16888,7 @@
 5	run	run	NOUN	SG-NOM	Number=Sing	3	obj	_	_
 6	in	in	ADP	_	_	8	case	_	_
 7	their	their	PRON	P3PL-GEN	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
-8	half	half	NOUN	SG-NOM	Number=Sing	3	obl	_	_
+8	half	half	NOUN	SG-NOM	Number=Sing|NumForm=Word|NumType=Frac	3	obl	_	_
 9	of	of	ADP	_	_	11	case	_	_
 10	the	the	DET	DEF	Definite=Def|PronType=Art	11	det	_	_
 11	inning	inning	NOUN	SG-NOM	Number=Sing	8	nmod	_	_
@@ -20720,8 +20720,8 @@
 4	in	in	ADP	_	_	6	case	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
 6	world	world	NOUN	SG-NOM	Number=Sing	2	obl	_	_
-7	by	by	ADV	_	_	2	advmod	_	_
-8	now	now	ADV	_	PronType=Dem	7	fixed	_	_
+7	by	by	ADP	_	_	8	case	_	_
+8	now	now	ADV	_	PronType=Dem	2	obl	_	_
 9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
 10	natural	natural	ADJ	POS	Degree=Pos	11	amod	_	_
 11	understanding	understanding	NOUN	ING	Number=Sing	2	nsubj	_	_
@@ -28648,12 +28648,12 @@
 40	sordid	sordid	ADJ	POS	Degree=Pos	41	amod	_	_
 41	farce	farce	NOUN	SG-NOM	Number=Sing	37	obl	_	_
 42	acted	act	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	41	acl	_	_
-43	in	in	ADP	_	_	48	case	_	_
-44	front	front	NOUN	_	Number=Sing	43	fixed	_	_
-45	of	of	ADP	_	_	43	fixed	_	_
+43	in	in	ADP	_	_	44	case	_	_
+44	front	front	NOUN	_	Number=Sing	42	obl	_	_
+45	of	of	ADP	_	_	48	case	_	_
 46	a	a	DET	IND-SG	Definite=Ind|PronType=Art	48	det	_	_
 47	sinister	sinister	ADJ	POS	Degree=Pos	48	amod	_	_
-48	backcloth	backcloth	NOUN	SG-NOM	Number=Sing	42	obl	_	SpaceAfter=No
+48	backcloth	backcloth	NOUN	SG-NOM	Number=Sing	44	nmod	_	SpaceAfter=No
 49	.	.	PUNCT	Period	_	18	punct	_	_
 
 # sent_id = en_lines-ud-train-doc4-1339
@@ -30969,11 +30969,11 @@
 19	the	the	DET	DEF	Definite=Def|PronType=Art	20	det	_	_
 20	earth	earth	NOUN	SG-NOM	Number=Sing	17	obl	_	SpaceAfter=No
 21	,	,	PUNCT	Comma	_	23	punct	_	_
-22	half	half	PRON	ADJ-SG-NOM	Case=Nom	23	nsubj	_	_
+22	half	half	NOUN	ADJ-SG-NOM	Number=Sing|NumForm=Word|NumType=Frac	23	nsubj	_	_
 23	coming	come	VERB	ING	Tense=Pres|VerbForm=Part	3	advcl	_	_
 24	out	out	ADV	_	_	23	compound:prt	_	SpaceAfter=No
 25	,	,	PUNCT	Comma	_	27	punct	_	_
-26	half	half	PRON	ADJ-SG-NOM	Case=Nom	27	nsubj:pass	_	_
+26	half	half	NOUN	ADJ-SG-NOM	Number=Sing|NumForm=Word|NumType=Frac	27	nsubj:pass	_	_
 27	effaced	efface	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	23	conj	_	_
 28	within	within	ADP	_	_	31	case	_	_
 29	the	the	DET	DEF	Definite=Def|PronType=Art	31	det	_	_
@@ -46255,10 +46255,10 @@
 27	and	and	CCONJ	_	_	29	cc	_	_
 28	the	the	DET	DEF	Definite=Def|PronType=Art	29	det	_	_
 29	space	space	NOUN	SG-NOM	Number=Sing	20	conj	_	_
-30	in	in	ADP	_	_	33	case	_	_
-31	front	front	NOUN	_	Number=Sing	30	fixed	_	_
-32	of	of	ADP	_	_	30	fixed	_	_
-33	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nmod	_	SpaceAfter=No
+30	in	in	ADP	_	_	31	case	_	_
+31	front	front	NOUN	_	Number=Sing	29	nmod	_	_
+32	of	of	ADP	_	_	33	case	_	_
+33	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	Comma	_	40	punct	_	_
 35	before	before	ADP	_	_	40	case	_	_
 36	the	the	DET	DEF	Definite=Def|PronType=Art	40	det	_	_
@@ -46596,7 +46596,7 @@
 30	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl	_	SpaceAfter=No
 31	,	,	PUNCT	Comma	_	33	punct	_	_
 32	by	by	ADP	_	_	33	case	_	_
-33	now	now	ADV	_	PronType=Dem	25	advmod	_	SpaceAfter=No
+33	now	now	ADV	_	PronType=Dem	25	obl	_	SpaceAfter=No
 34	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-train-doc6-2177
@@ -50968,12 +50968,12 @@
 6	patch	patch	NOUN	SG-NOM	Number=Sing	2	obl	_	_
 7	of	of	ADP	_	_	8	case	_	_
 8	earth	earth	NOUN	SG-NOM	Number=Sing	6	nmod	_	_
-9	in	in	ADP	_	_	14	case	_	_
-10	front	front	NOUN	_	Number=Sing	9	fixed	_	_
-11	of	of	ADP	_	_	9	fixed	_	_
+9	in	in	ADP	_	_	10	case	_	_
+10	front	front	NOUN	_	Number=Sing	6	nmod	_	_
+11	of	of	ADP	_	_	14	case	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 13	dark	dark	ADJ	POS	Degree=Pos	14	amod	_	_
-14	building	building	NOUN	SG-NOM	Number=Sing	2	obl	_	_
+14	building	building	NOUN	SG-NOM	Number=Sing	10	nmod	_	_
 15	and	and	CCONJ	_	_	16	cc	_	_
 16	called	call	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 17	up	up	ADV	_	_	16	advmod	_	SpaceAfter=No
@@ -55138,7 +55138,7 @@
 15	n't	not	PART	NEG	Polarity=Neg	16	advmod	_	_
 16	surprise	surprise	VERB	INF	VerbForm=Inf	3	conj	_	_
 17	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-18	at	at	ADP	_	_	18	case	_	_
+18	at	at	ADP	_	_	19	case	_	_
 19	all	all	DET	_	PronType=Tot	16	obl	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	3	punct	_	_
 
@@ -57389,11 +57389,11 @@
 5	saw	see	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 6	the	the	DET	DEF	Definite=Def|PronType=Art	7	det	_	_
 7	cabinet	cabinet	NOUN	SG-NOM	Number=Sing	5	obj	_	_
-8	right	right	ADV	_	_	12	advmod	_	_
-9	in	in	ADP	_	ExtPos=ADP	12	case	_	_
-10	front	front	NOUN	SG-NOM	Number=Sing	9	fixed	_	_
-11	of	of	ADP	_	_	9	fixed	_	_
-12	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	right	right	ADV	_	_	10	advmod	_	_
+9	in	in	ADP	_	_	10	case	_	_
+10	front	front	NOUN	SG-NOM	Number=Sing	7	nmod	_	_
+11	of	of	ADP	_	_	12	case	_	_
+12	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = en_lines-ud-train-doc7-2665
@@ -57727,10 +57727,10 @@
 2	aged	aged	ADJ	POS	Degree=Pos	3	amod	_	_
 3	witch	witch	NOUN	SG-NOM	Number=Sing	4	nsubj	_	_
 4	stood	stand	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-5	in	in	ADP	_	ExtPos=ADP	8	case	_	_
-6	front	front	NOUN	SG-NOM	Number=Sing	5	fixed	_	_
-7	of	of	ADP	_	_	5	fixed	_	_
-8	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+5	in	in	ADP	_	_	6	case	_	_
+6	front	front	NOUN	SG-NOM	Number=Sing	4	obl	_	_
+7	of	of	ADP	_	_	8	case	_	_
+8	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
 10	holding	hold	VERB	ING	Tense=Pres|VerbForm=Part	4	advcl	_	_
 11	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
@@ -61578,10 +61578,10 @@
 8	,	,	PUNCT	Comma	_	4	punct	_	_
 9	were	be	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
 10	rigid	rigid	ADJ	POS	Degree=Pos	0	root	_	_
-11	in	in	ADP	_	ExtPos=ADP	14	case	_	_
-12	front	front	NOUN	_	Number=Sing	11	fixed	_	_
-13	of	of	ADP	_	_	11	fixed	_	_
-14	her	she	PRON	P3SG-GEN	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	obl	_	SpaceAfter=No
+11	in	in	ADP	_	_	12	case	_	_
+12	front	front	NOUN	_	Number=Sing	10	obl	_	_
+13	of	of	ADP	_	_	14	case	_	_
+14	her	she	PRON	P3SG-GEN	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	19	punct	_	_
 16	her	her	PRON	P3SG-GEN	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
 17	feet	foot	NOUN	PL-NOM	Number=Plur	19	nsubj:pass	_	_
@@ -71316,10 +71316,10 @@
 32	on	on	ADP	_	_	34	case	_	_
 33	a	a	DET	IND-SG	Definite=Ind|PronType=Art	34	det	_	_
 34	stand	stand	NOUN	SG-NOM	Number=Sing	30	obl	_	_
-35	in	in	ADP	_	ExtPos=ADP	38	case	_	_
-36	front	front	NOUN	SG-NOM	Number=Sing	35	fixed	_	_
-37	of	of	ADP	_	_	35	fixed	_	_
-38	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nmod	_	SpaceAfter=No
+35	in	in	ADP	_	_	36	case	_	_
+36	front	front	NOUN	SG-NOM	Number=Sing	34	nmod	_	_
+37	of	of	ADP	_	_	38	case	_	_
+38	her	she	PRON	P3SG-GEN	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	nmod	_	SpaceAfter=No
 39	,	,	PUNCT	Comma	_	44	punct	_	_
 40	and	and	CCONJ	_	_	44	cc	_	_
 41	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
@@ -71382,10 +71382,10 @@
 12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	13	det	_	_
 13	book	book	NOUN	SG-NOM	Number=Sing	14	nsubj	_	_
 14	open	open	ADJ	POS	Degree=Pos	6	conj	_	_
-15	in	in	ADP	_	ExtPos=ADP	18	case	_	_
-16	front	front	NOUN	_	Number=Sing	15	fixed	_	_
-17	of	of	ADP	_	_	15	fixed	_	_
-18	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod	_	SpaceAfter=No
+15	in	in	ADP	_	_	16	case	_	_
+16	front	front	NOUN	_	Number=Sing	14	obl	_	_
+17	of	of	ADP	_	_	18	case	_	_
+18	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	6	punct	_	_
 20	for	for	SCONJ	_	_	39	mark	_	_
 21	the	the	DET	DEF	Definite=Def|PronType=Art	22	det	_	_
@@ -71467,19 +71467,19 @@
 50	a	a	DET	IND-SG	Definite=Ind|PronType=Art	51	det	_	_
 51	book	book	NOUN	SG-NOM	Number=Sing	52	nsubj	_	_
 52	dangled	dangle	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	47	advcl	_	_
-53	just	just	ADV	_	_	57	advmod	_	_
-54	in	in	ADP	_	ExtPos=ADP	57	case	_	_
-55	front	front	NOUN	_	Number=Sing	54	fixed	_	_
-56	of	of	ADP	_	_	54	fixed	_	_
-57	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	obl	_	_
+53	just	just	ADV	_	_	55	advmod	_	_
+54	in	in	ADP	_	_	55	case	_	_
+55	front	front	NOUN	_	Number=Sing	52	obl	_	_
+56	of	of	ADP	_	_	57	case	_	_
+57	him	he	PRON	PERS-P3SG-ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	55	nmod	_	_
 58	like	like	ADP	_	_	60	case	_	_
 59	a	a	DET	IND-SG	Definite=Ind|PronType=Art	60	det	_	_
 60	carrot	carrot	NOUN	SG-NOM	Number=Sing	52	obl	_	_
-61	in	in	ADP	_	ExtPos=ADP	65	case	_	_
-62	front	front	NOUN	_	Number=Sing	61	fixed	_	_
-63	of	of	ADP	_	_	61	fixed	_	_
+61	in	in	ADP	_	_	62	case	_	_
+62	front	front	NOUN	_	Number=Sing	60	nmod	_	_
+63	of	of	ADP	_	_	65	case	_	_
 64	a	a	DET	IND-SG	Definite=Ind|PronType=Art	65	det	_	_
-65	donkey	donkey	NOUN	SG-NOM	Number=Sing	60	nmod	_	SpaceAfter=No
+65	donkey	donkey	NOUN	SG-NOM	Number=Sing	62	nmod	_	SpaceAfter=No
 66	.	.	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = en_lines-ud-train-doc9-5512
@@ -72110,10 +72110,10 @@
 4	on	on	ADP	_	_	6	case	_	_
 5	the	the	DET	DEF	Definite=Def|PronType=Art	6	det	_	_
 6	table	table	NOUN	SG-NOM	Number=Sing	3	obl	_	_
-7	in	in	ADP	_	ExtPos=ADP	10	case	_	_
-8	front	front	NOUN	_	Number=Sing	7	fixed	_	_
-9	of	of	ADP	_	_	7	fixed	_	_
-10	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	SpaceAfter=No
+7	in	in	ADP	_	_	8	case	_	_
+8	front	front	NOUN	_	Number=Sing	6	nmod	_	_
+9	of	of	ADP	_	_	10	case	_	_
+10	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-train-doc9-5533
@@ -75600,10 +75600,10 @@
 6	rearranged	rearrange	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
 8	papers	paper	NOUN	PL-NOM	Number=Plur	6	obj	_	_
-9	in	in	ADP	_	ExtPos=ADP	12	case	_	_
-10	front	front	NOUN	SG-NOM	Number=Sing	9	fixed	_	_
-11	of	of	ADP	_	_	9	fixed	_	_
-12	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	_
+9	in	in	ADP	_	_	10	case	_	_
+10	front	front	NOUN	SG-NOM	Number=Sing	8	nmod	_	_
+11	of	of	ADP	_	_	12	case	_	_
+12	them	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	_
 13	or	or	CCONJ	_	_	14	cc	_	_
 14	gazed	gaze	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 15	blankly	blank	ADV	_	_	14	advmod	_	_
