@@ -485,8 +485,8 @@
 8	to	to	PART	_	_	9	mark	_	_
 9	show	show	VERB	INF	VerbForm=Inf	3	advcl	_	_
 10	more	much	ADJ	IND	Degree=Cmp	13	amod	_	_
-11	or	or	CCONJ	IND	_	10	fixed	_	_
-12	less	little	ADJ	IND	Degree=Cmp	10	fixed	_	_
+11	or	or	CCONJ	IND	_	12	cc	_	_
+12	less	little	ADJ	IND	Degree=Cmp	10	conj	_	_
 13	information	information	NOUN	SG-NOM	Number=Sing	9	obj	_	_
 14	in	in	ADP	_	_	17	case	_	_
 15	a	a	DET	IND-SG	Definite=Ind|PronType=Art	17	det	_	_
@@ -518,8 +518,8 @@
 20	field	field	NOUN	SG-NOM	Number=Sing	21	compound	_	_
 21	items	item	NOUN	PL-NOM	Number=Plur	25	nsubj:pass	_	_
 22	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
-23	no	no	ADV	_	_	25	advmod	_	_
-24	longer	long	ADV	_	Degree=Cmp	23	fixed	_	_
+23	no	no	ADV	_	_	24	advmod	_	_
+24	longer	long	ADV	_	Degree=Cmp	25	advmod	_	_
 25	displayed	display	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	Period	_	6	punct	_	_
 
@@ -625,8 +625,8 @@
 9	layout	layout	NOUN	SG-NOM	Number=Sing	4	obl	_	_
 10	that	that	SCONJ	_	_	16	obj	_	_
 11	you	you	PRON	PERS-P2	Person=2|PronType=Prs	14	nsubj	_	_
-12	no	no	ADV	_	_	14	advmod	_	_
-13	longer	long	ADV	_	Degree=Cmp	12	fixed	_	_
+12	no	no	ADV	_	_	13	advmod	_	_
+13	longer	long	ADV	_	Degree=Cmp	14	advmod	_	_
 14	want	want	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 15	to	to	PART	_	_	16	mark	_	_
 16	see	see	VERB	INF	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
@@ -2236,7 +2236,7 @@
 15	fat	fat	ADJ	POS	Degree=Pos	5	parataxis	_	_
 16	and	and	CCONJ	_	_	20	cc	_	_
 17	the	the	DET	DEF	Definite=Def|PronType=Art	18	det	_	_
-18	other	other	PRON	ADJ	Case=Nom	20	nsubj	_	_
+18	other	other	ADJ	ADJ	Case=Nom	20	nsubj	_	_
 19	very	very	ADV	_	_	20	advmod	_	_
 20	thin	thin	ADJ	POS	Degree=Pos	15	conj	_	SpaceAfter=No
 21	,	,	PUNCT	Comma	_	15	punct	_	_
@@ -2873,7 +2873,7 @@
 # sent_id = en_lines-ud-test-doc2-4362
 # text = And as for the pitching, forget it.
 1	And	and	CCONJ	_	_	7	cc	_	_
-2	as	as	ADP	_	_	5	mark	_	_
+2	as	as	ADP	_	ExtPos=ADP	5	case	_	_
 3	for	for	ADP	_	_	2	fixed	_	_
 4	the	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
 5	pitching	pitch	VERB	ING	Tense=Pres|VerbForm=Part	7	dislocated	_	SpaceAfter=No
@@ -3906,11 +3906,11 @@
 
 # sent_id = en_lines-ud-test-doc2-4407
 # text = In spite of everything, it was impossible for Quinn not to feel glad of this.
-1	In	in	ADP	_	_	4	case	_	_
-2	spite	spite	NOUN	_	Number=Sing	1	fixed	_	_
-3	of	of	ADP	_	_	1	fixed	_	_
-4	everything	everything	PRON	TOT-SG	Number=Sing|PronType=Tot	8	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	4	punct	_	_
+1	In	in	ADP	_	_	2	case	_	_
+2	spite	spite	NOUN	_	Number=Sing	8	obl	_	_
+3	of	of	ADP	_	_	4	case	_	_
+4	everything	everything	PRON	TOT-SG	Number=Sing|PronType=Tot	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	Comma	_	8	punct	_	_
 6	it	it	PRON	PERS-SG	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
 7	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	cop	_	_
 8	impossible	impossible	ADJ	POS	Degree=Pos	0	root	_	_
@@ -3970,15 +3970,15 @@
 4	and	and	CCONJ	_	_	5	cc	_	_
 5	said	say	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
-7	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
-8	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	parataxis	_	_
-9	about	about	ADV	_	_	8	fixed	_	_
+7	I	I	PRON	PERS-P1SG-NOM	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	about	about	ADJ	_	Degree=Pos	5	ccompXS	_	_
 10	to	to	PART	_	_	11	mark	_	_
-11	make	make	VERB	INF	VerbForm=Inf	8	xcomp	_	_
+11	make	make	VERB	INF	VerbForm=Inf	9	xcomp	_	_
 12	some	some	DET	IND	PronType=Ind	13	det	_	_
 13	lunch	lunch	NOUN	SG-NOM	Number=Sing	11	obj	_	_
 14	for	for	ADP	_	_	15	case	_	_
-15	myself	myself	PRON	RFL-P1SG	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	obl	_	SpaceAfter=No
+15	myself	myself	PRON	RFL-P1SG	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = en_lines-ud-test-doc2-4411
@@ -4049,8 +4049,8 @@
 1	But	but	CCONJ	_	_	2	cc	_	_
 2	yes	yes	INTJ	_	Polarity=Pos	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	2	punct	_	_
-4	thank	thank	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	12	discourse	_	_
-5	you	you	PRON	PERS-P2	Person=2|PronType=Prs	4	fixed	_	SpaceAfter=No
+4	thank	thank	VERB	PRES	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	discourse	_	_
+5	you	you	PRON	PERS-P2	Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	Period	_	4	punct	_	_
 7	A	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
 8	little	little	ADJ	POS	Degree=Pos	9	amod	_	_
@@ -4211,9 +4211,9 @@
 22	same	same	ADJ	POS	Degree=Pos	23	amod	_	_
 23	sentence	sentence	NOUN	SG-NOM	Number=Sing	20	obj	_	_
 24	over	over	ADV	_	_	20	advmod	_	_
-25	and	and	CCONJ	_	_	24	fixed	_	_
-26	over	over	ADV	_	_	24	fixed	_	_
-27	again	again	ADV	_	_	24	fixed	_	SpaceAfter=No
+25	and	and	CCONJ	_	_	26	cc	_	_
+26	over	over	ADV	_	_	24	conj	_	_
+27	again	again	ADV	_	_	26	advmod	_	SpaceAfter=No
 28	:	:	PUNCT	Colon	_	32	punct	_	_
 29	You	you	PRON	PERS-P2	Person=2|PronType=Prs	32	nsubj	_	_
 30-31	can't	_	_	_	_	_	_	_	_
@@ -4754,8 +4754,8 @@
 1	Because	because	SCONJ	_	_	8	mark	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
 3	book	book	NOUN	SG-NOM	Number=Sing	8	nsubj	_	_
-4	after	after	ADV	_	_	8	advmod	_	_
-5	all	all	ADV	_	_	4	fixed	_	_
+4	after	after	ADV	_	_	5	case	_	_
+5	all	all	DET	_	PronType=Tot	8	obl	_	_
 6	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	an	a	DET	IND-SG	Definite=Ind|PronType=Art	8	det	_	_
 8	attack	attack	NOUN	SG-NOM	Number=Sing	0	root	_	_
@@ -5088,13 +5088,13 @@
 
 # sent_id = en_lines-ud-test-doc2-4476
 # text = In spite of his inane malapropisms, he can talk circles around everyone else in the book.
-1	In	in	ADP	_	_	6	case	_	_
-2	spite	spite	NOUN	_	Number=Sing	1	fixed	_	_
-3	of	of	ADP	_	_	1	fixed	_	_
+1	In	in	ADP	_	_	2	case	_	_
+2	spite	spite	NOUN	_	Number=Sing	10	obl	_	_
+3	of	of	ADP	_	_	6	case	_	_
 4	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 5	inane	inane	ADJ	POS	Degree=Pos	6	amod	_	_
-6	malapropisms	malapropism	NOUN	PL-NOM	Number=Plur	10	obl	_	SpaceAfter=No
-7	,	,	PUNCT	Comma	_	6	punct	_	_
+6	malapropisms	malapropism	NOUN	PL-NOM	Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	Comma	_	10	punct	_	_
 8	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 9	can	can	AUX	PRES-AUX	Mood=Ind|VerbForm=Fin	10	aux	_	_
 10	talk	talk	VERB	INF	VerbForm=Inf	0	root	_	_
@@ -7377,8 +7377,8 @@
 47	reaction	reaction	NOUN	SG-NOM	Number=Sing	43	nmod	_	SpaceAfter=No
 48	,	,	PUNCT	Comma	_	55	punct	_	_
 49	because	because	SCONJ	_	_	55	mark	_	_
-50	by	by	ADV	_	_	55	advmod	_	_
-51	now	now	ADV	_	PronType=Dem	50	fixed	_	_
+50	by	by	ADP	_	_	51	case	_	_
+51	now	now	ADV	_	PronType=Dem	55	obl	_	_
 52	you	you	PRON	PERS-P2	Person=2|PronType=Prs	55	nsubj:pass	_	_
 53	are	be	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	55	aux:pass	_	_
 54	completely	completely	ADV	_	_	55	advmod	_	_

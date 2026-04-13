@@ -7906,9 +7906,9 @@
 12	as	as	SCONJ	_	_	14	mark	_	_
 13	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 14	sat	sit	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
-15	side	side	ADV	_	_	14	advmod	_	_
-16	by	by	ADP	_	_	15	fixed	_	_
-17	side	side	NOUN	_	Number=Sing	15	fixed	_	SpaceAfter=No
+15	side	side	NOUN	_	Number=Sing	14	obl:unmarked	_	_
+16	by	by	ADP	_	_	17	case	_	_
+17	side	side	NOUN	_	Number=Sing	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	Comma	_	21	punct	_	_
 19	and	and	CCONJ	_	_	21	cc	_	_
 20	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
@@ -13440,7 +13440,7 @@
 11	incentives	incentive	NOUN	PL-NOM	Number=Plur	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	20	punct	_	_
 13	for	for	ADV	_	_	14	case	_	_
-14	instance	instance	NOUN	_	Number=Sing	20	obl	_	_
+14	instance	instance	NOUN	_	Number=Sing	20	nmod	_	_
 15	through	through	ADP	_	_	20	case	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	20	det	_	_
 17	ten-year	ten-year	NOUN	SG-NOM	Number=Sing	19	compound	_	_
