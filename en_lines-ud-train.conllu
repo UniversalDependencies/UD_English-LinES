@@ -8044,7 +8044,7 @@
 14	front	front	NOUN	_	Number=Sing	10	obl	_	_
 15	of	of	ADP	_	_	17	case	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
-17	other	other	PRON	ADJ	Case=Nom	14	nmod	_	_
+17	other	other	ADJ	ADJ	Degree=Pos	14	amod	_	_
 18	and	and	CCONJ	_	_	19	cc	_	_
 19	allowing	allow	VERB	ING	Tense=Pres|VerbForm=Part	10	conj	_	_
 20	himself	himself	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	19	obj	_	_
@@ -19975,8 +19975,8 @@
 39	,	,	PUNCT	Comma	_	42	punct	_	_
 40	on	on	ADP	_	_	42	case	_	_
 41	their	their	PRON	P3PL-GEN	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
-42	own	own	PRON	ADJ	Case=Nom	37	obl	_	SpaceAfter=No
-43	,	,	PUNCT	Comma	_	42	punct	_	_
+42	own	own	ADJ	ADJ	Degree=Pos	45	obl	_	SpaceAfter=No
+43	,	,	PUNCT	Comma	_	45	punct	_	_
 44	to	to	PART	_	_	45	mark	_	_
 45	liberalize	liberalize	VERB	INF	VerbForm=Inf	37	xcomp	_	_
 46	their	their	PRON	P3PL-GEN	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	48	nmod:poss	_	_
@@ -26171,7 +26171,7 @@
 12	'd	will	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
 13	'ye	you	PRON	_	Person=2|PronType=Prs	14	nsubj	_	_
 14	call	call	NOUN	SG-NOM	Number=Sing	18	parataxis	_	_
-15	'em	they	PRON	PERS-P3PL-ACC	_	14	obj	_	SpaceAfter=No
+15	'em	they	PRON	PERS-P3PL-ACC	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
 16	?	?	PUNCT	QuestionMark	_	14	punct	_	_
 17	–	–	PUNCT	Dash	_	14	punct	_	_
 18	trireme	trireme	NOUN	SG-NOM	Number=Sing	6	nmod	_	_
@@ -38817,7 +38817,7 @@
 13	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 14	account	account	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
 15	for	for	ADP	_	_	16	case	_	_
-16	no	no	PRON	CMP-PL-NOM	Case=Nom	14	obl	_	_
+16	no	no	ADV	CMP-PL-NOM	_	14	advmod	_	_
 17	more	very	ADV	CMP-PL-NOM	_	16	fixed	_	_
 18	than	than	ADP	_	_	20	case	_	_
 19	7	7	NUM	CARD-PL	NumType=Card	20	nummod	_	_
@@ -44374,7 +44374,7 @@
 24	charcoal	charcoal	NOUN	SG-NOM	Number=Sing	25	compound	_	_
 25	grill	grill	NOUN	SG-NOM	Number=Sing	17	obl	_	_
 26	and	and	CCONJ	_	_	27	cc	_	_
-27	whatnot	whatnot	PRON	IND	_	25	conj	_	SpaceAfter=No
+27	whatnot	whatnot	PRON	IND	PronType=Ind	25	conj	_	SpaceAfter=No
 28	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-train-doc6-2080
@@ -45925,7 +45925,7 @@
 12	foot	foot	NOUN	SG-NOM	Number=Sing	7	nmod	_	_
 13	to	to	ADP	_	_	15	case	_	_
 14	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
-15	other	other	PRON	ADJ	Case=Nom	7	nmod	_	_
+15	other	other	ADJ	ADJ	Degree=Pos	7	amod	_	_
 16	that	that	PRON	REL	Number=Sing|PronType=Dem	17	nsubj	_	_
 17	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
 18	not	not	PART	NEG	Polarity=Neg	17	advmod	_	_
@@ -46769,7 +46769,7 @@
 5	out	out	ADV	_	_	8	advmod	_	_
 6	of	of	ADP	_	_	8	case	_	_
 7	the	the	DET	DEF	Definite=Def|PronType=Art	8	det	_	_
-8	other	other	PRON	ADJ	Case=Nom	4	nmod	_	SpaceAfter=No
+8	other	other	ADJ	ADJ	Degree=Pos	4	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	22	punct	_	_
 10	and	and	CCONJ	_	_	22	cc	_	_
 11	once	once	SCONJ	_	_	15	mark	_	_
@@ -48340,7 +48340,7 @@
 12	pot	pot	NOUN	SG-NOM	Number=Sing	10	obj	_	_
 13	with	with	ADP	_	_	15	case	_	_
 14	the	the	DET	DEF	Definite=Def|PronType=Art	15	det	_	_
-15	other	other	PRON	ADJ	Case=Nom	10	obl	_	SpaceAfter=No
+15	other	other	ADJ	ADJ	Degree=Pos	10	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-train-doc6-2240
@@ -49499,7 +49499,7 @@
 4	The	the	DET	DEF	Definite=Def|PronType=Art	5	det	_	_
 5	Russians	Russian	NOUN	PL-NOM	_	2	conj	_	SpaceAfter=No
 6	?	?	PUNCT	QuestionMark	_	5	punct	_	_
-7	Anybody	anybody	PRON	IND-SG-NOM	Number=Sing	2	conj	_	SpaceAfter=No
+7	Anybody	anybody	PRON	IND-SG-NOM	Number=Sing|PronType=Ind	2	conj	_	SpaceAfter=No
 8	?	?	PUNCT	QuestionMark	_	7	punct	_	_
 
 # sent_id = en_lines-ud-train-doc6-2296
@@ -49559,7 +49559,7 @@
 # sent_id = en_lines-ud-train-doc6-2299
 # text = Would anybody have let you in for nothing?
 1	Would	would	AUX	PAST-AUX	Mood=Ind|VerbForm=Fin	4	aux	_	_
-2	anybody	anybody	PRON	IND-SG-NOM	Number=Sing	4	nsubj	_	_
+2	anybody	anybody	PRON	IND-SG-NOM	Number=Sing|PronType=Ind	4	nsubj	_	_
 3	have	have	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	let	let	VERB	INF	VerbForm=Inf	0	root	_	_
 5	you	you	PRON	PERS-P2	Person=2|PronType=Prs	4	obj	_	_
@@ -49570,7 +49570,7 @@
 
 # sent_id = en_lines-ud-train-doc6-2300
 # text = Anybody at all?
-1	Anybody	anybody	PRON	IND-SG-NOM	Number=Sing	0	root	_	_
+1	Anybody	anybody	PRON	IND-SG-NOM	Number=Sing|PronType=Ind	0	root	_	_
 2	at	at	ADP	_	_	3	case	_	_
 3	all	all	DET	_	PronType=Tot	1	nmod	_	SpaceAfter=No
 4	?	?	PUNCT	QuestionMark	_	1	punct	_	_
@@ -62371,7 +62371,7 @@
 
 # sent_id = en_lines-ud-train-doc8-2926
 # text = Much has been aired about the benefits of sanitation but less is told about the eczema of washing powder, the asthma of fitted carpets, allergic reactions to cream cleaner, itchy fingers round the bleach bottle, drug-out on the fumes of metal polish.
-1	Much	Much	PRON	ADJ	Case=Nom	4	nsubj:pass	_	_
+1	Much	Much	ADJ	ADJ	_	4	nsubj:pass	_	_
 2	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	been	be	AUX	PERF	Tense=Past|VerbForm=Part	4	aux:pass	_	_
 4	aired	air	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -68170,7 +68170,7 @@
 34	take	take	VERB	INF	VerbForm=Inf	30	acl	_	_
 35	care	care	NOUN	SG-NOM	Number=Sing	34	obj	_	_
 36	of	of	ADP	_	_	37	case	_	_
-37	others	other	PRON	IND-PL-NOM	Number=Plur	34	obl	_	_
+37	others	other	PRON	IND-PL-NOM	Number=Plur|PronType=Ind	34	obl	_	_
 38	only	only	ADV	_	_	40	advmod	_	_
 39	after	after	ADP	_	_	40	mark	_	_
 40	taking	take	VERB	ING	Tense=Pres|VerbForm=Part	34	advcl	_	_
@@ -68225,7 +68225,7 @@
 # text = On the other was a small man in a pale linen suit, richly tanned, with a silver plume of hair.
 1	On	on	ADP	_	_	3	case	_	_
 2	the	the	DET	DEF	Definite=Def|PronType=Art	3	det	_	_
-3	other	other	PRON	ADJ	Case=Nom	4	obl	_	_
+3	other	other	ADJ	ADJ	Degree=Pos	4	obl	_	_
 4	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	a	a	DET	IND-SG	Definite=Ind|PronType=Art	7	det	_	_
 6	small	small	ADJ	POS	Degree=Pos	7	amod	_	_

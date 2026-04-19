@@ -8122,7 +8122,7 @@
 18	steamboat	steamboat	NOUN	SG-NOM	Number=Sing	14	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	21	punct	_	_
 20	if	if	SCONJ	_	_	21	mark	_	_
-21	such	such	PRON	ADJ	Case=Nom	13	advcl	_	_
+21	such	such	ADJ	ADJ	Degree=Pos	13	advcl	_	_
 22	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	cop	_	_
 23	my	my	PRON	P1SG-GEN	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
 24	fancy	fancy	NOUN	SG-NOM	_	21	nsubj	_	SpaceAfter=No
@@ -15993,7 +15993,7 @@
 
 # sent_id = en_lines-ud-test-doc6-4986
 # text = wha'd' you say, James...
-1	wha'	what	PRON	WH	_	4	obj	_	SpaceAfter=No
+1	wha'	what	PRON	WH	PronType=Ind	4	obj	_	SpaceAfter=No
 2	d'	do	AUX	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	you	you	PRON	PERS-P2	Person=2|PronType=Prs	4	nsubj	_	_
 4	say	say	VERB	INF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -19737,7 +19737,7 @@
 
 # sent_id = en_lines-ud-test-doc8-5181
 # text = Whoever saw us would say, 'There's a couple of ...', and this kiss, tentative, ambivalent, would become a lock and key.
-1	Whoever	whoever	PRON	WH-IND-SG	_	2	nsubj	_	_
+1	Whoever	whoever	PRON	WH-IND-SG	PronType=Ind	2	nsubj	_	_
 2	saw	see	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	csubj	_	_
 3	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
 4	would	would	AUX	PAST-AUX	Mood=Ind|VerbForm=Fin	5	aux	_	_
@@ -21036,7 +21036,7 @@
 17	a	a	DET	IND-SG	Definite=Ind|PronType=Art	18	det	_	_
 18	way	way	NOUN	SG-NOM	Number=Sing	15	obl	_	_
 19	that	that	SCONJ	_	_	22	mark	_	_
-20	nothing	nothing	PRON	NEG-SG	Number=Sing	22	nsubj	_	_
+20	nothing	nothing	PRON	NEG-SG	Number=Sing|PronType=Neg	22	nsubj	_	_
 21	ever	ever	ADV	_	_	22	advmod	_	_
 22	had	have	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl	_	_
 23	again	again	ADV	_	_	22	advmod	_	SpaceAfter=No
@@ -21614,7 +21614,7 @@
 4	way	way	NOUN	SG-NOM	Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	13	punct	_	_
 6	when	when	SCONJ	_	_	13	mark	_	_
-7	each	each	PRON	RCP-SG-ACC	Case=Nom	13	nsubj	_	_
+7	each	each	DET	RCP-SG-ACC	PronType=Tot	13	nsubj	_	_
 8	of	of	ADP	_	_	10	case	_	_
 9	my	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 10	sons	son	NOUN	PL-NOM	Number=Plur	7	nmod	_	_
@@ -23453,7 +23453,7 @@
 1	Yet	yet	ADV	_	_	3	advmod	_	_
 2	there	there	PRON	EX	PronType=Dem	3	expl	_	_
 3	was	be	VERB	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-4	nothing	nothing	PRON	NEG-SG	Number=Sing	3	nsubj	_	_
+4	nothing	nothing	PRON	NEG-SG	Number=Sing|PronType=Neg	3	nsubj	_	_
 5	you	you	PRON	PERS-P2	Person=2|PronType=Prs	7	nsubj	_	_
 6	really	really	ADV	_	_	7	advmod	_	_
 7	needed	need	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl	_	_
