@@ -164,12 +164,15 @@ From UD version 2.5 to version 2.6
   * Only minor error corrections, specifically related to PronType
 
 For version 2.9: 
-  * Negative adverbs consistently given UPOS PART and 
+  * Negative adverbs consistently given UPOS PART and deprel advmod
   * consistent annotation of 'with' as 'mark' when introducing a subordinate clause such as 'with the rush hour at full force'
 
 For version 2.16
   * Several changes in annotation to make it more similar to the UD guidelines for English
   * Extension with some 450 sentences from Cusk's Outline.
+
+For version 2.18
+  * Several fixes to reduce the number of Warnings regarding the FEATS ExtPos and PronType
 
 --- Machine readable metadata ---
 
