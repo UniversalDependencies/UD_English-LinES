@@ -157,13 +157,13 @@ From UD version 2.3 to UD version 2.4
 From UD version 2.4 to version 2.5
   * Addition of 679 sentences from Winterson's book. 120 have been added to the dev corpus, 120 to the test corpus, and
     the rest to the train corpus.
-  * correcting dependencies for punctuation marks to guarantee validation, 
+  * correcting dependencies for punctuation marks to guarantee validation,
   * correcting other erroneous annotation, in particular related to the parataxis and ccomp relations
 
 From UD version 2.5 to version 2.6
   * Only minor error corrections, specifically related to PronType
 
-For version 2.9: 
+For version 2.9:
   * Negative adverbs consistently given UPOS PART and deprel advmod
   * consistent annotation of 'with' as 'mark' when introducing a subordinate clause such as 'with the rush hour at full force'
 
@@ -174,14 +174,11 @@ For version 2.16
 For version 2.18
   * Several fixes to reduce the number of Warnings regarding the FEATS ExtPos and PronType
 
---- Machine readable metadata ---
-
-Documentation status: partial
-Data source: semi-automatic
+=== Machine-readable metadata =================================================
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Parallel: no
+Parallel: lines
 Genre: fiction nonfiction spoken
 Lemmas: converted from manual
 UPOS: converted from manual
@@ -191,3 +188,4 @@ Relations: converted with corrections
 Contributors: Ahrenberg, Lars
 Contributing: elsewhere
 Contact: lars.ahrenberg@liu.se
+===============================================================================
