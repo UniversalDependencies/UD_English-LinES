@@ -6583,7 +6583,7 @@
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	at	at	ADP	_	_	4	case	_	_
 4	least	little	ADV	_	Degree=Sup	7	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	5	punct	_	_
+5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	Navrozov	Navrozov	PROPN	SG-NOM	Number=Sing	7	nsubj	_	_
 7	thinks	think	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	7	punct	_	_
@@ -17757,7 +17757,7 @@
 23	grey	grey	ADJ	POS	Degree=Pos	25	amod	_	_
 24	feather	feather	NOUN	SG-NOM	Number=Sing	25	compound	_	_
 25	duster	duster	NOUN	SG-NOM	Number=Sing	16	obj	_	_
-26	–	–	PUNCT	Dash	_	31	punct	_	_
+26	–	–	PUNCT	Dash	_	32	punct	_	_
 27	at	at	ADP	_	_	28	case	_	_
 28	least	little	ADV	_	Degree=Sup	32	obl	_	SpaceAfter=No
 29	,	,	PUNCT	Comma	_	28	punct	_	_
@@ -21801,7 +21801,7 @@
 3	of	of	ADP	_	_	4	mark	_	_
 4	suffering	suffer	VERB	ING	Tense=Pres|VerbForm=Part	2	acl	_	_
 5	had	have	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-6	no	no	DET	NEG	_	7	advmod	_	_
+6	no	no	DET	NEG	PronType=Neg	7	det	_	_
 7	effect	effect	NOUN	SG-NOM	Number=Sing	5	obj	_	_
 8	whatever	whatever	ADV	WH	PronType=Int	7	advmod	_	_
 9	on	on	ADP	_	_	12	mark	_	_
@@ -21943,7 +21943,7 @@
 21	since	since	SCONJ	_	_	23	mark	_	_
 22	there	there	PRON	EX	PronType=Dem	23	expl	_	_
 23	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
-24	no	no	DET	NEG	_	26	advmod	_	_
+24	no	no	DET	NEG	PronType=Neg	26	det	_	_
 25	one	one	NUM	CARD-SG	NumType=Card	26	nummod	_	_
 26	way	way	NOUN	SG-NOM	Number=Sing	23	nsubj	_	_
 27	to	to	PART	_	_	28	mark	_	_
@@ -22022,7 +22022,7 @@
 9	:	:	PUNCT	Colon	_	3	punct	_	_
 10	it	it	PRON	PERS-SG	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	made	make	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
-12	no	no	DET	NEG	_	13	advmod	_	_
+12	no	no	DET	NEG	PronType=Neg	13	det	_	_
 13	difference	difference	NOUN	SG-NOM	Number=Sing	11	obj	_	_
 14	to	to	ADP	_	_	15	case	_	_
 15	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
@@ -22277,7 +22277,7 @@
 # sent_id = en_lines-ud-test-doc9-5547
 # text = In any case, he continued, when I think back to the conditions that made me write The Homecoming, I realise there's no point me trying to get back to that place because I never could.
 1	In	in	ADP	_	_	3	case	_	_
-2	any	any	DET	IND	_	3	det	_	_
+2	any	any	DET	IND	PronType=Ind	3	det	_	_
 3	case	case	NOUN	SG-NOM	Number=Sing	23	obl	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	6	punct	_	_
 5	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -22302,7 +22302,7 @@
 24-25	there's	_	_	_	_	_	_	_	_
 24	there	there	PRON	EX	PronType=Dem	25	expl	_	_
 25	's	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
-26	no	no	DET	NEG	_	27	advmod	_	_
+26	no	no	DET	NEG	PronType=Neg	27	det	_	_
 27	point	point	NOUN	SG-NOM	Number=Sing	25	nsubj	_	_
 28	me	I	PRON	PERS-P1SG-ACC	Case=Acc|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
 29	trying	try	VERB	ING	Tense=Pres|VerbForm=Part	27	acl	_	_
@@ -23561,7 +23561,7 @@
 19	music	music	NOUN	SG-NOM	Number=Sing	5	conj	_	_
 20	and	and	CCONJ	_	_	23	cc	_	_
 21	virtually	virtually	ADV	_	_	23	advmod	_	_
-22	no	no	DET	NEG	_	23	det	_	_
+22	no	no	DET	NEG	PronType=Neg	23	det	_	_
 23	opera	opera	NOUN	SG-NOM	Number=Sing	5	conj	_	SpaceAfter=No
 24	,	,	PUNCT	Comma	_	27	punct	_	_
 25	with	with	ADP	_	_	27	case	_	_
