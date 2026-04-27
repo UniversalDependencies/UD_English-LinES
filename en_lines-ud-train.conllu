@@ -1270,7 +1270,7 @@
 20	data	data	NOUN	PL-NOM	Number=Sing	21	compound	_	_
 21	access	access	NOUN	SG-NOM	Number=Sing	22	compound	_	_
 22	page	page	NOUN	SG-NOM	Number=Sing	23	compound	_	_
-23	file	file	NOUN	SG-NOM	Number=Sing	16	nmod	_	SpaceAfter=No
+23	file	file	NOUN	SG-NOM	Number=Sing	15	obl	_	SpaceAfter=No
 24	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = en_lines-ud-train-doc1-60

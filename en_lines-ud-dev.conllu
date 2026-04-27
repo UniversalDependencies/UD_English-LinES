@@ -367,7 +367,7 @@
 11	as	as	ADP	_	_	14	case	_	_
 12	the	the	DET	DEF	Definite=Def|PronType=Art	14	det	_	_
 13	Access	Access	PROPN	SG-NOM	Number=Sing	14	compound	_	_
-14	project	project	NOUN	SG-NOM	Number=Sing	10	nmod	_	SpaceAfter=No
+14	project	project	NOUN	SG-NOM	Number=Sing	9	obl	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-dev-doc1-3191
