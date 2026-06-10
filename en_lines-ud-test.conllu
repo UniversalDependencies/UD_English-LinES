@@ -23649,7 +23649,7 @@
 14	buildings	building	NOUN	PL-NOM	Number=Plur	15	nsubj	_	_
 15	rising	rise	VERB	ING	Tense=Pres|VerbForm=Part	2	advcl	_	_
 16	to	to	ADP	_	_	18	case	_	_
-17	either	either	DET	TOT-SG	_	18	det	_	_
+17	either	either	DET	TOT-SG	PronType=Ind	18	det	_	_
 18	side	side	NOUN	SG-NOM	Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	2	punct	_	_
 
