@@ -26273,7 +26273,7 @@
 1	And	and	CCONJ	_	_	14	cc	_	_
 2	at	at	ADV	_	_	3	case	_	_
 3	last	last	ADV	_	_	14	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Comma	_	2	punct	_	_
+4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	in	in	ADP	_	_	10	case	_	_
 6	its	its	PRON	SG-GEN	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 7	curved	curved	ADJ	PASS	Degree=Pos	10	amod	_	_
@@ -27260,7 +27260,7 @@
 4	not	not	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	seem	seem	VERB	INF	VerbForm=Inf	0	root	_	_
 6	at	at	ADP	_	_	7	case	_	_
-7	all	all	DET	_	_	5	obl	_	_
+7	all	all	DET	_	PronType=Tot	5	obl	_	_
 8	surprising	surprise	VERB	ING	Tense=Pres|VerbForm=Part	5	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	Period	_	5	punct	_	_
 
@@ -34875,7 +34875,7 @@
 35	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	36	aux	_	_
 36	been	be	AUX	PERF	Tense=Past|VerbForm=Part	17	conj	_	_
 37	there	there	ADV	_	PronType=Dem	36	advmod	_	_
-38	more	much	ADJ	CMP	Degree=Cmp	41	advmod	_	_
+38	more	much	ADJ	CMP	Degree=Cmp|ExtPos=ADV	41	advmod	_	_
 39	than	than	ADP	_	_	38	fixed	_	_
 40	a	a	DET	IND-SG	Definite=Ind|PronType=Art	41	det	_	_
 41	year	year	NOUN	SG-NOM	Number=Sing	36	obl:unmarked	_	_
@@ -38561,8 +38561,8 @@
 15	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 16	a	a	DET	IND-SG	Definite=Ind|PronType=Art	20	det	_	_
 17	serious	serious	ADJ	POS	Degree=Pos	20	amod	_	_
-18	in	in	ADP	_	_	20	amod	_	_
-19	depth	depth	NOUN	POS	Number=Sing	18	fixed	_	_
+18	in	in	ADP	_	_	19	case	_	_
+19	depth	depth	NOUN	POS	Number=Sing	20	nmod	_	_
 20	analysis	analysis	NOUN	SG-NOM	Number=Sing	0	root	_	_
 21	of	of	ADP	_	_	23	case	_	_
 22	the	the	DET	DEF	Definite=Def|PronType=Art	23	det	_	_
@@ -38646,7 +38646,7 @@
 10	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
 11	kind	kind	NOUN	SG-NOM	Number=Sing	5	obl	_	_
 12	of	of	ADP	_	_	15	case	_	_
-13	La	la	DET	SG-FGN	_	14	det	_	_
+13	La	la	DET	SG-FGN	Definite=Def|PronType=Art	14	det	_	_
 14	Bohéme	bohéme	NOUN	SG-NOM	Number=Sing	15	compound	_	_
 15	garret	garret	NOUN	SG-NOM	Number=Sing	11	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	3	punct	_	_
@@ -39348,9 +39348,9 @@
 # sent_id = en_lines-ud-train-doc5-1775
 # parallel_id = lines/ud-train-doc5-1775
 # text = Once again, it is a question of habit.
-1	Once	once	ADV	_	NumType=Mult	7	advmod	_	_
-2	again	again	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	Comma	_	1	punct	_	_
+1	Once	once	ADV	_	NumType=Mult	2	advmod	_	_
+2	again	again	ADV	_	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	Comma	_	2	punct	_	_
 4	it	it	PRON	PERS-SG	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 5	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	a	a	DET	IND-SG	Definite=Ind|PronType=Art	7	det	_	_
@@ -40657,12 +40657,12 @@
 12	even	even	ADV	_	_	13	advmod	_	_
 13	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 14	account	account	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
-15	for	for	ADP	_	_	16	case	_	_
-16	no	no	ADV	CMP-PL-NOM	_	14	advmod	_	_
-17	more	very	ADV	CMP-PL-NOM	_	16	fixed	_	_
-18	than	than	ADP	_	_	20	case	_	_
+15	for	for	ADP	_	_	17	case	_	_
+16	no	no	ADV	CMP-PL-NOM	_	17	advmod	_	_
+17	more	much	ADJ	CMP-PL-NOM	_	19	advmod		_	_
+18	than	than	SCONJ	_	_	20	case	_	_
 19	7	7	NUM	CARD-PL	NumType=Card	20	nummod	_	_
-20	-%	%	NOUN	PL-NOM	Number=Plur	16	nmod	_	_
+20	-%	%	NOUN	PL-NOM	Number=Plur	17	nmod	_	_
 21	of	of	ADP	_	_	23	case	_	_
 22	the	the	DET	DEF	Definite=Def|PronType=Art	23	det	_	_
 23	market	market	NOUN	SG-NOM	Number=Sing	20	nmod	_	SpaceAfter=No
@@ -42599,7 +42599,7 @@
 21	twilight	twilight	NOUN	SG-NOM	Number=Sing	16	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	Comma	_	24	punct	_	_
 23	at	at	ADV	_	_	24	case	_	_
-24	last	last	ADV	_	_	28	obl	_	SpaceAfter=No
+24	last	last	ADV	_	_	28	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	Comma	_	28	punct	_	_
 26	to	to	ADP	_	_	28	case	_	_
 27	the	the	DET	DEF	Definite=Def|PronType=Art	28	det	_	_
@@ -44392,7 +44392,7 @@
 7	in	in	ADP	_	_	10	case	_	_
 8	the	the	DET	DEF	Definite=Def|PronType=Art	10	det	_	_
 9	true	true	ADJ	POS	Degree=Pos	10	amod	_	_
-10	sense	sense	NOUN	SG-NOM	Number=Sing	4	appos	_	_
+10	sense	sense	NOUN	SG-NOM	Number=Sing	5	appos	_	_
 11	of	of	ADP	_	_	13	case	_	_
 12	after	after	ADP	_	_	13	case	_	_
 13	all	all	PRON	TOT-SG	PronType=Tot	10	nmod	_	_
