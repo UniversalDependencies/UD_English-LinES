@@ -35120,7 +35120,7 @@
 18	be	be	AUX	INF-AUX	VerbForm=Inf	19	aux:pass	_	_
 19	had	have	AUX	PASS	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	Comma	_	25	punct	_	_
-21	so	so	SCONJ	_	_	25	mark	_	_
+21	so	so	SCONJ	_	ExtPos=SCONJ	25	mark	_	_
 22	that	that	SCONJ	_	_	21	fixed	_	_
 23	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
 24	could	could	AUX	PAST-AUX	Mood=Ind|VerbForm=Fin	25	aux	_	_
@@ -40276,11 +40276,11 @@
 5	there	there	PRON	EX	PronType=Dem	6	expl	_	_
 6	is	be	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	still	still	ADV	_	_	6	advmod	_	_
-8	quite	quite	ADV	_	_	9	advmod	_	_
-9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	12	det	_	_
-10	lot	lot	NOUN	IND-SG	Number=Sing	9	fixed	_	_
-11	of	of	ADP	IND-SG	_	9	fixed	_	_
-12	circumvention	circumvention	NOUN	SG-NOM	Number=Sing	6	nsubj	_	_
+8	quite	quite	ADV	_	_	10	advmod	_	_
+9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	10	det	_	_
+10	lot	lot	NOUN	IND-SG	Number=Sing	6	nsubj	_	_
+11	of	of	ADP	IND-SG	_	12	case	_	_
+12	circumvention	circumvention	NOUN	SG-NOM	Number=Sing	10	nmod	_	_
 13	and	and	CCONJ	_	_	14	cc	_	_
 14	evasion	evasion	NOUN	SG-NOM	Number=Sing	12	conj	_	_
 15	in	in	ADP	_	_	17	case	_	_
@@ -40659,7 +40659,7 @@
 14	account	account	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
 15	for	for	ADP	_	_	17	case	_	_
 16	no	no	ADV	CMP-PL-NOM	_	17	advmod	_	_
-17	more	much	ADJ	CMP-PL-NOM	_	19	advmod		_	_
+17	more	much	ADJ	CMP-PL-NOM	_	19	advmod	_	_
 18	than	than	SCONJ	_	_	20	case	_	_
 19	7	7	NUM	CARD-PL	NumType=Card	20	nummod	_	_
 20	-%	%	NOUN	PL-NOM	Number=Plur	17	nmod	_	_
@@ -50639,10 +50639,10 @@
 3	it	it	PRON	PERS-SG	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	cop	_	_
 5	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
-6	day	day	NOUN	SG-NOM	Number=Sing	2	xcomp	_	SpaceAfter=No
-7	,	,	PUNCT	Comma	_	8	punct	_	_
-8	after	after	ADV	_	_	6	advmod	_	_
-9	all	all	ADV	_	_	8	fixed	_	SpaceAfter=No
+6	day	day	NOUN	SG-NOM	Number=Sing	2	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	Comma	_	6	punct	_	_
+8	after	after	ADV	_	_	9	case	_	_
+9	all	all	ADV	_	_	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = en_lines-ud-train-doc6-2242
@@ -51198,7 +51198,7 @@
 13	speaker	speaker	NOUN	SG-NOM	Number=Sing	15	nsubj	_	_
 14	is	be	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	addressing	address	VERB	ING	Tense=Pres|VerbForm=Part	9	advcl	_	_
-16	noone	no	PRON	NEG-SG-NOM	Case=Nom	15	obj	_	_
+16	noone	no	PRON	NEG-SG-NOM	Case=Nom|PronType=Neg	15	obj	_	_
 17	but	but	ADP	_	_	18	case	_	_
 18	himself	himself	PRON	RFL-P3SG	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	3	punct	_	_
@@ -62996,8 +62996,8 @@
 # text = My father no longer wanted herring heads.
 1	My	my	PRON	P1SG-GEN	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	father	father	NOUN	SG-NOM	Number=Sing	5	nsubj	_	_
-3	no	no	ADV	NEG	_	5	advmod	_	_
-4	longer	long	ADV	CMP	Degree=Cmp	3	fixed	_	_
+3	no	no	ADV	NEG	_	4	advmod	_	_
+4	longer	long	ADV	CMP	Degree=Cmp	5	advmod	_	_
 5	wanted	want	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	herring	herring	NOUN	SG-NOM	Number=Sing	7	compound	_	_
 7	heads	head	NOUN	PL-NOM	Number=Plur	5	obj	_	SpaceAfter=No
@@ -66519,7 +66519,7 @@
 4	and	and	CCONJ	_	_	6	cc	_	_
 5	early	early	ADJ	POS	Degree=Pos	6	amod	_	_
 6	mornings	morning	NOUN	PL-NOM	Number=Plur	3	conj	_	_
-7	so	so	SCONJ	_	_	11	mark	_	_
+7	so	so	SCONJ	_	ExtPos=SCONJ	11	mark	_	_
 8	that	that	SCONJ	_	_	7	fixed	_	_
 9	he	he	PRON	PERS-P3SG-NOM	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	could	could	AUX	PAST-AUX	Mood=Ind|VerbForm=Fin	11	aux	_	_
@@ -73704,7 +73704,7 @@
 22	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	travelled	travel	VERB	PERF	Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	Comma	_	27	punct	_	_
-25	no	no	DET	NEG	_	26	advmod	_	_
+25	no	no	ADV	NEG	_	26	advmod	_	_
 26	longer	long	ADV	CMP	Degree=Cmp	27	advmod	_	_
 27	immersed	immerse	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	_
 28	in	in	ADP	_	_	30	case	_	_
@@ -75345,7 +75345,7 @@
 1	when	when	SCONJ	_	_	3	mark	_	_
 2	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	gave	give	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
-4	one	one	PRON	IND-P3SG	Number=Sing|PronType=Ind	3	iobj	_	_
+4	one	one	PRON	IND-P3SG	ExtPos=PRON|Number=Sing|PronType=Ind	3	iobj	_	_
 5	another	another	DET	ADJ-SG	PronType=Ind	4	fixed	_	_
 6	freedoms	freedom	NOUN	PL-NOM	Number=Plur	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	9	punct	_	_
@@ -78620,7 +78620,7 @@
 11	any	any	DET	IND	Number=Sing|PronType=Ind	12	det	_	_
 12	sense	sense	NOUN	SG-NOM	Number=Sing	10	obj	_	_
 13	at	at	ADP	_	_	14	case	_	_
-14	all	all	DET	_	_	12	nmod	_	SpaceAfter=No
+14	all	all	DET	_	PronType=Tot	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = en_lines-ud-train-doc9-5678
