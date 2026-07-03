@@ -22628,7 +22628,7 @@
 13	themselves	themselves	PRON	RFL-P3PL	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	nmod	_	_
 14	and	and	CCONJ	_	_	16	cc	_	_
 15	upon	upon	ADP	_	_	16	case	_	_
-16	one	one	PRON	RCP-SG-ACC	Number=Sing|PronType=Ind	13	conj	_	_
+16	one	one	PRON	RCP-SG-ACC	ExtPos=PRON|Number=Sing|PronType=Ind	13	conj	_	_
 17	another	another	DET	RCP-SG-ACC	PronType=Ind	16	fixed	_	SpaceAfter=No
 18	.	.	PUNCT	Period	_	9	punct	_	_
 
@@ -34450,7 +34450,7 @@
 4	being	be	AUX	ING-AUX	Tense=Pres|VerbForm=Part	5	aux:pass	_	_
 5	beaten	beat	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	near	near	ADV	_	_	5	advmod	_	_
-7	by	by	ADP	_	_	6	fixed	_	SpaceAfter=No
+7	by	by	ADP	_	_	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-train-doc4-1536
@@ -40657,12 +40657,12 @@
 12	even	even	ADV	_	_	13	advmod	_	_
 13	they	they	PRON	PERS-PL-NOM	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 14	account	account	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
-15	for	for	ADP	_	_	17	case	_	_
+15	for	for	ADP	_	_	20	case	_	_
 16	no	no	ADV	CMP-PL-NOM	_	17	advmod	_	_
-17	more	much	ADJ	CMP-PL-NOM	_	19	advmod	_	_
+17	more	much	ADJ	CMP-PL-NOM	_	20	advmod	_	_
 18	than	than	SCONJ	_	_	20	case	_	_
 19	7	7	NUM	CARD-PL	NumType=Card	20	nummod	_	_
-20	-%	%	NOUN	PL-NOM	Number=Plur	17	nmod	_	_
+20	-%	%	NOUN	PL-NOM	Number=Plur	14	obl	_	_
 21	of	of	ADP	_	_	23	case	_	_
 22	the	the	DET	DEF	Definite=Def|PronType=Art	23	det	_	_
 23	market	market	NOUN	SG-NOM	Number=Sing	20	nmod	_	SpaceAfter=No
@@ -46693,7 +46693,7 @@
 # sent_id = en_lines-ud-train-doc6-2091
 # parallel_id = lines/ud-train-doc6-2091
 # text = Because of the mosquitoes, they moved into the house.
-1	Because	because	ADP	_	_	4	case	_	_
+1	Because	because	SCONJ	_	ExtPos=ADP	4	case	_	_
 2	of	of	ADP	_	_	1	fixed	_	_
 3	the	the	DET	DEF	Definite=Def|PronType=Art	4	det	_	_
 4	mosquitoes	mosquito	NOUN	PL-NOM	Number=Plur	7	obl	_	SpaceAfter=No
@@ -58213,8 +58213,8 @@
 18	been	be	AUX	PERF	Tense=Past|VerbForm=Part	19	aux:pass	_	_
 19	added	add	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
 20	here	here	ADV	_	PronType=Dem	19	advmod	_	_
-21	and	and	CCONJ	_	_	20	fixed	_	_
-22	there	there	ADV	_	PronType=Dem	20	fixed	_	_
+21	and	and	CCONJ	_	_	22	cc	_	_
+22	there	there	ADV	_	PronType=Dem	20	conj	_	_
 23	until	until	SCONJ	_	_	28	mark	_	_
 24	it	it	PRON	PERS-SG	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 25	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	28	cop	_	_
@@ -62677,9 +62677,9 @@
 15	turn	turn	VERB	INF	VerbForm=Inf	13	acl	_	_
 16	the	the	DET	DEF	Definite=Def|PronType=Art	17	det	_	_
 17	mask	mask	NOUN	SG-NOM	Number=Sing	15	obj	_	_
-18	over	over	ADV	_	_	15	case	_	_
-19	and	and	CCONJ	_	_	18	fixed	_	_
-20	over	over	ADV	_	_	18	fixed	_	_
+18	over	over	ADV	_	_	15	advmod	_	_
+19	and	and	CCONJ	_	_	20	cc	_	_
+20	over	over	ADV	_	_	18	conj	_	_
 21	in	in	ADP	_	_	23	case	_	_
 22	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
 23	hands	hand	NOUN	PL-NOM	Number=Plur	15	obl	_	_
