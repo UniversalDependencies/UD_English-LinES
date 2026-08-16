@@ -28980,7 +28980,7 @@
 9	a	a	DET	IND-SG	Definite=Ind|PronType=Art	11	det	_	_
 10	blank	blank	ADJ	POS	Degree=Pos	11	amod	_	_
 11	space	space	NOUN	SG-NOM	Number=Sing	0	root	_	_
-12	any	any	DET	IND	PronType=Ind	13	det	_	_
+12	any	any	ADV	IND	PronType=Ind	13	advmod	_	_
 13	more	very	ADV	CMP	_	11	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	Period	_	11	punct	_	_
 
@@ -34449,8 +34449,8 @@
 3	was	be	AUX	PAST-AUX	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
 4	being	be	AUX	ING-AUX	Tense=Pres|VerbForm=Part	5	aux:pass	_	_
 5	beaten	beat	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-6	near	near	ADV	_	_	5	advmod	_	_
-7	by	by	ADP	_	_	6	advmod	_	SpaceAfter=No
+6	near	nearby	ADV	_	_	5	advmod	_	_
+7	by	by	ADP	_	_	6	goeswith	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-train-doc4-1536
@@ -42486,9 +42486,9 @@
 14	appear	appear	VERB	INF	VerbForm=Inf	13	xcomp	_	_
 15	in	in	ADP	_	_	16	case	_	_
 16	shorts	shorts	NOUN	PL-NOM	Number=Plur	14	obl	_	SpaceAfter=No
-17	,	,	PUNCT	Comma	_	18	punct	_	_
-18	any	any	ADV	_	_	14	advmod	_	_
-19	more	very	ADV	_	_	18	fixed	_	SpaceAfter=No
+17	,	,	PUNCT	Comma	_	14	punct	_	_
+18	any	any	ADV	_	_	19	advmod	_	_
+19	more	very	ADV	_	_	14	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = en_lines-ud-train-doc6-1932
@@ -53943,8 +53943,8 @@
 # sent_id = en_lines-ud-train-doc7-2389
 # parallel_id = lines/ud-train-doc7-2389
 # text = ever since Harry had come home for the summer holidays, Uncle Vernon had been treating him like a bomb that might go off at any moment, because Harry Potter wasn't a normal boy.
-1	ever	ever	SCONJ	_	_	5	mark	_	_
-2	since	since	ADV	_	_	1	fixed	_	_
+1	ever	ever	ADV	_	_	5	advmod	_	_
+2	since	since	SCONJ	_	_	5	mark	_	_
 3	Harry	Harry	PROPN	SG-NOM	Number=Sing	5	nsubj	_	_
 4	had	have	AUX	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	come	come	VERB	PERF	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
@@ -55230,8 +55230,8 @@
 8	all	all	DET	TOT-SG	Number=Plur|PronType=Tot	9	det	_	_
 9	summer	summer	NOUN	SG-NOM	Number=Sing	5	obl:unmarked	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	15	punct	_	_
-11	even	even	SCONJ	_	_	15	mark	_	_
-12	though	though	SCONJ	_	_	11	fixed	_	_
+11	even	even	ADV	_	_	15	advmod	_	_
+12	though	though	SCONJ	_	_	15	mark	_	_
 13	Ron	Ron	PROPN	SG-NOM	Number=Sing	15	nsubj	_	_
 14	had	have	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
 15	said	say	VERB	PERF	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
@@ -58227,7 +58227,7 @@
 32	it	it	PRON	PERS-SG	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 33	looked	look	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	31	acl	_	_
 34	as	as	SCONJ	_	_	38	mark	_	_
-35	though	though	SCONJ	_	_	34	fixed	_	_
+35	though	though	SCONJ	_	_	38	mark	_	_
 36	it	it	PRON	PERS-SG	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	nsubj:pass	_	_
 37	was	be	AUX	PAST	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	38	aux:pass	_	_
 38	held	hold	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	33	ccomp	_	_
@@ -59193,11 +59193,11 @@
 29	and	and	CCONJ	_	_	31	cc	_	_
 30	immediately	immediately	ADV	_	_	31	advmod	_	_
 31	swallowed	swallow	VERB	PAST	Mood=Ind|Tense=Past|VerbForm=Fin	26	conj	_	_
-32	a	a	DET	IND-SG	Definite=Ind|PronType=Art	36	det	_	_
-33	lot	lot	NOUN	IND-SG	Number=Sing	32	fixed	_	_
-34	of	of	ADP	IND-SG	_	32	fixed	_	_
+32	a	a	DET	IND-SG	Definite=Ind|PronType=Art	33	det	_	_
+33	lot	lot	NOUN	IND-SG	Number=Sing	31	obj	_	_
+34	of	of	ADP	IND-SG	_	36	case	_	_
 35	hot	hot	ADJ	POS	Degree=Pos	36	amod	_	_
-36	ash	ash	NOUN	SG-NOM	Number=Sing	31	obj	_	SpaceAfter=No
+36	ash	ash	NOUN	SG-NOM	Number=Sing	33	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	Period	_	26	punct	_	_
 
 # sent_id = en_lines-ud-train-doc7-2622
@@ -66834,8 +66834,8 @@
 7	one	one	PRON	IND-P3SG	Number=Sing|PronType=Ind	0	root	_	_
 8	of	of	ADP	_	_	12	case	_	_
 9	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-10	foie	foie	X	FGN	_	12	compound	_	_
-11	gras	gras	X	FGN	_	10	fixed	_	_
+10	foie	foie	NOUN	FGN	ExtPos=NOUN|Foreign=Yes|Number=Sing	12	compound	_	lang=fr
+11	gras	gras	X	FGN	Foreign=Yes	10	flat	_	_
 12	parties	party	NOUN	PL-NOM	Number=Plur	7	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	7	punct	_	_
 
@@ -72019,7 +72019,7 @@
 45	of	of	ADP	_	_	46	case	_	_
 46	shadow	shadow	NOUN	SG-NOM	Number=Sing	44	nmod	_	_
 47	on	on	ADP	_	_	49	case	_	_
-48	either	either	DET	TOT-SG	_	49	det	_	_
+48	either	either	DET	TOT-SG	PronType=Ind	49	det	_	_
 49	side	side	NOUN	SG-NOM	Number=Sing	42	obl	_	_
 50	so	so	SCONJ	_	ExtPos=SCONJ	55	mark	_	_
 51	that	that	SCONJ	_	_	50	fixed	_	_
