@@ -34449,8 +34449,8 @@
 3	was	be	AUX	PAST-AUX	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
 4	being	be	AUX	ING-AUX	Tense=Pres|VerbForm=Part	5	aux:pass	_	_
 5	beaten	beat	VERB	PASS	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-6	near	nearby	ADV	_	_	5	advmod	_	_
-7	by	by	ADP	_	_	6	goeswith	_	SpaceAfter=No
+6	near	nearby	ADV	_	ExtPos=ADV	5	advmod	_	_
+7	by	by	ADP	_	_	6	fixed	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = en_lines-ud-train-doc4-1536
@@ -66834,8 +66834,8 @@
 7	one	one	PRON	IND-P3SG	Number=Sing|PronType=Ind	0	root	_	_
 8	of	of	ADP	_	_	12	case	_	_
 9	his	his	PRON	P3SG-GEN	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-10	foie	foie	NOUN	FGN	ExtPos=NOUN|Foreign=Yes|Number=Sing	12	compound	_	lang=fr
-11	gras	gras	X	FGN	Foreign=Yes	10	flat	_	_
+10	foie	foie	NOUN	FGN	Foreign=Yes|Number=Sing	12	compound	_	Lang=fr
+11	gras	gras	X	FGN	Foreign=Yes	10	flat	_	Lang=fr
 12	parties	party	NOUN	PL-NOM	Number=Plur	7	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	7	punct	_	_
 
