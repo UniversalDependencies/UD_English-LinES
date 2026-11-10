@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_English-LinES:
-commit 2cf84b1bef8790674099847e74a3cc2daef9d6d3
-Merge: 3092743 07a998d
+commit 84a2730001359c701b5a3c6971840fd9eee3098d
+Merge: f1e4f1d e101427
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_lines'
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 70733 out of 106307 total words have one or more features.
+Features: 70738 out of 106307 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
@@ -27,28 +27,8 @@ Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-test.conllu
-[Line 23652 Sent en_lines-ud-test-doc9-5559]: [L3 WARNING pron-det-without-prontype] The word 'either' is tagged 'DET' but it lacks the 'PronType' feature
-Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LinES/en_lines-ud-train.conllu
-[Line 10756 Sent en_lines-ud-train-doc2-483]: [L3 WARNING fixed-without-extpos] Fixed expression 'at last' does not have the 'ExtPos' feature
-[Line 17502 Sent en_lines-ud-train-doc2-805]: [L3 WARNING fixed-without-extpos] Fixed expression 'At last' does not have the 'ExtPos' feature
-[Line 17876 Sent en_lines-ud-train-doc2-826]: [L3 WARNING fixed-without-extpos] Fixed expression 'no longer' does not have the 'ExtPos' feature
-[Line 18041 Sent en_lines-ud-train-doc3-833]: [L3 WARNING fixed-without-extpos] Fixed expression 'in and out' does not have the 'ExtPos' feature
-[Line 18723 Sent en_lines-ud-train-doc3-869]: [L3 WARNING fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
-[Line 20474 Sent en_lines-ud-train-doc3-971]: [L3 WARNING fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
-[Line 20566 Sent en_lines-ud-train-doc3-975]: [L3 WARNING fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
-[Line 22631 Sent en_lines-ud-train-doc3-1049]: [L3 WARNING fixed-without-extpos] Fixed expression 'one another' does not have the 'ExtPos' feature
-[Line 22976 Sent en_lines-ud-train-doc3-1064]: [L3 WARNING fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
-[Line 23474 Sent en_lines-ud-train-doc3-1088]: [L3 WARNING fixed-without-extpos] Fixed expression 'a bit' does not have the 'ExtPos' feature
-...suppressing further messages regarding WARNING/SYNTAX
-[Line 27263 Sent en_lines-ud-train-doc4-1243]: [L3 WARNING pron-det-without-prontype] The word 'all' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 38649 Sent en_lines-ud-train-doc5-1740]: [L3 WARNING pron-det-without-prontype] The word 'La' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 51201 Sent en_lines-ud-train-doc6-2271]: [L3 WARNING pron-det-without-prontype] The word 'noone' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 72022 Sent en_lines-ud-train-doc9-5336]: [L3 WARNING pron-det-without-prontype] The word 'either' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 73707 Sent en_lines-ud-train-doc9-5432]: [L3 WARNING pron-det-without-prontype] The word 'no' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 78623 Sent en_lines-ud-train-doc9-5677]: [L3 WARNING pron-det-without-prontype] The word 'all' is tagged 'DET' but it lacks the 'PronType' feature
-Warnings: 69
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.4) = 0.0444444444444444
